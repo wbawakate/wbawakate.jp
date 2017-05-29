@@ -87,7 +87,9 @@ gulp.task('browserify', () => {
 
 gulp.task('minify', () => {
   return gulp.src(`${DEST}/js/script.js`)
-    .pipe(uglify({}))
+    .pipe(uglify({
+      preserveComments: 'license',
+    }))
     .pipe(rename('script.min.js'))
     .pipe(gulp.dest(`${DEST}/js`))
   ;
@@ -96,6 +98,7 @@ gulp.task('minify', () => {
 gulp.task('deco', () => {
   return gulp.src(`${DEST}/js/script.js`)
     .pipe(decodecode({
+      preserveComments: 'license',
       decoArr: ['b', 'u', 't', 'c', 'h', 'i'],
     }))
     .pipe(rename('script.deco.js'))
