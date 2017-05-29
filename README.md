@@ -1,8 +1,8 @@
-web-starter
+wbawakate.jp
 ====
 
 ## はじめに
-本スターターキットは kayac-html5-starter から派生しています。
+本スターターキットは butchi-web-starter-kit から派生しています。
 
 ## 事前に用意するもの
 - node.js (version 6.9.1以上)

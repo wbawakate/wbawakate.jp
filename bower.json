@@ -1,5 +1,5 @@
 {
-  "name": "butchi-web-starter-kit",
+  "name": "wbawakate-jp",
   "version": "0.0.0",
   "description": "description",
   "main": "js/main.min.js",
@@ -11,7 +11,7 @@
     "starterkit"
   ],
   "moduleType": [],
-  "homepage": "http://butchi.jp/",
+  "homepage": "http://wbawakate.jp/",
   "ignore": [
     "**/.*",
     "node_modules",
