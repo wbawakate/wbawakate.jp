@@ -10,6 +10,10 @@ import browserify from 'browserify';
 import babelify from 'babelify';
 import debowerify from 'debowerify';
 import pug from 'gulp-pug';
+import markdown from 'gulp-markdown';
+import frontMatter from 'gulp-front-matter';
+import prettify from 'gulp-html-prettify';
+import layout from 'gulp-layout';
 import rename from 'gulp-rename';
 import uglify from 'gulp-uglify';
 import decodecode from 'gulp-decodecode';
@@ -124,6 +128,25 @@ gulp.task('pug', () => {
     .pipe(gulp.dest(`${DEST}`))
   ;
 });
+
+gulp.task('member', () => {
+  return gulp.src([`${SRC}/config/members/*.md`], {
+    base: `${SRC}/config/members`,
+  })
+  .pipe(frontMatter({
+    remove: true
+  }))
+  // .pipe(gulp.dest(`${DEST}/members`))
+  .pipe(markdown())
+  .pipe(layout((file) => {
+    return file.frontMatter
+  }))
+  .pipe(prettify({
+    indent_char: "\t",
+    indent_size: 1,
+  }))
+  .pipe(gulp.dest(`${DEST}/members`))
+})
 
 gulp.task('html', gulp.series('pug'));
 
