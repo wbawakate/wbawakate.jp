@@ -1,0 +1,28 @@
+{
+  "name": "butchi-web-starter-kit",
+  "version": "0.0.0",
+  "description": "description",
+  "main": "js/main.min.js",
+  "authors": [
+    "IWABUCHI Yuuki"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "starterkit"
+  ],
+  "moduleType": [],
+  "homepage": "http://butchi.jp/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.2.2",
+    "lodash": "~4.7.0",
+    "reset-css": "2.0.*",
+    "material-design-lite": "^1.2.1"
+  }
+}

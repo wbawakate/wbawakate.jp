@@ -1,0 +1,68 @@
+.display-none {
+  display: none;
+}
+
+.pc-none {
+  @include mq-pc {
+    display: none;
+  }
+}
+
+.sp-none {
+  @include mq-sp {
+    display: none;
+  }
+}
+
+body {
+  @include mq-sp {
+    font-size: $base-font-size--sp;
+  }
+  @include mq-pc {
+    font-size: $base-font-size--pc;
+  }
+
+  font-family: $sans-serif;
+  line-height: 1.5;
+}
+
+
+html {
+  font-size: #{$px-per-rem}px;
+
+  @include mq-sp {
+    font-size: $base-font-size--sp;
+  }
+  @include mq-pc {
+    font-size: $base-font-size--pc;
+  }
+
+  @include mq-tab {
+    font-size: $base-font-size--sp;
+  }
+}
+
+body {
+  @include mq-sp {
+    font-size: $base-font-size--sp;
+    line-height: $line-height--sp;
+  }
+  @include mq-pc {
+    font-size: $base-font-size--pc;
+    line-height: $line-height--pc;
+  }
+  font-family: $sans-serif;
+}
+
+main {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

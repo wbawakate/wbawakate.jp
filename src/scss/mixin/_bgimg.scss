@@ -1,0 +1,42 @@
+// Background image
+// ==========================================================================
+@mixin bgimg($background-image: null, $width: 100%, $height: 100%, $zoom: 1) {
+  width: $width * $zoom; // retinaの場合縮小後のサイズ
+  height: $height * $zoom; // widthに合わせて正確に指定する必要あり
+
+  @if($background-image) {
+    background-image: image-url($background-image);
+  }
+  background-size: $width * $zoom $height * $zoom;
+  background-repeat: no-repeat;
+  background-position: 50% 0; // hoverタイプスプライトは縦積みしかしない前提！widthを100%にしたら中央寄せになるように
+
+  &.button_state-type_three {
+    &:active {
+      background-position: 50% 50%; 
+    }
+  }
+
+  &.button_state-type_four {
+    &:active {
+      background-position: 50% (100% / 3 * 2); 
+    }
+    &:disabled {
+      background-position: 50% (100% / 3); 
+      // cursor: normal;
+      // &:hover, &:active {
+      //   background-position: 50% (100% / 3);
+      // }
+    }
+    &:disabled:hover {
+      background-position: 50% (100% / 3); 
+      cursor: default;
+    }
+  }
+
+  &.bgimg_hover_active {
+    &:hover {
+      background-position: 50% 100%;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@function image-url($path) {
+  @return url($img-path + "/" + $path);
+}
+
+// rem hack
+@function px($size) {
+  @return #{$size / 100}rem;
+}

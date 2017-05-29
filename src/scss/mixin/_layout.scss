@@ -1,0 +1,48 @@
+// topの値を指定しての横幅いっぱい絶対配置
+// bgimgはwidthとheightをいじるのでこのmixinはbgimgの後に呼ぶべし
+@mixin block--positioning--top($offset-top: 0) {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: $offset-top;
+}
+
+// leftとtopの値を指定しての絶対配置
+@mixin block--positioning--left-top($offset-left: 0, $offset-top: 0) {
+  position: absolute;
+  left: $offset-left;
+  top: $offset-top;
+}
+
+// rightとtopの値を指定しての絶対配置
+@mixin block--positioning--right-top($offset-right: 0, $offset-top: 0) {
+  position: absolute;
+  right: $offset-right;
+  top: $offset-top;
+}
+
+// leftとbottomの値を指定しての絶対配置
+@mixin block--positioning--left-bottom($offset-left: 0, $offset-bottom: 0) {
+  position: absolute;
+  left: $offset-left;
+  bottom: $offset-bottom;
+}
+
+// rightとbottomの値を指定しての絶対配置
+@mixin block--positioning--right-bottom($offset-right: 0, $offset-bottom: 0) {
+  position: absolute;
+  right: $offset-right;
+  bottom: $offset-bottom;
+}
+
+@mixin block--positioning--center($width) {
+  // position: relative;
+  left: 50%;
+  margin-left: - $width / 2;
+}
+
+@mixin hide-text {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
