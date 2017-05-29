@@ -130,7 +130,7 @@ gulp.task('pug', () => {
 });
 
 gulp.task('member', () => {
-  return gulp.src([`${SRC}/config/members/*.md`], {
+  return gulp.src([`${SRC}/config/members/**/*.md`], {
     base: `${SRC}/config/members`,
   })
   .pipe(frontMatter({
