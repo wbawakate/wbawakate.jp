@@ -1,3 +1,10 @@
+---
+title: "my title"
+description: "my description"
+keywords: ["my keyword1", "my keyword2", "my keyword3"]
+robots: ["index","follow", "noodp", "noydir", "noarchive"]
+layout: "src/pug/_layout/_member.pug"
+---
 
 # 岩淵 勇樹
 # Iwabuchi Yuuki
