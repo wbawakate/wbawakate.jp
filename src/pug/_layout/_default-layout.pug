@@ -1,4 +1,4 @@
-block ConfigBlock
+block config-block
   - pageId = 'undefined'
   - rootPath = './'
   - title = page_name ? [page_name, site_name].join(' | ') : site_name
@@ -63,7 +63,7 @@ html(lang="ja")
     script(src= rootPath + 'js/ua-switch.js')
 
     // stylesheet
-    block StylesheetBlock
+    block stylesheet-block
       //- link(rel="stylesheet", href= rootPath + 'css/lib/material.min.css')
       link(rel="stylesheet", href="css/style.css?v="+versions["style.css"])
 
@@ -72,10 +72,10 @@ html(lang="ja")
     //- include ../_partial/fb-sdk.html
 
     .wrapper
-      block ContentBlock
+      block content-block
 
     // javascript
-    block JavascriptBlock
+    block javascript-block
       script(src= rootPath + 'js/lib/jquery.min.js')
       script(src= rootPath + 'js/lib/lodash.min.js')
       //- script(src= rootPath + 'js/lib/material.min.js')
