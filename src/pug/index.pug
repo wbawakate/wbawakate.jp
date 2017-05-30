@@ -32,68 +32,75 @@ block content-block
       input.search-submit(type="submit", value="Go")
 
   main
-    h2
-      | 全脳アーキテクチャ若手の会へようこそ
+    section.sec-introduction
+      h2
+        | 全脳アーキテクチャ若手の会へようこそ
 
-    p
-      | 全脳アーキテクチャ若手の会は、脳や人工知能、そしてそれらが与える影響について興味がある、すべての方のためのコミュニティです。
-      br
-      | 詳しくは
-      a(href=`${rootPath}about/`) About
-      | ページ、または
-      a(href="https://www.facebook.com/groups/713921892010595/", target="_blank") Facebook
-      | 、
-      a(href="https://www.youtube.com/channel/UC_fG5HjRkF4urW0ne-qiVcg/videos?flow=grid&view=0&sort=dd&live_view=500", target="_blank") YouTubeチャンネル
-      | 、
-      a(href="http://wbawakate.connpass.com/", target="_blank") connpass
-      | をご覧ください。
+      p
+        | 全脳アーキテクチャ若手の会は、脳や人工知能、そしてそれらが与える影響について興味がある、すべての方のためのコミュニティです。
 
-    h3 Latest Activity
+      p
+        | 詳しくは
+        a(href=`${rootPath}about/`) About
+        | ページ、または
+        a(href="https://www.facebook.com/groups/713921892010595/", target="_blank") Facebook
+        | 、
+        a(href="https://www.youtube.com/channel/UC_fG5HjRkF4urW0ne-qiVcg/videos?flow=grid&view=0&sort=dd&live_view=500", target="_blank") YouTubeチャンネル
+        | 、
+        a(href="http://wbawakate.connpass.com/", target="_blank") connpass
+        | をご覧ください。
 
-    p 活動報告
-      h3
-        a(href="http://wbawakate.jp/posts/events/23th/")
-          | 第23回 カジュアルトーク
-      h3
-        a(href="http://wbawakate.jp/posts/events/22th/")
-          | 第22回 カジュアルトーク
-      h3
-        a(href="http://wbawakate.jp/posts/events/21th/")
-          | 第21回 カジュアルトーク
-      h3
-        a(href="http://wbawakate.jp/posts/events/20th/")
-          | 第20回 カジュアルトーク
-      a(href="http://wbawakate.jp/posts/events/", target="")
-        | More
+    section.sec-activity
+      h3 Latest Activity
+      h4 活動報告
+        ul
+          li
+            a(href="http://wbawakate.jp/posts/events/23th/")
+              | 第23回 カジュアルトーク
+          li
+            a(href="http://wbawakate.jp/posts/events/22th/")
+              | 第22回 カジュアルトーク
+          li
+            a(href="http://wbawakate.jp/posts/events/21th/")
+              | 第21回 カジュアルトーク
+          li
+            a(href="http://wbawakate.jp/posts/events/20th/")
+              | 第20回 カジュアルトーク
+        a(href="http://wbawakate.jp/posts/events/", target="")
+          | More
 
 
-    h3 Sponsor Event
-
-    p スポンサーイベント
-      h3
-        a(href="http://wbawakate.jp/posts/furonteo20160825/")
-          | 株式会社FRONTEO主催 セミナーのお知らせ
-      h3
-        a(href="http://wbawakate.jp/posts/adish_2016intern/")
-          | アディッシュ株式会社　技術職インターン募集のお知らせ
-      h3
-        a(href="http://wbawakate.jp/posts/ubic20160219/")
-          | 株式会社UBIC主催　第2回学生向けセミナーのお知らせ
-      h3
-        a(href="http://wbawakate.jp/posts/dwango20160506/")
-          | 株式会社dwango　『CGIプロジェクト』インターン募集のお知らせ
+    section.sec-sponsor-event
+      h3 Sponsor Event
+      h4 スポンサーイベント
+        ul
+          li
+            a(href="http://wbawakate.jp/posts/furonteo20160825/")
+              | 株式会社FRONTEO主催 セミナーのお知らせ
+          li
+            a(href="http://wbawakate.jp/posts/adish_2016intern/")
+              | アディッシュ株式会社　技術職インターン募集のお知らせ
+          li
+            a(href="http://wbawakate.jp/posts/ubic20160219/")
+              | 株式会社UBIC主催　第2回学生向けセミナーのお知らせ
+          li
+            a(href="http://wbawakate.jp/posts/dwango20160506/")
+              | 株式会社dwango　『CGIプロジェクト』インターン募集のお知らせ
 
       a(href="http://wbawakate.jp/posts/category/sponsorevent/", target="")
         | More
 
 
-    h3 Promotion Video
-    .video
-      iframe(width="945", height="532", src="https://www.youtube.com/embed/0wtEYXZB2NA?feature=oembed", frameborder="0", allowfullscreen="")
+    section.sec-promotion-video
+      h3 Promotion Video
 
-    h2 News
-    |   
-    p 新着情報
+      .video
+        iframe(width="945", height="532", src="https://www.youtube.com/embed/0wtEYXZB2NA?feature=oembed", frameborder="0", allowfullscreen="")
+
+    section.sec-news
+      h3 News
+      h4 新着情報
+
       ul.news_list
         li
           | 2017.5.4
@@ -329,43 +336,43 @@ block content-block
           br
           | 【2015.03.12】 会計の川崎が電子情報通信学会総合大会（於：立命館大学）で研究発表しました。”Convolutional Neural Networksを用いた植物病害自動診断支援システムの開発”
 
+    section.sec-sponsor
+      h3 Sponsor
+      h4 協賛企業
+        .row
+          a(href="http://dwango.co.jp/", target="")
+            img.img-responsive.attachment-full(width="594", height="107", src="http://wbawakate.jp/wp-content/uploads/2015/10/dwango.png", alt="dwango")
+          a(href="https://www.xcompass.com/", target="")
+            img.img-responsive.attachment-full(src="http://wbawakate.jp/wp-content/uploads/2015/10/XC_logo_w.svg", alt="XC_logo_w")
+          a(href="http://www.adish.co.jp/", target="")
+            img.img-responsive.attachment-full(width="595", height="236", src="http://wbawakate.jp/wp-content/uploads/2016/04/adish_logo1_160403.jpg", alt="adish_logo1_160403")
+          a(href="http://www.fronteo.com/", target="")
+            img.img-responsive.attachment-full(width="545", height="141", src="http://wbawakate.jp/wp-content/uploads/2016/08/FRONTEO1.jpg", alt="FRONTEO")
+        .row
+          a(href="http://www.softbank.jp/", target="")
+            img.img-responsive.attachment-full(width="1796", height="283", src="http://wbawakate.jp/wp-content/uploads/2015/10/ヨコ組基本表示SoftBank.jpg", alt="vg")
+          a(href="http://exaintelligence.jp/", target="")
+            img.img-responsive.attachment-full(width="287", height="109", src="http://wbawakate.jp/wp-content/uploads/2015/10/エクサロゴ.jpg", alt="エクサロゴ")
+          a(href="http://www.nikkei.com/", target="")
+            img.img-responsive.attachment-full(width="1024", height="1024", src="http://wbawakate.jp/wp-content/uploads/2016/04/homeicon_03.png", alt="homeicon_03")
+          a(href="http://www.colorful-board.com/", target="")
+            img.img-responsive.attachment-full(width="259", height="207", src="http://wbawakate.jp/wp-content/uploads/2015/10/SENSY_logo_公式_cs2.png", alt="SENSY_logo_公式_cs2")
+        .row
+          a(href="http://aninnovation.co.jp/", target="")
+            img.img-responsive.attachment-full(width="528", height="175", src="http://wbawakate.jp/wp-content/uploads/2016/11/AN.png", alt="AN")
+          a(href="http://www.softplanet.co.jp/", target="")
+            img.img-responsive.attachment-full(width="209", height="167", src="http://wbawakate.jp/wp-content/uploads/2015/10/SP-logo.png", alt="SP logo")
+          a(href="http://www.welmo.co.jp/", target=" _blank")
+            img.img-responsive.attachment-full(width="198", height="149", src="http://wbawakate.jp/wp-content/uploads/2015/10/unnamed.png", alt="unnamed")
 
-    h3 Sponsor
-    p 協賛企業
-      .row
-        a(href="http://dwango.co.jp/", target="")
-          img.img-responsive.attachment-full(width="594", height="107", src="http://wbawakate.jp/wp-content/uploads/2015/10/dwango.png", alt="dwango")
-        a(href="https://www.xcompass.com/", target="")
-          img.img-responsive.attachment-full(src="http://wbawakate.jp/wp-content/uploads/2015/10/XC_logo_w.svg", alt="XC_logo_w")
-        a(href="http://www.adish.co.jp/", target="")
-          img.img-responsive.attachment-full(width="595", height="236", src="http://wbawakate.jp/wp-content/uploads/2016/04/adish_logo1_160403.jpg", alt="adish_logo1_160403")
-        a(href="http://www.fronteo.com/", target="")
-          img.img-responsive.attachment-full(width="545", height="141", src="http://wbawakate.jp/wp-content/uploads/2016/08/FRONTEO1.jpg", alt="FRONTEO")
-      .row
-        a(href="http://www.softbank.jp/", target="")
-          img.img-responsive.attachment-full(width="1796", height="283", src="http://wbawakate.jp/wp-content/uploads/2015/10/ヨコ組基本表示SoftBank.jpg", alt="vg")
-        a(href="http://exaintelligence.jp/", target="")
-          img.img-responsive.attachment-full(width="287", height="109", src="http://wbawakate.jp/wp-content/uploads/2015/10/エクサロゴ.jpg", alt="エクサロゴ")
-        a(href="http://www.nikkei.com/", target="")
-          img.img-responsive.attachment-full(width="1024", height="1024", src="http://wbawakate.jp/wp-content/uploads/2016/04/homeicon_03.png", alt="homeicon_03")
-        a(href="http://www.colorful-board.com/", target="")
-          img.img-responsive.attachment-full(width="259", height="207", src="http://wbawakate.jp/wp-content/uploads/2015/10/SENSY_logo_公式_cs2.png", alt="SENSY_logo_公式_cs2")
-      .row
-        a(href="http://aninnovation.co.jp/", target="")
-          img.img-responsive.attachment-full(width="528", height="175", src="http://wbawakate.jp/wp-content/uploads/2016/11/AN.png", alt="AN")
-        a(href="http://www.softplanet.co.jp/", target="")
-          img.img-responsive.attachment-full(width="209", height="167", src="http://wbawakate.jp/wp-content/uploads/2015/10/SP-logo.png", alt="SP logo")
-        a(href="http://www.welmo.co.jp/", target=" _blank")
-          img.img-responsive.attachment-full(width="198", height="149", src="http://wbawakate.jp/wp-content/uploads/2015/10/unnamed.png", alt="unnamed")
+      p
+        a(href="http://wbawakate.jp/about_sponsorship/", title="", target="_self") >> 協賛希望の企業様はこちら
 
-      a(href="http://wbawakate.jp/about_sponsorship/", title="", target="_self") >> 協賛希望の企業様はこちら
-
-    footer#footer.main-footer.footer-bottom-vertical
-      ul.social-networks.list-unstyled.list-inline.social
+    footer
+      ul
         li
           a.facebook(href="https://www.facebook.com/groups/713921892010595/", target="_blank", title="Facebook")
             i.fa.fa-facebook
-            span.name Facebook.
 
     .copyright
       p © Copyright 2017. WBA Future Leaders All Rights Reserved
