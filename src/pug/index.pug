@@ -1,7 +1,7 @@
 extends /_layout/_default-layout
 
 append config-block
-  - pageId = 'index'
+  - pageId = 'home'
 
 block content-block
   nav
@@ -339,31 +339,12 @@ block content-block
     section.sec-sponsor
       h3 Sponsor
       h4 協賛企業
-        .row
-          a(href="http://dwango.co.jp/", target="")
-            img.img-responsive.attachment-full(width="594", height="107", src="http://wbawakate.jp/wp-content/uploads/2015/10/dwango.png", alt="dwango")
-          a(href="https://www.xcompass.com/", target="")
-            img.img-responsive.attachment-full(src="http://wbawakate.jp/wp-content/uploads/2015/10/XC_logo_w.svg", alt="XC_logo_w")
-          a(href="http://www.adish.co.jp/", target="")
-            img.img-responsive.attachment-full(width="595", height="236", src="http://wbawakate.jp/wp-content/uploads/2016/04/adish_logo1_160403.jpg", alt="adish_logo1_160403")
-          a(href="http://www.fronteo.com/", target="")
-            img.img-responsive.attachment-full(width="545", height="141", src="http://wbawakate.jp/wp-content/uploads/2016/08/FRONTEO1.jpg", alt="FRONTEO")
-        .row
-          a(href="http://www.softbank.jp/", target="")
-            img.img-responsive.attachment-full(width="1796", height="283", src="http://wbawakate.jp/wp-content/uploads/2015/10/ヨコ組基本表示SoftBank.jpg", alt="vg")
-          a(href="http://exaintelligence.jp/", target="")
-            img.img-responsive.attachment-full(width="287", height="109", src="http://wbawakate.jp/wp-content/uploads/2015/10/エクサロゴ.jpg", alt="エクサロゴ")
-          a(href="http://www.nikkei.com/", target="")
-            img.img-responsive.attachment-full(width="1024", height="1024", src="http://wbawakate.jp/wp-content/uploads/2016/04/homeicon_03.png", alt="homeicon_03")
-          a(href="http://www.colorful-board.com/", target="")
-            img.img-responsive.attachment-full(width="259", height="207", src="http://wbawakate.jp/wp-content/uploads/2015/10/SENSY_logo_公式_cs2.png", alt="SENSY_logo_公式_cs2")
-        .row
-          a(href="http://aninnovation.co.jp/", target="")
-            img.img-responsive.attachment-full(width="528", height="175", src="http://wbawakate.jp/wp-content/uploads/2016/11/AN.png", alt="AN")
-          a(href="http://www.softplanet.co.jp/", target="")
-            img.img-responsive.attachment-full(width="209", height="167", src="http://wbawakate.jp/wp-content/uploads/2015/10/SP-logo.png", alt="SP logo")
-          a(href="http://www.welmo.co.jp/", target=" _blank")
-            img.img-responsive.attachment-full(width="198", height="149", src="http://wbawakate.jp/wp-content/uploads/2015/10/unnamed.png", alt="unnamed")
+  
+      ul.sponsor-list
+        each s in sponsor
+          li.sponsor-item
+            a(href= s.url, target="blank")
+              img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
 
       p
         a(href="http://wbawakate.jp/about_sponsorship/", title="", target="_self") >> 協賛希望の企業様はこちら

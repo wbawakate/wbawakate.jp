@@ -108,6 +108,35 @@ html.is-pc .wrapper {
   min-width: 12rem;
   overflow: hidden; }
 
+body[class="page-home"] .sponsor-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+body[class="page-home"] .sponsor-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 1 27%;
+      -ms-flex: 0 1 27%;
+          flex: 0 1 27%;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  body[class="page-home"] .sponsor-item .elm-img {
+    width: 360px;
+    width: 3.6rem;
+    height: auto; }
+
 body[class="page-sponsor"] .sponsor-list {
   display: -webkit-flex;
   display: -ms-flexbox;

@@ -1,0 +1,19 @@
+@include with-page("home") {
+  .sponsor-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+
+  .sponsor-item {
+    display: flex;
+    flex: 0 1 27%;
+    align-items: center;
+    justify-content: center;
+
+    .elm-img {
+      width: px(360);
+      height: auto;
+    }
+  }
+}
