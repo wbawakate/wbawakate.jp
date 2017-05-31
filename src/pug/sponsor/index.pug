@@ -1,0 +1,17 @@
+extends /_layout/_default-layout
+
+append config-block
+  - pageId = 'sponsor'
+  - rootPath = '../'
+
+block content-block
+  header
+    h1
+      | Sponsors
+
+  main
+    ul.sponsor-list
+      each s in sponsor
+        li.sponsor-item
+          a(href= s.url, target="blank")
+            img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)

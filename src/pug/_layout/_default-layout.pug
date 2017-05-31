@@ -65,7 +65,7 @@ html(lang="ja")
     // stylesheet
     block stylesheet-block
       //- link(rel="stylesheet", href= rootPath + 'css/lib/material.min.css')
-      link(rel="stylesheet", href="css/style.css?v="+versions["style.css"])
+      link(rel="stylesheet", href= `${rootPath}css/style.css?v=${versions["style.css"]}`)
 
   body(class= 'page-' + pageId)
     //- appId指定を忘れないように
@@ -79,7 +79,7 @@ html(lang="ja")
       script(src= rootPath + 'js/lib/jquery.min.js')
       script(src= rootPath + 'js/lib/lodash.min.js')
       //- script(src= rootPath + 'js/lib/material.min.js')
-      script(src="js/script.js?v="+versions["script.js"])
+      script(src=`${rootPath}js/script.js?v=${versions["script.js"]}`)
 
     //- include ../_partial/gplus-platform.html
 

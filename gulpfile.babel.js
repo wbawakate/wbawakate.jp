@@ -113,6 +113,7 @@ gulp.task('js', gulp.series(gulp.parallel('browserify', 'copy-bower-js'), gulp.p
 // html
 gulp.task('pug', () => {
   const locals = readConfig(`${CONFIG}/meta.yml`);
+  locals.sponsor = readConfig(`${CONFIG}/sponsor.yml`);
   locals.versions = revLogger.versions();
 
   return gulp.src([`${SRC}/pug/**/[!_]*.pug`, `!${SRC}/pug/**/_*/**/*`])
