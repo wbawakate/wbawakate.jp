@@ -1,0 +1,55 @@
+normal:
+  -
+    name:
+      大澤 正彦
+    nameSub:
+      Osawa Masahiko
+    position:
+      代表
+    status:
+      慶應義塾大学 D1
+    link:
+      'member/osawa-masahiko.html'
+
+  -
+    name:
+      坂井 美帆
+    nameSub:
+      Sakai Miho
+    position:
+      副代表
+
+  -
+    name:
+      島田 大樹
+    nameSub:
+      Shimada Daiki
+    position:
+      副代表
+    status:
+      法政大学大学院 修士2年
+
+
+society:
+  -
+    name:
+      芦原 佑太
+    nameSub:
+      Ashihara Yuta
+    position:
+      社会人支部　代表
+
+  -
+    name:
+      岩淵 勇樹
+    nameSub:
+      Iwabuchi Yuuki
+    link:
+      'member/iwabuchi-yuuki.html'
+
+#  -
+#    name:
+#    nameSub:
+#    position:
+#    status:
+#    link:

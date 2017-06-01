@@ -1,0 +1,24 @@
+extends /_layout/_default-layout
+
+append config-block
+  - pageId = 'member'
+  - rootPath = '../'
+
+block content-block
+  main
+    each branch, branchName in members
+      if branchName === 'society'
+        h2
+          | WBA 若手の会 社会人支部
+      each member in branch
+        .member
+          - href = member.link ? `${rootPath}${member.link}` : null
+          a.elm-a(href= href)
+            .position
+              = member.position
+            .status
+              = member.status
+            .name
+              = member.name
+            .nameSub
+              = member.nameSub
