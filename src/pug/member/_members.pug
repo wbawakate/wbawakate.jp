@@ -1,0 +1,22 @@
+extends /_layout/_default-layout
+
+append config-block
+  - pageId = 'member'
+  - rootPath = '../'
+
+block content-block
+  header
+    h1
+      | About
+
+  main
+    .body!= body
+
+    if meta.facebook
+      .facebook
+        a(href=`${meta.facebook}`, target="_blank")
+          | facebook
+    if meta.twitter
+      .twitter
+        a(href=`${meta.twitter}`, target="_blank")
+          | twitter

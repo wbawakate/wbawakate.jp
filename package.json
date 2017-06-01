@@ -31,6 +31,7 @@
     "gulp-babel": "^6.1.0",
     "gulp-decodecode": "^0.1.0",
     "gulp-pleeease": "^2.0.2",
+    "gulp-postman": "^1.0.2",
     "gulp-pug": "^3.0.2",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.2.0",

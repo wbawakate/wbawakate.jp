@@ -10,6 +10,7 @@ import browserify from 'browserify';
 import babelify from 'babelify';
 import debowerify from 'debowerify';
 import pug from 'gulp-pug';
+import postman from 'gulp-postman';
 import rename from 'gulp-rename';
 import uglify from 'gulp-uglify';
 import decodecode from 'gulp-decodecode';
@@ -117,8 +118,13 @@ gulp.task('pug', () => {
   locals.versions = revLogger.versions();
 
   return gulp.src([`${SRC}/pug/**/[!_]*.pug`, `!${SRC}/pug/**/_*/**/*`])
+    .pipe(postman({
+      markdown: `${SRC}/config/members/**/*.md`,
+      template: `${SRC}/pug/member/_members.pug`,
+      locals,
+      // base: `${SRC}/config/members`,
+    }))
     .pipe(pug({
-      locals: locals,
       pretty: true,
       basedir: `${SRC}/pug`,
     }))
@@ -142,6 +148,7 @@ gulp.task('browser-sync' , () => {
   watch([`${SRC}/js/**/*.js`], gulp.series('js', browserSync.reload));
   watch([
       `${SRC}/pug/**/*.pug`,
+      `${SRC}/config/members/**/*.md`,
       `${SRC}/config/meta.yml`
   ], gulp.series('pug', browserSync.reload));
 
