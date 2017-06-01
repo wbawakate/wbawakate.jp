@@ -17,10 +17,10 @@ twitter:
 - 2011年4月 慶應義塾大学 理工学部 入学．
 - 2014年8月 全脳アーキテクチャ若手の会を設立．自ら代表を務める．
 - 2015年3月 慶應義塾大学 理工学部 情報工学科 卒業 (情報工学科 首席)．
-- 2016年1月 株式会社ドワンゴ ドワンゴ人工知能研究所 特任研究員
+- 2016年1月 株式会社ドワンゴ [ドワンゴ人工知能研究所](http://ailab.dwango.co.jp/) 特任研究員
 - 2017年3月 慶應義塾大学大学院 理工学研究科 開放環境科学専攻 情報工学先週 修士課程修了
 
-現在 同大学院 後期博士課程（今井研究室所属），日本学術振興会特別研究員(DC1)．
+現在 同大学院 後期博士課程（[今井研究室](http://www.ailab.ics.keio.ac.jp/)所属），日本学術振興会特別研究員(DC1)．
 
 ニューラルネットワーク, Biologically Inspired Cognitive Architecture, Human Agent Interactionなどの研究に従事．
 
@@ -37,7 +37,7 @@ twitter:
 
 ### 和文学会誌
 
-- [1] 大澤正彦: “全脳アーキテクチャ若手の会”, 人工知能, Vol. 32, No. 2, pp. 268–269, 2017 (link)
+- [1] 大澤正彦: “全脳アーキテクチャ若手の会”, 人工知能, Vol. 32, No. 2, pp. 268–269, 2017 ([link](https://jsai.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=8649&item_no=1&page_id=13&block_id=23))
 
 ### 国際会議
 
@@ -94,23 +94,23 @@ twitter:
 - [1] 大澤正彦，萩原将文：“RBMの学習特性の分析と隠れ層ニューロン数の自動決定法，” 電子情報通信学会ニューロコンピューティング研究会，信学技報, vol.114, no.259, NC2014-22, pp.7-12, 2014.
 
 ### Activity in WBA
-- 2014年10月 第1回 全脳アーキテクチャ若手の会勉強会 『ディープラーニング』 講演
+- 2014年10月 [第1回 全脳アーキテクチャ若手の会勉強会 『ディープラーニング』](http://wbawakate.jp/posts/events/1st/) 講演
 
-- 2015年11月 第2回 全脳アーキテクチャ若手の会勉強会『Convolutional Neural Networks』 オーガナイザー
+- 2015年11月 [第2回 全脳アーキテクチャ若手の会勉強会『Convolutional Neural Networks』](http://wbawakate.jp/posts/events/2nd/) オーガナイザー
 
-- 2015年3月 第5回 全脳アーキテクチャ若手の会勉強会『Recurrent neural networks』 オーガナイザー
+- 2015年3月 [第5回 全脳アーキテクチャ若手の会勉強会『Recurrent neural networks』](http://wbawakate.jp/posts/events/5th/) オーガナイザー
 
-- 2016年4月 「加速するAI、加速する世界」第1回WBAシンポジウム パネリスト
+- 2016年4月 [「加速するAI、加速する世界」第1回WBAシンポジウム](http://wba-initiative.org/1079/) パネリスト
 
-- 2016年6月 第14回 全脳アーキテクチャ若手の会勉強会 『カジュアルトーク』“全脳アーキテクチャ若手の会について” (動画)
+- 2016年6月 [第14回 全脳アーキテクチャ若手の会勉強会 『カジュアルトーク』](http://wbawakate.jp/posts/events/14th/)“全脳アーキテクチャ若手の会について” ([動画](https://www.youtube.com/watch?v=Z6iKBaTeArs))
 
 - 2016年7月 SIG-WBA, ” 海馬と創る — RBM Based Cognitive Architecture”
 
-- 2016年11月 第19回 全脳アーキテクチャ若手の会勉強会 『カジュアルトーク』 “学際領域研究者の卵が思うこと10選 -認知, 神経, 人工知能の視点から-” (動画) (スライド)
+- 2016年11月 [第19回 全脳アーキテクチャ若手の会勉強会 『カジュアルトーク』](http://wbawakate.jp/posts/events/19th/) “学際領域研究者の卵が思うこと10選 -認知, 神経, 人工知能の視点から-” ([動画](https://www.youtube.com/watch?v=5_xojZrZCjc)) ([スライド](https://www.slideshare.net/osawamasahiko/10-19-69745096))
 
   2017年3月 SIG-WBA, “げっ歯類レベル認知アーキテクチャを目指して”
 
 ## Article
-- [2] 大澤正彦, College Cafe by  NIKKEI: 全脳アーキテクチャ若手の会!, 2016
+- [2] 大澤正彦, [College Cafe by  NIKKEI: 全脳アーキテクチャ若手の会!](http://college.nikkei.co.jp/series/7714.html), 2016
 
-- [1]大澤正彦, 私とWBAI: 全脳アーキテクチャ若手の会代表 大澤正彦, 2016
+- [1]大澤正彦, [私とWBAI: 全脳アーキテクチャ若手の会代表 大澤正彦](http://wba-initiative.org/1544/), 2016
