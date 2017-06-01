@@ -1,10 +1,13 @@
 ---
-facebook: "https://www.facebook.com/yuuki.iwabuchi.9"
-twitter: "https://twitter.com/butchi_y"
+name:
+  岩淵 勇樹
+nameSub:
+  Iwabuchi Yuuki
+facebook:
+  "https://www.facebook.com/yuuki.iwabuchi.9"
+twitter:
+  "https://twitter.com/butchi_y"
 ---
-# 岩淵 勇樹
-# Iwabuchi Yuuki
-
 ## Biography
 
 - 2003年 福井県立大野高等学校 卒業

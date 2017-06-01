@@ -1,9 +1,13 @@
 ---
-facebook: "https://facebook.com/osawa.masahiko"
-twitter: "https://twitter.com/iwawomaru/"
+name:
+  大澤 正彦
+nameSub:
+  Osawa Masahiko
+facebook:
+  "https://facebook.com/osawa.masahiko"
+twitter:
+  "https://twitter.com/iwawomaru/"
 ---
-# 大澤 正彦
-# Osawa Masahiko
 
 ## Message
 小さいころからドラえもんを作ることが目標で、今もそれに向けて努力を続けています。現在は脳に着目した汎用人工知能というアプローチで研究を進めており、縁あって本会を設立するに至りました。どうぞよろしくお願いいたします。

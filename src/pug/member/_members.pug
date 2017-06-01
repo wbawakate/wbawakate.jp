@@ -5,12 +5,15 @@ append config-block
   - rootPath = '../'
 
 block content-block
-  header
-    h1
-      | About
-
   main
-    .body!= body
+    h1.name
+      = meta.name
+    if meta.nameSub
+      .sub-name
+        = meta.nameSub
+
+    .body
+      != body
 
     if meta.facebook
       .facebook
