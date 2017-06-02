@@ -7,9 +7,9 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _Router = require('./Router');
+var _router = require('./router');
 
-var _Router2 = _interopRequireDefault(_Router);
+var _router2 = _interopRequireDefault(_router);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34,7 +34,7 @@ var Main = function () {
       var _this = this;
 
       $(function () {
-        _this.router = new _Router2.default();
+        _this.router = new _router2.default();
       });
     }
   }]);
@@ -44,7 +44,22 @@ var Main = function () {
 
 exports.default = Main;
 
-},{"./Router":2}],2:[function(require,module,exports){
+},{"./router":3}],2:[function(require,module,exports){
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/*
+ * グローバル直下に変数を置かないよう、ネームスペースを切る。
+ * ネームスペース以下の変数にアクセスしたいときは各クラスでこれをimportする
+ */
+
+window.Wba = window.Wba || {};
+var ns = window.Wba;
+exports.default = ns;
+
+},{}],3:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -57,17 +72,27 @@ var _ns = require('./ns');
 
 var _ns2 = _interopRequireDefault(_ns);
 
-var _Common = require('../page/Common');
+var _common = require('../page/common');
 
-var _Common2 = _interopRequireDefault(_Common);
+var _common2 = _interopRequireDefault(_common);
 
-var _Index = require('../page/Index');
+var _home = require('../page/home');
 
-var _Index2 = _interopRequireDefault(_Index);
+var _home2 = _interopRequireDefault(_home);
+
+var _about = require('../page/about');
+
+var _about2 = _interopRequireDefault(_about);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function page(pageId, callback) {
+  if (document.querySelector('body[data-page-id="' + pageId + '"]')) {
+    callback();
+  }
+};
 
 var Router = function () {
   function Router() {
@@ -79,13 +104,12 @@ var Router = function () {
   _createClass(Router, [{
     key: 'initialize',
     value: function initialize() {
-      var $body = $('body');
+      _ns2.default.page = _ns2.default.page || {};
 
-      this.pageCommon = new _Common2.default();
+      (0, _common2.default)();
 
-      if ($body.hasClass('page-index')) {
-        this.pageIndex = new _Index2.default();
-      }
+      page('home', _home2.default);
+      page('about', _about2.default);
     }
   }]);
 
@@ -94,29 +118,12 @@ var Router = function () {
 
 exports.default = Router;
 
-},{"../page/Common":4,"../page/Index":5,"./ns":3}],3:[function(require,module,exports){
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-/*
- * グローバル直下に変数を置かないよう、ネームスペースを切る。
- * ネームスペース以下の変数にアクセスしたいときは各クラスでこれをimportする
- */
-
-window.App = window.App || {};
-var ns = window.App;
-exports.default = ns;
-
-},{}],4:[function(require,module,exports){
+},{"../page/about":4,"../page/common":5,"../page/home":6,"./ns":2}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _ns = require('../module/ns');
 
@@ -124,58 +131,16 @@ var _ns2 = _interopRequireDefault(_ns);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+exports.default = function () {
+  console.log('about page');
+};
 
-var Common = function () {
-  function Common() {
-    var opts = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-
-    _classCallCheck(this, Common);
-
-    this.initialize();
-  }
-
-  _createClass(Common, [{
-    key: 'initialize',
-    value: function initialize() {
-      console.log('page common');
-
-      this.setEnvClass();
-    }
-  }, {
-    key: 'setEnvClass',
-    value: function setEnvClass() {
-      var $html = $('html');
-
-      _ns2.default.isSp = false;
-      _ns2.default.isPc = false;
-      _ns2.default.isTab = false;
-
-      if ($html.hasClass('is-sp')) {
-        _ns2.default.isSp = true;
-      }
-      if ($html.hasClass('is-pc')) {
-        _ns2.default.isPc = true;
-      }
-      if ($html.hasClass('is-tab')) {
-        _ns2.default.isTab = true;
-      }
-    }
-  }]);
-
-  return Common;
-}();
-
-exports.default = Common;
-
-},{"../module/ns":3}],5:[function(require,module,exports){
+},{"../module/ns":2}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _ns = require('../module/ns');
 
@@ -183,44 +148,62 @@ var _ns2 = _interopRequireDefault(_ns);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+exports.default = function () {
+  console.log('page common');
 
-var Index = function () {
-  function Index() {
-    var opts = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  setEnvClass();
+};
 
-    _classCallCheck(this, Index);
+function setEnvClass() {
+  var $html = $('html');
 
-    this.initialize();
+  _ns2.default.isSp = false;
+  _ns2.default.isPc = false;
+  _ns2.default.isTab = false;
+
+  if ($html.hasClass('is-sp')) {
+    _ns2.default.isSp = true;
   }
+  if ($html.hasClass('is-pc')) {
+    _ns2.default.isPc = true;
+  }
+  if ($html.hasClass('is-tab')) {
+    _ns2.default.isTab = true;
+  }
+}
 
-  _createClass(Index, [{
-    key: 'initialize',
-    value: function initialize() {
-      console.log('index page');
-    }
-  }]);
+},{"../module/ns":2}],6:[function(require,module,exports){
+'use strict';
 
-  return Index;
-}();
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
-exports.default = Index;
+var _ns = require('../module/ns');
 
-},{"../module/ns":3}],6:[function(require,module,exports){
+var _ns2 = _interopRequireDefault(_ns);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function () {
+  console.log('home page');
+};
+
+},{"../module/ns":2}],7:[function(require,module,exports){
 'use strict';
 
 var _ns = require('./module/ns');
 
 var _ns2 = _interopRequireDefault(_ns);
 
-var _Main = require('./module/Main');
+var _main = require('./module/main');
 
-var _Main2 = _interopRequireDefault(_Main);
+var _main2 = _interopRequireDefault(_main);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // エントリーポイント。indexからはライブラリとこれしか呼ばない
 
-_ns2.default.main = new _Main2.default();
+_ns2.default.main = new _main2.default();
 
-},{"./module/Main":1,"./module/ns":3}]},{},[6]);
+},{"./module/main":1,"./module/ns":2}]},{},[7]);
