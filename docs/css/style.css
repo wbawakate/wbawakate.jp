@@ -99,6 +99,10 @@ a {
   color: inherit;
   text-decoration: inherit; }
 
+.wba-latest-events .item {
+  margin: 20px 0;
+  margin: 0.2rem 0; }
+
 html.is-sp .wrapper {
   overflow: hidden; }
 
