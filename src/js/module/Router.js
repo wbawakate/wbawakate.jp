@@ -1,6 +1,13 @@
 import ns from './ns';
-import PageCommon from '../page/Common';
-import PageIndex from '../page/Index';
+import common from '../page/common';
+import home from '../page/home';
+import about from '../page/about';
+
+function page(pageId, callback) {
+  if(document.querySelector(`body[data-page-id="${pageId}"]`)) {
+    callback();
+  }
+};
 
 export default class Router {
   constructor() {
@@ -8,12 +15,11 @@ export default class Router {
   }
 
   initialize() {
-    const $body = $('body');
+    ns.page = ns.page || {};
 
-    this.pageCommon = new PageCommon();
+    common();
 
-    if($body.hasClass('page-index')) {
-      this.pageIndex = new PageIndex();
-    }
+    page('home', home);
+    page('about', about);
   }
 }
