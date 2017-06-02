@@ -4637,8 +4637,6 @@ var WbaLatestEvents = function () {
         var displayEventArr = [];
 
         eventArr.forEach(function (event) {
-          console.log(event);
-
           var startedAtMoment = (0, _moment2.default)(event.started_at);
           var startedAtFormat = startedAtMoment.format('Y年M月D日 HH:mm');
 

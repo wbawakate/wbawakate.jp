@@ -35,8 +35,6 @@ export default class WbaLatestEvents {
         const displayEventArr = [];
 
         eventArr.forEach((event) => {
-          console.log(event);
-
           const startedAtMoment = moment(event.started_at)
           const startedAtFormat = startedAtMoment.format('Y年M月D日 HH:mm');
 
