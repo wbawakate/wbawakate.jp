@@ -23,13 +23,13 @@ website:
 
 ## Publications / Academic Activities
 - [1] Ryosuke Yoshihashi, Daiki Shimada, Hitoshi Iyatomi: Feasibility study on evaluation of audience’s concentration in the classroom with deep convolutional neural networks, Proc. IEEE Teaching, Assessment and Learning for Engineering (IEEE TALE 2014), Dec. 2014.
--　[2] 島田大樹，彌冨仁 ：Convolutional Neural Networksによる聴講者の集中度推定，電子情報通信学会総合大会, 2015-3.
--　[3] 島田大樹，彌冨仁 ：半教師あり学習による聴講者の集中度推定の可能性，第31回ファジィシステムシンポジウム, 2015-9.
--　[4] 島田大樹，彌冨仁 ：入力可変長型Convolutional Neural Networksの基礎検討，電子情報通信学会総合大会, 2016-3.
--　[5] 安藤舞，島田大樹，彌冨仁 ：深層学習による顔の魅力度の定量化の試み，電子情報通信学会総合大会, 2016-3.
--　[6] Daiki Shimada, Takuya Yoshida, Hitoshi Iyatomi and M. Emre Celebi (Hosei Univ. ConvNet Team). Skin Lesion Analysis toward Melanoma Detection, A Challenge at the International Symposium on Biomedical Imaging (ISBI), 2016.
--　[7] 小谷龍ノ介，島田大樹，彌冨仁 ：文字画像によるCharacter-level Embeddingと文書分類，NLP若手の会 (YANS) 第11回シンポジウム，2016-8．
--　[8] 松岡佑磨，島田大樹，彌冨仁 ：深層距離学習による教師データ生成，第32回ファジィシステムシンポジウム，2016-8．
+- [2] 島田大樹，彌冨仁 ：Convolutional Neural Networksによる聴講者の集中度推定，電子情報通信学会総合大会, 2015-3.
+- [3] 島田大樹，彌冨仁 ：半教師あり学習による聴講者の集中度推定の可能性，第31回ファジィシステムシンポジウム, 2015-9.
+- [4] 島田大樹，彌冨仁 ：入力可変長型Convolutional Neural Networksの基礎検討，電子情報通信学会総合大会, 2016-3.
+- [5] 安藤舞，島田大樹，彌冨仁 ：深層学習による顔の魅力度の定量化の試み，電子情報通信学会総合大会, 2016-3.
+- [6] Daiki Shimada, Takuya Yoshida, Hitoshi Iyatomi and M. Emre Celebi (Hosei Univ. ConvNet Team). Skin Lesion Analysis toward Melanoma Detection, A Challenge at the International Symposium on Biomedical Imaging (ISBI), 2016.
+- [7] 小谷龍ノ介，島田大樹，彌冨仁 ：文字画像によるCharacter-level Embeddingと文書分類，NLP若手の会 (YANS) 第11回シンポジウム，2016-8．
+- [8] 松岡佑磨，島田大樹，彌冨仁 ：深層距離学習による教師データ生成，第32回ファジィシステムシンポジウム，2016-8．
 
 ## Activity in WBA
 - 2014年10月 [第2回 全脳アーキテクチャ若手の会勉強会『Convolutional Neural Networks』](http://wbawakate.jp/posts/events/2nd/) 講演
