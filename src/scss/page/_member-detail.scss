@@ -1,0 +1,34 @@
+@include with-page("member-detail") {
+  .main {
+    padding: px(20);
+  }
+
+  .name {
+    font-size: px(36);
+  }
+
+  .sub-name {
+    font-size: px(36);
+    color: #999;
+  }
+
+  .facebook {
+    margin: px(20) 0;
+  }
+
+  .twitter {
+    margin: px(20) 0;
+  }
+
+  h2:not(class) {
+    font-size: px(28);
+  }
+
+  ul:not(class) {
+  }
+
+  li:not(class) {
+    list-style-position: inside;
+    list-style-type: disc;
+  }
+}

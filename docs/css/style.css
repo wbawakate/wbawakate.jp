@@ -96,8 +96,8 @@ main {
   box-sizing: border-box; }
 
 a {
-  color: inherit;
-  text-decoration: inherit; }
+  color: blue;
+  text-decoration: underline; }
 
 .wba-latest-events .item {
   margin: 20px 0;
@@ -112,7 +112,7 @@ html.is-pc .wrapper {
   min-width: 12rem;
   overflow: hidden; }
 
-body[class="page-home"] .sponsor-list {
+body[data-page-id="home"] .sponsor-list {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -123,7 +123,7 @@ body[class="page-home"] .sponsor-list {
       -ms-flex-pack: start;
           justify-content: flex-start; }
 
-body[class="page-home"] .sponsor-item {
+body[data-page-id="home"] .sponsor-item {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -136,12 +136,41 @@ body[class="page-home"] .sponsor-item {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  body[class="page-home"] .sponsor-item .elm-img {
+  body[data-page-id="home"] .sponsor-item .elm-img {
     width: 360px;
     width: 3.6rem;
     height: auto; }
 
-body[class="page-sponsor"] .sponsor-list {
+body[data-page-id="member-detail"] .main {
+  padding: 20px;
+  padding: 0.2rem; }
+
+body[data-page-id="member-detail"] .name {
+  font-size: 36px;
+  font-size: 0.36rem; }
+
+body[data-page-id="member-detail"] .sub-name {
+  font-size: 36px;
+  font-size: 0.36rem;
+  color: #999; }
+
+body[data-page-id="member-detail"] .facebook {
+  margin: 20px 0;
+  margin: 0.2rem 0; }
+
+body[data-page-id="member-detail"] .twitter {
+  margin: 20px 0;
+  margin: 0.2rem 0; }
+
+body[data-page-id="member-detail"] h2:not(class) {
+  font-size: 28px;
+  font-size: 0.28rem; }
+
+body[data-page-id="member-detail"] li:not(class) {
+  list-style-position: inside;
+  list-style-type: disc; }
+
+body[data-page-id="sponsor"] .sponsor-list {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -152,7 +181,7 @@ body[class="page-sponsor"] .sponsor-list {
       -ms-flex-pack: start;
           justify-content: flex-start; }
 
-body[class="page-sponsor"] .sponsor-item {
+body[data-page-id="sponsor"] .sponsor-item {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -165,7 +194,7 @@ body[class="page-sponsor"] .sponsor-item {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  body[class="page-sponsor"] .sponsor-item .elm-img {
+  body[data-page-id="sponsor"] .sponsor-item .elm-img {
     width: 360px;
     width: 3.6rem;
     height: auto; }
