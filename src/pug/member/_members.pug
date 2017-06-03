@@ -1,11 +1,11 @@
 extends /_layout/_default-layout
 
 append config-block
-  - pageId = 'member'
+  - pageId = 'member-detail'
   - rootPath = '../'
 
 block content-block
-  main
+  main.main
     h1.name
       = meta.name
     if meta.nameSub
