@@ -1,0 +1,15 @@
+extends /_layout/_default-layout
+
+append config-block
+  - pageId = 'event'
+  - rootPath = '../'
+
+block content-block
+  main
+    each event in events
+      a(href= event.link)
+        .event(data-type= event.type)
+          .image
+            img(src= event.image, alt= event.name)
+          .name
+            = event.name

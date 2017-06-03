@@ -118,6 +118,7 @@ gulp.task('pug', () => {
   const locals = {
     settings: readConfig(`${CONFIG}/meta.yml`),
     sponsor: readConfig(`${CONFIG}/sponsor.yml`),
+    events: readConfig(`${CONFIG}/events/index.yml`),
     members: readConfig(`${CONFIG}/members/index.yml`),
     newsArr: readConfig(`${CONFIG}/news.yml`),
     versions: revLogger.versions(),
@@ -127,10 +128,14 @@ gulp.task('pug', () => {
 
   return gulp.src([`${SRC}/pug/**/[!_]*.pug`, `!${SRC}/pug/**/_*/**/*`])
     .pipe(postman({
+      markdown: `${SRC}/config/events/**/*.md`,
+      template: `${SRC}/pug/event/_events.pug`,
+      locals,
+    }))
+    .pipe(postman({
       markdown: `${SRC}/config/members/**/*.md`,
       template: `${SRC}/pug/member/_members.pug`,
       locals,
-      // base: `${SRC}/config/members`,
     }))
     .pipe(pug({
       pretty: true,
