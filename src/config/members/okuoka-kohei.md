@@ -1,10 +1,10 @@
 ---
 name:
-　奥岡 耕平
+ 奥岡 耕平
 nameSub:
-  Okuoka Kohei
+ Okuoka Kohei
 facebook:
-  "https://facebook.com/kohei.okuoka"
+ "https://facebook.com/kohei.okuoka"
 ---
 
 ## Biography
