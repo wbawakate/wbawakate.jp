@@ -25,6 +25,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2015": "^6.1.18",
     "babelify": "^7.3.0",
+    "bibtex-parse-js": "^0.0.23",
     "browser-sync": "^2.11.1",
     "browserify": "^13.0.0",
     "debowerify": "^1.3.1",

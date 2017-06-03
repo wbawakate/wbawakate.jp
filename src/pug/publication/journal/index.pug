@@ -1,0 +1,17 @@
+extends /_layout/_default-layout
+
+append config-block
+  - pageId = 'publication-journal'
+  - rootPath = '../../'
+
+block content-block
+  main
+    each bib in bibArr
+      .citationKey
+        = bib.citationKey
+      .entry-type
+        = bib.entryType
+      .entry-tags
+        each entryTag, key in bib.entryTags
+          div(class= key)
+            = entryTag

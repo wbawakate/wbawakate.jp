@@ -2,6 +2,7 @@
 
 // import
 import gulp from 'gulp';
+import fs from 'fs';
 import source from 'vinyl-source-stream';
 import sass from 'gulp-sass';
 import sassGlob from 'gulp-sass-glob';
@@ -16,6 +17,7 @@ import uglify from 'gulp-uglify';
 import decodecode from 'gulp-decodecode';
 import browserSync from 'browser-sync';
 import readConfig from 'read-config';
+import bibtexParse from 'bibtex-parse-js';
 import watch from 'gulp-watch';
 import RevLogger from 'rev-logger';
 
@@ -119,6 +121,8 @@ gulp.task('pug', () => {
     members: readConfig(`${CONFIG}/members/index.yml`),
     newsArr: readConfig(`${CONFIG}/news.yml`),
     versions: revLogger.versions(),
+    // bibArr: bibtexParse.toJSON('@article{sample1,title={sample title}}'),
+    bibArr: bibtexParse.toJSON(fs.readFileSync(`${CONFIG}/publication.bib`, { encoding:"utf8" })),
   };
 
   return gulp.src([`${SRC}/pug/**/[!_]*.pug`, `!${SRC}/pug/**/_*/**/*`])
