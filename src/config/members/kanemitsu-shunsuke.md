@@ -5,8 +5,6 @@ nameSub:
   Kanemitsu Shunsuke
 
 facebook:
-  "https://facebook.com/osawa.masahiko"
-twitter:
   "https://www.facebook.com/gya1113"
 ---
 
@@ -20,8 +18,8 @@ AIは専門分野ではなく、大学院では都市工学を専攻していま
 
 - 2017年3月 慶應義塾大学大学院 理工学研究科 開放環境科学専攻 オープンシステムマネジメント専修	 修士課程入学
 
-現在 同大学院 修士課程（[栗田研究室]所属）
+現在 同大学院 修士課程（[栗田研究室](http://www.ae.keio.ac.jp/lab/soc/kurita/)所属）
 
 ## Internship
--SoftBank株式会社 AI事業部データサイエンス課 
--USP株式会社
+- SoftBank株式会社 AI事業部データサイエンス課 
+- USP株式会社
