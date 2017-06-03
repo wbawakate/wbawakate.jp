@@ -113,11 +113,13 @@ gulp.task('js', gulp.series(gulp.parallel('browserify', 'copy-bower-js'), gulp.p
 
 // html
 gulp.task('pug', () => {
-  const locals = readConfig(`${CONFIG}/meta.yml`);
-  locals.sponsor = readConfig(`${CONFIG}/sponsor.yml`);
-  locals.members = readConfig(`${CONFIG}/members/index.yml`);
-  locals.newsArr = readConfig(`${CONFIG}/news.yml`);
-  locals.versions = revLogger.versions();
+  const locals = {
+    settings: readConfig(`${CONFIG}/meta.yml`),
+    sponsor: readConfig(`${CONFIG}/sponsor.yml`),
+    members: readConfig(`${CONFIG}/members/index.yml`),
+    newsArr: readConfig(`${CONFIG}/news.yml`),
+    versions: revLogger.versions(),
+  };
 
   return gulp.src([`${SRC}/pug/**/[!_]*.pug`, `!${SRC}/pug/**/_*/**/*`])
     .pipe(postman({
