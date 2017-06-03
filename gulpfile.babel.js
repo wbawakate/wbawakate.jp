@@ -116,6 +116,7 @@ gulp.task('pug', () => {
   const locals = readConfig(`${CONFIG}/meta.yml`);
   locals.sponsor = readConfig(`${CONFIG}/sponsor.yml`);
   locals.members = readConfig(`${CONFIG}/members/index.yml`);
+  locals.newsArr = readConfig(`${CONFIG}/news.yml`);
   locals.versions = revLogger.versions();
 
   return gulp.src([`${SRC}/pug/**/[!_]*.pug`, `!${SRC}/pug/**/_*/**/*`])
@@ -149,8 +150,7 @@ gulp.task('browser-sync' , () => {
   watch([`${SRC}/js/**/*.js`], gulp.series('js', browserSync.reload));
   watch([
       `${SRC}/pug/**/*.pug`,
-      `${SRC}/config/members/**/*.md`,
-      `${SRC}/config/meta.yml`
+      `${SRC}/config/**/*`
   ], gulp.series('pug', browserSync.reload));
 
   revLogger.watch((changed) => {
