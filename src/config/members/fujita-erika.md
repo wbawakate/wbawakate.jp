@@ -15,7 +15,7 @@ twitter:
 
 ## Activity in WBA
 - 2015年6月 第7回WBA若手の会勉強会 『ベイジアンネットワーク』 講演
-
+- 2015年6月 [第7回WBA若手の会勉強会 『ベイジアンネットワーク』 講演](http://wbawakate.jp/posts/events/7th/)講演
 
 ## Biography
 - 2012年 法政大学理工学部入学
