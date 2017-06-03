@@ -112,6 +112,18 @@ html.is-pc .wrapper {
   min-width: 12rem;
   overflow: hidden; }
 
+body[data-page-id="event-detail"] .main {
+  padding: 20px;
+  padding: 0.2rem; }
+
+body[data-page-id="event-detail"] h2:not(class) {
+  font-size: 28px;
+  font-size: 0.28rem; }
+
+body[data-page-id="event-detail"] li:not(class) {
+  list-style-position: inside;
+  list-style-type: disc; }
+
 body[data-page-id="home"] .sponsor-list {
   display: -webkit-flex;
   display: -ms-flexbox;
