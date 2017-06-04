@@ -107,18 +107,6 @@ block content-block
               a(href= s.url, target="blank")
                 img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
 
-        .wba-link
+        .wba-link.link-join
           a.elm-a(href="http://wbawakate.jp/about_sponsorship/")
             | >> 協賛希望の企業様はこちら
-
-    footer
-      ul
-        li
-          a.facebook(href="https://www.facebook.com/groups/713921892010595/", target="_blank", title="Facebook")
-            i.fa.fa-facebook
-
-    .copyright
-      p
-        | &copy; Copyright 
-        = (new Date()).getFullYear()
-        | . WBA Future Leaders All Rights Reserved
