@@ -1,0 +1,11 @@
+mixin publication(bib)
+  - let { author, title, journal, year } = bib.entryTags
+  - author = author.split(' and ').join('，')
+  = author
+  | ，
+  = title
+  | ，
+  = journal
+  | ，
+  = year
+  | ．

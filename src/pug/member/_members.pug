@@ -25,17 +25,7 @@ block content-block
               | Publications
             .publication-list
               each publication in publicationArr
-                .publication-item
-                  - let { author, title, journal, year } = publication.entryTags
-                  - author = author.split(' and ').join('，')
-                  = author
-                  | ，
-                  = title
-                  | ，
-                  = journal
-                  | ，
-                  = year
-                  | ．
+                + publication(publication)
 
         .sns-list.no-hover-effect
           if meta.facebook

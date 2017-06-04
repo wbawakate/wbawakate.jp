@@ -6,12 +6,7 @@ append config-block
 
 block content-block
   main
-    each bib in bibArr
-      .citationKey
-        = bib.citationKey
-      .entry-type
-        = bib.entryType
-      .entry-tags
-        each entryTag, key in bib.entryTags
-          div(class= key)
-            = entryTag
+    .publication-list
+      each bib in bibArr
+        .publication-item
+          + publication(bib)
