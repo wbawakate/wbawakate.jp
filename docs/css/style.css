@@ -201,6 +201,9 @@ a {
     .wba-button .elm-a:hover {
       border-color: #d0d0d0; }
 
+.wba-category-nav {
+  color: #898989; }
+
 .wba-global-nav {
   display: -webkit-flex;
   display: -ms-flexbox;
