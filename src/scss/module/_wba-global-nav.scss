@@ -1,0 +1,32 @@
+.wba-global-nav {
+  display: flex;
+  align-items: center;
+
+  width: px(750);
+
+  margin: 0 auto;
+  margin-top: px(50);
+  margin-bottom: px(50);
+
+  .logo {
+    width: px(200);
+    height: px(77);
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .menu-list {
+    display: flex;
+
+    margin-left: px(40);
+  }
+
+  .menu-item {
+    + .menu-item {
+      margin-left: px(30);
+    }
+  }
+}

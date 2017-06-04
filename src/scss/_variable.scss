@@ -14,9 +14,9 @@ $accent-color: #ea500c !default;
 // background
 $bg-color: #fff !default;
 // font
-$font-color: #000 !default;
+$font-color: #333333 !default;
 // sub font color
-$sub-font-color: #ccc !default;
+$sub-font-color: #898989 !default;
 // links
 $link-color: #09f !default;
 $link-color-hover: $link-color !default;
@@ -31,19 +31,19 @@ $white: #ffffff;
 
 // Fonts
 // ==========================================================================
-$sans-serif: YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", sans-serif;
-$serif:      YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+$sans-serif: Karla, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", sans-serif;
+$serif:      "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 $base-font-size--sp: px(15);
 $base-font-size--pc: px(15);
-$line-height--sp: 1.5;
-$line-height--pc: 1.5;
+$line-height--sp: 1.3;
+$line-height--pc: 1.3;
 
 // Sizing
 // ==========================================================================
 $px-per-rem: 100;
 
 $wrapper-width--sp: px(320);
-$wrapper-width--pc: px(1200);
+$wrapper-width--pc: px(750);
 $wrapper-width--tab: px(960);
 
 $inner-width--pc: px(960);

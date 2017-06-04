@@ -65,6 +65,8 @@ html(lang="ja")
     // stylesheet
     block stylesheet-block
       //- link(rel="stylesheet", href= rootPath + 'css/lib/material.min.css')
+      link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic", type="text/css", media="all")
+
       link(rel="stylesheet", href= `${rootPath}css/style.css?v=${versions["style.css"]}`)
 
   body(data-page-id= pageId)
@@ -72,6 +74,7 @@ html(lang="ja")
     include ../_partial/fb-sdk.html
 
     .wrapper
+      include /_partial/global-nav
       block content-block
 
     // javascript

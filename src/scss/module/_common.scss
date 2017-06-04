@@ -62,12 +62,12 @@ main {
   box-sizing: border-box;
 }
 
-// a {
-//   color: inherit;
-//   text-decoration: inherit;
-// }
-
 a {
-  color: blue;
-  text-decoration: underline;
+  color: inherit;
+  text-decoration: inherit;
 }
+
+// a {
+//   color: blue;
+//   text-decoration: underline;
+// }

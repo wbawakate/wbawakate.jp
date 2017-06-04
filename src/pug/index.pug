@@ -4,123 +4,110 @@ append config-block
   - pageId = 'home'
 
 block content-block
-  nav
-    ul.menu
-      li.menu-item
-        a(href=`${rootPath}`)
-          | Home
-      li.menu-item
-        a(href=`${rootPath}about/`)
-          | About
-      li.menu-item
-        a(href=`${rootPath}member/`)
-          | Members
-      li.menu-item
-        a(href=`${rootPath}event/`)
-          | Events
-      li.menu-item
-        a(href=`${rootPath}sponsor/`)
-          | Sponsors
-      li.menu-item
-        a(href=`${rootPath}contact/`)
-          | Contact
-
-    //- form.search-form(role="search", method="get", action="http://wbawakate.jp/")
-      input(type="search", placeholder="Search site...", value="", name="s")
-      label(for="search_mobile_inp")
-        i.fa.fa-search
-      input.search-submit(type="submit", value="Go")
-
   main
     section.sec-introduction
-      h2
-        | 全脳アーキテクチャ若手の会へようこそ
+      .flont-block
+        h2.welcome
+          | 全脳アーキテクチャ若手の会へようこそ
 
-      p
-        | 全脳アーキテクチャ若手の会は、脳や人工知能、そしてそれらが与える影響について興味がある、すべての方のためのコミュニティです。
+        .lead
+          p
+            | 全脳アーキテクチャ若手の会は、脳や人工知能、そしてそれらが与える影響について興味がある、すべての方のためのコミュニティです。
 
-      p
-        | 詳しくは
-        a(href=`${rootPath}about/`) About
-        | ページ、または
-        a(href="https://www.facebook.com/groups/713921892010595/", target="_blank") Facebook
-        | 、
-        a(href="https://www.youtube.com/channel/UC_fG5HjRkF4urW0ne-qiVcg/videos?flow=grid&view=0&sort=dd&live_view=500", target="_blank") YouTubeチャンネル
-        | 、
-        a(href="http://wbawakate.connpass.com/", target="_blank") connpass
-        | をご覧ください。
+          p
+            | 詳しくは
+            a(href=`${rootPath}about/`) About
+            | ページ、または
+            a(href="https://www.facebook.com/groups/713921892010595/", target="_blank") Facebook
+            | 、
+            a(href="https://www.youtube.com/channel/UC_fG5HjRkF4urW0ne-qiVcg/videos?flow=grid&view=0&sort=dd&live_view=500", target="_blank") YouTubeチャンネル
+            | 、
+            a(href="http://wbawakate.connpass.com/", target="_blank") connpass
+            | をご覧ください。
 
-    section.latest-events
+    //- section.latest-events
       .wba-latest-events
 
-    section.sec-activity
-      h3 Latest Activity
-      h4 活動報告
-        ul
-          li
-            a(href="http://wbawakate.jp/posts/events/23th/")
-              | 第23回 カジュアルトーク
-          li
-            a(href="http://wbawakate.jp/posts/events/22th/")
-              | 第22回 カジュアルトーク
-          li
-            a(href="http://wbawakate.jp/posts/events/21th/")
-              | 第21回 カジュアルトーク
-          li
-            a(href="http://wbawakate.jp/posts/events/20th/")
-              | 第20回 カジュアルトーク
+    section.section-contents.sec-activity
+      .flont-block
+        h3.heading
+          | Latest Activity
+        h4.sub-heading
+          | 活動報告
+
+        .event-list
+          each event in events
+            .event-item
+              a(href= event.link)
+                .event(data-type= event.type)
+                  .image
+                    img(src= event.image, alt= event.name)
+                  .name
+                    = event.name
+
         a(href="http://wbawakate.jp/posts/events/", target="")
           | More
 
 
-    section.sec-sponsor-event
-      h3 Sponsor Event
-      h4 スポンサーイベント
-        ul
-          li
-            a(href="http://wbawakate.jp/posts/furonteo20160825/")
-              | 株式会社FRONTEO主催 セミナーのお知らせ
-          li
-            a(href="http://wbawakate.jp/posts/adish_2016intern/")
-              | アディッシュ株式会社　技術職インターン募集のお知らせ
-          li
-            a(href="http://wbawakate.jp/posts/ubic20160219/")
-              | 株式会社UBIC主催　第2回学生向けセミナーのお知らせ
-          li
-            a(href="http://wbawakate.jp/posts/dwango20160506/")
-              | 株式会社dwango　『CGIプロジェクト』インターン募集のお知らせ
+    section.section-contents.sec-sponsor-event
+      .flont-block
+        h3.heading
+          | Sponsor Event
+        h4.sub-heading
+          | スポンサーイベント
+          ul
+            li
+              a(href="http://wbawakate.jp/posts/furonteo20160825/")
+                | 株式会社FRONTEO主催 セミナーのお知らせ
+            li
+              a(href="http://wbawakate.jp/posts/adish_2016intern/")
+                | アディッシュ株式会社　技術職インターン募集のお知らせ
+            li
+              a(href="http://wbawakate.jp/posts/ubic20160219/")
+                | 株式会社UBIC主催　第2回学生向けセミナーのお知らせ
+            li
+              a(href="http://wbawakate.jp/posts/dwango20160506/")
+                | 株式会社dwango　『CGIプロジェクト』インターン募集のお知らせ
 
-      a(href="http://wbawakate.jp/posts/category/sponsorevent/", target="")
-        | More
+        a(href="http://wbawakate.jp/posts/category/sponsorevent/", target="")
+          | More
 
 
     section.sec-promotion-video
-      h3 Promotion Video
+      .flont-block
+        h3.heading
+          | Promotion Video
 
-      .video
-        iframe(width="945", height="532", src="https://www.youtube.com/embed/0wtEYXZB2NA?feature=oembed", frameborder="0", allowfullscreen="")
+        .video
+          iframe(width="960", height="540", src="https://www.youtube.com/embed/0wtEYXZB2NA?feature=oembed", frameborder="0", allowfullscreen="")
 
-    section.sec-news
-      h3 News
-      h4 新着情報
+    section.section-contents.sec-news
+      .flont-block
+        h3.heading
+          | News
+        h4.sub-heading
+          | 新着情報
 
-      ul.news_list
-        each news in newsArr
-          time.time= news.time
-          .update!= news.update
+        ul.news_list
+          each news in newsArr
+            time.time= news.time
+            .update!= news.update
 
-    section.sec-sponsor
-      h3 Sponsor
-      h4 協賛企業
-  
-      ul.sponsor-list
-        each s in sponsor
-          li.sponsor-item
-            a(href= s.url, target="blank")
-              img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
+    section.section-contents.sec-sponsor
+      .flont-block
+        h3.heading
+          | Sponsor
+        h4.sub-heading
+          | 協賛企業
+    
+        ul.sponsor-list
+          each s in sponsor
+            li.sponsor-item
+              a(href= s.url, target="blank")
+                img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
 
-      p
-        a(href="http://wbawakate.jp/about_sponsorship/", title="", target="_self") >> 協賛希望の企業様はこちら
+        p
+          a(href="http://wbawakate.jp/about_sponsorship/", title="", target="_self") >> 協賛希望の企業様はこちら
 
     footer
       ul
