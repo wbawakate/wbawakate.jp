@@ -1,0 +1,27 @@
+.wba-link {
+  display: flex; /* 子要素をflexboxで揃える */
+  flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+  justify-content: center; /* 子要素をflexboxにより中央に配置する */
+  align-items: center;  /* 子要素をflexboxにより中央に配置する */
+
+  .elm-a {
+    display: inline-block;
+
+    max-width: px(300);
+
+    padding: px(14) px(20);
+
+    font-size: px(14);
+
+    border-radius: px(4);
+
+    color: #2b2b2b;
+
+    background-color: #f7f7f7;
+    transition: background-color 0.1s linear;
+
+    &:hover {
+      background-color: #e8e8e8;
+    }
+  }
+}
