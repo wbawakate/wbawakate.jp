@@ -97,4 +97,14 @@ a {
       }
     }
   }
+
+  .no-hover-effect {
+    &,
+    a,
+    .elm-a {
+      &::after {
+        width: 0;
+      }
+    }
+  }
 }

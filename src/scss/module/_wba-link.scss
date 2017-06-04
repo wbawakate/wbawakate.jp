@@ -17,11 +17,11 @@
 
     color: #2b2b2b;
 
-    background-color: #f7f7f7;
+    background-color: $link-bg-color;
     transition: background-color 0.1s linear;
 
     &:hover {
-      background-color: #e8e8e8;
+      background-color: $link-bg-color-hover;
     }
   }
 }

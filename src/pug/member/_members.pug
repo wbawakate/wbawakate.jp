@@ -19,11 +19,12 @@ block content-block
         .body
           != body
 
-        if meta.facebook
-          .facebook
-            a(href=`${meta.facebook}`, target="_blank")
-              | facebook
-        if meta.twitter
-          .twitter
-            a(href=`${meta.twitter}`, target="_blank")
-              | twitter
+        .sns-list.no-hover-effect
+          if meta.facebook
+            .sns-item.facebook
+              a.elm-a(href=`${meta.facebook}`, target="_blank")
+                i.fa.fa-facebook
+          if meta.twitter
+            .sns-item.twitter
+              a.elm-a(href=`${meta.twitter}`, target="_blank")
+                i.fa.fa-twitter
