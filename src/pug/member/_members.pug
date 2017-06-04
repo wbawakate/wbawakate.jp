@@ -6,20 +6,24 @@ append config-block
 
 block content-block
   main.main
-    h1.name
-      = meta.name
-    if meta.nameSub
-      .sub-name
-        = meta.nameSub
+    .front-block
+      .image
+        img(src= `${meta.image || "//placehold.jp/300x300.png"}`)
+      .profile
+        h1.name
+          = meta.name
+        if meta.nameSub
+          .sub-name
+            = meta.nameSub
 
-    .body
-      != body
+        .body
+          != body
 
-    if meta.facebook
-      .facebook
-        a(href=`${meta.facebook}`, target="_blank")
-          | facebook
-    if meta.twitter
-      .twitter
-        a(href=`${meta.twitter}`, target="_blank")
-          | twitter
+        if meta.facebook
+          .facebook
+            a(href=`${meta.facebook}`, target="_blank")
+              | facebook
+        if meta.twitter
+          .twitter
+            a(href=`${meta.twitter}`, target="_blank")
+              | twitter

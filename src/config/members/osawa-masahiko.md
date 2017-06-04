@@ -3,6 +3,8 @@ name:
   大澤 正彦
 nameSub:
   Osawa Masahiko
+image:
+  "https://i0.wp.com/wbawakate.jp/wp-content/uploads/2015/01/osawa_wba-e1421331313884.jpg?fit=300%2C300"
 facebook:
   "https://facebook.com/osawa.masahiko"
 twitter:

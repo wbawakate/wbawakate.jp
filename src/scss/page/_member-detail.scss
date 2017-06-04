@@ -1,34 +1,72 @@
 @include with-page("member-detail") {
-  .main {
-    padding: px(20);
+  .front-block {
+    width: px(750);
+
+    margin: 0 auto;
+
+    @include clearfix;
   }
 
-  .name {
-    font-size: px(36);
+  .image {
+    float: left;
+
+    width: px(250);
+
+    padding: 0 px(15);
+
+    img {
+      width: px(220);
+      height: px(220);
+    }
   }
 
-  .sub-name {
-    font-size: px(36);
-    color: #999;
-  }
+  .profile {
+    float: left;
 
-  .facebook {
-    margin: px(20) 0;
-  }
+    width: px(500);
 
-  .twitter {
-    margin: px(20) 0;
-  }
+    padding: 0 px(15);
 
-  h2:not(class) {
-    font-size: px(28);
-  }
+    .name {
+      font-size: px(26);
+    }
 
-  ul:not(class) {
-  }
+    .sub-name {
+      margin-top: px(10);
 
-  li:not(class) {
-    list-style-position: inside;
-    list-style-type: disc;
+      font-size: px(16);
+      color: #999;
+    }
+
+    .facebook {
+      margin: px(20) 0;
+    }
+
+    .twitter {
+      margin: px(20) 0;
+    }
+
+    .body {
+      margin-top: px(40);
+
+      color: $sub-font-color;
+    }
+
+    h2:not([class]) {
+      margin-top: px(10);
+      margin-bottom: px(5);
+
+      font-size: px(19);
+
+      color: $font-color;
+    }
+
+    ul:not([class]) {
+    }
+
+    li:not([class]) {
+      list-style-position: inside;
+      list-style-type: disc;
+    }
   }
 }

@@ -3,14 +3,14 @@
     padding: px(20);
   }
 
-  h2:not(class) {
+  h2:not([class]) {
     font-size: px(28);
   }
 
-  ul:not(class) {
+  ul:not([class]) {
   }
 
-  li:not(class) {
+  li:not([class]) {
     list-style-position: inside;
     list-style-type: disc;
   }
