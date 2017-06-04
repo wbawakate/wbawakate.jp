@@ -1,18 +1,38 @@
 @include with-page("sponsor") {
+  .front-block {
+    width: px(750);
+
+    margin: 0 auto;
+
+    padding-top: px(30);
+  }
+
+  .heading {
+    font-size: px(26);
+  }
+
+  .link-join {
+    margin-top: px(100);
+  }
+
   .sponsor-list {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
+
+    margin-top: px(50);
   }
 
   .sponsor-item {
     display: flex;
-    flex: 0 1 27%;
+    flex: 0 1 33%;
     align-items: center;
     justify-content: center;
 
+    margin-top: px(50);
+
     .elm-img {
-      width: px(360);
+      width: px(220);
       height: auto;
     }
   }

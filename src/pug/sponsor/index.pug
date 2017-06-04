@@ -5,13 +5,17 @@ append config-block
   - rootPath = '../'
 
 block content-block
-  header
-    h1
-      | Sponsors
-
   main
-    ul.sponsor-list
-      each s in sponsor
-        li.sponsor-item
-          a(href= s.url, target="blank")
-            img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
+    .front-block
+      h1.heading
+        | Sponsors
+
+      .wba-link.link-join
+        a.elm-a(href="http://wbawakate.jp/about_sponsorship/")
+          | >> 協賛希望の企業様はこちら
+
+      ul.sponsor-list
+        each s in sponsor
+          li.sponsor-item
+            a(href= s.url, target="blank")
+              img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
