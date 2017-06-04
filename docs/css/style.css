@@ -706,6 +706,21 @@ body[data-page-id="member"] .member {
       font-size: 15px;
       font-size: 0.15rem; }
 
+body[data-page-id="sponsor"] .front-block {
+  width: 750px;
+  width: 7.5rem;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-top: 0.3rem; }
+
+body[data-page-id="sponsor"] .heading {
+  font-size: 26px;
+  font-size: 0.26rem; }
+
+body[data-page-id="sponsor"] .link-join {
+  margin-top: 100px;
+  margin-top: 1rem; }
+
 body[data-page-id="sponsor"] .sponsor-list {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -715,22 +730,26 @@ body[data-page-id="sponsor"] .sponsor-list {
           flex-flow: row wrap;
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
-          justify-content: flex-start; }
+          justify-content: flex-start;
+  margin-top: 50px;
+  margin-top: 0.5rem; }
 
 body[data-page-id="sponsor"] .sponsor-item {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex: 0 1 27%;
-      -ms-flex: 0 1 27%;
-          flex: 0 1 27%;
+  -webkit-flex: 0 1 33%;
+      -ms-flex: 0 1 33%;
+          flex: 0 1 33%;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  margin-top: 50px;
+  margin-top: 0.5rem; }
   body[data-page-id="sponsor"] .sponsor-item .elm-img {
-    width: 360px;
-    width: 3.6rem;
+    width: 220px;
+    width: 2.2rem;
     height: auto; }
