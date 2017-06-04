@@ -99,6 +99,45 @@ a {
   color: inherit;
   text-decoration: inherit; }
 
+.wba-button {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /* 子要素をflexboxで揃える */
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* 子要素をflexboxにより縦方向に揃える */
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* 子要素をflexboxにより中央に配置する */
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* 子要素をflexboxにより中央に配置する */ }
+  .wba-button .elm-button,
+  .wba-button .elm-a {
+    display: inline-block;
+    min-width: 200px;
+    min-width: 2rem;
+    max-width: 300px;
+    max-width: 3rem;
+    padding: 14px 20px;
+    padding: 0.14rem 0.2rem;
+    text-align: center;
+    font-size: 14px;
+    font-size: 0.14rem;
+    border: 2px solid;
+    border: 0.02rem solid;
+    border-color: #e8e8e8;
+    transition: border-color 0.1s linear;
+    color: #898989;
+    background-color: #ffffff; }
+    .wba-button .elm-button:hover,
+    .wba-button .elm-a:hover {
+      border-color: #d0d0d0; }
+
 .wba-global-nav {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -134,6 +173,38 @@ a {
 .wba-latest-events .item {
   margin: 20px 0;
   margin: 0.2rem 0; }
+
+.wba-link {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /* 子要素をflexboxで揃える */
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* 子要素をflexboxにより縦方向に揃える */
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* 子要素をflexboxにより中央に配置する */
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* 子要素をflexboxにより中央に配置する */ }
+  .wba-link .elm-a {
+    display: inline-block;
+    max-width: 300px;
+    max-width: 3rem;
+    padding: 14px 20px;
+    padding: 0.14rem 0.2rem;
+    font-size: 14px;
+    font-size: 0.14rem;
+    border-radius: 0.04rem;
+    color: #2b2b2b;
+    background-color: #f7f7f7;
+    transition: background-color 0.1s linear; }
+    .wba-link .elm-a:hover {
+      background-color: #e8e8e8; }
 
 html.is-sp .wrapper {
   overflow: hidden; }
@@ -249,11 +320,20 @@ body[data-page-id="home"] .sec-activity {
     margin-top: 0.15rem;
     font-size: 20px;
     font-size: 0.2rem; }
+  body[data-page-id="home"] .sec-activity .btn-more {
+    margin-top: 80px;
+    margin-top: 0.8rem; }
+
+body[data-page-id="home"] .sec-sponsor-event .btn-more {
+  margin-top: 80px;
+  margin-top: 0.8rem; }
 
 body[data-page-id="home"] .sec-promotion-video {
   width: 320px;
   width: 3.2rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-top: 0.3rem; }
   body[data-page-id="home"] .sec-promotion-video .heading {
     font-size: 32px;
     font-size: 0.32rem; }
