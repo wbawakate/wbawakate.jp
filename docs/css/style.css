@@ -450,6 +450,42 @@ body[data-page-id="home"] .sec-activity {
     margin-top: 80px;
     margin-top: 0.8rem; }
 
+body[data-page-id="home"] .sec-sponsor-event .sponsor-event-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 700px;
+  width: 7rem;
+  margin-top: 20px;
+  margin-top: 0.2rem; }
+
+body[data-page-id="home"] .sec-sponsor-event .sponsor-event-item {
+  width: 220px;
+  width: 2.2rem;
+  margin-top: 30px;
+  margin-top: 0.3rem; }
+
+body[data-page-id="home"] .sec-sponsor-event .sponsor-event .image {
+  width: 220px;
+  width: 2.2rem;
+  height: 112.999px;
+  height: 1.13rem; }
+  body[data-page-id="home"] .sec-sponsor-event .sponsor-event .image img {
+    width: 100%;
+    height: 100%; }
+
+body[data-page-id="home"] .sec-sponsor-event .sponsor-event .name {
+  margin-top: 15px;
+  margin-top: 0.15rem;
+  font-size: 20px;
+  font-size: 0.2rem; }
+
 body[data-page-id="home"] .sec-sponsor-event .btn-more {
   margin-top: 80px;
   margin-top: 0.8rem; }
