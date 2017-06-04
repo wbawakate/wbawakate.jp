@@ -8,7 +8,7 @@ block content-block
   main
     .front-block
       .publication-list
-        - publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.type === 'journal'; });
+        - publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.type === 'international'; });
         each publication in publicationArr
           .publication-item
             +publication(publication)

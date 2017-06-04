@@ -1,0 +1,7 @@
+@include with-page("publication-detail") {
+  .front-block {
+    width: px(750);
+
+    margin: 0 auto;
+  }
+}

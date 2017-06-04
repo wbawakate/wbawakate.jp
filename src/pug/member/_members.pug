@@ -6,8 +6,6 @@ append config-block
 
 block content-block
   main.main
-    - publicationArr = _.filter(bibArr, function(bib) { return !bib.entryTags.authorKey.split(',').indexOf(meta.id); });
-
     .front-block
       .image
         img(src= `${meta.image || "//placehold.jp/300x300.png"}`)
@@ -20,6 +18,8 @@ block content-block
 
         .body
           != body
+
+          - publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.split(',').indexOf(meta.id) !== -1; });
           if publicationArr.length > 0
             h2
               | Publications

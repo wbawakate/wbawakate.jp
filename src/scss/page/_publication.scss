@@ -1,0 +1,14 @@
+@include with-page("publication") {
+  .front-block {
+    width: px(750);
+
+    margin: 0 auto;
+  }
+
+  .index-list {
+  }
+
+  .index-item {
+    margin-top: px(20);
+  }
+}
