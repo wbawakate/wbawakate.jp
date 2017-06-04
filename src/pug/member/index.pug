@@ -8,17 +8,25 @@ block content-block
   main
     each branch, branchName in members
       if branchName === 'society'
-        h2
-          | WBA 若手の会 社会人支部
-      each member in branch
-        .member
-          - href = member.link ? `${rootPath}${member.link}` : null
-          a.elm-a(href= href)
-            .position
-              = member.position
-            .status
-              = member.status
-            .name
-              = member.name
-            .nameSub
-              = member.nameSub
+        h2.heading-branch
+          .text
+            | WBA 若手の会 社会人支部
+      .member-list
+        each member in branch
+          .member-item
+            - href = member.link ? `${rootPath}${member.link}` : null
+            a.elm-a(href= href)
+              .member
+                .image(style=`background-image: url(${member.image})`)
+                .cover
+                .info
+                  .block-status
+                    .position
+                      = member.position
+                    .status
+                      = member.status
+                  .block-name
+                    .name
+                      = member.name
+                    .name-sub
+                      = member.nameSub

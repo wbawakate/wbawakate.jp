@@ -1,0 +1,149 @@
+@include with-page("member") {
+  .heading-branch {
+    position: relative;
+
+    width: px(750);
+
+    margin: 0 auto;
+    margin-top: px(30);
+    font-size: px(15);
+
+    text-align: center;
+
+    &::before {
+      content: "";
+
+      display: block;
+
+      position: absolute;
+
+      left: 0;
+      top: 50%;
+
+      width: 100%;
+      height: 1px;
+
+      background-color: $border-color;
+    }
+
+    .text {
+      display: inline-block;
+
+      position: relative;
+
+      padding: 0 px(10);
+
+      background-color: $bg-color;
+    }
+  }
+
+  .member-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
+    width: px(750);
+    margin: 0 auto;
+    margin-top: px(10);
+  }
+
+  .member-item {
+    display: flex;
+    flex: 0 1 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .member {
+    position: relative;
+
+    width: px(360);
+    height: px(360);
+
+    margin-top: px(20);
+
+    &:hover {
+      .cover {
+        opacity: 0.8;
+      }
+
+      .info {
+        opacity: 1;
+      }
+    }
+
+    .image {
+      position: absolute;
+
+      left: 0;
+      top: 0;
+
+      width: 100%;
+      height: 100%;
+
+      background-size: cover;
+    }
+
+    .cover {
+      position: absolute;
+
+      width: 100%;
+      height: 100%;
+
+      left: 0;
+      top: 0;
+
+      background-color: #00b19e;
+
+      opacity: 0;
+      transition: opacity 0.2s linear;
+    }
+
+    .info {
+      display: block;
+
+      position: absolute;
+
+      width: 100%;
+      height: 100%;
+
+      left: 0;
+      top: 0;
+
+      color: $white;
+
+      opacity: 0;
+      transition: opacity 0.2s linear;
+
+      .block-status {
+        position: absolute;
+
+        top: px(40);
+        left: px(40);
+      }
+
+      .block-name {
+        position: absolute;
+
+        bottom: px(40);
+        left: px(40);
+      }
+
+      .position {
+        font-size: px(15);
+      }
+
+      .status {
+        font-size: px(15);
+      }
+
+      .name {
+        font-size: px(22);
+      }
+
+      .name-sub {
+        font-size: px(15);
+      }
+    }
+  }
+}
