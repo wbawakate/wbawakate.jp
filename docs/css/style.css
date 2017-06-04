@@ -257,6 +257,79 @@ html.is-pc .wrapper {
   min-width: 7.5rem;
   overflow: hidden; }
 
+body[data-page-id="about"] .front-block {
+  width: 750px;
+  width: 7.5rem;
+  margin: 0 auto; }
+  body[data-page-id="about"] .front-block:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+body[data-page-id="about"] .about-block {
+  float: left;
+  width: 500px;
+  width: 5rem;
+  padding: 0 15px;
+  padding: 0 0.15rem;
+  color: #898989; }
+  body[data-page-id="about"] .about-block .section .heading {
+    margin-top: 30px;
+    margin-top: 0.3rem;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 32px;
+    font-size: 0.32rem;
+    color: #333333; }
+  body[data-page-id="about"] .about-block .subsection .heading {
+    font-size: 19px;
+    font-size: 0.19rem;
+    color: #333333; }
+  body[data-page-id="about"] .about-block p:not([class]) {
+    margin: 10px 0;
+    margin: 0.1rem 0; }
+  body[data-page-id="about"] .about-block li:not([class]) {
+    list-style-position: inside;
+    list-style-type: disc;
+    text-indent: 20px;
+    text-indent: 0.2rem; }
+
+body[data-page-id="about"] .lead {
+  padding: 30px 30px;
+  padding: 0.3rem 0.3rem;
+  border-left: 3px solid #ebebeb;
+  border-left: 0.03rem solid #ebebeb;
+  font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-size: 17px;
+  font-size: 0.17rem;
+  font-style: italic;
+  color: #898989; }
+  body[data-page-id="about"] .lead strong {
+    font-weight: bold; }
+
+body[data-page-id="about"] .gallery {
+  float: left;
+  width: 250px;
+  width: 2.5rem;
+  padding: 0 15px;
+  padding: 0 0.15rem; }
+  body[data-page-id="about"] .gallery .box .image {
+    border-radius: 0.04rem;
+    overflow: hidden;
+    font-size: 0; }
+    body[data-page-id="about"] .gallery .box .image .elm-img {
+      width: 220px;
+      width: 2.2rem;
+      height: auto; }
+  body[data-page-id="about"] .gallery .box .description {
+    margin-top: 10px;
+    margin-top: 0.1rem;
+    font-size: 15px;
+    font-size: 0.15rem;
+    color: #898989; }
+  body[data-page-id="about"] .gallery .box + .box {
+    margin-top: 30px;
+    margin-top: 0.3rem; }
+
 body[data-page-id="event-detail"] .front-block {
   width: 750px;
   width: 7.5rem;
