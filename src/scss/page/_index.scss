@@ -139,4 +139,35 @@
       overflow-y: scroll;
     }
   }
+
+  .sec-sponsor {
+    .sponsor-list {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      margin: 0 auto;
+      margin-top: px(50);
+
+      width: px(600);
+    }
+
+    .sponsor-item {
+      display: flex;
+      flex: 0 1 27%;
+      align-items: center;
+      justify-content: center;
+
+      margin-top: px(50);
+
+      .elm-img {
+        width: px(150);
+        height: auto;
+      }
+    }
+
+    .link-join {
+      margin-top: px(50);
+    }
+  }
 }
