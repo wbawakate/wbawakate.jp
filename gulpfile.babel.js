@@ -3,6 +3,7 @@
 // import
 import gulp from 'gulp';
 import fs from 'fs';
+import _ from 'lodash';
 import source from 'vinyl-source-stream';
 import sass from 'gulp-sass';
 import sassGlob from 'gulp-sass-glob';
@@ -116,6 +117,7 @@ gulp.task('js', gulp.series(gulp.parallel('browserify', 'copy-bower-js'), gulp.p
 // html
 gulp.task('pug', () => {
   const locals = {
+    _: _,
     settings: readConfig(`${CONFIG}/meta.yml`),
     sponsor: readConfig(`${CONFIG}/sponsor.yml`),
     sponsorEvents: readConfig(`${CONFIG}/sponsor-event.yml`),
@@ -123,7 +125,6 @@ gulp.task('pug', () => {
     members: readConfig(`${CONFIG}/members/index.yml`),
     newsArr: readConfig(`${CONFIG}/news.yml`),
     versions: revLogger.versions(),
-    // bibArr: bibtexParse.toJSON('@article{sample1,title={sample title}}'),
     bibArr: bibtexParse.toJSON(fs.readFileSync(`${CONFIG}/publication.bib`, { encoding:"utf8" })),
   };
 
