@@ -261,11 +261,11 @@ body[data-page-id="event-detail"] .main {
   padding: 20px;
   padding: 0.2rem; }
 
-body[data-page-id="event-detail"] h2:not(class) {
+body[data-page-id="event-detail"] h2:not([class]) {
   font-size: 28px;
   font-size: 0.28rem; }
 
-body[data-page-id="event-detail"] li:not(class) {
+body[data-page-id="event-detail"] li:not([class]) {
   list-style-position: inside;
   list-style-type: disc; }
 
@@ -441,34 +441,63 @@ body[data-page-id="home"] .sec-sponsor .link-join {
   margin-top: 50px;
   margin-top: 0.5rem; }
 
-body[data-page-id="member-detail"] .main {
-  padding: 20px;
-  padding: 0.2rem; }
+body[data-page-id="member-detail"] .front-block {
+  width: 750px;
+  width: 7.5rem;
+  margin: 0 auto; }
+  body[data-page-id="member-detail"] .front-block:after {
+    content: "";
+    display: table;
+    clear: both; }
 
-body[data-page-id="member-detail"] .name {
-  font-size: 36px;
-  font-size: 0.36rem; }
+body[data-page-id="member-detail"] .image {
+  float: left;
+  width: 250px;
+  width: 2.5rem;
+  padding: 0 15px;
+  padding: 0 0.15rem; }
+  body[data-page-id="member-detail"] .image img {
+    width: 220px;
+    width: 2.2rem;
+    height: 220px;
+    height: 2.2rem; }
 
-body[data-page-id="member-detail"] .sub-name {
-  font-size: 36px;
-  font-size: 0.36rem;
-  color: #999; }
-
-body[data-page-id="member-detail"] .facebook {
-  margin: 20px 0;
-  margin: 0.2rem 0; }
-
-body[data-page-id="member-detail"] .twitter {
-  margin: 20px 0;
-  margin: 0.2rem 0; }
-
-body[data-page-id="member-detail"] h2:not(class) {
-  font-size: 28px;
-  font-size: 0.28rem; }
-
-body[data-page-id="member-detail"] li:not(class) {
-  list-style-position: inside;
-  list-style-type: disc; }
+body[data-page-id="member-detail"] .profile {
+  float: left;
+  width: 500px;
+  width: 5rem;
+  padding: 0 15px;
+  padding: 0 0.15rem; }
+  body[data-page-id="member-detail"] .profile .name {
+    font-size: 26px;
+    font-size: 0.26rem; }
+  body[data-page-id="member-detail"] .profile .sub-name {
+    margin-top: 10px;
+    margin-top: 0.1rem;
+    font-size: 16px;
+    font-size: 0.16rem;
+    color: #999; }
+  body[data-page-id="member-detail"] .profile .facebook {
+    margin: 20px 0;
+    margin: 0.2rem 0; }
+  body[data-page-id="member-detail"] .profile .twitter {
+    margin: 20px 0;
+    margin: 0.2rem 0; }
+  body[data-page-id="member-detail"] .profile .body {
+    margin-top: 40px;
+    margin-top: 0.4rem;
+    color: #898989; }
+  body[data-page-id="member-detail"] .profile h2:not([class]) {
+    margin-top: 10px;
+    margin-top: 0.1rem;
+    margin-bottom: 5px;
+    margin-bottom: 0.05rem;
+    font-size: 19px;
+    font-size: 0.19rem;
+    color: #333333; }
+  body[data-page-id="member-detail"] .profile li:not([class]) {
+    list-style-position: inside;
+    list-style-type: disc; }
 
 body[data-page-id="member"] .heading-branch {
   position: relative;
