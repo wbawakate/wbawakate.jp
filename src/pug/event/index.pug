@@ -6,10 +6,37 @@ append config-block
 
 block content-block
   main
-    each event in events
-      a(href= event.link)
-        .event(data-type= event.type)
-          .image
-            img(src= event.image, alt= event.name)
-          .name
-            = event.name
+    .wba-category-nav
+      nav
+        .category-list
+          .category-item
+            a.elm-a(href="#All")
+              | All
+          .category-item
+            a.elm-a(href="#カジュアルトーク")
+              | カジュアルトーク
+          .category-item
+            a.elm-a(href="#データ解析くらぶ")
+              | データ解析くらぶ
+          .category-item
+            a.elm-a(href="#ハッカソン")
+              | ハッカソン
+          .category-item
+            a.elm-a(href="#勉強会")
+              | 勉強会
+          .category-item
+            a.elm-a(href="#女子会")
+              | 女子会
+          .category-item
+            a.elm-a(href="#懇親会")
+              | 懇親会
+
+    .event-list
+      each event in events
+        .event-item
+          a(href= event.link)
+            .event(data-type= event.type)
+              .image
+                img(src= event.image, alt= event.name)
+              .name
+                = event.name

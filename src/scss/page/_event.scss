@@ -1,0 +1,58 @@
+@include with-page("event") {
+  .category-list {
+    display: flex;
+
+    width: px(750);
+
+    margin: 0 auto;
+  }
+
+  .category-item {
+    justify-content: flex-start;
+
+    + .category-item {
+      margin-left: px(20);
+    }
+  }
+
+  .event-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
+    width: px(750);
+    margin: 0 auto;
+    margin-top: px(10);
+  }
+
+  .event-item {
+    display: flex;
+    flex: 0 1 33%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .event {
+    position: relative;
+
+    margin-top: px(20);
+
+    .image {
+      display: block;
+
+      width: px(220);
+      height: px(183);
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .name {
+      margin-top: px(20);
+
+      font-size: px(20);
+    }
+  }
+}
