@@ -1,10 +1,34 @@
 @include with-page("event-detail") {
-  .main {
-    padding: px(20);
+  .front-block {
+    width: px(750);
+
+    margin: 0 auto;
+  }
+
+  .body {
+    color: $sub-font-color;
+  }
+
+  h1:not([class]) {
+    font-size: px(26);
+
+    color: $font-color;
   }
 
   h2:not([class]) {
-    font-size: px(28);
+    font-size: px(24);
+
+    color: $font-color;
+  }
+
+  h3:not([class]) {
+    font-size: px(20);
+
+    color: $font-color;
+  }
+
+  p:not([class]) {
+    margin: px(30) 0;
   }
 
   ul:not([class]) {
