@@ -98,6 +98,40 @@
   }
 
   .sec-sponsor-event {
+    .sponsor-event-list {
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+
+      width: px(700);
+
+      margin-top: px(20);
+    }
+
+    .sponsor-event-item {
+      width: px(220);
+
+      margin-top: px(30);
+    }
+
+    .sponsor-event {
+      .image {
+        width: px(220);
+        height: px(113);
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .name {
+        margin-top: px(15);
+
+        font-size: px(20);
+      }
+    }
+
     .btn-more {
       margin-top: px(80);
     }

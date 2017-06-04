@@ -55,19 +55,16 @@ block content-block
           | Sponsor Event
         h4.sub-heading
           | スポンサーイベント
-          ul
-            li
-              a(href="http://wbawakate.jp/posts/furonteo20160825/")
-                | 株式会社FRONTEO主催 セミナーのお知らせ
-            li
-              a(href="http://wbawakate.jp/posts/adish_2016intern/")
-                | アディッシュ株式会社　技術職インターン募集のお知らせ
-            li
-              a(href="http://wbawakate.jp/posts/ubic20160219/")
-                | 株式会社UBIC主催　第2回学生向けセミナーのお知らせ
-            li
-              a(href="http://wbawakate.jp/posts/dwango20160506/")
-                | 株式会社dwango　『CGIプロジェクト』インターン募集のお知らせ
+
+        .sponsor-event-list
+          each event in sponsorEvents
+            .sponsor-event-item
+              a(href=`${event.link}`)
+                .sponsor-event
+                  .image
+                    img(src= event.image, alt= event.name)
+                  .name
+                    = event.name
 
         .wba-button.btn-more
           a.elm-a(href="http://wbawakate.jp/posts/category/sponsorevent/")

@@ -118,6 +118,7 @@ gulp.task('pug', () => {
   const locals = {
     settings: readConfig(`${CONFIG}/meta.yml`),
     sponsor: readConfig(`${CONFIG}/sponsor.yml`),
+    sponsorEvents: readConfig(`${CONFIG}/sponsor-event.yml`),
     events: readConfig(`${CONFIG}/events/index.yml`),
     members: readConfig(`${CONFIG}/members/index.yml`),
     newsArr: readConfig(`${CONFIG}/news.yml`),
