@@ -34,7 +34,7 @@ block content-block
     .event-list
       each event in events
         .event-item
-          a(href= event.link)
+          a(href=`${rootPath}event/${event.link}`)
             .event(data-type= event.type)
               .image
                 img(src= event.image, alt= event.name)
