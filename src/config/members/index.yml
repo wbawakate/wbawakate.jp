@@ -35,6 +35,18 @@ normal:
     image:
       'https://i1.wp.com/wbawakate.jp/wp-content/uploads/2015/02/shimada_daiki-e1423017064679.jpg?fit=300%2C300'
 
+blockChain:
+  -
+    name:
+      小松 昌憲
+    nameSub:
+      Komatsu Masatoshi
+    position:
+      ブロックチェーン支部　代表
+    image:
+      '//placehold.jp/360x360.png'
+    link:
+      'member/komatsu-masatoshi.html'
 
 society:
   -

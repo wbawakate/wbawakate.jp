@@ -11,6 +11,10 @@ block content-block
         h2.heading-branch
           .text
             | WBA 若手の会 社会人支部
+      if branchName === 'blockChain'
+        h2.heading-branch
+          .text
+            | WBA 若手の会 ブロックチェーン支部
       .member-list
         each member in branch
           .member-item
