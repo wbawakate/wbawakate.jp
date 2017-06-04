@@ -67,7 +67,34 @@ a {
   text-decoration: inherit;
 }
 
-// a {
-//   color: blue;
-//   text-decoration: underline;
-// }
+.hover-effect {
+  a {
+    display: inline-block;
+
+    position: relative;
+
+    color: $accent-color;
+
+    &::after {
+      content: "";
+
+      position: absolute;
+
+      left: 0;
+      bottom: 0;
+
+      width: 0%;
+      transition: width 0.1s ease-out;
+
+      height: 1px;
+
+      border-bottom: 1px solid $accent-color;
+    }
+
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -14,15 +14,15 @@ block content-block
           p
             | 全脳アーキテクチャ若手の会は、脳や人工知能、そしてそれらが与える影響について興味がある、すべての方のためのコミュニティです。
 
-          p
+          p.hover-effect
             | 詳しくは
-            a(href=`${rootPath}about/`) About
+            a.elm-a(href=`${rootPath}about/`) About
             | ページ、または
-            a(href="https://www.facebook.com/groups/713921892010595/", target="_blank") Facebook
+            a.elm-a(href="https://www.facebook.com/groups/713921892010595/", target="_blank") Facebook
             | 、
-            a(href="https://www.youtube.com/channel/UC_fG5HjRkF4urW0ne-qiVcg/videos?flow=grid&view=0&sort=dd&live_view=500", target="_blank") YouTubeチャンネル
+            a.elm-a(href="https://www.youtube.com/channel/UC_fG5HjRkF4urW0ne-qiVcg/videos?flow=grid&view=0&sort=dd&live_view=500", target="_blank") YouTubeチャンネル
             | 、
-            a(href="http://wbawakate.connpass.com/", target="_blank") connpass
+            a.elm-a(href="http://wbawakate.connpass.com/", target="_blank") connpass
             | をご覧ください。
 
     //- section.latest-events
@@ -86,7 +86,7 @@ block content-block
         h4.sub-heading
           | 新着情報
 
-        ul.news_list
+        ul.news-list.hover-effect
           each news in newsArr
             time.time= news.time
             .update!= news.update
