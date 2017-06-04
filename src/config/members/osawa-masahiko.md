@@ -1,4 +1,6 @@
 ---
+id:
+  osawa-masahiko
 name:
   大澤 正彦
 nameSub:
