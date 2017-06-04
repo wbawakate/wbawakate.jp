@@ -866,6 +866,20 @@ body[data-page-id="member"] .member {
       font-size: 15px;
       font-size: 0.15rem; }
 
+body[data-page-id="publication-detail"] .front-block {
+  width: 750px;
+  width: 7.5rem;
+  margin: 0 auto; }
+
+body[data-page-id="publication"] .front-block {
+  width: 750px;
+  width: 7.5rem;
+  margin: 0 auto; }
+
+body[data-page-id="publication"] .index-item {
+  margin-top: 20px;
+  margin-top: 0.2rem; }
+
 body[data-page-id="sponsor"] .front-block {
   width: 750px;
   width: 7.5rem;
