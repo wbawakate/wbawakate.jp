@@ -269,6 +269,71 @@ body[data-page-id="event-detail"] li:not([class]) {
   list-style-position: inside;
   list-style-type: disc; }
 
+body[data-page-id="event"] .category-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 750px;
+  width: 7.5rem;
+  margin: 0 auto; }
+
+body[data-page-id="event"] .category-item {
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  body[data-page-id="event"] .category-item + .category-item {
+    margin-left: 20px;
+    margin-left: 0.2rem; }
+
+body[data-page-id="event"] .event-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 750px;
+  width: 7.5rem;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-top: 0.1rem; }
+
+body[data-page-id="event"] .event-item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 0 1 33%;
+      -ms-flex: 0 1 33%;
+          flex: 0 1 33%;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+body[data-page-id="event"] .event {
+  position: relative;
+  margin-top: 20px;
+  margin-top: 0.2rem; }
+  body[data-page-id="event"] .event .image {
+    display: block;
+    width: 220px;
+    width: 2.2rem;
+    height: 183px;
+    height: 1.83rem; }
+    body[data-page-id="event"] .event .image img {
+      width: 100%;
+      height: 100%; }
+  body[data-page-id="event"] .event .name {
+    margin-top: 20px;
+    margin-top: 0.2rem;
+    font-size: 20px;
+    font-size: 0.2rem; }
+
 body[data-page-id="home"] .sponsor-list {
   display: -webkit-flex;
   display: -ms-flexbox;
