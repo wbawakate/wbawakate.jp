@@ -91,12 +91,23 @@
         font-size: px(20);
       }
     }
+
+    .btn-more {
+      margin-top: px(80);
+    }
+  }
+
+  .sec-sponsor-event {
+    .btn-more {
+      margin-top: px(80);
+    }
   }
 
   .sec-promotion-video {
     width: px(320);
 
     margin: 0 auto;
+    margin-top: px(30);
 
     .heading {
       font-size: px(32);

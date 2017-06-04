@@ -45,9 +45,9 @@ block content-block
                   .name
                     = event.name
 
-        a(href="http://wbawakate.jp/posts/events/", target="")
-          | More
-
+        .wba-button.btn-more
+          a.elm-a(href="http://wbawakate.jp/posts/events/")
+            | More
 
     section.section-contents.sec-sponsor-event
       .flont-block
@@ -69,8 +69,9 @@ block content-block
               a(href="http://wbawakate.jp/posts/dwango20160506/")
                 | 株式会社dwango　『CGIプロジェクト』インターン募集のお知らせ
 
-        a(href="http://wbawakate.jp/posts/category/sponsorevent/", target="")
-          | More
+        .wba-button.btn-more
+          a.elm-a(href="http://wbawakate.jp/posts/category/sponsorevent/")
+            | More
 
 
     section.sec-promotion-video
@@ -106,8 +107,9 @@ block content-block
               a(href= s.url, target="blank")
                 img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
 
-        p
-          a(href="http://wbawakate.jp/about_sponsorship/", title="", target="_self") >> 協賛希望の企業様はこちら
+        .wba-link
+          a.elm-a(href="http://wbawakate.jp/about_sponsorship/")
+            | >> 協賛希望の企業様はこちら
 
     footer
       ul
