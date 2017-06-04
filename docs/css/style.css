@@ -99,6 +99,22 @@ a {
   color: inherit;
   text-decoration: inherit; }
 
+.hover-effect a {
+  display: inline-block;
+  position: relative;
+  color: #00b19e; }
+  .hover-effect a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    transition: width 0.1s ease-out;
+    height: 1px;
+    border-bottom: 1px solid #00b19e; }
+  .hover-effect a:hover:after {
+    width: 100%; }
+
 .global-footer {
   margin-top: 100px;
   margin-top: 1rem;
@@ -584,7 +600,7 @@ body[data-page-id="home"] .sec-promotion-video {
       width: 100%;
       height: 100%; }
 
-body[data-page-id="home"] .sec-news .news_list {
+body[data-page-id="home"] .sec-news .news-list {
   margin: 0 auto;
   margin-top: 20px;
   margin-top: 0.2rem;
