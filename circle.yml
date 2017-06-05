@@ -1,0 +1,17 @@
+machine:
+  node:
+    version: 6.9.1
+  timezone: Asia/Tokyo
+
+deployment:
+  publish:
+    branch: master
+    commands:
+      - yarn build
+      - git config --global user.name "circleci"
+      - git config --global user.email "circleci@chatbox-inc.com"
+      - git rm .gitignore
+      - git add docs
+      - git commit -m "[ci skip] build on circle ci"
+      - git subtree split --branch gh-pages --prefix docs
+      - git push origin gh-pages:gh-pages -f
