@@ -102,7 +102,7 @@ gulp.task('deco', () => {
   return gulp.src(`${DEST}/js/script.js`)
     .pipe(decodecode({
       preserveComments: 'license',
-      decoArr: ['b', 'u', 't', 'c', 'h', 'i'],
+      decoArr: ['全', '脳', '若', '手'],
     }))
     .pipe(rename('script.deco.js'))
     .pipe(gulp.dest(`${DEST}/js`))
