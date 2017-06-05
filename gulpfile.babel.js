@@ -13,6 +13,7 @@ import babelify from 'babelify';
 import pug from 'gulp-pug';
 import postman from 'gulp-postman';
 import rename from 'gulp-rename';
+import rimraf from 'rimraf';
 import uglify from 'gulp-uglify';
 import decodecode from 'gulp-decodecode';
 import browserSync from 'browser-sync';
@@ -119,8 +120,8 @@ gulp.task('pug', () => {
     settings: readConfig(`${CONFIG}/meta.yml`),
     sponsor: readConfig(`${CONFIG}/sponsor.yml`),
     sponsorEvents: readConfig(`${CONFIG}/sponsor-event.yml`),
-    events: readConfig(`${CONFIG}/events/index.yml`),
-    members: readConfig(`${CONFIG}/members/index.yml`),
+    events: readConfig(`${CONFIG}/event.yml`),
+    members: readConfig(`${CONFIG}/member.yml`),
     newsArr: readConfig(`${CONFIG}/news.yml`),
     versions: revLogger.versions(),
     bibArr: bibtexParse.toJSON(fs.readFileSync(`${CONFIG}/publication.bib`, { encoding:"utf8" })),
@@ -128,13 +129,13 @@ gulp.task('pug', () => {
 
   return gulp.src([`${SRC}/pug/**/[!_]*.pug`, `!${SRC}/pug/**/_*/**/*`])
     .pipe(postman({
-      markdown: `${SRC}/config/events/**/*.md`,
-      template: `${SRC}/pug/event/_events.pug`,
+      markdown: `${SRC}/config/_events/**/*.md`,
+      template: `${SRC}/pug/_event/_events.pug`,
       locals,
     }))
     .pipe(postman({
-      markdown: `${SRC}/config/members/**/*.md`,
-      template: `${SRC}/pug/member/_members.pug`,
+      markdown: `${SRC}/config/_members/**/*.md`,
+      template: `${SRC}/pug/_member/_members.pug`,
       locals,
     }))
     .pipe(pug({
@@ -145,7 +146,36 @@ gulp.task('pug', () => {
   ;
 });
 
-gulp.task('html', gulp.series('pug'));
+gulp.task('rename-member', () => {
+  return gulp.src(`${DEST}/_member/**/*`)
+    .pipe(rename(function (path) {
+      if (path.extname) {
+        path.dirname = path.basename;
+        path.basename = 'index';
+      }
+    }))
+    .pipe(gulp.dest(`${DEST}/member`))
+  ;
+});
+
+gulp.task('rename-event', () => {
+  return gulp.src(`${DEST}/_member/**/*`)
+    .pipe(rename(function (path) {
+      if (path.extname) {
+        path.dirname = path.basename;
+        path.basename = 'index';
+      }
+    }))
+    .pipe(gulp.dest(`${DEST}/event`))
+  ;
+});
+
+gulp.task('clean', (cb) => {
+  rimraf(`${DEST}/_member`, cb)
+  rimraf(`${DEST}/_event`, cb)
+});
+
+gulp.task('html', gulp.series('pug', gulp.parallel('rename-member', 'rename-event'), 'clean'));
 
 
 gulp.task('browser-sync' , () => {
