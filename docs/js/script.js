@@ -4631,7 +4631,7 @@ var WbaLatestEvents = function () {
           series_id: 1838
         },
         dataType: 'jsonp'
-      }).success(function (res) {
+      }).then(function (res) {
         var eventArr = res.events;
 
         var displayEventArr = [];
