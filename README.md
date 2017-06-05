@@ -1,6 +1,8 @@
 wbawakate.jp
 ====
 
+[![CircleCI](https://circleci.com/gh/wbawakate/wbawakate.jp.svg?style=svg)](https://circleci.com/gh/wbawakate/wbawakate.jp)
+
 ## はじめに
 本スターターキットは butchi-web-starter-kit から派生しています。
 

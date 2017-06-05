@@ -2,7 +2,7 @@
 id:
   iwabuchi-yuuki
 name:
-  岩淵 勇樹
+　岩淵 勇樹
 nameSub:
   Iwabuchi Yuuki
 facebook:
