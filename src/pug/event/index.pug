@@ -36,7 +36,8 @@ block content-block
         .event-item
           a(href=`${rootPath}event/${event.link}`)
             .event(data-type= event.type)
+              - image = event.image || 'default.jpg'
               .image
-                img(src= event.image, alt= event.name)
+                img(src=`${rootPath}img/event/${image}`, alt= event.name)
               .name
                 = event.name

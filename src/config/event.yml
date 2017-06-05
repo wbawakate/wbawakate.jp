@@ -4,9 +4,9 @@
   name:
     第23回 カジュアルトーク
   image:
-    'http://wbawakate.jp/wp-content/uploads/2017/05/Top-photo021-505x420.jpg'
+    '23.jpg'
   link:
-    '23th.html'
+    '23/'
 
 -
   type:
@@ -14,9 +14,9 @@
   name:
     第22回 カジュアルトーク
   image:
-    'http://wbawakate.jp/wp-content/uploads/2017/05/Top-photo03-505x420.jpg'
+    '22.jpg'
   link:
-    '22th.html'
+    '22/'
 
 -
   type:
@@ -24,9 +24,9 @@
   name:
     第21回 カジュアルトーク
   image:
-    'http://wbawakate.jp/wp-content/uploads/2017/05/Top-photo-505x420.jpg'
+    '21.jpg'
   link:
-    '21th.html'
+    '21/'
 
 -
   type:
@@ -34,6 +34,296 @@
   name:
     第20回 カジュアルトーク
   image:
-    'http://wbawakate.jp/wp-content/uploads/2017/02/01-505x420.jpg'
+    '20.jpg'
   link:
-    '20th.html'
+    '20/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第20回 カジュアルトーク
+  image:
+    '20.jpg'
+  link:
+    '20/'
+
+-
+  type:
+    新年会
+  name:
+    2017年 WBA若手の会 新年会
+  image:
+    'new-year-party-2017.jpg'
+  link:
+    'new-year-party-2017/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第19回 カジュアルトーク
+  image:
+    '19.jpg'
+  link:
+    '19/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第18回 カジュアルトーク
+  image:
+    '18.jpg'
+  link:
+    '18/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第17回 カジュアルトーク
+  image:
+    '17.jpg'
+  link:
+    '17/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第16回 カジュアルトーク
+  image:
+    '16.jpg'
+  link:
+    '16/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第15回 カジュアルトーク
+  image:
+    '15.jpg'
+  link:
+    '15/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第14回 カジュアルトーク
+  image:
+    '14.jpg'
+  link:
+    '14/'
+
+-
+  type:
+    データ解析くらぶ
+  name:
+    第2回 データ解析くらぶ
+  image:
+    'data-2.jpg'
+  link:
+    'data-2/'
+
+-
+  type:
+    データ解析くらぶ
+  name:
+    第1回 データ解析くらぶ
+  image:
+    'data-1.jpg'
+  link:
+    'data-1/'
+
+-
+  type:
+    懇親会
+  name:
+    2016年 春の交流会
+  image:
+    'spring-meetup-2016.jpg'
+  link:
+    'spring-meetup-2016/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第13回 カジュアルトーク
+  image:
+    '13.jpg'
+  link:
+    '13/'
+
+-
+  type:
+    女子会
+  name:
+    第2回 WBA若手の会　女子会＠下北沢
+  image:
+    'girls-2.jpg'
+  link:
+    'girls-2/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第12回 カジュアルトーク
+  image:
+    '12.jpg'
+  link:
+    '12/'
+
+-
+  type:
+    新年会
+  name:
+    2016年 WBA若手の会 新年会
+  image:
+    'new-year-party-2016.jpg'
+  link:
+    'new-year-party-2016/'
+
+-
+  type:
+    女子会
+  name:
+    第1回 WBA若手の会　女子会＠新宿
+  image:
+    'girls-1.jpg'
+  link:
+    'girls-1/'
+
+-
+  type:
+    ハッカソン
+  name:
+    第1回WBAIハッカソン活動報告
+  image:
+    'hackathon-1-report.jpg'
+  link:
+    'hackathon-1-report/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第11回 カジュアルトーク
+  image:
+    '11.jpg'
+  link:
+    '11/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第10回 カジュアルトーク
+  image:
+    '10.jpg'
+  link:
+    '10/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第9回 カジュアルトーク
+  image:
+    '9.jpg'
+  link:
+    '9/'
+
+-
+  type:
+    ハッカソン
+  name:
+    第1回WBAIハッカソン
+  image:
+    'hackathon-1.jpg'
+  link:
+    'hackathon-1/'
+
+-
+  type:
+    ハッカソン
+  name:
+    第1回WBAIハッカソン アイデアソン
+  image:
+    'ideathon-1.jpg'
+  link:
+    'ideathon-1/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第8回 カジュアルトーク
+  image:
+    '8.jpg'
+  link:
+    '8/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第7回 カジュアルトーク
+  image:
+    '7.jpg'
+  link:
+    '7/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第6回 カジュアルトーク
+  image:
+    '6.jpg'
+  link:
+    '6/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第5回 カジュアルトーク
+  link:
+    '5/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第4回 カジュアルトーク
+  link:
+    '4/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第3回 カジュアルトーク
+  link:
+    '3/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第2回 カジュアルトーク
+  link:
+    '2/'
+
+-
+  type:
+    カジュアルトーク
+  name:
+    第1回 カジュアルトーク
+  link:
+    '1/'
