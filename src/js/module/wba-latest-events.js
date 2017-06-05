@@ -29,7 +29,7 @@ export default class WbaLatestEvents {
       },
       dataType: 'jsonp',
     })
-      .success((res) => {
+      .then((res) => {
         const eventArr = res.events;
 
         const displayEventArr = [];
