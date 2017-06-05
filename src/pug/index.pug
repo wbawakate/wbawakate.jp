@@ -36,14 +36,16 @@ block content-block
           | 活動報告
 
         .event-list
-          each event in events
-            .event-item
-              a(href=`${rootPath}event/${event.link}`)
-                .event(data-type= event.type)
-                  .image
-                    img(src= event.image, alt= event.name)
-                  .name
-                    = event.name
+          - for (i = 0; i < 4; i++) {
+            - event = events[i]
+              .event-item
+                a(href=`${rootPath}event/${event.link}`)
+                  .event(data-type= event.type)
+                    .image
+                      img(src=`${rootPath}img/event/${event.image || 'default.jpg'}`, alt= event.name)
+                    .name
+                      = event.name
+          - }
 
         .wba-button.btn-more
           a.elm-a(href=`${rootPath}event/`)

@@ -33,9 +33,9 @@ block content-block
 
     .event-list
       each event in events
-        .event-item
+        .event-item(data-date= event.date, data-type= event.type)
           a(href=`${rootPath}event/${event.link}`)
-            .event(data-type= event.type)
+            .event
               - image = event.image || 'default.jpg'
               .image
                 img(src=`${rootPath}img/event/${image}`, alt= event.name)
