@@ -15,7 +15,7 @@ dependencies:
 
 test:
   override:
-    - echo "skip test"
+    - yarn build
 
 deployment:
   publish:
