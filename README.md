@@ -3,8 +3,11 @@ wbawakate.jp
 
 [![CircleCI](https://circleci.com/gh/wbawakate/wbawakate.jp.svg?style=svg)](https://circleci.com/gh/wbawakate/wbawakate.jp)
 
+## サイト
+https://wbawakate.github.io/wbawakate.jp/
+
 ## はじめに
-本スターターキットは butchi-web-starter-kit から派生しています。
+本スターターキットは [butchi-web-starter-kit](https://github.com/butchi/web-starter) から派生しています。
 
 ## 事前に用意するもの
 - node.js (version 6.9.1以上)
