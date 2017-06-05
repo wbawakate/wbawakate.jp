@@ -39,6 +39,66 @@ normal:
     link:
       'shimada-daiki/'
 
+kanto:
+  -
+    name:
+      八木 拓真
+    nameSub:
+      Yagi Takuma
+    position:
+      東京工業大学
+      工学部4年
+    status:
+      関東支部代表
+    image:
+      'yagi-takuma.jpg'
+    link:
+      'yagi-takuma/'
+
+  -
+    name:
+      松岡 佑磨
+      Matsuoka Yuma
+    nameSub:
+    position:
+      法政大学
+      理工学部4年
+    status:
+      関東支部副代表
+    image:
+      'matsuoka-yuma.jpg'
+    link:
+      'matsuoka-yuma/'
+
+kansai:
+  -
+    name:
+      西田 圭吾
+    nameSub:
+      Nishida Keigo
+    position:
+      関西支部代表
+    status:
+      大阪大学学部4年
+    image:
+      'nishida-keigo.jpg'
+    link:
+      'nishida-keigo/'
+
+  -
+    name:
+      都築拓
+    nameSub:
+      Tsuzuki Taku
+    position:
+      関西支部副代表
+    status:
+      大阪大学学部4年
+    image:
+      'tsuzuki-taku.jpg'
+    link:
+      'tsuzuki-taku/'
+
 blockChain:
   -
     name:
@@ -80,4 +140,5 @@ society:
 #    nameSub:
 #    position:
 #    status:
+#    image:
 #    link:

@@ -7,6 +7,14 @@ append config-block
 block content-block
   main
     each branch, branchName in members
+      if branchName === 'kanto'
+        h2.heading-branch
+          .text
+            | WBA 若手の会 関東支部
+      if branchName === 'kansai'
+        h2.heading-branch
+          .text
+            | WBA 若手の会 関西支部
       if branchName === 'society'
         h2.heading-branch
           .text
@@ -21,7 +29,9 @@ block content-block
             - href = member.link ? `${rootPath}${member.link}` : null
             a.elm-a(href= href)
               .member
-                .image(style=`background-image: url(${rootPath}img/member/${member.image})`)
+                - imgPath = ( member.image.match('^\/\/.+') || member.image.match('^https?:\/\/.+')) ? member.image : `${rootPath}img/member/${member.image}`
+                .image(style=`background-image: url(${imgPath}`)
+
                 .cover
                 .info
                   .block-status
