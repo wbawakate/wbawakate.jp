@@ -26,7 +26,7 @@ block content-block
       .member-list
         each member in branch
           .member-item
-            - href = member.link ? `${rootPath}${member.link}` : null
+            - href = member.link ? `${member.link}` : null
             a.elm-a(href= href)
               .member
                 - imgPath = ( member.image.match('^\/\/.+') || member.image.match('^https?:\/\/.+')) ? member.image : `${rootPath}img/member/${member.image}`
