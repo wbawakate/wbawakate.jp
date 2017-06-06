@@ -4,12 +4,13 @@ append config-block
   - pageId = 'member-detail'
   - rootPath = '../../'
   - title = `${meta.name} | ${settings.site_name}`
+  - ogp_image_url = meta.image ? `${settings.url}img/member/${meta.image}` : settings.ogp_image_url
 
 block content-block
   main.main
     .front-block
       .image
-        img(src= `${meta.image || "//placehold.jp/300x300.png"}`)
+        img(src= `${meta.image ? `${rootPath}img/member/${meta.image}` : "//placehold.jp/300x300.png"}`)
       .profile.hover-effect
         h1.name
           = meta.name
