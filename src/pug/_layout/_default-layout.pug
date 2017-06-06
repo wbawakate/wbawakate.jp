@@ -70,7 +70,7 @@ html(lang="ja")
       link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic", type="text/css", media="all")
       link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&#038;ver=4.7.5", type="text/css", media="all")
 
-      link(rel="stylesheet", href= `${rootPath}css/style.css?v=${versions["style.css"]}`)
+      link(rel="stylesheet", href= `${rootPath}css/style.css`)
 
   body(data-page-id= pageId)
     //- appId指定を忘れないように
@@ -87,7 +87,7 @@ html(lang="ja")
       script(src= rootPath + 'js/lib/lodash.min.js')
       script(src="https://use.fontawesome.com/106967cd3d.js")
       //- script(src= rootPath + 'js/lib/material.min.js')
-      script(src=`${rootPath}js/script.js?v=${versions["script.js"]}`)
+      script(src=`${rootPath}js/script.js`)
 
     //- include ../_partial/gplus-platform.html
 

@@ -20,7 +20,6 @@ import browserSync from 'browser-sync';
 import readConfig from 'read-config';
 import bibtexParse from 'bibtex-parse-js';
 import watch from 'gulp-watch';
-import RevLogger from 'rev-logger';
 
 
 // const
@@ -29,11 +28,6 @@ const CONFIG = './src/config';
 const HTDOCS = './docs';
 const BASE_PATH = '';
 const DEST = `${HTDOCS}${BASE_PATH}`;
-
-const revLogger = new RevLogger({
-    'style.css': `${DEST}/css/style.css`,
-    'script.js': `${DEST}/js/script.js`
-});
 
 
 // css
@@ -123,7 +117,6 @@ gulp.task('pug', () => {
     events: readConfig(`${CONFIG}/event.yml`),
     members: readConfig(`${CONFIG}/member.yml`),
     newsArr: readConfig(`${CONFIG}/news.yml`),
-    versions: revLogger.versions(),
     bibArr: bibtexParse.toJSON(fs.readFileSync(`${CONFIG}/publication.bib`, { encoding:"utf8" })),
   };
 
@@ -207,10 +200,6 @@ gulp.task('browser-sync' , () => {
       `${SRC}/pug/**/*.pug`,
       `${SRC}/config/**/*`
   ], gulp.series('html', browserSync.reload));
-
-  revLogger.watch((changed) => {
-      gulp.series('pug', browserSync.reload)();
-  });
 });
 
 gulp.task('serve', gulp.series('browser-sync'));
