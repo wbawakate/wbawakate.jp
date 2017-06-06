@@ -32,7 +32,8 @@ html(lang="ja")
     // ogp
     if settings.facebook_app_id
       meta(property="fb:app_id", content= settings.facebook_app_id)
-    if settings.url
+    //- TEMP: パスを渡して個別設定したほうがいいかも
+    //- if settings.url
       meta(property="og:url", content= settings.url)
     if settings.ogp_image_url
       meta(property="og:image", content= settings.ogp_image_url)
@@ -56,7 +57,8 @@ html(lang="ja")
       meta(property="twitter:site", content= settings.twitter_card_owner)
       meta(property="twitter:creator", content= settings.twitter_card_owner)
 
-    if settings.url
+    //- TEMP: パスを渡して個別設定したほうがいいかも
+    //- if settings.url
       // canonical url
       //- このページをはてぶ・シェアする際、使われるべきURLを明示する指定
       //- wwwやhttps、getパラメータなど、微妙に違うURLでアクセスされても、使われるURLをひとつに絞れる
