@@ -4,6 +4,7 @@ append config-block
   - pageId = 'event-detail'
   - rootPath = '../../'
   - title = `${meta.title} | ${settings.site_name}`
+  - ogp_image_url = meta.image ? `${settings.url}img/event/${meta.image}` : settings.ogp_image_url
 
 block content-block
   main
