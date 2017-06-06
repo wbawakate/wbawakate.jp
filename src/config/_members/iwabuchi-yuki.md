@@ -1,10 +1,10 @@
 ---
 id:
-  'iwabuchi-yuuki'
+  'iwabuchi-yuki'
 name:
   岩淵 勇樹
 nameSub:
-  Iwabuchi Yuuki
+  Iwabuchi Yuki
 facebook:
   "https://www.facebook.com/yuuki.iwabuchi.9"
 twitter:
