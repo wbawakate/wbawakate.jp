@@ -170,12 +170,26 @@ gulp.task('rename-event', () => {
   ;
 });
 
+gulp.task('copy-scripts', () => { 
+  return gulp.src([
+    `${SRC}/js/ua-switch.js`
+  ])
+    .pipe(gulp.dest(`${DEST}/js`))
+  ;
+});
+
+gulp.task('copy-images', () => { 
+  return gulp.src(`${SRC}/images/**/*`)
+    .pipe(gulp.dest(`${DEST}/img`))
+  ;
+});
+
 gulp.task('clean', (cb) => {
   rimraf(`${DEST}/_member`, cb)
   rimraf(`${DEST}/_event`, cb)
 });
 
-gulp.task('html', gulp.series('pug', gulp.parallel('rename-member', 'rename-event'), 'clean'));
+gulp.task('html', gulp.series('pug', gulp.parallel('rename-member', 'rename-event', 'copy-scripts', 'copy-images'), 'clean'));
 
 
 gulp.task('browser-sync' , () => {
