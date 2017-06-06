@@ -1,4 +1,6 @@
 ---
+id:
+  'kanemitsu-shunsuke'
 name:
   金光 俊輔
 nameSub:

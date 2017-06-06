@@ -1,4 +1,6 @@
 ---
+id:
+  'kanno-narumi'
 name:
   神野成海
 nameSub:

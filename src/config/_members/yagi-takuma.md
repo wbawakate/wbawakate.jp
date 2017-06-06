@@ -1,4 +1,6 @@
 ---
+id:
+  'yagi-takuma'
 name:
  八木 拓真
 nameSub:

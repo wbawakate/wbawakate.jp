@@ -1,4 +1,6 @@
 ---
+id:
+  'itaya-kotone'
 name:
  板谷 琴音
 nameSub:

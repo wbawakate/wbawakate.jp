@@ -1,4 +1,6 @@
 ---
+id:
+  'kajiya-rina'
 name:
  加治屋 里奈
 nameSub:

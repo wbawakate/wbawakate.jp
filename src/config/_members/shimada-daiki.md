@@ -1,4 +1,6 @@
 ---
+id:
+  'shimada-daiki'
 name:
  島田 大樹
 nameSub:

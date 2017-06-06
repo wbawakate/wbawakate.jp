@@ -1,4 +1,6 @@
 ---
+id:
+  'kakihara-yoshiyuki'
 name:
   柿原 祥之
 nameSub:

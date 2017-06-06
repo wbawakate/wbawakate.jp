@@ -1,4 +1,6 @@
 ---
+id:
+  'tamura-ryota'
 name:
  田村 陵大
 nameSub:

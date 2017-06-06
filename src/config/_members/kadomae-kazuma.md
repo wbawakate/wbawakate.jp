@@ -1,4 +1,6 @@
 ---
+id:
+  'kadomae-kazuma'
 name:
   門前 一馬
 nameSub:

@@ -1,4 +1,6 @@
 ---
+id:
+  'tsuzuki-taku'
 name:
  都築 拓
 nameSub:

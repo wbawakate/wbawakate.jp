@@ -1,4 +1,6 @@
 ---
+id:
+  'kawasaki-yusuke'
 name:
  川崎 雄介
 nameSub:

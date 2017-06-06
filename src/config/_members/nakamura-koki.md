@@ -1,4 +1,6 @@
 ---
+id:
+  'nakamura-koki'
 name:
   中村 晃貴
 nameSub:

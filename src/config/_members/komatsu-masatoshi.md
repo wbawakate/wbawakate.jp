@@ -1,6 +1,6 @@
 ---
 id:
-  komatsu-masatoshi
+  'komatsu-masatoshi'
 name:
   小松 昌憲
 nameSub:

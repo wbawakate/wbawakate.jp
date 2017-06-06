@@ -1,6 +1,6 @@
 ---
 id:
-  iwabuchi-yuuki
+  'iwabuchi-yuuki'
 name:
   岩淵 勇樹
 nameSub:

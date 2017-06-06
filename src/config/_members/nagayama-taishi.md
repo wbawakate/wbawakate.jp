@@ -1,4 +1,6 @@
 ---
+id:
+  'nagayama-taishi'
 name:
  永山 大志
 nameSub:

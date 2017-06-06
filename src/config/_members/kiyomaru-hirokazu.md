@@ -1,4 +1,6 @@
 ---
+id:
+  'kiyomaru-hirokazu'
 name:
  清丸 寛一
 nameSub:

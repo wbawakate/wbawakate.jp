@@ -1,4 +1,6 @@
 ---
+id:
+  'nakamura-kentaro'
 name:
   中村 健太郎
 nameSub:

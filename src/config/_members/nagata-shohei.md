@@ -1,4 +1,6 @@
 ---
+id:
+  'nagata-shohei'
 name:
   永田祥平
 nameSub:

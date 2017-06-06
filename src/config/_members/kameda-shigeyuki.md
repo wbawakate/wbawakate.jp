@@ -1,4 +1,6 @@
 ---
+id:
+  'kameda-shigeyuki'
 name:
  亀田 重幸
 nameSub:

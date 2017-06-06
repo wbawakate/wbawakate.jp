@@ -1,4 +1,6 @@
 ---
+id:
+  'fujita-erika'
 name:
   藤田 恵梨香
 nameSub:

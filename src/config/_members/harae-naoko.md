@@ -1,4 +1,6 @@
 ---
+id:
+  'harae-naoko'
 name:
   原衛 直子
 nameSub:

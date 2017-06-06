@@ -1,4 +1,6 @@
 ---
+id:
+  'takeda-takuya'
 name:
   竹田 卓也
 nameSub:

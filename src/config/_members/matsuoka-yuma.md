@@ -1,4 +1,6 @@
 ---
+id:
+  'matsuoka-yuma'
 name:
  松岡 佑磨
 nameSub:

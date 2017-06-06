@@ -1,4 +1,6 @@
 ---
+id:
+  'okuoka-kohei'
 name:
   奥岡 耕平
 nameSub:

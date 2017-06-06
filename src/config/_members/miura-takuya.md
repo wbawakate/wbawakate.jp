@@ -1,4 +1,6 @@
 ---
+id:
+  'miura-takuya'
 name:
  三浦 拓也
 nameSub:

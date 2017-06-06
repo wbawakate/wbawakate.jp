@@ -1,4 +1,6 @@
 ---
+id:
+  'ueno-sei'
 name:
  上乃 聖
 nameSub:

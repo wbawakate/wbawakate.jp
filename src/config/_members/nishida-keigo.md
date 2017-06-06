@@ -1,4 +1,6 @@
 ---
+id:
+  'nishida-keigo'
 name:
  西田 圭吾
 nameSub:

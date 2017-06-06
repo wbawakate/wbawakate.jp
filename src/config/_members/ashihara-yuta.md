@@ -1,4 +1,6 @@
 ---
+id:
+  'ashihara-yuta'
 name:
   芦原 裕太
 nameSub:

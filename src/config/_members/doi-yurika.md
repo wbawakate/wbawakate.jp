@@ -1,4 +1,6 @@
 ---
+id:
+  'doi-yurika'
 name:
   土井 ゆりか
 nameSub:
