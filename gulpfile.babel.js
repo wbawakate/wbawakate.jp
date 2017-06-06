@@ -159,7 +159,7 @@ gulp.task('rename-member', () => {
 });
 
 gulp.task('rename-event', () => {
-  return gulp.src(`${DEST}/_member/**/*`)
+  return gulp.src(`${DEST}/_event/**/*`)
     .pipe(rename(function (path) {
       if (path.extname) {
         path.dirname = path.basename;
