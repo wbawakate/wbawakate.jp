@@ -1,0 +1,29 @@
+- site = 'https://wbawakate.jp'
+- url = site + dest
+
+doctype html
+html(lang="ja")
+  head
+    meta(charset="utf-8")
+    // meta
+    title
+      = title
+
+    include /_partial/ga.html
+
+    block redirect
+      script
+        | location.replace('#{dest}');
+
+  body
+    .wrapper
+      main
+        p
+          a(href= dest)
+            = url
+        p
+          | 移動しました。
+
+      block footer
+        footer
+          a(href= "/") Home

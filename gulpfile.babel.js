@@ -184,8 +184,34 @@ gulp.task('clean', (cb) => {
   rimraf(`${DEST}/_event`, cb)
 });
 
-gulp.task('html', gulp.series('pug', gulp.parallel('rename-member', 'rename-event', 'copy-scripts', 'copy-images'), 'clean'));
-gulp.task('html-test', gulp.series('pug'));
+gulp.task('redirect', () => {
+  const redirectLi = readConfig(`${CONFIG}/redirect.yml`);
+
+  let redirectArr = redirectLi.list
+
+  let ret;
+
+  redirectArr.forEach((item) => {
+    const locals = item;
+
+    let filename = item.filename || 'index.html';
+
+    ret = gulp.src(`${SRC}/pug/_redirect/index.pug`)
+      .pipe(pug({
+        locals: locals,
+        pretty: true,
+        basedir: `${SRC}/pug`,
+      }))
+      .pipe(rename(filename))
+      .pipe(gulp.dest(`${DEST}${item.path}`))
+    ;
+  });
+
+  return ret;
+});
+
+gulp.task('html', gulp.series('pug', gulp.parallel('rename-member', 'rename-event', 'copy-scripts', 'copy-images'), 'clean', 'redirect'));
+gulp.task('html-test', gulp.series('pug', 'redirect'));
 
 
 gulp.task('browser-sync' , () => {
