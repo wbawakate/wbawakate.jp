@@ -2,7 +2,7 @@
 id:
   'ashihara-yuta'
 name:
-  芦原 裕太
+  芦原 佑太
 nameSub:
   Ashihara Yuta
 facebook:
