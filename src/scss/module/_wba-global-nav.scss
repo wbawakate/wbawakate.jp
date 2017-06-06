@@ -33,4 +33,23 @@
       color: $sub-font-color;
     }
   }
+
+  .share-list {
+    position: absolute;
+
+    right: px(38);
+    top: px(30);
+
+    font-size: 0;
+  }
+
+  .share-item {
+    display: inline-block;
+
+    vertical-align: top;
+
+    + .share-item {
+      margin-left: px(5);
+    }
+  }
 }

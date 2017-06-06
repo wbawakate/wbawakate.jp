@@ -45,6 +45,21 @@
     }
   }
 
+  .share-list {
+    margin-top: px(30);
+    font-size: 0;
+  }
+
+  .share-item {
+    display: inline-block;
+
+    vertical-align: top;
+
+    + .share-item {
+      margin-left: px(5);
+    }
+  }
+
   .copyright {
     margin-top: px(30);
     font-size: px(15);
