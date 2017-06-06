@@ -15,7 +15,7 @@ dependencies:
 
 test:
   override:
-    - yarn build
+    - yarn test
 
 deployment:
   publish:

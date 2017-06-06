@@ -55,6 +55,7 @@ gulp.task('sass', () => {
 
 // gulp.task('css', gulp.series(gulp.parallel('sass', 'copy-modules-css')));
 gulp.task('css', gulp.series('sass'));
+gulp.task('css-test', gulp.series('sass'));
 
 
 // js
@@ -105,6 +106,7 @@ gulp.task('deco', () => {
 
 // gulp.task 'js', gulp.parallel('browserify', 'copy-modules-js')
 gulp.task('js', gulp.series(gulp.parallel('browserify', 'copy-modules-js'), gulp.parallel('minify', 'deco')));
+gulp.task('js-test', gulp.series('browserify', gulp.parallel('minify', 'deco')));
 
 
 // html
@@ -183,6 +185,7 @@ gulp.task('clean', (cb) => {
 });
 
 gulp.task('html', gulp.series('pug', gulp.parallel('rename-member', 'rename-event', 'copy-scripts', 'copy-images'), 'clean'));
+gulp.task('html-test', gulp.series('pug'));
 
 
 gulp.task('browser-sync' , () => {
@@ -205,4 +208,5 @@ gulp.task('browser-sync' , () => {
 gulp.task('serve', gulp.series('browser-sync'));
 
 gulp.task('build', gulp.parallel('css', 'js', 'html'));
+gulp.task('test', gulp.parallel('css-test', 'js-test', 'html-test'));
 gulp.task('default', gulp.series('build', 'serve'));
