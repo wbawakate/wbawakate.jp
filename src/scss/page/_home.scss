@@ -18,9 +18,17 @@
   }
 
   .flont-block {
-    width: px(750);
+    @include mq-large {
+      width: px(750);
 
-    margin: 0 auto;
+      margin: 0 auto;
+    }
+
+    @include mq-small {
+      width: px(700);
+
+      margin: 0 px(25);
+    }
   }
 
   .sec-introduction {
@@ -28,6 +36,10 @@
       color: $font-color;
 
       font-size: px(26);
+
+      @include mq-small {
+        font-size: px(52);
+      }
     }
 
     .lead {
@@ -36,6 +48,10 @@
       color: $sub-font-color;
 
       font-size: $base-font-size--pc;
+
+      @include mq-small {
+        font-size: $base-font-size--sp;
+      }
     }
   }
 
@@ -46,6 +62,10 @@
       font-size: px(26);
 
       color: $font-color;
+
+      @include mq-small {
+        font-size: px(52);
+      }
     }
 
     .sub-heading {
@@ -54,6 +74,10 @@
       color: $sub-font-color;
 
       font-size: px(16);
+
+      @include mq-small {
+        font-size: px(32);
+      }
     }
   }
 
@@ -79,6 +103,11 @@
         width: px(345);
         height: px(287);
 
+        @include mq-small {
+          width: px(700);
+          height: auto;
+        }
+
         img {
           width: 100%;
           height: 100%;
@@ -89,6 +118,10 @@
         margin-top: px(15);
 
         font-size: px(20);
+
+        @include mq-small {
+          font-size: px(40);
+        }
       }
     }
 
@@ -112,12 +145,21 @@
       width: px(220);
 
       margin-top: px(30);
+
+      @include mq-small {
+        width: px(700);
+      }
     }
 
     .sponsor-event {
       .image {
         width: px(220);
         height: px(113);
+
+        @include mq-small {
+          width: px(700);
+          height: auto;
+        }
 
         img {
           width: 100%;
@@ -129,6 +171,10 @@
         margin-top: px(15);
 
         font-size: px(20);
+
+        @include mq-small {
+          font-size: px(40);
+        }
       }
     }
 
@@ -138,10 +184,18 @@
   }
 
   .sec-promotion-video {
-    width: px(320);
+    width: px(750);
 
-    margin: 0 auto;
-    margin-top: px(30);
+    @include mq-large {
+      margin: 0 auto;
+      margin-top: px(30);
+    }
+
+    @include mq-small {
+      margin-top: px(30);
+
+      width: px(700);
+    }
 
     .heading {
       font-size: px(32);
@@ -150,10 +204,20 @@
     .video {
       display: block;
 
-      width: px(320);
-      height: px(180);
+      width: px(700);
+      height: px(394);
 
       margin-top: px(10);
+
+      @include mq-large {
+        width: px(750);
+        height: px(422);
+      }
+
+      @include mq-small {
+        width: px(700);
+        height: px(394);
+      }
 
       iframe {
         width: 100%;
@@ -184,19 +248,38 @@
       margin-top: px(50);
 
       width: px(600);
+
+      @include mq-small {
+        width: px(720);
+
+        margin-left: px(-20);
+      }
     }
 
     .sponsor-item {
-      display: flex;
-      flex: 0 1 27%;
-      align-items: center;
-      justify-content: center;
+      @include mq-large {
+        display: flex;
+        flex: 0 1 27%;
+        align-items: center;
+        justify-content: center;
+      }
+
+      @include mq-small {
+        display: block;
+
+        margin-left: px(20);
+      }
 
       margin-top: px(50);
 
       .elm-img {
         width: px(150);
         height: auto;
+
+        @include mq-small {
+          width: px(340);
+          height: auto;
+        }
       }
     }
 

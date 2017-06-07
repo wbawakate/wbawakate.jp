@@ -4,6 +4,7 @@ export default () => {
   console.log('page common');
 
   setEnvClass();
+  fitWindow();
 };
 
 function setEnvClass() {
@@ -22,4 +23,28 @@ function setEnvClass() {
   if($html.hasClass('is-tab')) {
     ns.isTab = true;
   }
+}
+
+function fitWindow() {
+  // resize event
+  $(window).on('resize', (evt) => {
+    const breakpoint = 960;
+
+    // ブレークポイント近辺でスクロールバーが邪魔になるのでスクロールバーを配慮した構成に
+    const globalW = window.innerWidth; // スクロールバー含む
+    const windowW = $(window).width(); // スクロールバー含まない
+
+    if(ns.isSp) {
+      $('html').css({
+        "font-size": 100 * globalW / 750,
+      });
+      $('body').css({
+        "width": windowW,
+      });
+      ns.isLarge = false;
+    } else {
+      $('html').css("font-size", "");
+      $('body').css("width", "");
+    }
+  }).trigger('resize');
 }
