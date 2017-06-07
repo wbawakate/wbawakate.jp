@@ -3,9 +3,7 @@ mixin publication(bib)
   - author = author.split(' and ').join('，')
   = author
   | , 
-  | “
-  = title
-  | ”
+  = `“${title}”`
   if volume
     | , 
     = `Vol. ${volume}`
