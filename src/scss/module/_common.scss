@@ -3,22 +3,22 @@
 }
 
 .pc-none {
-  @include mq-pc {
+  @include env-pc {
     display: none;
   }
 }
 
 .sp-none {
-  @include mq-sp {
+  @include env-sp {
     display: none;
   }
 }
 
 body {
-  @include mq-sp {
+  @include mq-small {
     font-size: $base-font-size--sp;
   }
-  @include mq-pc {
+  @include mq-large {
     font-size: $base-font-size--pc;
   }
 
@@ -30,24 +30,24 @@ body {
 html {
   font-size: #{$px-per-rem}px;
 
-  @include mq-sp {
+  @include mq-small {
     font-size: $base-font-size--sp;
   }
-  @include mq-pc {
+  @include mq-large {
     font-size: $base-font-size--pc;
   }
 
-  @include mq-tab {
+  @include mq-medium {
     font-size: $base-font-size--sp;
   }
 }
 
 body {
-  @include mq-sp {
+  @include mq-small {
     font-size: $base-font-size--sp;
     line-height: $line-height--sp;
   }
-  @include mq-pc {
+  @include mq-large {
     font-size: $base-font-size--pc;
     line-height: $line-height--pc;
   }

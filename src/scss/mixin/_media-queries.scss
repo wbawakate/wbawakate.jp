@@ -4,22 +4,8 @@
 
 // basic
 @mixin mq($env) {
-  @if $env == "pc" {
-    @include mq-pc {
-      @content;
-    }
-  } @elseif $env == "sp" {
-    @include mq-sp {
-      @content;
-    }
-  } @elseif $env == "tab" {
-    @include mq-tab {
-      @content;
-    }
-  } @else {
-    @include mq-all {
-      @content;
-    }
+  @include mq-#{$env} {
+    @content;
   }
 }
 
@@ -30,21 +16,21 @@
 }
 
 // for Desktop
-@mixin mq-pc {
+@mixin mq-large {
   html.is-pc & {
     @content;
   }
 }
 
 // for Smartphone
-@mixin mq-sp {
+@mixin mq-small {
   html.is-sp & {
     @content;
   }
 }
 
 // for Tablet
-@mixin mq-tab {
+@mixin mq-medium {
   html.is-tab & {
     @content;
   }

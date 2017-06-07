@@ -1,0 +1,17 @@
+@mixin env($env) {
+  html.is-#{$env} & {
+    @content;
+  }
+}
+
+@mixin env-sp {
+  @include env(sp) {
+    @content;
+  }
+}
+
+@mixin env-pc {
+  @include env(pc) {
+    @content;
+  }
+}
