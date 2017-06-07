@@ -29,17 +29,6 @@ body {
 
 html {
   font-size: #{$px-per-rem}px;
-
-  @include mq-small {
-    font-size: $base-font-size--sp;
-  }
-  @include mq-large {
-    font-size: $base-font-size--pc;
-  }
-
-  @include mq-medium {
-    font-size: $base-font-size--sp;
-  }
 }
 
 body {
