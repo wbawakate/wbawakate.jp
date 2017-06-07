@@ -51,6 +51,8 @@
     新年会
   name:
     2017年 WBA若手の会 新年会
+  date:
+    '2017-01-28'
   image:
     'new-year-party-2017.jpg'
   link:
@@ -61,6 +63,8 @@
     カジュアルトーク
   name:
     第19回 カジュアルトーク
+  date:
+    '2016-11-30'
   image:
     '19.jpg'
   link:
@@ -71,6 +75,8 @@
     カジュアルトーク
   name:
     第18回 カジュアルトーク
+  date:
+    '2016-11-22'
   image:
     '18.jpg'
   link:
@@ -81,6 +87,8 @@
     カジュアルトーク
   name:
     第17回 カジュアルトーク
+  date:
+    '2016-11-12'
   image:
     '17.jpg'
   link:
@@ -91,6 +99,8 @@
     カジュアルトーク
   name:
     第16回 カジュアルトーク
+  date:
+    '2016-07-29'
   image:
     '16.jpg'
   link:
@@ -101,6 +111,8 @@
     勉強会
   name:
     第15回
+  date:
+    '2016-06-16'
   image:
     '15.jpg'
   link:
@@ -111,6 +123,8 @@
     カジュアルトーク
   name:
     第14回 カジュアルトーク
+  date:
+    '2016-06-04'
   image:
     '14.jpg'
   link:
@@ -121,6 +135,8 @@
     データ解析くらぶ
   name:
     第2回 データ解析くらぶ
+  date:
+    '2016-05-21'
   image:
     'data-2.jpg'
   link:
@@ -131,6 +147,8 @@
     データ解析くらぶ
   name:
     第1回 データ解析くらぶ
+  date:
+    '2016-04-16'
   image:
     'data-1.jpg'
   link:
@@ -141,6 +159,8 @@
     懇親会
   name:
     2016年 春の交流会
+  date:
+    '2016-04-23'
   image:
     'spring-meetup-2016.jpg'
   link:
@@ -151,6 +171,8 @@
     勉強会
   name:
     第13回
+  date:
+    '2016-03-08'
   image:
     '13.jpg'
   link:
@@ -161,6 +183,8 @@
     女子会
   name:
     第2回 WBA若手の会　女子会＠下北沢
+  date:
+    '2016-02-11'
   image:
     'girls-2.jpg'
   link:
@@ -171,6 +195,8 @@
     カジュアルトーク
   name:
     第12回 カジュアルトーク
+  date:
+    '2016-02-07'
   image:
     '12.jpg'
   link:
@@ -181,6 +207,8 @@
     新年会
   name:
     2016年 WBA若手の会 新年会
+  date:
+    '2016-01-09'
   image:
     'new-year-party-2016.jpg'
   link:
@@ -191,6 +219,8 @@
     女子会
   name:
     第1回 WBA若手の会　女子会＠新宿
+  date:
+    '2015-12-10'
   image:
     'girls-1.jpg'
   link:
@@ -201,6 +231,8 @@
     ハッカソン
   name:
     第1回WBAIハッカソン活動報告
+  date:
+    '2015-12-10'
   image:
     'hackathon-1-report.jpg'
   link:
@@ -211,6 +243,8 @@
     勉強会
   name:
     第11回
+  date:
+    '2015-11-19'
   image:
     '11.jpg'
   link:
@@ -221,6 +255,8 @@
     勉強会
   name:
     第10回
+  date:
+    '2015-10-14'
   image:
     '10.jpg'
   link:
@@ -231,6 +267,8 @@
     カジュアルトーク
   name:
     第9回 カジュアルトーク
+  date:
+    '2015-10-12'
   image:
     '9.jpg'
   link:
@@ -241,6 +279,8 @@
     ハッカソン
   name:
     第1回WBAIハッカソン
+  date:
+    '2015-09-19'
   image:
     'hackathon-1.jpg'
   link:
@@ -251,6 +291,8 @@
     ハッカソン
   name:
     第1回WBAIハッカソン アイデアソン
+  date:
+    '2015-09-19'
   image:
     'ideathon-1.jpg'
   link:
@@ -261,6 +303,8 @@
     勉強会
   name:
     第8回
+  date:
+    '2015-07-13'
   image:
     '8.jpg'
   link:
@@ -271,6 +315,8 @@
     勉強会
   name:
     第7回
+  date:
+    '2015-06-29'
   image:
     '7.jpg'
   link:
@@ -281,6 +327,8 @@
     勉強会
   name:
     第6回
+  date:
+    '2015-03-18'
   image:
     '6.jpg'
   link:
@@ -291,6 +339,8 @@
     勉強会
   name:
     第5回
+  date:
+    '2015-03-05'
   link:
     '5/'
 
@@ -299,6 +349,8 @@
     勉強会
   name:
     第4回
+  date:
+    '2014-11-13'
   link:
     '4/'
 
@@ -307,6 +359,8 @@
     勉強会
   name:
     第3回
+  date:
+    '2014-11-13'
   link:
     '3/'
 
@@ -315,6 +369,8 @@
     勉強会
   name:
     第2回
+  date:
+    '2014-10-23'
   link:
     '2/'
 
@@ -323,6 +379,8 @@
     勉強会
   name:
     第1回
+  date:
+    '2014-10-09'
   link:
     '1/'
 

@@ -1,11 +1,31 @@
 mixin publication(bib)
-  - let { author, title, journal, year } = bib.entryTags
+  - let { author, title, volume, number, journal, booktitle, pages, year } = bib.entryTags
   - author = author.split(' and ').join('，')
   = author
-  | ，
-  = title
-  | ，
-  = journal
-  | ，
-  = year
-  | ．
+  | , 
+  = `“${title}”`
+  if volume
+    | , 
+    = `Vol. ${volume}`
+  if number
+    | , 
+    = `No. ${number}`
+  if pages
+    | , 
+    = `pp. ${pages}`
+  if booktitle
+    | , 
+    = booktitle
+  if journal
+    | , 
+    = journal
+  if year
+    | , 
+    = year
+
+mixin publication-list(type)
+  .publication-list
+    - publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.type === type; });
+    each publication in publicationArr
+      .publication-item
+        +publication(publication)

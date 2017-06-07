@@ -5,6 +5,7 @@ block config-block
   - rootPath = './'
   - title = pageName ? [pageName, settings.site_name].join(' | ') : settings.site_name
   - ogp_image_url = settings.ogp_image_url
+  - url = settings.url
 
 doctype html
 html(lang="ja")
@@ -33,9 +34,7 @@ html(lang="ja")
     // ogp
     if settings.facebook_app_id
       meta(property="fb:app_id", content= settings.facebook_app_id)
-    //- TEMP: パスを渡して個別設定したほうがいいかも
-    //- if settings.url
-      meta(property="og:url", content= settings.url)
+    meta(property="og:url", content= url)
     if settings.ogp_image_url
       meta(property="og:image", content= ogp_image_url)
     if settings.ogp_image_width
@@ -58,14 +57,12 @@ html(lang="ja")
       meta(property="twitter:site", content= settings.twitter_card_owner)
       meta(property="twitter:creator", content= settings.twitter_card_owner)
 
-    //- TEMP: パスを渡して個別設定したほうがいいかも
-    //- if settings.url
-      // canonical url
-      //- このページをはてぶ・シェアする際、使われるべきURLを明示する指定
-      //- wwwやhttps、getパラメータなど、微妙に違うURLでアクセスされても、使われるURLをひとつに絞れる
-      link(rel="canonical" href= settings.url)
+    // canonical url
+    //- このページをはてぶ・シェアする際、使われるべきURLを明示する指定
+    //- wwwやhttps、getパラメータなど、微妙に違うURLでアクセスされても、使われるURLをひとつに絞れる
+    link(rel="canonical" href= url)
 
-    script(src= rootPath + 'js/ua-switch.js')
+    script(src=`${rootPath}js/ua-switch.js`)
 
     // stylesheet
     block stylesheet-block

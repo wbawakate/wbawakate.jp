@@ -5,6 +5,7 @@ append config-block
   - rootPath = '../../'
   - title = `${meta.name} | ${settings.site_name}`
   - ogp_image_url = meta.image ? `${settings.url}img/member/${meta.image}` : settings.ogp_image_url
+  - url = `${settings.url}member/${meta.id}/`
 
 block content-block
   main.main
@@ -21,7 +22,7 @@ block content-block
         .body
           != body
 
-          - publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.split(',').indexOf(meta.id) !== -1; });
+          - publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.split(', ').indexOf(meta.id) !== -1; });
           if publicationArr.length > 0
             h2
               | Publications
