@@ -1,9 +1,9 @@
 .wrapper {
-  @include mq-sp {
+  @include mq-small {
     overflow: hidden;
   }
 
-  @include mq-pc {
+  @include mq-large {
     width: 100%;
     min-width: $wrapper-width--pc;
 

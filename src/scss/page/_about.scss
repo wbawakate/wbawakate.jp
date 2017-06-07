@@ -1,10 +1,16 @@
 @include with-page("about") {
   .front-block {
-    width: px(750);
+    @include mq-large {
+      width: px(750);
 
-    margin: 0 auto;
+      margin: 0 auto;
 
-    @include clearfix;
+      @include clearfix;
+    }
+
+    @include mq-small {
+      width: px(750);
+    }
   }
 
   .about-block {
