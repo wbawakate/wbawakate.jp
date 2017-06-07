@@ -26,6 +26,10 @@ block content-block
         h2.heading-branch
           .text
             | WBA 若手の会 ブロックチェーン支部
+      if branchName === 'adviser'
+        h2.heading-branch
+          .text
+            | WBA 若手の会 顧問
       .member-list
         each member in branch
           .member-item
