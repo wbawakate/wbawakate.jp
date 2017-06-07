@@ -1,7 +1,8 @@
 import ns from './ns';
 import common from '../page/common';
-import home from '../page/home';
-import about from '../page/about';
+import pageHome from '../page/home';
+import pageAbout from '../page/about';
+import pageEvent from '../page/event';
 
 function page(pageId, callback) {
   if(document.querySelector(`body[data-page-id="${pageId}"]`)) {
@@ -19,7 +20,8 @@ export default class Router {
 
     common();
 
-    page('home', home);
-    page('about', about);
+    page('home', pageHome);
+    page('about', pageAbout);
+    page('event', pageEvent);
   }
 }

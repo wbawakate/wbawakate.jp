@@ -7,4 +7,4 @@ export default () => {
   const wbaLatestEvents = new WbaLatestEvents({
     elm: document.querySelector('.wba-latest-events'),
   });
-}
+};

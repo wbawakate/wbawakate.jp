@@ -4,7 +4,7 @@ export default () => {
   console.log('page common');
 
   setEnvClass();
-}
+};
 
 function setEnvClass() {
   const $html = $('html');
