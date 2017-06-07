@@ -9,3 +9,10 @@ mixin publication(bib)
   | ，
   = year
   | ．
+
+mixin publication-list(type)
+  .publication-list
+    - publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.type === type; });
+    each publication in publicationArr
+      .publication-item
+        +publication(publication)
