@@ -1,14 +1,29 @@
 mixin publication(bib)
-  - let { author, title, journal, year } = bib.entryTags
+  - let { author, title, volume, number, journal, booktitle, pages, year } = bib.entryTags
   - author = author.split(' and ').join('，')
   = author
-  | ，
+  | , 
+  | “
   = title
-  | ，
-  = journal
-  | ，
-  = year
-  | ．
+  | ”
+  if volume
+    | , 
+    = `Vol. ${volume}`
+  if number
+    | , 
+    = `No. ${number}`
+  if pages
+    | , 
+    = `pp. ${pages}`
+  if booktitle
+    | , 
+    = booktitle
+  if journal
+    | , 
+    = journal
+  if year
+    | , 
+    = year
 
 mixin publication-list(type)
   .publication-list
