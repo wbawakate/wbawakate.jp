@@ -54,10 +54,10 @@ list:
   #   path: '/about_sponsorship/'
   #   dest: '/'
 
-  -
-    title: 'Contact'
-    path: '/contact/'
-    dest: '/'
+  # -
+  #   title: 'Contact'
+  #   path: '/contact/'
+  #   dest: '/'
 
   # -
   #   title: 'Member'

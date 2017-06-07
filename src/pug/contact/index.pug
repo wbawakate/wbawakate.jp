@@ -1,0 +1,18 @@
+extends /_layout/_default-layout
+
+prepend config-block
+  - pageName = 'Sponsors'
+
+append config-block
+  - pageId = 'contact'
+  - rootPath = '../'
+
+block content-block
+  main
+    .front-block
+      h1.heading
+        | Contact
+
+      .google-form
+        iframe(src="https://docs.google.com/forms/d/e/1FAIpQLScxdzby5MXvrCesgv--d0MJrjznQ7tQlFq8-Jx09mjo3aF-SQ/viewform?embedded=true", width="760", height="1100", frameborder="0", marginheight="0", marginwidth="0")
+          | 読み込んでいます...
