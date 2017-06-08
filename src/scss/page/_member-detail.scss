@@ -87,6 +87,13 @@
       color: $sub-font-color;
     }
 
+    .publication-list {
+    }
+
+    .publication-item {
+      margin: px(20) 0;
+    }
+
     h2:not([class]) {
       margin-top: px(10);
       margin-bottom: px(5);
@@ -94,6 +101,16 @@
       font-size: px(19);
 
       color: $font-color;
+    }
+
+    h3:not([class]) {
+      font-size: px(20);
+
+      color: $font-color;
+    }
+
+    p:not([class]) {
+      margin: px(20) 0;
     }
 
     ul:not([class]) {

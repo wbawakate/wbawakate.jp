@@ -28,7 +28,8 @@ block content-block
               | Publications
             .publication-list
               each publication in publicationArr
-                + publication(publication)
+                .publication-item
+                  + publication(publication)
 
         .sns-list.no-hover-effect
           if meta.facebook
