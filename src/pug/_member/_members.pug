@@ -22,7 +22,7 @@ block content-block
         .body
           != body
 
-          - const publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.split(', ').indexOf(meta.id) !== -1; });
+          - const publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.replace(/\s/g, '').split(',').indexOf(meta.id) !== -1; });
           if publicationArr.length > 0
             h2
               | Publications
