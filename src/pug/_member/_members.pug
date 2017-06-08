@@ -22,14 +22,22 @@ block content-block
         .body
           != body
 
-          - publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.split(', ').indexOf(meta.id) !== -1; });
+          - const publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.split(', ').indexOf(meta.id) !== -1; });
           if publicationArr.length > 0
             h2
               | Publications
-            .publication-list
-              each publication in publicationArr
-                .publication-item
-                  + publication(publication)
+
+            h3
+              | 和文学会誌
+            + publication-list(publicationArr, 'journal')
+
+            h3
+              | 国際会議
+            + publication-list(publicationArr, 'international')
+
+            h3
+              | 国内会議
+            + publication-list(publicationArr, 'domestic')
 
         .sns-list.no-hover-effect
           if meta.facebook
