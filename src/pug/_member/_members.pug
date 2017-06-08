@@ -27,17 +27,9 @@ block content-block
             h2
               | Publications
 
-            h3
-              | 和文学会誌
-            + publication-list(publicationArr, 'journal')
-
-            h3
-              | 国際会議
-            + publication-list(publicationArr, 'international')
-
-            h3
-              | 国内会議
-            + publication-list(publicationArr, 'domestic')
+            +publication-list(publicationArr, 'journal', '和文学会誌')
+            +publication-list(publicationArr, 'international', '国際会議')
+            +publication-list(publicationArr, 'domestic', '国内会議')
 
         .sns-list.no-hover-effect
           if meta.facebook
