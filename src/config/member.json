@@ -162,7 +162,7 @@
       "position" : "",
       "status" : "慶應義塾大学\n環境情報学部3年",
       "image" : "masuyama-nanami.jpg",
-      "link" : "masuyama-nanami/"
+      "link" : ""
     },
     {
       "id" : "kanemitsu-shunsuke",
@@ -170,7 +170,7 @@
       "nameSub" : "Kanemitsu Shunsuke",
       "position" : "",
       "status" : "慶應義塾大学大学院\n理工学研究科修士2年",
-      "image" : "kanemitsu-shunsuke.jpg",
+      "image" : "",
       "link" : "kanemitsu-shunsuke/"
     },
     {
@@ -179,7 +179,7 @@
       "nameSub" : "Okuoka Kohei",
       "position" : "",
       "status" : "慶應義塾大学\n理工学部4年",
-      "image" : "okuoka-kohei.jpg",
+      "image" : "",
       "link" : "okuoka-kohei/"
     }
   ],
@@ -255,7 +255,7 @@
       "nameSub" : "Komatsu Masatoshi",
       "position" : "ブロックチェーン支部　代表",
       "status" : "",
-      "image" : "//placehold.jp/360x360.png",
+      "image" : "",
       "link" : "komatsu-masatoshi/"
     }
   ],
@@ -312,7 +312,7 @@
       "position" : "",
       "status" : "",
       "image" : "ikeya-masao.jpg",
-      "link" : "ikeya-masao/"
+      "link" : ""
     },
     {
       "id" : "takagi-yusuke",
@@ -321,7 +321,7 @@
       "position" : "",
       "status" : "",
       "image" : "takagi-yusuke.jpg",
-      "link" : "takagi-yusuke/"
+      "link" : ""
     },
     {
       "id" : "kubo-takahiro",
@@ -330,7 +330,7 @@
       "position" : "",
       "status" : "",
       "image" : "kubo-takahiro.jpg",
-      "link" : "kubo-takahiro/"
+      "link" : ""
     },
     {
       "id" : "watarai-kyohei",
@@ -339,7 +339,7 @@
       "position" : "",
       "status" : "",
       "image" : "watarai-kyohei.jpg",
-      "link" : "watarai-kyohei/"
+      "link" : ""
     },
     {
       "id" : "yoshida-yuki",
@@ -348,7 +348,7 @@
       "position" : "",
       "status" : "",
       "image" : "yoshida-yuki.jpg",
-      "link" : "yoshida-yuki/"
+      "link" : ""
     },
     {
       "id" : "kameda-shigeyuki",
@@ -368,7 +368,7 @@
       "position" : "顧問",
       "status" : "",
       "image" : "ito-hiroaki.jpg",
-      "link" : "ito-hiroaki/"
+      "link" : ""
     }
   ]
 }
