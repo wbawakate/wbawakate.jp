@@ -1,26 +1,26 @@
 @include with-page("about") {
   .front-block {
+    width: px(375);
+
     @include mq-large {
-      width: px(750);
+      width: px(960);
 
       margin: 0 auto;
 
       @include clearfix;
     }
-
-    @include mq-small {
-      width: px(750);
-    }
   }
 
   .about-block {
-    float: left;
-
-    width: px(500);
-
     padding: 0 px(15);
 
     color: $sub-font-color;
+
+    @include mq-large {
+      float: left;
+
+      width: px(710);
+    }
 
     .section {
       .heading {
@@ -51,13 +51,11 @@
   }
 
   .lead {
-    padding: px(30) px(30);
+    padding: px(15) px(15);
 
     border-left: px(3) solid $border-color;
 
     font-family: $serif;
-
-    font-size: px(17);
 
     font-style: italic;
 
@@ -66,14 +64,26 @@
     strong {
       font-weight: bold;
     }
+
+    @include mq-large {
+      padding: px(30) px(30);
+
+      font-size: px(17);
+    }
   }
 
   .gallery {
-    float: left;
-
-    width: px(250);
+    margin-top: px(100);
 
     padding: 0 px(15);
+
+    @include mq-large {
+      float: left;
+
+      margin-top: 0;
+
+      width: px(250);
+    }
 
     .box {
       .image {
@@ -83,8 +93,12 @@
         font-size: 0;
 
         .elm-img {
-          width: px(220);
+          width: px(350);
           height: auto;
+
+          @include mq-large {
+            width: px(220);
+          }
         }
       }
 
