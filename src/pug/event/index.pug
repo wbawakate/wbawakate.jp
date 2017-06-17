@@ -36,7 +36,7 @@ block content-block
               | 懇親会
 
     .event-list
-      each event in events
+      each event in events.slice().reverse()
         .event-item(data-date= event.date, data-type= event.type)
           a(href=`${rootPath}event/${event.link}`)
             .event

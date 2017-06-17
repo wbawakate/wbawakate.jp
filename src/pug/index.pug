@@ -37,7 +37,7 @@ block content-block
 
         .event-list
           - for (i = 0; i < 4; i++) {
-            - event = events[i]
+            - event = events.slice().reverse()[i]
               .event-item
                 a(href=`${rootPath}event/${event.link}`)
                   .event(data-type= event.type)
