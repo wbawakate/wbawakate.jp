@@ -2,13 +2,19 @@
   .heading-branch {
     position: relative;
 
-    width: px(750);
+    width: px(350);
 
     margin: 0 auto;
     margin-top: px(30);
     font-size: px(15);
 
     text-align: center;
+
+    @include mq-large {
+      width: px(960);
+
+      margin-top: px(30);
+    }
 
     &::before {
       content: "";
@@ -38,31 +44,47 @@
   }
 
   .member-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    width: px(350);
 
-    width: px(750);
     margin: 0 auto;
-    margin-top: px(10);
+
+    @include mq-large {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+
+      width: px(960);
+      margin-top: px(10);
+    }
   }
 
   .member-item {
-    display: flex;
-    flex: 0 1 50%;
-    align-items: center;
-    justify-content: center;
+    display: block;
+
+    @include mq-large {
+      display: flex;
+      flex: 0 1 33%;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   .member {
     position: relative;
 
-    width: px(360);
-    height: px(360);
+    width: px(350);
+    height: px(350);
 
-    margin-top: px(20);
+    margin-top: px(12);
 
     background-color: #ccc;
+
+    @include mq-large {
+      width: px(300);
+      height: px(300);
+
+      margin-top: px(20);
+    }
 
     &:hover {
       .cover {
