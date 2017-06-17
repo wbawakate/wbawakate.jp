@@ -59,14 +59,16 @@ block content-block
           | スポンサーイベント
 
         .sponsor-event-list
-          each event in sponsorEvents
+          - for (i = 0; i < 4; i++) {
+            - event = sponsorEvents.slice().reverse()[i]
             .sponsor-event-item
               a(href=`${event.link}`)
                 .sponsor-event
                   .image
-                    img.elm-img(src= event.image, alt= event.name)
+                    img.elm-img(src=`${rootPath}img/sponsor-event/${event.image}`, alt= event.name)
                   .name
-                    = event.name
+                    = event.subject
+          - }
 
         .wba-button.btn-more
           a.elm-a(href="http://wbawakate.jp/posts/category/sponsorevent/")

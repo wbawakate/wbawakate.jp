@@ -1,0 +1,46 @@
+{
+  "sheet" : [
+    {
+      "id" : "ubic-2016-01",
+      "subject" : "株式会社UBIC主催　学生向けセミナーのお知らせ",
+      "date" : "2016-01-19T15:00:00.000Z",
+      "image" : "default.jpg",
+      "link" : "http://wbawakate.jp/posts/ubic20160120/"
+    },
+    {
+      "id" : "ubic-2016-02",
+      "subject" : "株式会社UBIC主催　技術職(R&D/開発) インターンシップのお知らせ",
+      "date" : "2016-02-02T15:00:00.000Z",
+      "image" : "default.jpg",
+      "link" : "http://wbawakate.jp/posts/ubic20160203/"
+    },
+    {
+      "id" : "dwango-2016-02",
+      "subject" : "株式会社dwango　『CGIプロジェクト』インターン募集のお知らせ",
+      "date" : "2016-02-09T15:00:00.000Z",
+      "image" : "dwango-2016-02.jpg",
+      "link" : "http://wbawakate.jp/posts/dwango20160506/"
+    },
+    {
+      "id" : "ubic-2016-02-seminar",
+      "subject" : "株式会社UBIC主催　第2回学生向けセミナーのお知らせ",
+      "date" : "2016-02-18T15:00:00.000Z",
+      "image" : "default.jpg",
+      "link" : "http://wbawakate.jp/posts/ubic20160219/"
+    },
+    {
+      "id" : "adish-2016-08",
+      "subject" : "アディッシュ株式会社　技術職インターン募集のお知らせ",
+      "date" : "2016-06-10T15:00:00.000Z",
+      "image" : "adish.jpg",
+      "link" : "http://wbawakate.jp/posts/adish_2016intern/"
+    },
+    {
+      "id" : "fronteo-2016-08",
+      "subject" : "株式会社FRONTEO主催 セミナーのお知らせ",
+      "date" : "2016-08-15T15:00:00.000Z",
+      "image" : "default.jpg",
+      "link" : "http://wbawakate.jp/posts/furonteo20160825/"
+    }
+  ]
+}
