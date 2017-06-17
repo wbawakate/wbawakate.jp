@@ -1,0 +1,70 @@
+{
+  "sheet" : {
+    "dwango" : {
+      "id" : "dwango",
+      "name" : "株式会社ドワンゴ",
+      "url" : "http://dwango.co.jp/",
+      "image" : "dwango.png"
+    },
+    "xcompass" : {
+      "id" : "xcompass",
+      "name" : "株式会社クロスコンパス・インテリジェンス",
+      "url" : "http://www.xcompass.com/",
+      "image" : "xcompass.png"
+    },
+    "adish" : {
+      "id" : "adish",
+      "name" : "adish",
+      "url" : "http://www.adish.co.jp/",
+      "image" : "adish.png"
+    },
+    "fronteo" : {
+      "id" : "fronteo",
+      "name" : "FRONTEO",
+      "url" : "http://www.fronteo.com/",
+      "image" : "fronteo.png"
+    },
+    "softbank" : {
+      "id" : "softbank",
+      "name" : "ソフトバンク",
+      "url" : "http://www.softbank.jp/",
+      "image" : "softbank.png"
+    },
+    "exaintelligence" : {
+      "id" : "exaintelligence",
+      "name" : "株式会社エクサインテリジェンス",
+      "url" : "http://exaintelligence.jp/",
+      "image" : "exaintelligence.png"
+    },
+    "nikkei" : {
+      "id" : "nikkei",
+      "name" : "日経",
+      "url" : "http://www.nikkei.com/",
+      "image" : "nikkei.png"
+    },
+    "sensy" : {
+      "id" : "sensy",
+      "name" : "カラフル・ボード株式会社",
+      "url" : "http://www.colorful-board.com/",
+      "image" : "sensy.png"
+    },
+    "aninnovation" : {
+      "id" : "aninnovation",
+      "name" : "株式会社アニノベーション",
+      "url" : "http://aninnovation.co.jp/",
+      "image" : "aninnovation.png"
+    },
+    "softplanet" : {
+      "id" : "softplanet",
+      "name" : "ソフトプラネット",
+      "url" : "http://www.softplanet.co.jp/",
+      "image" : "softplanet.png"
+    },
+    "welmo" : {
+      "id" : "welmo",
+      "name" : "株式会社ウェルモ",
+      "url" : "http://www.welmo.co.jp/",
+      "image" : "welmo.png"
+    }
+  }
+}

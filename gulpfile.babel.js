@@ -116,7 +116,7 @@ gulp.task('pug', () => {
     _: _,
     moment: moment,
     settings: readConfig(`${CONFIG}/meta.yml`),
-    sponsor: readConfig(`${CONFIG}/sponsor.yml`),
+    sponsor: readConfig(`${CONFIG}/sponsor.json`).sheet,
     sponsorEvents: readConfig(`${CONFIG}/sponsor-event.yml`),
     events: readConfig(`${CONFIG}/event.json`),
     members: readConfig(`${CONFIG}/member.json`),
