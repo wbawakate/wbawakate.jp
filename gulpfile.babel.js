@@ -119,7 +119,7 @@ gulp.task('pug', () => {
     sponsor: readConfig(`${CONFIG}/sponsor.yml`),
     sponsorEvents: readConfig(`${CONFIG}/sponsor-event.yml`),
     events: readConfig(`${CONFIG}/event.yml`),
-    members: readConfig(`${CONFIG}/member.yml`),
+    members: readConfig(`${CONFIG}/member.json`),
     newsArr: readConfig(`${CONFIG}/news.yml`),
     bibArr: bibtexParse.toJSON(fs.readFileSync(`${CONFIG}/publication.bib`, { encoding:"utf8" })),
   };

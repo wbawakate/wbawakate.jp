@@ -11,26 +11,10 @@ append config-block
 block content-block
   main
     each branch, branchName in members
-      if branchName === 'kanto'
+      if branchName !== 'default'
         h2.heading-branch
           .text
-            | WBA 若手の会 関東支部
-      if branchName === 'kansai'
-        h2.heading-branch
-          .text
-            | WBA 若手の会 関西支部
-      if branchName === 'society'
-        h2.heading-branch
-          .text
-            | WBA 若手の会 社会人支部
-      if branchName === 'blockChain'
-        h2.heading-branch
-          .text
-            | WBA 若手の会 ブロックチェーン支部
-      if branchName === 'adviser'
-        h2.heading-branch
-          .text
-            | WBA 若手の会 顧問
+            = branchName
       .member-list
         each member in branch
           .member-item
@@ -44,9 +28,9 @@ block content-block
                 .info
                   .block-status
                     .position
-                      = member.position
+                      != member.position.replace('\n', '<br>')
                     .status
-                      = member.status
+                      != member.status.replace('\n', '<br>')
                   .block-name
                     .name
                       = member.name
