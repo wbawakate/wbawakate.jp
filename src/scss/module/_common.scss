@@ -14,33 +14,16 @@
   }
 }
 
-body {
-  @include mq-small {
-    font-size: $base-font-size--sp;
-  }
-  @include mq-large {
-    font-size: $base-font-size--pc;
-  }
-
-  font-family: $sans-serif;
-  line-height: 1.5;
-}
-
 
 html {
   font-size: #{$px-per-rem}px;
 }
 
 body {
-  @include mq-small {
-    font-size: $base-font-size--sp;
-    line-height: $line-height--sp;
-  }
-  @include mq-large {
-    font-size: $base-font-size--pc;
-    line-height: $line-height--pc;
-  }
+  font-size: $base-font-size;
+
   font-family: $sans-serif;
+  line-height: 1.5;
 }
 
 main {

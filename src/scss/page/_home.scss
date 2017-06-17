@@ -1,22 +1,4 @@
 @include with-page("home") {
-  .sponsor-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-  }
-
-  .sponsor-item {
-    display: flex;
-    flex: 0 1 27%;
-    align-items: center;
-    justify-content: center;
-
-    .elm-img {
-      width: px(180);
-      height: auto;
-    }
-  }
-
   .front-block {
     @include mq-large {
       width: px(750);
@@ -42,12 +24,6 @@
       margin-top: px(40);
 
       color: $sub-font-color;
-
-      font-size: $base-font-size--pc;
-
-      @include mq-small {
-        font-size: $base-font-size--sp;
-      }
     }
   }
 
@@ -73,39 +49,51 @@
     margin-top: px(30);
 
     .event-list {
-      @include mq-large {
-        display: flex;
-        justify-content: space-between;
-        flex-flow: row wrap;
-      }
-
-      width: px(700);
+      width: px(350);
 
       margin-top: px(20);
+
+      font-size: 0;
+
+      @include mq-large {
+        width: px(780);
+
+        margin-left: - px(30);
+
+        text-align: center;
+      }
     }
 
     .event-item {
       margin-top: px(30);
+
+      font-size: $base-font-size;
+
+      text-align: left;
+      vertical-align: top;
+
+      @include mq-large {
+        display: inline-block;
+
+        width: px(360);
+
+        margin-left: px(30);
+      }
     }
 
     .event {
       .image {
-        width: px(345);
-        height: px(287);
+        width: 100%;
+        height: auto;
 
-        @include mq-small {
-          width: px(350);
-          height: auto;
-        }
-
-        img {
+        .elm-img {
           width: 100%;
           height: 100%;
         }
       }
 
       .name {
-        margin-top: px(15);
+        margin-top: px(10);
 
         font-size: px(20);
       }
@@ -118,36 +106,44 @@
 
   .sec-sponsor-event {
     .sponsor-event-list {
-      display: flex;
-      justify-content: space-between;
-      flex-flow: row wrap;
-
-      width: px(700);
+      width: 100%;
 
       margin-top: px(20);
+
+      font-size: 0;
+
+      @include mq-large {
+        width: px(780);
+
+        margin-left: - px(30);
+
+        text-align: center;
+      }
     }
 
     .sponsor-event-item {
-      width: px(220);
-
       margin-top: px(30);
 
-      @include mq-small {
-        width: px(375);
+      text-align: left;
+      vertical-align: top;
+
+      font-size: $base-font-size;
+
+      @include mq-large {
+        display: inline-block;
+
+        width: px(360);
+
+        margin-left: px(30);
       }
     }
 
     .sponsor-event {
       .image {
-        width: px(220);
-        height: px(113);
+        width: 100%;
+        height: auto;
 
-        @include mq-small {
-          width: px(375);
-          height: auto;
-        }
-
-        img {
+        .elm-img {
           width: 100%;
           height: 100%;
         }
@@ -166,7 +162,7 @@
   }
 
   .sec-promotion-video {
-    width: px(750);
+    width: 100%;
 
     @include mq-large {
       margin: 0 auto;
@@ -175,8 +171,6 @@
 
     @include mq-small {
       margin-top: px(15);
-
-      width: px(375);
     }
 
     .heading {
@@ -222,45 +216,45 @@
 
   .sec-sponsor {
     .sponsor-list {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
+      width: px(350);
 
-      margin: 0 auto;
-      margin-top: px(50);
+      margin-top: px(20);
 
-      width: px(600);
+      font-size: 0;
 
-      @include mq-small {
-        width: px(360);
+      @include mq-large {
+        width: px(750);
 
-        margin-left: px(-10);
+        margin-left: 0;
+
+        text-align: left;
       }
     }
 
     .sponsor-item {
+      width: 100%;
+
+      margin-top: px(30);
+
+      font-size: $base-font-size;
+
+      vertical-align: middle;
+
       @include mq-large {
-        display: flex;
-        flex: 0 1 27%;
-        align-items: center;
-        justify-content: center;
+        display: inline-block;
+
+        width: px(200);
+
+        margin-left: px(50);
       }
 
-      @include mq-small {
-        display: block;
-
-        margin-left: px(10);
-      }
-
-      margin-top: px(50);
-
-      .elm-img {
-        width: px(150);
+      .image {
+        width: 100%;
         height: auto;
 
-        @include mq-small {
-          width: px(170);
-          height: auto;
+        .elm-img {
+          width: 100%;
+          height: 100%;
         }
       }
     }

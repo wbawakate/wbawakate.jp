@@ -42,7 +42,7 @@ block content-block
                 a(href=`${rootPath}event/${event.link}`)
                   .event(data-type= event.type)
                     .image
-                      img(src=`${rootPath}img/event/${event.image || 'default.jpg'}`, alt= event.name)
+                      img.elm-img(src=`${rootPath}img/event/${event.image || 'default.jpg'}`, alt= event.name)
                     .name
                       = event.name
           - }
@@ -64,7 +64,7 @@ block content-block
               a(href=`${event.link}`)
                 .sponsor-event
                   .image
-                    img(src= event.image, alt= event.name)
+                    img.elm-img(src= event.image, alt= event.name)
                   .name
                     = event.name
 
@@ -103,8 +103,9 @@ block content-block
         ul.sponsor-list
           each s in sponsor
             li.sponsor-item
-              a(href= s.url, target="blank")
-                img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
+              a.elm-a(href= s.url, target="blank")
+                .image
+                  img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
 
         .wba-link.link-join
           a.elm-a(href= settings.link_contact, target="_blank")

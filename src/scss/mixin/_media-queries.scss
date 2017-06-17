@@ -17,7 +17,7 @@
 
 // for Desktop
 @mixin mq-large {
-  @media screen and (min-width:800px) {
+  @media screen and (min-width:640px) {
     @content;
   }
 }
@@ -29,9 +29,9 @@
   }
 }
 
-// for Tablet
-@mixin mq-medium {
-  @media screen and (min-width:640px) and ( max-width:799px) {
-    @content;
-  }
-}
+// // for Tablet
+// @mixin mq-medium {
+//   @media screen and (min-width:640px) and ( max-width:799px) {
+//     @content;
+//   }
+// }
