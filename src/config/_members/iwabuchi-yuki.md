@@ -3,12 +3,12 @@ id:
   'iwabuchi-yuki'
 name:
   岩淵 勇樹
-nameSub:
-  Iwabuchi Yuki
 facebook:
-  "https://www.facebook.com/yuuki.iwabuchi.9"
+  'https://www.facebook.com/yuuki.iwabuchi.9'
 twitter:
-  "https://twitter.com/butchi_y"
+  'https://twitter.com/butchi_y'
+website:
+  'http://butchi.jp/'
 ---
 ## Biography
 

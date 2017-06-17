@@ -2,15 +2,13 @@
 id:
   'shimada-daiki'
 name:
- 島田 大樹
-nameSub:
- Shimada Daiki
+  島田 大樹
 facebook:
- “https://www.facebook.com/profile.php?id=100007757564177”
+  'https://www.facebook.com/profile.php?id=100007757564177'
 twitter:
- “https://twitter.com/sheema_sheema”
+  'https://twitter.com/sheema_sheema'
 website:
- “http://daikishimada.github.io/”
+  'http://daikishimada.github.io/'
 ---
 
 ## Biography

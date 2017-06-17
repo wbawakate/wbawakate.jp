@@ -3,14 +3,12 @@ id:
   osawa-masahiko
 name:
   大澤 正彦
-nameSub:
-  Osawa Masahiko
 image:
-  "osawa-masahiko.jpg"
+  'osawa-masahiko.jpg'
 facebook:
-  "https://facebook.com/osawa.masahiko"
+  'https://facebook.com/osawa.masahiko'
 twitter:
-  "https://twitter.com/iwawomaru/"
+  'https://twitter.com/iwawomaru/'
 ---
 
 ## Message

@@ -2,9 +2,7 @@
 id:
   'tsuzuki-taku'
 name:
- 都築 拓
-nameSub:
- Tsuzuki Taku
+  都築 拓
 ---
 
 ## Biography

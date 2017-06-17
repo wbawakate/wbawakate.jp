@@ -2,9 +2,7 @@
 id:
   'itaya-kotone'
 name:
- 板谷 琴音
-nameSub:
- Itaya Kotone
+  板谷 琴音
 ---
 
 ## Biography

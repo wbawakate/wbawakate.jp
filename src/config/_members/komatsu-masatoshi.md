@@ -3,12 +3,8 @@ id:
   'komatsu-masatoshi'
 name:
   小松 昌憲
-nameSub:
-  Komatsu Masatoshi
-image:
-  '//placehold.jp/360x360.png'
 facebook:
-  "https://facebook.com/masatoshi.komatsu.5"
+  'https://facebook.com/masatoshi.komatsu.5'
 ---
 
 ## Message

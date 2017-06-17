@@ -2,11 +2,9 @@
 id:
   'kawasaki-yusuke'
 name:
- 川崎 雄介
-nameSub:
- Kawasaki Yusuke
+  川崎 雄介
 facebook:
- "https://www.facebook.com/profile.php?id=100004545917656"
+  'https://www.facebook.com/profile.php?id=100004545917656'
 ---
 
 ## Biography

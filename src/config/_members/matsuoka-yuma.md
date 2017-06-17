@@ -2,9 +2,7 @@
 id:
   'matsuoka-yuma'
 name:
- 松岡 佑磨
-nameSub:
- Matsuoka Yuma
+  松岡 佑磨
 ---
 
 ## Biography

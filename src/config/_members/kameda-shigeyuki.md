@@ -2,9 +2,7 @@
 id:
   'kameda-shigeyuki'
 name:
- 亀田 重幸
-nameSub:
- Kameda Shigeyuki
+  亀田 重幸
 ---
 
 ## Biography

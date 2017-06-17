@@ -3,10 +3,8 @@ id:
   'okuoka-kohei'
 name:
   奥岡 耕平
-nameSub:
-  Okuoka Kohei
 facebook:
-  "https://facebook.com/kohei.okuoka"
+  'https://facebook.com/kohei.okuoka'
 ---
 
 ## Biography

@@ -3,12 +3,6 @@ id:
   'doi-yurika'
 name:
   土井 ゆりか
-nameSub:
-  doi yurika
-facebook:
- 
-twitter:
-  
 ---
 
 

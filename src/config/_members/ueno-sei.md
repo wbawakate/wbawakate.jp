@@ -2,9 +2,7 @@
 id:
   'ueno-sei'
 name:
- 上乃 聖
-nameSub:
- Ueno Sei
+  上乃 聖
 ---
 
 ## Biography

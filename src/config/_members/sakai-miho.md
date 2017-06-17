@@ -2,9 +2,7 @@
 id:
   'sakai-miho'
 name:
- 坂井 美帆
-nameSub:
- Sakai Miho
+  坂井 美帆
 ---
 
 ## Biography

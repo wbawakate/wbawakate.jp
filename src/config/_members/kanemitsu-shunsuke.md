@@ -3,11 +3,8 @@ id:
   'kanemitsu-shunsuke'
 name:
   金光 俊輔
-nameSub:
-  Kanemitsu Shunsuke
-
 facebook:
-  "https://www.facebook.com/gya1113"
+  'https://www.facebook.com/gya1113'
 ---
 
 ## Message
@@ -17,7 +14,6 @@ AIは専門分野ではなく、大学院では都市工学を専攻していま
 - 2013年3月 東京工業大学附属科学技術高等学校 卒業 (情報システム分野 首席)．
 - 2013年4月 慶應義塾大学 理工学部 入学．
 - 2017年3月 慶應義塾大学 理工学部 情報工学科 卒業 (情報工学科 首席)．
-
 - 2017年3月 慶應義塾大学大学院 理工学研究科 開放環境科学専攻 オープンシステムマネジメント専修	 修士課程入学
 
 現在 同大学院 修士課程（[栗田研究室](http://www.ae.keio.ac.jp/lab/soc/kurita/)所属）

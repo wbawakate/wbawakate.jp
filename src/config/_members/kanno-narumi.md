@@ -2,13 +2,7 @@
 id:
   'kanno-narumi'
 name:
-  神野成海
-nameSub:
-  Kanno Narumi
-facebook:
- 
-twitter:
-  
+  神野 成海
 ---
 
 
@@ -17,5 +11,5 @@ twitter:
 ## Biography
 東京理科大学 理学部 数理情報科学科 3年
 
-##Activity in WBA
+## Activity in WBA
 - 2015年11月 [ 第11回WBA若手の会勉強会 スパースモデリングとその数理](http://wbawakate.jp/posts/events/11th/)講演

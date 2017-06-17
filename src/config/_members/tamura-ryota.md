@@ -2,9 +2,7 @@
 id:
   'tamura-ryota'
 name:
- 田村 陵大
-nameSub:
- Tamura Ryota
+  田村 陵大
 ---
 
 ## Biography

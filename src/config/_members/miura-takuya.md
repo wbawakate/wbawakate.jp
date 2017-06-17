@@ -2,9 +2,7 @@
 id:
   'miura-takuya'
 name:
- 三浦 拓也
-nameSub:
- Miura Takuya
+  三浦 拓也
 ---
 
 ## Biography

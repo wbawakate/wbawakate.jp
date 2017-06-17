@@ -2,9 +2,7 @@
 id:
   'nagayama-taishi'
 name:
- 永山 大志
-nameSub:
- Nagayama Taishi
+  永山 大志
 ---
 
 ## Biography

@@ -2,9 +2,7 @@
 id:
   'kajiya-rina'
 name:
- 加治屋 里奈
-nameSub:
- Kajiya Rina
+  加治屋 里奈
 ---
 
 ## Biography
