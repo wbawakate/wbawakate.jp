@@ -22,4 +22,5 @@ block content-block
         each s in sponsor
           li.sponsor-item
             a(href= s.url, target="blank")
-              img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
+              .image
+                img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)

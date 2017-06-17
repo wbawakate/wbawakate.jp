@@ -1,10 +1,13 @@
 @include with-page("sponsor") {
   .front-block {
-    width: px(750);
-
+    width: px(350);
     margin: 0 auto;
 
     padding-top: px(30);
+
+    @include mq-large {
+      width: px(960);
+    }
   }
 
   .heading {
@@ -12,28 +15,42 @@
   }
 
   .link-join {
-    margin-top: px(100);
+    margin-top: px(30);
   }
 
   .sponsor-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-
     margin-top: px(50);
+
+    width: px(350);
+
+    @include mq-large {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+
+      width: px(960);
+    }
   }
 
   .sponsor-item {
-    display: flex;
-    flex: 0 1 33%;
-    align-items: center;
-    justify-content: center;
-
     margin-top: px(50);
 
-    .elm-img {
-      width: px(220);
-      height: auto;
+    @include mq-large {
+      display: flex;
+      flex: 0 1 33%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image {
+      @include mq-large {
+        width: px(220);
+      }
+
+      .elm-img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
