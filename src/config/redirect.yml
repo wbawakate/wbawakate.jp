@@ -219,7 +219,7 @@ list:
   #   path: '/member/kadomae_kazuma/'
   #   dest: '/'
 
-  -
-    title: 'Sitemap'
-    path: '/sitemap/'
-    dest: '/'
+  # -
+  #   title: 'Sitemap'
+  #   path: '/sitemap/'
+  #   dest: '/'

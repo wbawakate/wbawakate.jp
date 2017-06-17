@@ -1,0 +1,79 @@
+extends /_layout/_default-layout
+
+prepend config-block
+  - pageName = 'Sitemap'
+
+append config-block
+  - pageId = 'sitemap'
+  - rootPath = '../'
+  - url = `${settings.url}sitemap/`
+
+mixin site-item(opts)
+  - const { title, href } = opts;
+  a.elm-a(href= href)
+    = title
+
+block content-block
+  main
+    .front-block
+      h1.heading
+        | Sitemap
+
+
+      ul.list.hover-effect
+        li.item
+          +site-item({
+            href: '/',
+            title: 'WBA Future Leaders',
+          })
+
+        li.item
+          +site-item({
+            href: '/about/',
+            title: 'About',
+          })
+
+        li.item
+          +site-item({
+            href: '/member/',
+            title: 'Member',
+          })
+          ul.list
+            each branch in members
+              each member in branch
+                li.item
+                  +site-item({
+                    href: `/member/${member.link}`,
+                    title: member.name,
+                  })
+
+        li.item
+          +site-item({
+            href: '/event/',
+            title: 'Event',
+          })
+          ul.list
+            each event in events
+              li.item
+                +site-item({
+                  href: `/event/${event.link}`,
+                  title: event.name,
+                })
+
+        li.item
+          +site-item({
+            href: '/sponsor-event',
+            title: 'SponsorEvent',
+          })
+
+        li.item
+          +site-item({
+            href: '/sponsor',
+            title: 'Sponsor',
+          })
+
+        li.item
+          +site-item({
+            href: '/sitemap/',
+            title: 'Sitemap',
+          })

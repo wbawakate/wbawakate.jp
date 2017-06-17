@@ -212,7 +212,7 @@ gulp.task('redirect', () => {
   return ret;
 });
 
-gulp.task('html', gulp.series('pug', gulp.parallel('rename-member', 'rename-event', 'copy-scripts', 'copy-images'), 'clean', 'redirect'));
+gulp.task('html', gulp.series('redirect', 'pug', gulp.parallel('rename-member', 'rename-event', 'copy-scripts', 'copy-images'), 'clean'));
 gulp.task('html-test', gulp.series('pug', 'redirect'));
 
 
