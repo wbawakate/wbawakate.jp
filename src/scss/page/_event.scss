@@ -1,17 +1,21 @@
 @include with-page("event") {
   .category-list {
-    display: flex;
+    @include mq-large {
+      display: flex;
 
-    width: px(750);
+      width: px(960);
 
-    margin: 0 auto;
+      margin: 0 auto;
+    }
   }
 
   .category-item {
-    justify-content: flex-start;
+    @include mq-large {
+      justify-content: flex-start;
 
-    + .category-item {
-      margin-left: px(20);
+      + .category-item {
+        margin-left: px(20);
+      }
     }
 
     .elm-a {
@@ -20,20 +24,41 @@
   }
 
   .event-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-
-    width: px(750);
     margin: 0 auto;
-    margin-top: px(10);
+
+    width: px(350);
+
+    text-align: left;
+
+    font-size: 0;
+
+    @include mq-large {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+
+      width: px(960);
+
+      margin: 0 auto;
+      margin-top: px(10);
+    }
   }
 
   .event-item {
-    display: flex;
-    flex: 0 1 33%;
-    align-items: center;
-    justify-content: center;
+    width: px(350);
+
+    text-align: center;
+    vertical-align: top;
+
+    font-size: $base-font-size;
+
+    @include mq-large {
+      display: inline-block;
+
+      margin-left: px(20);
+
+      width: px(220);
+    }
   }
 
   .event {
@@ -41,11 +66,18 @@
 
     margin-top: px(20);
 
+    text-align: left;
+
     .image {
       display: block;
 
-      width: px(220);
-      height: px(183);
+      width: px(350);
+      height: auto;
+
+      @include mq-large {
+        width: px(220);
+        height: px(183);
+      }
 
       img {
         width: 100%;
@@ -54,7 +86,7 @@
     }
 
     .name {
-      margin-top: px(20);
+      margin-top: px(10);
 
       font-size: px(20);
     }
