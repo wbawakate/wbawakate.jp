@@ -1,23 +1,28 @@
 extends /_layout/_default-layout
 
+prepend config-block
+  -
+    let memberArr = _.values(members).reduce((p, c) => p.concat(c));
+    let member = memberArr.filter(m => m.id === meta.id)[0]
+
 append config-block
   - pageId = 'member-detail'
   - rootPath = '../../'
-  - title = `${meta.name} | ${settings.site_name}`
-  - ogp_image_url = meta.image ? `${settings.url}img/member/${meta.image}` : settings.ogp_image_url
+  - title = `${member.name} | ${settings.site_name}`
+  - ogp_image_url = member.image ? `${settings.url}img/member/${member.image}` : settings.ogp_image_url
   - url = `${settings.url}member/${meta.id}/`
 
 block content-block
   main.main
     .front-block
       .image
-        img(src= `${meta.image ? `${rootPath}img/member/${meta.image}` : "//placehold.jp/300x300.png"}`)
+        img(src= `${member.image ? `${rootPath}img/member/${member.image}` : "//placehold.jp/300x300.png"}`)
       .profile.hover-effect
         h1.name
-          = meta.name
-        if meta.nameSub
+          = member.name
+        if member.nameSub
           .sub-name
-            = meta.nameSub
+            = member.nameSub
 
         .body
           != body
