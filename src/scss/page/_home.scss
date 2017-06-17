@@ -1,7 +1,7 @@
 @include with-page("home") {
   .front-block {
     @include mq-large {
-      width: px(750);
+      width: px(960);
 
       margin: 0 auto;
     }
@@ -56,11 +56,15 @@
       font-size: 0;
 
       @include mq-large {
-        width: px(780);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
 
-        margin-left: - px(30);
+        width: px(960);
 
-        text-align: center;
+        margin: 0 auto;
+        margin-top: px(10);
+        margin-left: - px(20);
       }
     }
 
@@ -75,9 +79,9 @@
       @include mq-large {
         display: inline-block;
 
-        width: px(360);
+        width: px(220);
 
-        margin-left: px(30);
+        margin-left: px(20);
       }
     }
 
@@ -113,11 +117,15 @@
       font-size: 0;
 
       @include mq-large {
-        width: px(780);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
 
-        margin-left: - px(30);
+        width: px(960);
 
-        text-align: center;
+        margin: 0 auto;
+        margin-top: px(10);
+        margin-left: - px(20);
       }
     }
 
@@ -132,9 +140,9 @@
       @include mq-large {
         display: inline-block;
 
-        width: px(360);
+        margin-left: px(20);
 
-        margin-left: px(30);
+        width: px(220);
       }
     }
 
@@ -168,7 +176,7 @@
     width: px(350);
 
     @include mq-large {
-      width: px(750);
+      width: px(960);
 
       margin-top: px(30);
     }
@@ -186,8 +194,8 @@
       margin-top: px(10);
 
       @include mq-large {
-        width: px(750);
-        height: px(422);
+        width: px(960);
+        height: px(540);
       }
 
       iframe {
@@ -224,11 +232,16 @@
       font-size: 0;
 
       @include mq-large {
-        width: px(750);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
 
-        margin-left: - px(25);
+        width: px(960);
 
-        text-align: left;
+        margin: 0 auto;
+        margin-top: px(10);
+        margin-left: - px(40);
       }
     }
 
@@ -245,9 +258,11 @@
       vertical-align: middle;
 
       @include mq-large {
+        display: inline-block;
+
         width: px(200);
 
-        margin-left: px(50);
+        margin-left: px(40);
       }
 
       .image {
