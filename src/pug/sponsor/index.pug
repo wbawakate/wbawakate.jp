@@ -18,9 +18,9 @@ block content-block
         a.elm-a(href= settings.link_contact, target="_blank")
           | &gt;&gt; 協賛希望の企業様はこちら
 
-      ul.sponsor-list
+      .sponsor-list
         each s in sponsor
-          li.sponsor-item
+          .sponsor-item
             a(href= s.url, target="blank")
               .image
                 img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
