@@ -5,24 +5,29 @@ prepend config-block
     let memberArr = _.values(members).reduce((p, c) => p.concat(c));
     let member = memberArr.filter(m => m.id === meta.id)[0]
 
+    let name = meta.name || member.name
+    let nameSub = meta.nameSub || member.nameSub
+    let image = meta.image || member.image
+
 append config-block
   - pageId = 'member-detail'
   - rootPath = '../../'
-  - title = `${member.name} | ${settings.site_name}`
-  - ogp_image_url = member.image ? `${settings.url}img/member/${member.image}` : settings.ogp_image_url
+  - title = `${name} | ${settings.site_name}`
+  - ogp_image_url = image ? `${settings.url}img/member/${image}` : settings.ogp_image_url
   - url = `${settings.url}member/${meta.id}/`
 
 block content-block
   main.main
     .front-block
-      .image
-        img(src= `${member.image ? `${rootPath}img/member/${member.image}` : "//placehold.jp/300x300.png"}`)
+      if image
+        .image
+          img(src=`${rootPath}img/member/${image}`)
       .profile.hover-effect
         h1.name
-          = member.name
-        if member.nameSub
+          = name
+        if nameSub
           .sub-name
-            = member.nameSub
+            = nameSub
 
         .body
           != body
@@ -45,3 +50,7 @@ block content-block
             .sns-item.twitter
               a.elm-a(href=`${meta.twitter}`, target="_blank")
                 i.fa.fa-twitter
+          if meta.website
+            .sns-item.website
+              a.elm-a(href=`${meta.website}`, target="_blank")
+                i.fa.fa-plus

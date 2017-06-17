@@ -41,11 +41,12 @@ block content-block
           ul.list
             each branch in members
               each member in branch
-                li.item
-                  +site-item({
-                    href: `/member/${member.link}`,
-                    title: member.name,
-                  })
+                if member.link
+                  li.item
+                    +site-item({
+                      href: `/member/${member.link}`,
+                      title: member.name,
+                    })
 
         li.item
           +site-item({
