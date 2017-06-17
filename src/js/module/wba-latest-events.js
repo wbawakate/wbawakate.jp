@@ -6,60 +6,60 @@ export default class WbaLatestEvents {
   }
 
   initialize(opts = {}) {
+    const WBAWAKATE_GROUP_ID = 1838;
+
     const elm = this.elm = opts.elm;
     const $elm = $(elm);
-    const $list = $('<div class="list">');
-
-    $elm.append($list);
+    const $list = $('<ul class="list">');
 
     const compiled = _.template(`
-      <div class="item">
+      <li class="item">
         <div class="date"><time datetime="<%= started_at %>"><%= startedAtFormat %></time></div>
         <div class="title"><a href="<%= event_url %>"><%= title %></a></div>
-        <div class="place"><%= place %></div>
-        <div class="catch"><%= catch_ %></div>
-      </div>
+        <!-- <div class="place"><%= place %></div> -->
+        <!-- <div class="catch"><%= catch_ %></div> -->
+      </li>
     `);
 
     $.ajax({
       url: '//connpass.com/api/v1/event/',
       method: 'GET',
       data: {
-        series_id: 1838,
+        series_id: WBAWAKATE_GROUP_ID,
       },
       dataType: 'jsonp',
     })
       .then((res) => {
-        const eventArr = res.events;
+        const eventArr = res.events.slice().reverse();
 
-        const displayEventArr = [];
+        const displayEventArr = eventArr
+          .map((event) => {
+            const startedAtMoment = moment(event.started_at)
+            const startedAtFormat = startedAtMoment.format('Y年M月D日 HH:mm');
 
-        eventArr.forEach((event) => {
-          const startedAtMoment = moment(event.started_at)
-          const startedAtFormat = startedAtMoment.format('Y年M月D日 HH:mm');
-
-          const endedAtMoment = moment(event.ended_at)
-
-          // const isPast = endedAtMoment.isBefore(moment());
-          const isPast = false;
-
-          if (isPast) {
-          } else {
-            displayEventArr.push({
+            return {
               ...event,
               catch_: event.catch, // catchは予約語のため
               startedAtFormat,
-            });
-          }
+            };
+          })
+          .filter((event) => {
+            const endedAtMoment = moment(event.ended_at);
 
-        });
+            const isPast = endedAtMoment.isBefore(moment());
+
+            return !isPast;
+          });
+        ;
 
         if (displayEventArr.length > 0) {
           displayEventArr.forEach((event) => {
             $list.append(compiled(event));
           });
+
+          $elm.append($list);
         } else {
-          $list.append('<p>直近のイベントはありません</p>');
+          $elm.append('<p class="no-result">直近のイベントはありません</p>');
         }
       })
       .fail((err) => {

@@ -1,8 +1,18 @@
 .wba-latest-events {
   .list {
+    list-style-position: inside;
+    list-style: disc;
+
+    padding-left: px(20);
   }
 
   .item {
     margin: px(20) 0;
+  }
+
+  .no-result {
+    margin-top: px(20);
+
+    color: $sub-font-color;
   }
 }
