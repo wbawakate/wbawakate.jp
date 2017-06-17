@@ -28,15 +28,15 @@ function setEnvClass() {
 function fitWindow() {
   // resize event
   $(window).on('resize', (evt) => {
-    const breakpoint = 960;
+    const breakpoint = 640;
 
     // ブレークポイント近辺でスクロールバーが邪魔になるのでスクロールバーを配慮した構成に
     const globalW = window.innerWidth; // スクロールバー含む
     const windowW = $(window).width(); // スクロールバー含まない
 
-    if(ns.isSp) {
+    if(windowW < breakpoint) {
       $('html').css({
-        "font-size": 100 * globalW / 750,
+        "font-size": 100 * globalW / 375,
       });
       $('body').css({
         "width": windowW,
@@ -45,6 +45,7 @@ function fitWindow() {
     } else {
       $('html').css("font-size", "");
       $('body').css("width", "");
+      ns.isLarge = true;
     }
   }).trigger('resize');
 }
