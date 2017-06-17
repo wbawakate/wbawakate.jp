@@ -32,17 +32,17 @@ const DEST = `${HTDOCS}${BASE_PATH}`;
 
 
 // css
-gulp.task('copy-modules-css', () => { 
-  return gulp.src(
-    [
-      'material-design-lite/material.min.css',
-      'material-design-lite/material.min.css.map'
-    ], {
-    cwd: 'node_modules',
-  })
-    .pipe(gulp.dest(`${DEST}/css/lib`))
-  ;
-});
+// gulp.task('copy-modules-css', () => { 
+//   return gulp.src(
+//     [
+//       'material-design-lite/material.min.css',
+//       'material-design-lite/material.min.css.map'
+//     ], {
+//     cwd: 'node_modules',
+//   })
+//     .pipe(gulp.dest(`${DEST}/css/lib`))
+//   ;
+// });
 
 gulp.task('sass', () => {
   const config = readConfig(`${CONFIG}/pleeease.json`);
@@ -63,8 +63,6 @@ gulp.task('css-test', gulp.series('sass'));
 gulp.task('copy-modules-js', () => { 
   return gulp.src(
     [
-      // 'material-design-lite/material.min.js',
-      // 'material-design-lite/material.min.js.map',
       'jquery/dist/jquery.min.js',
       'jquery/dist/jquery.min.map',
       'lodash/lodash.min.js'
@@ -105,7 +103,6 @@ gulp.task('deco', () => {
   ;
 });
 
-// gulp.task 'js', gulp.parallel('browserify', 'copy-modules-js')
 gulp.task('js', gulp.series(gulp.parallel('browserify', 'copy-modules-js'), gulp.parallel('minify', 'deco')));
 gulp.task('js-test', gulp.series('browserify', gulp.parallel('minify', 'deco')));
 

@@ -66,14 +66,12 @@ html(lang="ja")
 
     // stylesheet
     block stylesheet-block
-      //- link(rel="stylesheet", href= rootPath + 'css/lib/material.min.css')
       link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic", type="text/css", media="all")
       link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&#038;ver=4.7.5", type="text/css", media="all")
 
       link(rel="stylesheet", href= `${rootPath}css/style.css`)
 
   body(data-page-id= pageId)
-    //- appId指定を忘れないように
     include ../_partial/fb-sdk.html
 
     .wrapper
@@ -86,10 +84,8 @@ html(lang="ja")
       script(src= rootPath + 'js/lib/jquery.min.js')
       script(src= rootPath + 'js/lib/lodash.min.js')
       script(src="https://use.fontawesome.com/106967cd3d.js")
-      //- script(src= rootPath + 'js/lib/material.min.js')
       script(src=`${rootPath}js/script.js`)
 
     //- include ../_partial/gplus-platform.html
 
-    //- トラッキングID指定を忘れないように
     include ../_partial/ga.html
