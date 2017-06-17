@@ -122,7 +122,7 @@
     },
     {
       "id" : "new-year-party-2016",
-      "type" : "新年会",
+      "type" : "懇親会",
       "name" : "2016年 WBA若手の会 新年会",
       "date" : "2016-01-08T15:00:00.000Z",
       "image" : "new-year-party-2016.jpg",
@@ -226,7 +226,7 @@
     },
     {
       "id" : "new-year-party-2017",
-      "type" : "新年会",
+      "type" : "懇親会",
       "name" : "2017年 WBA若手の会 新年会",
       "date" : "2017-01-27T15:00:00.000Z",
       "image" : "new-year-party-2017.jpg",
