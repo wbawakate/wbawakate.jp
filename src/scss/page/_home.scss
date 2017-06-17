@@ -162,15 +162,15 @@
   }
 
   .sec-promotion-video {
-    width: 100%;
+    margin: 0 auto;
+    margin-top: px(15);
+
+    width: px(350);
 
     @include mq-large {
-      margin: 0 auto;
-      margin-top: px(30);
-    }
+      width: px(750);
 
-    @include mq-small {
-      margin-top: px(15);
+      margin-top: px(30);
     }
 
     .heading {
@@ -180,19 +180,14 @@
     .video {
       display: block;
 
-      width: px(700);
-      height: px(394);
+      width: 100%;
+      height: px(197);
 
       margin-top: px(10);
 
       @include mq-large {
         width: px(750);
         height: px(422);
-      }
-
-      @include mq-small {
-        width: px(375);
-        height: px(197);
       }
 
       iframe {
@@ -207,42 +202,49 @@
       margin: 0 auto;
       margin-top: px(20);
 
-      width: px(720);
+      width: 100%;
       height: px(200);
 
       overflow-y: scroll;
+
+      @include mq-large {
+        width: px(720);
+        height: px(200);
+      }
     }
   }
 
   .sec-sponsor {
     .sponsor-list {
-      width: px(350);
+      width: px(380);
 
       margin-top: px(20);
+      margin-left: - px(30);
 
       font-size: 0;
 
       @include mq-large {
         width: px(750);
 
-        margin-left: 0;
+        margin-left: - px(25);
 
         text-align: left;
       }
     }
 
     .sponsor-item {
-      width: 100%;
+      display: inline-block;
+
+      width: px(160);
 
       margin-top: px(30);
+      margin-left: px(30);
 
       font-size: $base-font-size;
 
       vertical-align: middle;
 
       @include mq-large {
-        display: inline-block;
-
         width: px(200);
 
         margin-left: px(50);
