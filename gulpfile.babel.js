@@ -4,6 +4,7 @@
 import gulp from 'gulp';
 import fs from 'fs';
 import _ from 'lodash';
+import moment from 'moment';
 import source from 'vinyl-source-stream';
 import sass from 'gulp-sass';
 import sassGlob from 'gulp-sass-glob';
@@ -113,6 +114,7 @@ gulp.task('js-test', gulp.series('browserify', gulp.parallel('minify', 'deco')))
 gulp.task('pug', () => {
   const locals = {
     _: _,
+    moment: moment,
     settings: readConfig(`${CONFIG}/meta.yml`),
     sponsor: readConfig(`${CONFIG}/sponsor.yml`),
     sponsorEvents: readConfig(`${CONFIG}/sponsor-event.yml`),
