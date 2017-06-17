@@ -3,6 +3,10 @@
     overflow: hidden;
   }
 
+  @include mq-medium {
+    width: px(750);
+  }
+
   @include mq-large {
     width: 100%;
     min-width: $wrapper-width--pc;

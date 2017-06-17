@@ -12,12 +12,12 @@
     justify-content: center;
 
     .elm-img {
-      width: px(360);
+      width: px(180);
       height: auto;
     }
   }
 
-  .flont-block {
+  .front-block {
     @include mq-large {
       width: px(750);
 
@@ -25,9 +25,9 @@
     }
 
     @include mq-small {
-      width: px(700);
+      width: px(350);
 
-      margin: 0 px(25);
+      margin: 0 auto;
     }
   }
 
@@ -36,10 +36,6 @@
       color: $font-color;
 
       font-size: px(26);
-
-      @include mq-small {
-        font-size: px(52);
-      }
     }
 
     .lead {
@@ -62,10 +58,6 @@
       font-size: px(26);
 
       color: $font-color;
-
-      @include mq-small {
-        font-size: px(52);
-      }
     }
 
     .sub-heading {
@@ -74,10 +66,6 @@
       color: $sub-font-color;
 
       font-size: px(16);
-
-      @include mq-small {
-        font-size: px(32);
-      }
     }
   }
 
@@ -85,9 +73,11 @@
     margin-top: px(30);
 
     .event-list {
-      display: flex;
-      justify-content: space-between;
-      flex-flow: row wrap;
+      @include mq-large {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+      }
 
       width: px(700);
 
@@ -104,7 +94,7 @@
         height: px(287);
 
         @include mq-small {
-          width: px(700);
+          width: px(350);
           height: auto;
         }
 
@@ -118,10 +108,6 @@
         margin-top: px(15);
 
         font-size: px(20);
-
-        @include mq-small {
-          font-size: px(40);
-        }
       }
     }
 
@@ -147,7 +133,7 @@
       margin-top: px(30);
 
       @include mq-small {
-        width: px(700);
+        width: px(375);
       }
     }
 
@@ -157,7 +143,7 @@
         height: px(113);
 
         @include mq-small {
-          width: px(700);
+          width: px(375);
           height: auto;
         }
 
@@ -171,10 +157,6 @@
         margin-top: px(15);
 
         font-size: px(20);
-
-        @include mq-small {
-          font-size: px(40);
-        }
       }
     }
 
@@ -192,9 +174,9 @@
     }
 
     @include mq-small {
-      margin-top: px(30);
+      margin-top: px(15);
 
-      width: px(700);
+      width: px(375);
     }
 
     .heading {
@@ -215,8 +197,8 @@
       }
 
       @include mq-small {
-        width: px(700);
-        height: px(394);
+        width: px(375);
+        height: px(197);
       }
 
       iframe {
@@ -250,9 +232,9 @@
       width: px(600);
 
       @include mq-small {
-        width: px(720);
+        width: px(360);
 
-        margin-left: px(-20);
+        margin-left: px(-10);
       }
     }
 
@@ -267,7 +249,7 @@
       @include mq-small {
         display: block;
 
-        margin-left: px(20);
+        margin-left: px(10);
       }
 
       margin-top: px(50);
@@ -277,7 +259,7 @@
         height: auto;
 
         @include mq-small {
-          width: px(340);
+          width: px(170);
           height: auto;
         }
       }

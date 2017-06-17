@@ -28,7 +28,7 @@ function setEnvClass() {
 function fitWindow() {
   // resize event
   $(window).on('resize', (evt) => {
-    const breakpoint = 480;
+    const breakpoint = 640;
 
     // ブレークポイント近辺でスクロールバーが邪魔になるのでスクロールバーを配慮した構成に
     const globalW = window.innerWidth; // スクロールバー含む
@@ -36,7 +36,7 @@ function fitWindow() {
 
     if(windowW < breakpoint) {
       $('html').css({
-        "font-size": 100 * globalW / 750,
+        "font-size": 100 * globalW / 375,
       });
       $('body').css({
         "width": windowW,
