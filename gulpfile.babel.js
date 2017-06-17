@@ -118,7 +118,7 @@ gulp.task('pug', () => {
     settings: readConfig(`${CONFIG}/meta.yml`),
     sponsor: readConfig(`${CONFIG}/sponsor.yml`),
     sponsorEvents: readConfig(`${CONFIG}/sponsor-event.yml`),
-    events: readConfig(`${CONFIG}/event.yml`),
+    events: readConfig(`${CONFIG}/event.json`),
     members: readConfig(`${CONFIG}/member.json`),
     newsArr: readConfig(`${CONFIG}/news.yml`),
     bibArr: bibtexParse.toJSON(fs.readFileSync(`${CONFIG}/publication.bib`, { encoding:"utf8" })),
