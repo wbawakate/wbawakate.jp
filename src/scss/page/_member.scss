@@ -48,6 +48,8 @@
 
     margin: 0 auto;
 
+    font-size: 0;
+
     @include mq-large {
       display: flex;
       flex-flow: row wrap;
@@ -60,6 +62,10 @@
 
   .member-item {
     display: block;
+
+    margin-top: px(20);
+
+    font-size: $base-font-size;
 
     @include mq-large {
       display: flex;
@@ -75,15 +81,11 @@
     width: px(350);
     height: px(350);
 
-    margin-top: px(12);
-
     background-color: #ccc;
 
     @include mq-large {
       width: px(300);
       height: px(300);
-
-      margin-top: px(20);
     }
 
     &:hover {
