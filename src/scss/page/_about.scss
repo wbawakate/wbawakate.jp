@@ -46,10 +46,7 @@
     }
 
     li:not([class]) {
-      list-style-position: inside;
       list-style-type: disc;
-
-      text-indent: px(20);
     }
   }
 
