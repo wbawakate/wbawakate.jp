@@ -40,6 +40,7 @@ export default class WbaLatestEvents {
             return {
               ...event,
               catch_: event.catch, // catchは予約語のため
+              startedAtMoment,
               startedAtFormat,
             };
           })
@@ -49,7 +50,10 @@ export default class WbaLatestEvents {
             const isPast = endedAtMoment.isBefore(moment());
 
             return !isPast;
-          });
+          })
+          .sort((eventA, eventB) => {
+            return eventA.startedAtMoment.isAfter(eventB.startedAtMoment)
+          })
         ;
 
         if (displayEventArr.length > 0) {
