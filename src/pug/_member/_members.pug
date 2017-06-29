@@ -2,7 +2,11 @@ extends /_layout/_default-layout
 
 prepend config-block
   -
-    let memberArr = _.values(members).reduce((p, c) => p.concat(c));
+    let branchArr = _.values(members).reduce((p, c) => p.concat(c), []);
+    let memberArr = branchArr
+      .map(branch => _.values(branch))
+      .reduce((p, c) => p.concat(c), [])
+    ;
     let member = memberArr.filter(m => m.id === meta.id)[0]
 
     let name = meta.name || member.name

@@ -1,7 +1,8 @@
 {
-  "default" : [
-    {
+  "default" : {
+    "osawa-masahiko" : {
       "id" : "osawa-masahiko",
+      "index" : 1,
       "name" : "大澤 正彦",
       "nameSub" : "Osawa Masahiko",
       "position" : "代表",
@@ -9,8 +10,9 @@
       "image" : "osawa-masahiko.jpg",
       "link" : "osawa-masahiko/"
     },
-    {
+    "sakai-miho" : {
       "id" : "sakai-miho",
+      "index" : 2,
       "name" : "坂井 美帆",
       "nameSub" : "Sakai Miho",
       "position" : "副代表",
@@ -18,8 +20,9 @@
       "image" : "sakai-miho.jpg",
       "link" : "sakai-miho/"
     },
-    {
+    "shimada-daiki" : {
       "id" : "shimada-daiki",
+      "index" : 3,
       "name" : "島田 大樹",
       "nameSub" : "Shimada Daiki",
       "position" : "副代表",
@@ -27,8 +30,9 @@
       "image" : "shimada-daiki.jpg",
       "link" : "shimada-daiki/"
     },
-    {
+    "kawasaki-yusuke" : {
       "id" : "kawasaki-yusuke",
+      "index" : 4,
       "name" : "川崎 雄介",
       "nameSub" : "Kawasaki Yusuke",
       "position" : "会計",
@@ -36,10 +40,11 @@
       "image" : "kawasaki-yusuke.jpg",
       "link" : "kawasaki-yusuke/"
     }
-  ],
-  "WBA 若手の会 関東支部" : [
-    {
+  },
+  "WBA 若手の会 関東支部" : {
+    "yagi-takuma" : {
       "id" : "yagi-takuma",
+      "index" : 1,
       "name" : "八木 拓真",
       "nameSub" : "Yagi Takuma",
       "position" : "関東支部代表 ",
@@ -47,8 +52,9 @@
       "image" : "yagi-takuma.jpg",
       "link" : "yagi-takuma/"
     },
-    {
+    "matsuoka-yuma" : {
       "id" : "matsuoka-yuma",
+      "index" : 2,
       "name" : "松岡 佑磨",
       "nameSub" : "Matsuoka Yuma",
       "position" : "関東支部副代表",
@@ -56,8 +62,9 @@
       "image" : "matsuoka-yuma.jpg",
       "link" : "matsuoka-yuma/"
     },
-    {
+    "itaya-kotone" : {
       "id" : "itaya-kotone",
+      "index" : 3,
       "name" : "板谷 琴音",
       "nameSub" : "Itaya Kotone",
       "position" : "",
@@ -65,8 +72,9 @@
       "image" : "itaya-kotone.jpg",
       "link" : "itaya-kotone/"
     },
-    {
+    "kajiya-rina" : {
       "id" : "kajiya-rina",
+      "index" : 4,
       "name" : "加治屋 里奈",
       "nameSub" : "Kajiya Rina",
       "position" : "",
@@ -74,8 +82,9 @@
       "image" : "kajiya-rina.jpg",
       "link" : "kajiya-rina/"
     },
-    {
+    "kanno-narumi" : {
       "id" : "kanno-narumi",
+      "index" : 5,
       "name" : "神野 成海",
       "nameSub" : "Kanno Narumi",
       "position" : "",
@@ -83,8 +92,9 @@
       "image" : "kanno-narumi.jpg",
       "link" : "kanno-narumi/"
     },
-    {
+    "sato-taichi" : {
       "id" : "sato-taichi",
+      "index" : 6,
       "name" : "佐藤 太一",
       "nameSub" : "Sato Taichi",
       "position" : "",
@@ -92,8 +102,9 @@
       "image" : "sato-taichi.jpg",
       "link" : "sato-taichi/"
     },
-    {
+    "takeda-takuya" : {
       "id" : "takeda-takuya",
+      "index" : 7,
       "name" : "竹田 卓也",
       "nameSub" : "Takeda Takuya",
       "position" : "",
@@ -101,8 +112,9 @@
       "image" : "takeda-takuya.jpg",
       "link" : "takeda-takuya/"
     },
-    {
+    "doi-yurika" : {
       "id" : "doi-yurika",
+      "index" : 8,
       "name" : "土井 ゆりか",
       "nameSub" : "Doi Yurika",
       "position" : "",
@@ -110,8 +122,9 @@
       "image" : "doi-yurika.jpg",
       "link" : "doi-yurika/"
     },
-    {
+    "nakamura-kentaro" : {
       "id" : "nakamura-kentaro",
+      "index" : 9,
       "name" : "中村 健太郎",
       "nameSub" : "Nakamura Kentaro",
       "position" : "",
@@ -119,8 +132,9 @@
       "image" : "nakamura-kentaro.jpg",
       "link" : "nakamura-kentaro/"
     },
-    {
+    "nakamura-koki" : {
       "id" : "nakamura-koki",
+      "index" : 10,
       "name" : "中村 晃貴",
       "nameSub" : "Nakamura Koki",
       "position" : "",
@@ -128,8 +142,9 @@
       "image" : "nakamura-koki.jpg",
       "link" : "nakamura-koki/"
     },
-    {
+    "nagata-shohei" : {
       "id" : "nagata-shohei",
+      "index" : 11,
       "name" : "永田 祥平",
       "nameSub" : "Nagata Shohei",
       "position" : "",
@@ -137,8 +152,9 @@
       "image" : "nagata-shohei.jpg",
       "link" : "nagata-shohei/"
     },
-    {
+    "harae-naoko" : {
       "id" : "harae-naoko",
+      "index" : 12,
       "name" : "原衛 直子",
       "nameSub" : "Harae Naoko",
       "position" : "",
@@ -146,8 +162,9 @@
       "image" : "harae-naoko.jpg",
       "link" : "harae-naoko/"
     },
-    {
+    "fujita-erika" : {
       "id" : "fujita-erika",
+      "index" : 13,
       "name" : "藤田 恵梨香",
       "nameSub" : "Fujita Erika",
       "position" : "",
@@ -155,8 +172,9 @@
       "image" : "fujita-erika.jpg",
       "link" : "fujita-erika/"
     },
-    {
+    "masuyama-nanami" : {
       "id" : "masuyama-nanami",
+      "index" : 14,
       "name" : "増山 七海",
       "nameSub" : "Masuyama Nanami",
       "position" : "",
@@ -164,8 +182,9 @@
       "image" : "masuyama-nanami.jpg",
       "link" : ""
     },
-    {
+    "kanemitsu-shunsuke" : {
       "id" : "kanemitsu-shunsuke",
+      "index" : 15,
       "name" : "金光 俊輔",
       "nameSub" : "Kanemitsu Shunsuke",
       "position" : "",
@@ -173,8 +192,9 @@
       "image" : "",
       "link" : "kanemitsu-shunsuke/"
     },
-    {
+    "okuoka-kohei" : {
       "id" : "okuoka-kohei",
+      "index" : 16,
       "name" : "奥岡 耕平",
       "nameSub" : "Okuoka Kohei",
       "position" : "",
@@ -182,10 +202,11 @@
       "image" : "",
       "link" : "okuoka-kohei/"
     }
-  ],
-  "WBA 若手の会 関西支部" : [
-    {
+  },
+  "WBA 若手の会 関西支部" : {
+    "nishida-keigo" : {
       "id" : "nishida-keigo",
+      "index" : 1,
       "name" : "西田 圭吾",
       "nameSub" : "Nishida Keigo",
       "position" : "関西支部代表",
@@ -193,8 +214,9 @@
       "image" : "nishida-keigo.jpg",
       "link" : "nishida-keigo/"
     },
-    {
+    "tsuzuki-taku" : {
       "id" : "tsuzuki-taku",
+      "index" : 2,
       "name" : "都築 拓",
       "nameSub" : "Tsuzuki Taku",
       "position" : "関西支部副代表",
@@ -202,8 +224,9 @@
       "image" : "tsuzuki-taku.jpg",
       "link" : "tsuzuki-taku/"
     },
-    {
+    "ueno-sei" : {
       "id" : "ueno-sei",
+      "index" : 3,
       "name" : "上乃 聖",
       "nameSub" : "Ueno Sei",
       "position" : "",
@@ -211,8 +234,9 @@
       "image" : "ueno-sei.jpg",
       "link" : "ueno-sei/"
     },
-    {
+    "miura-takuya" : {
       "id" : "miura-takuya",
+      "index" : 4,
       "name" : "三浦 拓也",
       "nameSub" : "Miura Takuya",
       "position" : "関西支部会計",
@@ -220,8 +244,9 @@
       "image" : "miura-takuya.jpg",
       "link" : "miura-takuya/"
     },
-    {
+    "tamura-ryota" : {
       "id" : "tamura-ryota",
+      "index" : 5,
       "name" : "田村 陵大",
       "nameSub" : "Tamura Ryota",
       "position" : "",
@@ -229,8 +254,9 @@
       "image" : "tamura-ryota.jpg",
       "link" : "tamura-ryota/"
     },
-    {
+    "kiyomaru-hirokazu" : {
       "id" : "kiyomaru-hirokazu",
+      "index" : 6,
       "name" : "清丸 寛一",
       "nameSub" : "Kiyomaru Hirokazu",
       "position" : "",
@@ -238,8 +264,9 @@
       "image" : "kiyomaru-hirokazu.jpg",
       "link" : "kiyomaru-hirokazu/"
     },
-    {
+    "hiroshiba-kazuyuki" : {
       "id" : "hiroshiba-kazuyuki",
+      "index" : 7,
       "name" : "廣芝 和之",
       "nameSub" : "Hiroshiba Kazuyuki",
       "position" : "",
@@ -247,10 +274,11 @@
       "image" : "hiroshiba-kazuyuki.jpg",
       "link" : "hiroshiba-kazuyuki/"
     }
-  ],
-  "WBA 若手の会 ブロックチェーン支部" : [
-    {
+  },
+  "WBA 若手の会 ブロックチェーン支部" : {
+    "komatsu-masatoshi" : {
       "id" : "komatsu-masatoshi",
+      "index" : 1,
       "name" : "小松 昌憲",
       "nameSub" : "Komatsu Masatoshi",
       "position" : "ブロックチェーン支部　代表",
@@ -258,10 +286,11 @@
       "image" : "",
       "link" : "komatsu-masatoshi/"
     }
-  ],
-  "WBA 若手の会 社会人支部" : [
-    {
+  },
+  "WBA 若手の会 社会人支部" : {
+    "ashihara-yuta" : {
       "id" : "ashihara-yuta",
+      "index" : 1,
       "name" : "芦原 佑太",
       "nameSub" : "Ashihara Yuta",
       "position" : "社会人支部　代表",
@@ -269,8 +298,9 @@
       "image" : "ashihara-yuta.jpg",
       "link" : "ashihara-yuta/"
     },
-    {
+    "kakihara-yoshiyuki" : {
       "id" : "kakihara-yoshiyuki",
+      "index" : 2,
       "name" : "柿原 祥之",
       "nameSub" : "Kakihara Yoshiyuki",
       "position" : "社会人支部　副代表",
@@ -278,8 +308,9 @@
       "image" : "kakihara-yoshiyuki.jpg",
       "link" : "kakihara-yoshiyuki/"
     },
-    {
+    "kadomae-kazuma" : {
       "id" : "kadomae-kazuma",
+      "index" : 3,
       "name" : "門前 一馬",
       "nameSub" : "Kadomae Kazuma",
       "position" : "クリエイティブディレクター",
@@ -287,8 +318,9 @@
       "image" : "kadomae-kazuma.jpg",
       "link" : "kadomae-kazuma/"
     },
-    {
+    "nagayama-taishi" : {
       "id" : "nagayama-taishi",
+      "index" : 4,
       "name" : "永山 大志",
       "nameSub" : "Nagayama Taishi",
       "position" : "",
@@ -296,8 +328,9 @@
       "image" : "nagayama-taishi.jpg",
       "link" : "nagayama-taishi/"
     },
-    {
+    "iwabuchi-yuki" : {
       "id" : "iwabuchi-yuki",
+      "index" : 5,
       "name" : "岩淵 勇樹",
       "nameSub" : "Iwabuchi Yuki",
       "position" : "",
@@ -305,8 +338,9 @@
       "image" : "iwabuchi-yuki.jpg",
       "link" : "iwabuchi-yuki/"
     },
-    {
+    "ikeya-masao" : {
       "id" : "ikeya-masao",
+      "index" : 6,
       "name" : "池谷 昌大",
       "nameSub" : "Ikeya Masao",
       "position" : "",
@@ -314,8 +348,9 @@
       "image" : "ikeya-masao.jpg",
       "link" : ""
     },
-    {
+    "takagi-yusuke" : {
       "id" : "takagi-yusuke",
+      "index" : 7,
       "name" : "高木 勇輔",
       "nameSub" : "Takagi Yusuke",
       "position" : "",
@@ -323,8 +358,9 @@
       "image" : "takagi-yusuke.jpg",
       "link" : ""
     },
-    {
+    "kubo-takahiro" : {
       "id" : "kubo-takahiro",
+      "index" : 8,
       "name" : "久保 隆宏",
       "nameSub" : "Kubo Takahiro",
       "position" : "",
@@ -332,8 +368,9 @@
       "image" : "kubo-takahiro.jpg",
       "link" : ""
     },
-    {
+    "watarai-kyohei" : {
       "id" : "watarai-kyohei",
+      "index" : 9,
       "name" : "渡會 恭平",
       "nameSub" : "Watatai Kyohei",
       "position" : "",
@@ -341,8 +378,9 @@
       "image" : "watarai-kyohei.jpg",
       "link" : ""
     },
-    {
+    "yoshida-yuki" : {
       "id" : "yoshida-yuki",
+      "index" : 10,
       "name" : "吉田 雄紀",
       "nameSub" : "Yoshida Yuki",
       "position" : "",
@@ -350,8 +388,9 @@
       "image" : "yoshida-yuki.jpg",
       "link" : ""
     },
-    {
+    "kameda-shigeyuki" : {
       "id" : "kameda-shigeyuki",
+      "index" : 11,
       "name" : "亀田 重幸",
       "nameSub" : "Kameda Shigeyuki",
       "position" : "",
@@ -359,10 +398,11 @@
       "image" : "kameda-shigeyuki.jpg",
       "link" : "kameda-shigeyuki/"
     }
-  ],
-  "WBA 若手の会 顧問" : [
-    {
+  },
+  "WBA 若手の会 顧問" : {
+    "ito-hiroaki" : {
       "id" : "ito-hiroaki",
+      "index" : 1,
       "name" : "伊藤 宏章",
       "nameSub" : "Ito Hiroaki",
       "position" : "顧問",
@@ -370,5 +410,5 @@
       "image" : "ito-hiroaki.jpg",
       "link" : ""
     }
-  ]
+  }
 }
