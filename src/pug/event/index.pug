@@ -37,7 +37,8 @@ block content-block
 
     .event-list
       - eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
-      - eventArr.sort((a, b) => moment(b.date) - moment(a.date))
+      //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date))
+      - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
       each event in eventArr
         .event-item(data-date= event.date, data-type= event.type)
           a(href=`${rootPath}event/${event.link}`)

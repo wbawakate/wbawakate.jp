@@ -43,7 +43,8 @@ block content-block
 
         .event-list
           - eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
-          - eventArr.sort((a, b) => moment(b.date) - moment(a.date));
+          //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date));
+          - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
           - for (i = 0; i < 4; i++) {
             - event = eventArr[i]
               .event-item
