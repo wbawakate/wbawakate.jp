@@ -1,6 +1,6 @@
 {
-  "sheet" : [
-    {
+  "sheet" : {
+    "1" : {
       "id" : "1",
       "type" : "勉強会",
       "name" : "第1回「ディープラーニングの概要」",
@@ -8,7 +8,7 @@
       "image" : "",
       "link" : "1/"
     },
-    {
+    "2" : {
       "id" : "2",
       "type" : "勉強会",
       "name" : "第2回「Convolutional Neural Network (CNN)」",
@@ -16,7 +16,7 @@
       "image" : "",
       "link" : "2/"
     },
-    {
+    "3" : {
       "id" : "3",
       "type" : "勉強会",
       "name" : "第3回「AutoEncoder」",
@@ -24,7 +24,7 @@
       "image" : "",
       "link" : "3/"
     },
-    {
+    "4" : {
       "id" : "4",
       "type" : "勉強会",
       "name" : "第4回「RBM、Deep Learningと学習」",
@@ -32,7 +32,7 @@
       "image" : "",
       "link" : "4/"
     },
-    {
+    "5" : {
       "id" : "5",
       "type" : "勉強会",
       "name" : "第5回「リカレントニューラルネットワーク(RNN)」",
@@ -40,7 +40,7 @@
       "image" : "",
       "link" : "5/"
     },
-    {
+    "6" : {
       "id" : "6",
       "type" : "勉強会",
       "name" : "第6回「強化学習」",
@@ -48,7 +48,7 @@
       "image" : "6.jpg",
       "link" : "6/"
     },
-    {
+    "7" : {
       "id" : "7",
       "type" : "勉強会",
       "name" : "第7回「ベイジアンネットワーク」",
@@ -56,7 +56,7 @@
       "image" : "7.jpg",
       "link" : "7/"
     },
-    {
+    "8" : {
       "id" : "8",
       "type" : "勉強会",
       "name" : "第8回「脳の視覚情報処理」",
@@ -64,7 +64,7 @@
       "image" : "8.jpg",
       "link" : "8/"
     },
-    {
+    "hackathon-1-ideathon" : {
       "id" : "hackathon-1-ideathon",
       "type" : "ハッカソン",
       "name" : "第1回WBAIハッカソン アイデアソン",
@@ -72,7 +72,7 @@
       "image" : "hackathon-1-ideathon.jpg",
       "link" : "hackathon-1-ideathon/"
     },
-    {
+    "hackathon-1" : {
       "id" : "hackathon-1",
       "type" : "ハッカソン",
       "name" : "第1回WBAIハッカソン",
@@ -80,7 +80,7 @@
       "image" : "hackathon-1.jpg",
       "link" : "hackathon-1/"
     },
-    {
+    "9" : {
       "id" : "9",
       "type" : "カジュアルトーク",
       "name" : "第9回 カジュアルトーク",
@@ -88,7 +88,7 @@
       "image" : "9.jpg",
       "link" : "9/"
     },
-    {
+    "10" : {
       "id" : "10",
       "type" : "勉強会",
       "name" : "第10回「海馬と記憶モデルの展望」",
@@ -96,7 +96,7 @@
       "image" : "10.jpg",
       "link" : "10/"
     },
-    {
+    "11" : {
       "id" : "11",
       "type" : "勉強会",
       "name" : "第11回「スパースモデリングとその数理」",
@@ -104,7 +104,7 @@
       "image" : "11.jpg",
       "link" : "11/"
     },
-    {
+    "hackathon-1-report" : {
       "id" : "hackathon-1-report",
       "type" : "ハッカソン",
       "name" : "第1回WBAIハッカソン活動報告",
@@ -112,7 +112,7 @@
       "image" : "hackathon-1-report.jpg",
       "link" : "hackathon-1-report/"
     },
-    {
+    "girls-1" : {
       "id" : "girls-1",
       "type" : "女子会",
       "name" : "第1回 WBA若手の会　女子会＠新宿",
@@ -120,7 +120,7 @@
       "image" : "girls-1.jpg",
       "link" : "girls-1/"
     },
-    {
+    "new-year-party-2016" : {
       "id" : "new-year-party-2016",
       "type" : "懇親会",
       "name" : "2016年 WBA若手の会 新年会",
@@ -128,7 +128,7 @@
       "image" : "new-year-party-2016.jpg",
       "link" : "new-year-party-2016/"
     },
-    {
+    "12" : {
       "id" : "12",
       "type" : "カジュアルトーク",
       "name" : "第12回 カジュアルトーク",
@@ -136,7 +136,7 @@
       "image" : "12.jpg",
       "link" : "12/"
     },
-    {
+    "girls-2" : {
       "id" : "girls-2",
       "type" : "女子会",
       "name" : "第2回 WBA若手の会　女子会＠下北沢",
@@ -144,7 +144,7 @@
       "image" : "girls-2.jpg",
       "link" : "girls-2/"
     },
-    {
+    "13" : {
       "id" : "13",
       "type" : "勉強会",
       "name" : "第13回「言語と画像の表現学習」",
@@ -152,7 +152,7 @@
       "image" : "13.jpg",
       "link" : "13/"
     },
-    {
+    "data-1" : {
       "id" : "data-1",
       "type" : "データ解析くらぶ",
       "name" : "第1回 データ解析くらぶ",
@@ -160,7 +160,7 @@
       "image" : "data-1.jpg",
       "link" : "data-1/"
     },
-    {
+    "spring-meetup-2016" : {
       "id" : "spring-meetup-2016",
       "type" : "懇親会",
       "name" : "2016年 春の交流会",
@@ -168,7 +168,7 @@
       "image" : "spring-meetup-2016.jpg",
       "link" : "spring-meetup-2016/"
     },
-    {
+    "data-2" : {
       "id" : "data-2",
       "type" : "データ解析くらぶ",
       "name" : "第2回 データ解析くらぶ",
@@ -176,7 +176,7 @@
       "image" : "data-2.jpg",
       "link" : "data-2/"
     },
-    {
+    "14" : {
       "id" : "14",
       "type" : "カジュアルトーク",
       "name" : "第14回 カジュアルトーク",
@@ -184,7 +184,7 @@
       "image" : "14.jpg",
       "link" : "14/"
     },
-    {
+    "15" : {
       "id" : "15",
       "type" : "勉強会",
       "name" : "第15回「実ロボットの運動生成」",
@@ -192,7 +192,7 @@
       "image" : "15.jpg",
       "link" : "15/"
     },
-    {
+    "16" : {
       "id" : "16",
       "type" : "カジュアルトーク",
       "name" : "第16回 カジュアルトーク",
@@ -200,7 +200,7 @@
       "image" : "16.jpg",
       "link" : "16/"
     },
-    {
+    "17" : {
       "id" : "17",
       "type" : "カジュアルトーク",
       "name" : "第17回 カジュアルトーク",
@@ -208,7 +208,7 @@
       "image" : "17.jpg",
       "link" : "17/"
     },
-    {
+    "18" : {
       "id" : "18",
       "type" : "カジュアルトーク",
       "name" : "第18回 カジュアルトーク",
@@ -216,7 +216,7 @@
       "image" : "18.jpg",
       "link" : "18/"
     },
-    {
+    "19" : {
       "id" : "19",
       "type" : "カジュアルトーク",
       "name" : "第19回 カジュアルトーク",
@@ -224,7 +224,7 @@
       "image" : "19.jpg",
       "link" : "19/"
     },
-    {
+    "new-year-party-2017" : {
       "id" : "new-year-party-2017",
       "type" : "懇親会",
       "name" : "2017年 WBA若手の会 新年会",
@@ -232,7 +232,7 @@
       "image" : "new-year-party-2017.jpg",
       "link" : "new-year-party-2017/"
     },
-    {
+    "20" : {
       "id" : "20",
       "type" : "カジュアルトーク",
       "name" : "第20回 カジュアルトーク",
@@ -240,7 +240,7 @@
       "image" : "20.jpg",
       "link" : "20/"
     },
-    {
+    "21" : {
       "id" : "21",
       "type" : "カジュアルトーク",
       "name" : "第21回「君の技術は自動運転の未来にどう関わるのか」",
@@ -248,7 +248,7 @@
       "image" : "21.jpg",
       "link" : "21/"
     },
-    {
+    "22" : {
       "id" : "22",
       "type" : "カジュアルトーク",
       "name" : "第22回「人工知能技術と私達の日本の社会の未来について考える」",
@@ -256,7 +256,7 @@
       "image" : "22.jpg",
       "link" : "22/"
     },
-    {
+    "23" : {
       "id" : "23",
       "type" : "カジュアルトーク",
       "name" : "第23回「医療×AI」",
@@ -264,5 +264,5 @@
       "image" : "23.jpg",
       "link" : "23/"
     }
-  ]
+  }
 }

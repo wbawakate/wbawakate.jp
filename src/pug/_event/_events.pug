@@ -1,9 +1,16 @@
 extends /_layout/_default-layout
 
+prepend config-block
+  -
+    let eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
+    let event = eventArr.filter(m => m.id === meta.id)[0]
+
+    let title = meta.title || event.title
+
 append config-block
   - pageId = 'event-detail'
   - rootPath = '../../'
-  - title = `${meta.title} | ${settings.site_name}`
+  - title = `${title} | ${settings.site_name}`
   - ogp_image_url = meta.image ? `${settings.url}img/event/${meta.image}` : settings.ogp_image_url
   - url = `${settings.url}event/${meta.id}/`
 

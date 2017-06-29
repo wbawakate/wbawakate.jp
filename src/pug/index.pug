@@ -42,8 +42,10 @@ block content-block
           | 活動報告
 
         .event-list
+          - eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
+          - eventArr.sort((a, b) => moment(b.date) - moment(a.date));
           - for (i = 0; i < 4; i++) {
-            - event = events.slice().reverse()[i]
+            - event = eventArr[i]
               .event-item
                 a(href=`${rootPath}event/${event.link}`)
                   .event(data-type= event.type)

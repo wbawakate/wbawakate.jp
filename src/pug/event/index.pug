@@ -36,7 +36,9 @@ block content-block
               | 懇親会
 
     .event-list
-      each event in events.slice().reverse()
+      - eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
+      - eventArr.sort((a, b) => moment(b.date) - moment(a.date))
+      each event in eventArr
         .event-item(data-date= event.date, data-type= event.type)
           a(href=`${rootPath}event/${event.link}`)
             .event
