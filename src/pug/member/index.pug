@@ -23,8 +23,9 @@ block content-block
             - href = member.link ? `${member.link}` : null
             a.elm-a(href= href)
               .member
-                - imgPath = ( member.image.match('^\/\/.+') || member.image.match('^https?:\/\/.+')) ? member.image : `${rootPath}img/member/${member.image}`
-                .image(style=`background-image: url(${imgPath}`)
+                if member.image
+                  - imgPath = ( member.image.match('^\/\/.+') || member.image.match('^https?:\/\/.+'))? member.image : `${rootPath}img/member/${member.image}`
+                  .image(style=`background-image: url(${imgPath}`)
 
                 .cover
                 .info
