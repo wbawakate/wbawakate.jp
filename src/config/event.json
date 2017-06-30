@@ -171,23 +171,23 @@
       "image" : "13.jpg",
       "link" : "13/"
     },
-    "data-1" : {
-      "id" : "data-1",
-      "index" : 20,
-      "type" : "データ解析くらぶ",
-      "name" : "第1回 データ解析くらぶ",
-      "date" : "2016-04-15T15:00:00.000Z",
-      "image" : "data-1.jpg",
-      "link" : "data-1/"
-    },
     "spring-meetup-2016" : {
       "id" : "spring-meetup-2016",
-      "index" : 21,
+      "index" : 20,
       "type" : "懇親会",
       "name" : "2016年 春の交流会",
       "date" : "2016-04-22T15:00:00.000Z",
       "image" : "spring-meetup-2016.jpg",
       "link" : "spring-meetup-2016/"
+    },
+    "data-1" : {
+      "id" : "data-1",
+      "index" : 21,
+      "type" : "データ解析くらぶ",
+      "name" : "第1回 データ解析くらぶ",
+      "date" : "2016-04-15T15:00:00.000Z",
+      "image" : "data-1.jpg",
+      "link" : "data-1/"
     },
     "data-2" : {
       "id" : "data-2",
