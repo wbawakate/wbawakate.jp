@@ -114,10 +114,15 @@
     }
 
     ul:not([class]) {
+      li:not([class]) {
+        list-style-type: disc;
+      }
     }
 
-    li:not([class]) {
-      list-style-type: disc;
+    ol:not([class]) {
+      li:not([class]) {
+        list-style-type: decimal;
+      }
     }
   }
 }

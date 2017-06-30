@@ -45,8 +45,10 @@
       margin: px(10) 0;
     }
 
-    li:not([class]) {
-      list-style-type: disc;
+    ul:not([class]) {
+      li:not([class]) {
+        list-style-type: disc;
+      }  
     }
   }
 

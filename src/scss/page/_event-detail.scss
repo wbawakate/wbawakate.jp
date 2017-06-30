@@ -31,10 +31,19 @@
     margin: px(30) 0;
   }
 
-  ul:not([class]) {
+  em:not([class]) {
+    font-weight: bold;
   }
 
-  li:not([class]) {
-    list-style-type: disc;
+  ul:not([class]) {
+    li:not([class]) {
+      list-style-type: disc;
+    }
+  }
+
+  ol:not([class]) {
+    li:not([class]) {
+      list-style-type: decimal;
+    }
   }
 }
