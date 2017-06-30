@@ -1,12 +1,65 @@
 @include with-page("event-detail") {
   .front-block {
-    width: px(750);
+    width: px(350);
 
     margin: 0 auto;
+
+    @include mq-large {
+      width: px(960);
+    }
   }
 
   .body {
     color: $sub-font-color;
+  }
+
+  iframe[src^="https://www.youtube.com/"] {
+    display: block;
+
+    width: 100%;
+    height: px(270);
+
+    margin: 0 auto;
+
+    @include mq-large {
+      width: px(480);
+      height: px(270);
+    }
+  }
+
+  .image-link {
+    @extend .no-hover-effect;
+
+    display: block;
+
+    position: relative;
+
+    text-align: center;
+
+    .elm-a {
+      position: static;
+    }
+
+    .image {
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+    }
+
+    .elm-img {
+      width: 100%;
+      height: auto;
+
+      @include mq-large {
+        width: auto;
+        height: px(270);
+      }
+    }
   }
 
   h1:not([class]) {
