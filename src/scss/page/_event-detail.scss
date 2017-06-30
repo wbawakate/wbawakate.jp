@@ -27,6 +27,20 @@
     }
   }
 
+  iframe[src^="//www.slideshare.net/"] {
+    display: block;
+
+    width: 100%;
+    height: px(270);
+
+    margin: 0 auto;
+
+    @include mq-large {
+      width: px(480);
+      height: px(270);
+    }
+  }
+
   .image-link {
     @extend .no-hover-effect;
 
