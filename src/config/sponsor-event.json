@@ -5,7 +5,7 @@
       "index" : 1,
       "subject" : "株式会社UBIC主催　学生向けセミナーのお知らせ",
       "date" : "2016-01-19T15:00:00.000Z",
-      "image" : "",
+      "image" : "default.jpg",
       "link" : "ubic-2016-01/"
     },
     "ubic-2016-02" : {
@@ -13,7 +13,7 @@
       "index" : 2,
       "subject" : "株式会社UBIC主催　技術職(R&D/開発) インターンシップのお知らせ",
       "date" : "2016-02-02T15:00:00.000Z",
-      "image" : "",
+      "image" : "default.jpg",
       "link" : "ubic-2016-02/"
     },
     "dwango-2016-02" : {
@@ -29,7 +29,7 @@
       "index" : 4,
       "subject" : "株式会社UBIC主催　第2回学生向けセミナーのお知らせ",
       "date" : "2016-02-18T15:00:00.000Z",
-      "image" : "",
+      "image" : "default.jpg",
       "link" : "ubic-2016-02-seminar/"
     },
     "adish-2016-08" : {
@@ -45,7 +45,7 @@
       "index" : 6,
       "subject" : "株式会社FRONTEO主催 セミナーのお知らせ",
       "date" : "2016-08-15T15:00:00.000Z",
-      "image" : "",
+      "image" : "default.jpg",
       "link" : "fronteo-2016-08/"
     }
   }
