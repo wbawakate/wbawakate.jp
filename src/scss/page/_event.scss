@@ -69,7 +69,10 @@
     text-align: left;
 
     .image {
-      display: block;
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
 
       width: px(350);
       height: auto;
@@ -77,11 +80,25 @@
       @include mq-large {
         width: px(220);
         height: px(183);
+
+        overflow: hidden;
       }
 
       img {
         width: 100%;
         height: 100%;
+
+        transition:
+          width 0.2s linear 0s,
+          height 0.2s linear 0s
+        ;
+      }
+
+      &:hover {
+        img {
+          width: 110%;
+          height: 110%;
+        }
       }
     }
 
