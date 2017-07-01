@@ -1,6 +1,8 @@
 ---
 id:
   'hackathon-1'
+widgetId:
+  '27b0f0d1d2d85abfbc8462825d63d71a'
 ---
 
 # 第1回WBAIハッカソン
