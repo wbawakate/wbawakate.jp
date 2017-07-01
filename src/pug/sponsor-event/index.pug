@@ -1,0 +1,33 @@
+extends /_layout/_default-layout
+
+prepend config-block
+  - pageName = 'Sponsor Events'
+
+append config-block
+  - pageId = 'sponsor-event'
+  - rootPath = '../'
+  - url = `${settings.url}sponsor-event/`
+
+block content-block
+  main
+    .front-block
+      h1.heading
+        = pageName
+
+      .event-list
+        - eventArr = _.values(sponsorEvents).reduce((p, c) => p.concat(c), []);
+        //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date))
+        - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
+        each event in eventArr
+          .event-item(data-date= event.date, data-type= event.type)
+            .event
+              - image = event.image || 'default.jpg'
+              a(href=`${rootPath}sponsor-event/${event.link}`)
+                .image
+                  img(src=`${rootPath}img/sponsor-event/${image}`, alt= event.name)
+              .detail-block
+                a(href=`${rootPath}sponsor-event/${event.link}`)
+                  .subject
+                    = event.subject
+                .date
+                  = moment(event.date).format('Y年M月D日')

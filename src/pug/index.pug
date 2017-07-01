@@ -68,19 +68,22 @@ block content-block
           | スポンサーイベント
 
         .sponsor-event-list
+          - eventArr = _.values(sponsorEvents).reduce((p, c) => p.concat(c), []);
+          //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date));
+          - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
           - for (i = 0; i < 4; i++) {
-            - event = sponsorEvents.slice().reverse()[i]
-            .sponsor-event-item
-              a(href=`${event.link}`)
-                .sponsor-event
-                  .image
-                    img.elm-img(src=`${rootPath}img/sponsor-event/${event.image}`, alt= event.name)
-                  .name
-                    = event.subject
+            - event = eventArr[i]
+              .sponsor-event-item
+                a(href=`${rootPath}sponsor-event/${event.link}`)
+                  .sponsor-event
+                    .image
+                      img.elm-img(src=`${rootPath}img/sponsor-event/${event.image}`, alt= event.name)
+                    .name
+                      = event.subject
           - }
 
         .wba-button.btn-more
-          a.elm-a(href="http://wbawakate.jp/posts/category/sponsorevent/")
+          a.elm-a(href=`${rootPath}sponsor-event/`)
             | More
 
 
