@@ -9,10 +9,10 @@ WBA若手の会社会人支部
 第1回 データ解析くらぶ を開催致しました。
 
 概要説明・自己紹介・実作業
-[>> アーカイブ動画：youtube](https://www.youtube.com/watch?v=YE-m7HAQb4U)
+&gt;&gt; [アーカイブ動画：youtube](https://www.youtube.com/watch?v=YE-m7HAQb4U)
 
 結果発表
-[>> アーカイブ動画：youtube](https://www.youtube.com/watch?v=i0YbnM-7Iqw&feature=youtu.be)
+&gt;&gt; [アーカイブ動画：youtube](https://www.youtube.com/watch?v=i0YbnM-7Iqw&feature=youtu.be)
 
 日時： 4月16日（土） 12:00～18:00 (開場 12:00)
 場所：電気通信大学　栗原研究室 (アクセス)
