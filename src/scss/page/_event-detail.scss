@@ -6,11 +6,41 @@
 
     @include mq-large {
       width: px(960);
+
+      @include clearfix;
+    }
+  }
+
+  .row[data-col="1"] {
+    .body {
+    }
+  }
+
+  .row[data-col="2"] {
+    .body {
+      @include mq-large {
+        float: left;
+
+        width: px(600);
+      }
+    }
+
+    .gallery {
+      @include mq-large {
+        float: left;
+
+        width: px(300);
+
+        margin-left: px(50);
+      }
     }
   }
 
   .body {
     color: $sub-font-color;
+  }
+
+  .gallery {
   }
 
   iframe[src^="https://www.youtube.com/"] {

@@ -18,23 +18,31 @@ append config-block
 block content-block
   main
     .front-block
-      .body.hover-effect
-        //- from [JavaScriptÔºöunescapeHTML„ÅÆÂ¶•ÂΩì„Å™ÂÆüË£Ö: Architect Note](http://blog.tojiru.net/article/211339637.html)
-        -
-          bodyUnescaped = body
-            .replace("&amp;", /&/g)
-            .replace(/&lt;/g,'<')
-            .replace(/&gt;/g,'>')
-            .replace(/&amp;/g,'&')
-            .replace(/&quot;/g,'"')
-            .replace(/&#39;/g, "'")
-          ;
-        -
-          opts = {
-            imgPath,
-            imageLink: (opts) => {
-              const { src, alt } = opts;
-              return `<span class="image-link"><img class="elm-img" src="${imgPath}${src}" alt="${alt}"></span>`;
-            },
-          };
-        != _.template(bodyUnescaped)(opts)
+      .row(data-col= meta.widgetId ? '2' : '1')
+        .body.hover-effect
+          //- from [JavaScript£∫unescapeHTML§ŒÕ◊µ±§ åg◊∞: Architect Note](http://blog.tojiru.net/article/211339637.html)
+          -
+            bodyUnescaped = body
+              .replace("&amp;", /&/g)
+              .replace(/&lt;/g,'<')
+              .replace(/&gt;/g,'>')
+              .replace(/&amp;/g,'&')
+              .replace(/&quot;/g,'"')
+              .replace(/&#39;/g, "'")
+            ;
+          -
+            opts = {
+              imgPath,
+              imageLink: (opts) => {
+                const { src, alt } = opts;
+                return `<span class="image-link"><img class="elm-img" src="${imgPath}${src}" alt="${alt}"></span>`;
+              },
+            };
+          != _.template(bodyUnescaped)(opts)
+
+        if meta.widgetId
+          .gallery
+            // LightWidget WIDGET
+            //- Grid / 1 / 60 / Fade In / 2 / no / no / yes
+            script(src="//lightwidget.com/widgets/lightwidget.js")
+            iframe.lightwidget-widget(src=`//lightwidget.com/widgets/${meta.widgetId}.html`, scrolling="no", allowtransparency="true", style="width: 100%; border: 0; overflow: hidden;")
