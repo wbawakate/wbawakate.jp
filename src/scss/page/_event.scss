@@ -82,6 +82,13 @@
         height: px(183);
 
         overflow: hidden;
+
+        &:hover {
+          img {
+            width: 110%;
+            height: 110%;
+          }
+        }
       }
 
       img {
@@ -92,13 +99,6 @@
           width 0.2s linear 0s,
           height 0.2s linear 0s
         ;
-      }
-
-      &:hover {
-        img {
-          width: 110%;
-          height: 110%;
-        }
       }
     }
 
