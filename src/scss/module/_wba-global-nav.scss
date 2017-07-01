@@ -36,12 +36,14 @@
 
       background-color: rgba(0, 0, 0, 0.5);
       opacity: 0;
-      transition: opacity 0.3s linear 0s;
+      visibility: hidden;
+      transition: opacity 0.3s linear 0s, visibility 0.1s linear 0s;
     }
 
     &[data-is-open="true"] {
       .bg {
         opacity: 1;
+        visibility: visible;
       }
     }
 
