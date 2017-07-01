@@ -33,8 +33,7 @@ id:
 
 ## 【優勝】
 
-<a name="伊藤チーム"></a>
-_伊藤チーム : 伊藤健史(北海道大)・浮田純平(東京大)・加藤郁佳(東京大)_
+<a name="伊藤チーム"></a> _伊藤チーム : 伊藤健史(北海道大)・浮田純平(東京大)・加藤郁佳(東京大)_
 
 _『Curiosity based exploration using place cell/ 場所細胞を用いた新奇刺激探索型エージェントの実装』_
 
@@ -51,8 +50,7 @@ _『Curiosity based exploration using place cell/ 場所細胞を用いた新奇
 
 ## 【Alpaca賞・ブレインズコンサルティング株式会社賞】
 
-<a name="土井チーム"></a>
-_土井チーム : 土井ゆりか(東京大)・八木拓真(東京工業大)・水口智仁(慶應大)_
+<a name="土井チーム"></a> _土井チーム : 土井ゆりか(東京大)・八木拓真(東京工業大)・水口智仁(慶應大)_
 
 _『CNN-LSTMを用いた手話認識システムの開発』_
 
@@ -66,8 +64,7 @@ Github : https://github.com/wbap/Hackathon2015/tree/master/Doi
 
 ## 【ドワンゴ賞】
 
-<a name="都築チーム"></a>
-_都築チーム : 都築拓(大阪大)・草野仁志(大阪大)・森賀新(大阪大)_
+<a name="都築チーム"></a> _都築チーム : 都築拓(大阪大)・草野仁志(大阪大)・森賀新(大阪大)_
 
 _『Word2dreamによる概念の合成』_
 
@@ -93,8 +90,7 @@ Github ： https://github.com/wbap/Hackathon2015/tree/master/Tsuzuki
 
 ## 【山川宏賞】
 
-<a name="西田チーム"></a>
-_西田チーム : 西田圭吾(大阪大)・玉城貴也(同志社大)・田村陵大(同志社大)・三浦拓也(大阪大)_
+<a name="西田チーム"></a> _西田チーム : 西田圭吾(大阪大)・玉城貴也(同志社大)・田村陵大(同志社大)・三浦拓也(大阪大)_
 
 _『テレビゲームを用いた見まね学習の比較』_
 
@@ -107,8 +103,7 @@ Github : https://github.com/wbap/Hackathon2015/tree/master/Nishida
  
 ## 【Nextremer賞】
 
-<a name="中村チーム"></a>
-_中村チーム : 中村健太郎(慶應大)・板谷琴音(慶應大)・深澤風土(慶應大)・渡邉麗(慶應大)_
+<a name="中村チーム"></a> _中村チーム : 中村健太郎(慶應大)・板谷琴音(慶應大)・深澤風土(慶應大)・渡邉麗(慶應大)_
 
 _『深層学習器の解体再構築』_
 
@@ -138,8 +133,7 @@ GitHub : https://github.com/wbap/Hackathon2015/tree/master/Nakamura
 
 ## 【銅谷賢治賞】
 
-<a name="廣芝チーム"></a>
-_廣芝チーム : 廣芝和之(NAIST)・Juan Lorenzo Hagad(大阪大)・南宇人(大阪大)・本谷康平(大阪大)_
+<a name="廣芝チーム"></a> _廣芝チーム : 廣芝和之(NAIST)・Juan Lorenzo Hagad(大阪大)・南宇人(大阪大)・本谷康平(大阪大)_
 
 _『鏡像自己認識機構の獲得』_
 
@@ -156,8 +150,7 @@ GitHub ： https://github.com/wbap/Hackathon2015/tree/master/Hiroshiba
 
 ## 【敢闘賞】
 
-<a name="PaavoParams"></a>
-Paavo Params(OIST)
+<a name="PaavoParams"></a> Paavo Params(OIST)
 
 『State-space reduction for model-based reinforcement learning using auto-encoders』
 
