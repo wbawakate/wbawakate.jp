@@ -1,55 +1,250 @@
 .wba-global-nav {
-  display: flex;
-  align-items: center;
+  position: static;
 
-  width: px(960);
+  @include mq-small {
+    .logo {
+      position: absolute;
 
-  margin: 0 auto;
-  margin-top: px(50);
-  margin-bottom: px(50);
+      width: px(180);
+      height: px(70);
 
-  .logo {
-    width: px(200);
-    height: px(77);
+      left: px(20);
+      top: px(20);
 
-    img {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      @include mq-large {
+        left: 0;
+        top: 0;
+
+        width: px(200);
+        height: px(77);
+      }
+    }
+
+    .bg {
+      position: fixed;
+
+      left: 0;
+      top: 0;
+
       width: 100%;
-      height: 100%;
+      height: 200%;
+
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: opacity 0.3s linear 0s;
+    }
+
+    &[data-is-open="true"] {
+      .bg {
+        opacity: 1;
+      }
+    }
+
+    .block-menu {
+      position: absolute;
+
+      left: 0;
+      top: 0;
+
+      width: px(280);
+      height: 200%;
+
+      padding: px(20) px(30);
+
+      background-color: $white;
+
+      transform: translateX(px(-280));
+      transition: transform 0.3s ease-out 0s;
+    }
+
+    .menu-list {
+      display: block;
+
+      font-size: 0;
+    }
+
+    .menu-item {
+      line-height: px(40);
+
+      margin: 0;
+
+      + .menu-item {
+      }
+
+      text-transform: uppercase;
+      font-size: px(20);
+
+      .elm-a {
+        color: $sub-font-color;
+      }
+    }
+
+    &[data-is-open="true"] {
+      .block-menu {
+        transform: translateX(0);
+      }
+    }
+
+    .share-list {
+      position: relative;
+
+      margin-top: px(30);
+    }
+
+    .share-item {
+      display: block;
+
+      font-size: 0;
+
+      + .share-item {
+        margin-top: px(10);
+      }
+    }
+
+    .btn-menu {
+      position: absolute;
+
+      right: px(25);
+      top: px(30);
+
+      width: px(44);
+      height: px(44);
+
+      padding: 0 px(10);
+
+      .ham {
+        display: inline-block;
+
+        width: px(23);
+        height: px(2);
+
+        position: relative;
+
+        top: px(2);
+
+        vertical-align: bottom;
+
+        background: $black;
+
+        transition: all ease .3s;
+
+        &::before, &::after {
+          content: "";
+
+          position: absolute;
+          display: inline-block;
+          width: px(23);
+          height: px(2);
+          transition: all ease .3s;
+          outline: px(1) solid transparent;
+          left: 0;
+          background: $black;
+        }
+
+        &::before {
+          top: px(-8);
+        }
+
+        &::after {
+          top: px(8);
+        }
+      }
+    }
+
+    &[data-is-open="true"] {
+      .btn-menu {
+        .ham {
+          background-color: transparent;
+
+          &::before {
+            transform: translateY(8px) rotateZ(-45deg);
+          }
+          &::after {
+            transform: translateY(-8px) rotateZ(45deg);
+          }
+        }
+      }
     }
   }
 
-  .menu-list {
+  @include mq-large {
     display: flex;
+    align-items: center;
 
-    margin-left: px(40);
-  }
-
-  .menu-item {
-    + .menu-item {
-      margin-left: px(30);
-    }
-
-    .elm-a {
-      color: $sub-font-color;
-    }
-  }
-
-  .share-list {
     position: absolute;
 
-    right: px(38);
-    top: px(30);
+    left: 50%;
+    top: 0;
 
-    font-size: 0;
-  }
+    width: px(960);
 
-  .share-item {
-    display: inline-block;
+    margin: 0 auto;
+    margin-left: px(-480);
+    margin-top: px(50);
+    margin-bottom: px(50);
 
-    vertical-align: top;
+    .logo {
+      width: px(200);
+      height: px(77);
 
-    + .share-item {
-      margin-left: px(5);
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .block-menu {
+      position: static;
+    }
+
+    .menu-list {
+      display: flex;
+
+      position: absolute;
+
+      right: 50%;
+      top: 50%;
+
+      height: px(80);
+
+      margin-top: -0.5em;
+      margin-right: px(-480);
+    }
+
+    .menu-item {
+      line-height: 1em;
+
+      + .menu-item {
+        margin-left: px(30);
+      }
+
+      .elm-a {
+        color: $sub-font-color;
+      }
+    }
+
+    .share-list {
+      position: absolute;
+
+      right: 0;
+      top: 0;
+
+      font-size: 0;
+    }
+
+    .share-item {
+      display: inline-block;
+
+      vertical-align: top;
+
+      + .share-item {
+        margin-left: px(5);
+      }
     }
   }
-}
+  }

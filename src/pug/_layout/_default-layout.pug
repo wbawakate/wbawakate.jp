@@ -75,9 +75,11 @@ html(lang="ja")
     include ../_partial/fb-sdk.html
 
     .wrapper
+      .content
+        block content-block
       include /_partial/global-nav
-      block content-block
       include /_partial/global-footer
+      include /_partial/menu
 
     // javascript
     block javascript-block

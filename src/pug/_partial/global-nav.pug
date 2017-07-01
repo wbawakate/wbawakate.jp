@@ -2,28 +2,38 @@
   a(href= rootPath)
     .logo
       img(src=`${rootPath}img/common/logo.png`, alt="WBA Future Leaders")
-  nav
-    ul.menu-list.hover-effect
-      li.menu-item
-        a.elm-a(href=`${rootPath}about/`)
-          | About
-      li.menu-item
-        a.elm-a(href=`${rootPath}member/`)
-          | Members
-      li.menu-item
-        a.elm-a(href=`${rootPath}publication/`)
-          | Publications
-      li.menu-item
-        a.elm-a(href=`${rootPath}event/`)
-          | Events
-      li.menu-item
-        a.elm-a(href=`${rootPath}sponsor/`)
-          | Sponsors
-      li.menu-item
-        a.elm-a(href= settings.link_contact, target="_blank")
-          | Contact
-      li.menu-item
-        a.elm-a(href=`${rootPath}sitemap/`)
-          | Sitemap
 
-  include /_partial/share-list
+  .bg
+
+  .block-menu
+    nav
+      ul.menu-list.hover-effect
+        li.menu-item
+          a.elm-a(href=`${rootPath}`)
+            | Home
+        li.menu-item
+          a.elm-a(href=`${rootPath}about/`)
+            | About
+        li.menu-item
+          a.elm-a(href=`${rootPath}member/`)
+            | Members
+        li.menu-item
+          a.elm-a(href=`${rootPath}publication/`)
+            | Publications
+        li.menu-item
+          a.elm-a(href=`${rootPath}event/`)
+            | Events
+        li.menu-item
+          a.elm-a(href=`${rootPath}sponsor/`)
+            | Sponsors
+        li.menu-item
+          a.elm-a(href= settings.link_contact, target="_blank")
+            | Contact
+        li.menu-item
+          a.elm-a(href=`${rootPath}sitemap/`)
+            | Sitemap
+
+    include /_partial/share-list
+
+  .btn-menu
+    span.ham

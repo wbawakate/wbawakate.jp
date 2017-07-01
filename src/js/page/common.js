@@ -1,10 +1,15 @@
 import ns from '../module/ns';
+import WbaGlobalNav from '../module/wba-global-nav';
 
 export default () => {
   console.log('page common');
 
   setEnvClass();
   fitWindow();
+
+  const wbaGlobalNav = new WbaGlobalNav({
+    elm: document.querySelector('.wba-global-nav'),
+  });
 };
 
 function setEnvClass() {

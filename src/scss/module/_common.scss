@@ -86,3 +86,11 @@ li {
     }
   }
 }
+
+.content {
+  padding-top: px(150);
+
+  @include mq-large {
+    padding-top: px(200);
+  }
+}
