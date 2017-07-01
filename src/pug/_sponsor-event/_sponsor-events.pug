@@ -1,0 +1,25 @@
+extends /_layout/_default-layout
+
+prepend config-block
+  -
+    let eventArr = _.values(sponsorEvents).reduce((p, c) => p.concat(c), []);
+    let event = eventArr.filter(m => m.id === meta.id)[0]
+
+    let title = meta.subject || event.subject
+    let image = meta.image || event.image || 'default.jpg'
+
+append config-block
+  - pageId = 'event-detail'
+  - rootPath = '../../'
+  - title = `${title} | ${settings.site_name}`
+  - ogp_image_url = image ? `${settings.url}img/event/${meta.image}` : settings.ogp_image_url
+  - url = `${settings.url}event/${meta.id}/`
+
+block content-block
+  main
+    .front-block
+      .image
+        img(src=`${rootPath}img/sponsor-event/${image}`, alt= title)
+
+      .body.hover-effect
+        != body

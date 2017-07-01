@@ -132,6 +132,11 @@ gulp.task('pug', () => {
       template: `${SRC}/pug/_member/_members.pug`,
       locals,
     }))
+    .pipe(postman({
+      markdown: `${SRC}/config/_sponsor-events/**/*.md`,
+      template: `${SRC}/pug/_sponsor-event/_sponsor-events.pug`,
+      locals,
+    }))
     .pipe(pug({
       pretty: true,
       basedir: `${SRC}/pug`,
@@ -161,6 +166,18 @@ gulp.task('rename-event', () => {
       }
     }))
     .pipe(gulp.dest(`${DEST}/event`))
+  ;
+});
+
+gulp.task('rename-sponsor-event', () => {
+  return gulp.src(`${DEST}/_sponsor-event/**/*`)
+    .pipe(rename(function (path) {
+      if (path.extname) {
+        path.dirname = path.basename;
+        path.basename = 'index';
+      }
+    }))
+    .pipe(gulp.dest(`${DEST}/sponsor-event`))
   ;
 });
 
@@ -215,7 +232,7 @@ gulp.task('redirect', () => {
   return ret;
 });
 
-gulp.task('html', gulp.series('redirect', 'pug', gulp.parallel('rename-member', 'rename-event', 'copy-scripts', 'copy-images', 'copy-data'), 'clean'));
+gulp.task('html', gulp.series('redirect', 'pug', gulp.parallel('rename-member', 'rename-event', 'rename-sponsor-event', 'copy-scripts', 'copy-images', 'copy-data'), 'clean'));
 gulp.task('html-test', gulp.series('pug', 'redirect'));
 
 

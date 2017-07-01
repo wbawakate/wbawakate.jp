@@ -1,0 +1,64 @@
+@include with-page("event-detail") {
+  .front-block {
+    width: px(350);
+
+    margin: 0 auto;
+
+    @include mq-large {
+      width: px(960);
+
+      @include clearfix;
+    }
+  }
+
+  .image {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .body {
+    margin-top: px(50);
+
+    color: $sub-font-color;
+  }
+
+  h1:not([class]) {
+    font-size: px(26);
+
+    color: $font-color;
+  }
+
+  h2:not([class]) {
+    font-size: px(24);
+
+    color: $font-color;
+  }
+
+  h3:not([class]) {
+    font-size: px(20);
+
+    color: $font-color;
+  }
+
+  p:not([class]) {
+    margin: px(30) 0;
+  }
+
+  em:not([class]) {
+    font-weight: bold;
+  }
+
+  ul:not([class]) {
+    li:not([class]) {
+      list-style-type: disc;
+    }
+  }
+
+  ol:not([class]) {
+    li:not([class]) {
+      list-style-type: decimal;
+    }
+  }
+}
