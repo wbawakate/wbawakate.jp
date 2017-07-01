@@ -50,6 +50,7 @@
     height: px(270);
 
     margin: 0 auto;
+    margin-top: px(30);
 
     @include mq-large {
       width: px(480);
@@ -64,6 +65,7 @@
     height: px(270);
 
     margin: 0 auto;
+    margin-top: px(30);
 
     @include mq-large {
       width: px(480);
@@ -113,34 +115,42 @@
   }
 
   h2:not([class]) {
+    margin-top: px(30);
+
     font-size: px(24);
 
     color: $font-color;
   }
 
   h3:not([class]) {
+    margin-top: px(30);
+
     font-size: px(20);
 
     color: $font-color;
   }
 
   p:not([class]) {
-    margin: px(30) 0;
-  }
-
-  em:not([class]) {
-    font-weight: bold;
+    margin-top: px(30);
   }
 
   ul:not([class]) {
+    margin-top: px(30);
+
     li:not([class]) {
       list-style-type: disc;
     }
   }
 
   ol:not([class]) {
+    margin-top: px(30);
+
     li:not([class]) {
       list-style-type: decimal;
     }
+  }
+
+  em:not([class]) {
+    font-weight: bold;
   }
 }
