@@ -1,13 +1,4 @@
 @include with-page("sponsor-event") {
-  .front-block {
-    width: px(350);
-    margin: 0 auto;
-
-    @include mq-large {
-      width: px(960);
-    }
-  }
-
   .heading {
     font-size: px(26);
   }

@@ -1,12 +1,6 @@
 @include with-page("event-detail") {
   .front-block {
-    width: px(350);
-
-    margin: 0 auto;
-
     @include mq-large {
-      width: px(960);
-
       @include clearfix;
     }
   }

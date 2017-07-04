@@ -1,18 +1,4 @@
 @include with-page("home") {
-  .front-block {
-    @include mq-large {
-      width: px(960);
-
-      margin: 0 auto;
-    }
-
-    @include mq-small {
-      width: px(350);
-
-      margin: 0 auto;
-    }
-  }
-
   .sec-introduction {
     .welcome {
       color: $font-color;

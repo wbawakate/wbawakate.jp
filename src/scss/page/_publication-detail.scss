@@ -1,10 +1,4 @@
 @include with-page("publication-detail") {
-  .front-block {
-    width: px(960);
-
-    margin: 0 auto;
-  }
-
   .publication-item {
     margin-top: px(20);
   }
