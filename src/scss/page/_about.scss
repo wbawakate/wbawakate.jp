@@ -8,7 +8,7 @@
   .about-block {
     padding: 0 px(15);
 
-    color: $sub-font-color;
+    color: $font-color;
 
     @include mq-large {
       float: left;
@@ -55,7 +55,7 @@
 
     font-style: italic;
 
-    color: $sub-font-color;
+    color: $font-color;
 
     strong {
       font-weight: bold;
@@ -103,7 +103,7 @@
 
         font-size: px(15);
 
-        color: $sub-font-color;
+        color: $font-color;
       }
 
       + .box {
