@@ -22,11 +22,7 @@ mixin site-item(opts)
 block content-block
   main
     .front-block
-      h1.heading
-        | Sitemap
-
-
-      ul.list.hover-effect
+      ul.sitemap-list.hover-effect
         li.item
           +site-item({
             href: '/',
