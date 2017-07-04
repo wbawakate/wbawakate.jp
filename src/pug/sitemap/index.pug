@@ -68,6 +68,13 @@ block content-block
             href: '/sponsor-event',
             title: 'SponsorEvent',
           })
+          ul.list
+            each event in sponsorEvents
+              li.item
+                +site-item({
+                  href: `/sponsor-event/${event.link}`,
+                  title: event.subject,
+                })
 
         li.item
           +site-item({
