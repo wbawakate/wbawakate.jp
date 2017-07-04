@@ -1,6 +1,7 @@
 @include with-page("sitemap") {
+  .sitemap-list {
+    margin-top: px(30);
 
-  .list {
     > .item .list {
       padding-left: px(20);
 

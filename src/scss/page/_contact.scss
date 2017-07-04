@@ -1,5 +1,9 @@
 @include with-page("contact") {
   .google-form {
-    margin-top: px(50);
+    margin-top: px(30);
+
+    iframe {
+      width: 100%;
+    }
   }
 }
