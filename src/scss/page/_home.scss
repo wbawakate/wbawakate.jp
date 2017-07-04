@@ -1,7 +1,7 @@
 @include with-page("home") {
   .sec-introduction {
     .welcome {
-      color: $font-color;
+      color: $heading-color;
 
       font-size: px(26);
     }
@@ -19,7 +19,7 @@
     .heading {
       font-size: px(26);
 
-      color: $font-color;
+      color: $heading-color;
     }
 
     .sub-heading {

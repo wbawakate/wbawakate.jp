@@ -131,7 +131,7 @@
 
         vertical-align: bottom;
 
-        background: $black;
+        background: black;
 
         transition: all ease .3s;
 
@@ -145,7 +145,7 @@
           transition: all ease .3s;
           outline: px(1) solid transparent;
           left: 0;
-          background: $black;
+          background: black;
         }
 
         &::before {

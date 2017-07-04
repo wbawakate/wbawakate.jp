@@ -109,7 +109,7 @@
   h1:not([class]) {
     font-size: px(26);
 
-    color: $font-color;
+    color: $heading-color;
   }
 
   h2:not([class]) {
@@ -117,7 +117,7 @@
 
     font-size: px(24);
 
-    color: $font-color;
+    color: $heading-color;
   }
 
   h3:not([class]) {
@@ -125,7 +125,7 @@
 
     font-size: px(20);
 
-    color: $font-color;
+    color: $heading-color;
   }
 
   p:not([class]) {
