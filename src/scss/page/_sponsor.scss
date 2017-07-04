@@ -1,15 +1,4 @@
 @include with-page("sponsor") {
-  .front-block {
-    width: px(350);
-    margin: 0 auto;
-
-    padding-top: px(30);
-
-    @include mq-large {
-      width: px(960);
-    }
-  }
-
   .heading {
     font-size: px(26);
   }

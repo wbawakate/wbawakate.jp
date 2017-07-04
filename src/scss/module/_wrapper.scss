@@ -10,3 +10,16 @@
     overflow: hidden;
   }
 }
+
+.front-block {
+  width: px(350);
+  margin: 0 auto;
+
+  @include mq-large {
+    width: px(960);
+  }
+}
+
+.page-title {
+  font-size: px(26);
+}

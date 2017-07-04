@@ -1,16 +1,4 @@
 @include with-page("contact") {
-  .front-block {
-    width: px(750);
-
-    margin: 0 auto;
-
-    padding-top: px(30);
-  }
-
-  .heading {
-    font-size: px(26);
-  }
-
   .google-form {
     margin-top: px(50);
   }

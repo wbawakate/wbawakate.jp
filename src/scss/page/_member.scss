@@ -2,19 +2,9 @@
   .heading-branch {
     position: relative;
 
-    width: px(350);
-
-    margin: 0 auto;
-    margin-top: px(30);
     font-size: px(15);
 
     text-align: center;
-
-    @include mq-large {
-      width: px(960);
-
-      margin-top: px(30);
-    }
 
     &::before {
       content: "";

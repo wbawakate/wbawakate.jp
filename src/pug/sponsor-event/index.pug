@@ -11,9 +11,6 @@ append config-block
 block content-block
   main
     .front-block
-      h1.heading
-        = pageName
-
       .event-list
         - eventArr = _.values(sponsorEvents).reduce((p, c) => p.concat(c), []);
         //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date))

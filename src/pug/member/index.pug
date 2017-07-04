@@ -10,32 +10,33 @@ append config-block
 
 block content-block
   main
-    each branchLi, branchName in members
-      if branchName !== 'default'
-        h2.heading-branch
-          .text
-            = branchName
-      .member-list
-        - let memberArr = _.values(branchLi);
-        - memberArr.sort((a, b) => parseInt(a.index) - parseInt(b.index))
-        each member in memberArr
-          .member-item
-            - href = member.link ? `${member.link}` : null
-            a.elm-a(href= href)
-              .member
-                if member.image
-                  - imgPath = ( member.image.match('^\/\/.+') || member.image.match('^https?:\/\/.+'))? member.image : `${rootPath}img/member/${member.image}`
-                  .image(style=`background-image: url(${imgPath}`)
+    .front-block
+      each branchLi, branchName in members
+        if branchName !== 'default'
+          h2.heading-branch
+            .text
+              = branchName
+        .member-list
+          - let memberArr = _.values(branchLi);
+          - memberArr.sort((a, b) => parseInt(a.index) - parseInt(b.index))
+          each member in memberArr
+            .member-item
+              - href = member.link ? `${member.link}` : null
+              a.elm-a(href= href)
+                .member
+                  if member.image
+                    - imgPath = ( member.image.match('^\/\/.+') || member.image.match('^https?:\/\/.+'))? member.image : `${rootPath}img/member/${member.image}`
+                    .image(style=`background-image: url(${imgPath}`)
 
-                .cover
-                .info
-                  .block-status
-                    .position
-                      != member.position.replace('\n', '<br>')
-                    .status
-                      != member.status.replace('\n', '<br>')
-                  .block-name
-                    .name
-                      = member.name
-                    .name-sub
-                      = member.nameSub
+                  .cover
+                  .info
+                    .block-status
+                      .position
+                        != member.position.replace('\n', '<br>')
+                      .status
+                        != member.status.replace('\n', '<br>')
+                    .block-name
+                      .name
+                        = member.name
+                      .name-sub
+                        = member.nameSub

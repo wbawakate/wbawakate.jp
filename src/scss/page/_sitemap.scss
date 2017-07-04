@@ -1,15 +1,4 @@
 @include with-page("sitemap") {
-  .front-block {
-    width: px(960);
-
-    margin: 0 auto;
-
-    padding-top: px(30);
-  }
-
-  .heading {
-    font-size: px(26);
-  }
 
   .list {
     > .item .list {

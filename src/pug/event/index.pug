@@ -10,41 +10,42 @@ append config-block
 
 block content-block
   main
-    .wba-category-nav.hover-effect
-      nav
-        .category-list
-          .category-item
-            a.elm-a(href="#All")
-              | All
-          .category-item
-            a.elm-a(href="#カジュアルトーク")
-              | カジュアルトーク
-          .category-item
-            a.elm-a(href="#データ解析くらぶ")
-              | データ解析くらぶ
-          .category-item
-            a.elm-a(href="#ハッカソン")
-              | ハッカソン
-          .category-item
-            a.elm-a(href="#勉強会")
-              | 勉強会
-          .category-item
-            a.elm-a(href="#女子会")
-              | 女子会
-          .category-item
-            a.elm-a(href="#懇親会")
-              | 懇親会
+    .front-block
+      .wba-category-nav.hover-effect
+        nav
+          .category-list
+            .category-item
+              a.elm-a(href="#All")
+                | All
+            .category-item
+              a.elm-a(href="#カジュアルトーク")
+                | カジュアルトーク
+            .category-item
+              a.elm-a(href="#データ解析くらぶ")
+                | データ解析くらぶ
+            .category-item
+              a.elm-a(href="#ハッカソン")
+                | ハッカソン
+            .category-item
+              a.elm-a(href="#勉強会")
+                | 勉強会
+            .category-item
+              a.elm-a(href="#女子会")
+                | 女子会
+            .category-item
+              a.elm-a(href="#懇親会")
+                | 懇親会
 
-    .event-list
-      - eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
-      //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date))
-      - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
-      each event in eventArr
-        .event-item(data-date= event.date, data-type= event.type)
-          a(href=`${rootPath}event/${event.link}`)
-            .event
-              - image = event.image || 'default.jpg'
-              .image
-                img(src=`${rootPath}img/event/${image}`, alt= event.name)
-              .name
-                = event.name
+      .event-list
+        - eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
+        //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date))
+        - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
+        each event in eventArr
+          .event-item(data-date= event.date, data-type= event.type)
+            a(href=`${rootPath}event/${event.link}`)
+              .event
+                - image = event.image || 'default.jpg'
+                .image
+                  img(src=`${rootPath}img/event/${image}`, alt= event.name)
+                .name
+                  = event.name
