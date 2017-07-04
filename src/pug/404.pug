@@ -1,9 +1,15 @@
-doctype html
-html(lang="ja")
-  head
-    meta(charset="utf-8")
-    title
-      | 404 not found
+extends /_layout/_default-layout
 
-  body
-    | 404 not found
+prepend config-block
+  - pageName = '404 Not Found'
+
+append config-block
+  - pageId = 'sponsor'
+  - rootPath = '../'
+  - url = `${settings.url}sponsor/`
+
+block content-block
+  main
+    .front-block
+      p
+        | 404 Not Found.
