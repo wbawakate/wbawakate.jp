@@ -1,14 +1,5 @@
-extends /_layout/_default-layout
+extends /_layout/_publication-detail
 
 prepend config-block
-  - pageName = 'Journal'
-
-append config-block
-  - pageId = 'publication-detail'
-  - rootPath = '../../'
-  - url = `${settings.url}publication/journal/`
-
-block content-block
-  main
-    .front-block
-      +publication-list(bibArr, 'journal')
+  - type = 'journal'
+  - pageName = 'ジャーナル'

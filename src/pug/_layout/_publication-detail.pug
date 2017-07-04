@@ -1,0 +1,21 @@
+extends /_layout/_default-layout
+
+append config-block
+  - pageId = 'publication-detail'
+  - rootPath = '../../'
+  - url = `${settings.url}publication/${type}/`
+  -
+    breadcrumbArr = [
+      {
+        href: '/publication/',
+        name: 'Publications',
+      },
+      {
+        name: pageName,
+      },
+    ];
+
+block content-block
+  main
+    .front-block
+      +publication-list(bibArr, type)

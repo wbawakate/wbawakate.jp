@@ -1,14 +1,5 @@
-extends /_layout/_default-layout
+extends /_layout/_publication-detail
 
 prepend config-block
-  - pageName = 'Domestic'
-
-append config-block
-  - pageId = 'publication-detail'
-  - rootPath = '../../'
-  - url = `${settings.url}publication/domestic/`
-
-block content-block
-  main
-    .front-block
-      +publication-list(bibArr, 'domestic')
+  - type = 'domestic'
+  - pageName = '国内会議'
