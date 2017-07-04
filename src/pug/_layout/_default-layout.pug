@@ -76,6 +76,8 @@ html(lang="ja")
 
     .wrapper
       .content
+        .front-block
+          +breadcrumb-list(breadcrumbArr)
         block content-block
       include /_partial/global-nav
       include /_partial/global-footer

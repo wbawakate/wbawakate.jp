@@ -19,6 +19,16 @@ append config-block
   - title = `${name} | ${settings.site_name}`
   - ogp_image_url = image ? `${settings.url}img/member/${image}` : settings.ogp_image_url
   - url = `${settings.url}member/${meta.id}/`
+  -
+    breadcrumbArr = [
+      {
+        href: '/member/',
+        name: 'Members',
+      },
+      {
+        name: name,
+      },
+    ];
 
 block content-block
   main.main

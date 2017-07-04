@@ -36,3 +36,19 @@ mixin publication-list(arr, type, heading)
       each publication in publicationArr
         .publication-item
           +publication(publication)
+
+mixin page-title(title)
+  h1.page-title
+    = title
+
+mixin breadcrumb-list(list)
+  if list
+    .wba-breadcrumb-list.hover-effect
+      ul.list
+        li.item
+          a(href="/")
+            | Home
+        each item, index in list
+          li.item
+            a(href= item.href)
+              = item.name

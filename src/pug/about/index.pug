@@ -7,6 +7,12 @@ append config-block
   - pageId = 'about'
   - rootPath = '../'
   - url = `${settings.url}about/`
+  -
+    breadcrumbArr = [
+      {
+        name: pageName,
+      },
+    ];
 
 block content-block
   main

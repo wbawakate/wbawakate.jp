@@ -7,6 +7,12 @@ append config-block
   - pageId = 'sitemap'
   - rootPath = '../'
   - url = `${settings.url}sitemap/`
+  -
+    breadcrumbArr = [
+      {
+        name: pageName,
+      },
+    ];
 
 mixin site-item(opts)
   - const { title, href } = opts;

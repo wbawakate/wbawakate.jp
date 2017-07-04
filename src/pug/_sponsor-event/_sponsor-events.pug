@@ -14,6 +14,16 @@ append config-block
   - title = `${title} | ${settings.site_name}`
   - ogp_image_url = image ? `${settings.url}img/event/${meta.image}` : settings.ogp_image_url
   - url = `${settings.url}event/${meta.id}/`
+  -
+    breadcrumbArr = [
+      {
+        href: '/sponsor-event/',
+        name: 'Sponsor Events',
+      },
+      {
+        name: pageName,
+      },
+    ];
 
 block content-block
   main
