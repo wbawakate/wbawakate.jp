@@ -1,0 +1,21 @@
+@include with-page("about-sponsorship") {
+  .main {
+    margin-top: px(30);
+  }
+
+  .list-document {
+    list-style: disc;
+
+    margin-top: px(10);
+
+    padding-left: px(20);
+  }
+
+  .google-form {
+    margin-top: px(30);
+
+    iframe {
+      width: 100%;
+    }
+  }
+}
