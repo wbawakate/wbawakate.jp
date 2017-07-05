@@ -11,6 +11,8 @@ prepend config-block
 append config-block
   - pageId = 'sponsor-event-detail'
   - rootPath = '../../'
+  - dataPath = `${rootPath}data/sponsor-event/${event.id}/`
+  - imgPath = `${rootPath}img/sponsor-event/${event.id}/`
   - title = `${pageName} | ${settings.site_name}`
   - ogp_image_url = image ? `${settings.url}img/event/${meta.image}` : settings.ogp_image_url
   - url = `${settings.url}event/${meta.id}/`
@@ -32,4 +34,5 @@ block content-block
         img(src=`${rootPath}img/sponsor-event/${image}`, alt= title)
 
       .body.hover-effect
-        != body
+        + templateOption
+        != _.template(unescape(body))(templateOption)

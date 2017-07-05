@@ -52,3 +52,15 @@ mixin breadcrumb-list(list)
           li.item
             a(href= item.href)
               = item.name
+
+mixin templateOption
+  -
+    templateOption = {
+      dataPath,
+      imgPath,
+      imageLink: (opts) => {
+        const { src, alt } = opts;
+        return `<span class="image-link"><img class="elm-img" src="${imgPath}${src}" alt="${alt}"></span>`;
+      },
+    };
+  - _.templateSettings.interpolate = /\$\$\$(.*?)\$\$\$/g // Markdownコマンド内でもテンプレートを書けるように "$$$ hoge $$$" のような記法を採用

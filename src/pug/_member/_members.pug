@@ -16,6 +16,8 @@ prepend config-block
 append config-block
   - pageId = 'member-detail'
   - rootPath = '../../'
+  - dataPath = `${rootPath}data/member/${member.id}/`
+  - imgPath = `${rootPath}img/member/${member.id}/`
   - title = `${name} | ${settings.site_name}`
   - ogp_image_url = image ? `${settings.url}img/member/${image}` : settings.ogp_image_url
   - url = `${settings.url}member/${meta.id}/`
@@ -44,7 +46,7 @@ block content-block
             = nameSub
 
         .body
-          != body
+          != _.template(unescape(body))(templateOption)
 
           - const publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.replace(/\s/g, '').split(',').indexOf(meta.id) !== -1; });
           if publicationArr.length > 0

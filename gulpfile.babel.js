@@ -119,6 +119,16 @@ gulp.task('pug', () => {
     members: readConfig(`${CONFIG}/member.json`),
     newsArr: readConfig(`${CONFIG}/news.yml`),
     bibArr: bibtexParse.toJSON(fs.readFileSync(`${CONFIG}/publication.bib`, { encoding:"utf8" })),
+    unescape: (body) => (
+      // from [JavaScript：unescapeHTMLの妥当な実装: Architect Note](http://blog.tojiru.net/article/211339637.html)
+      body
+        .replace("&amp;", /&/g)
+        .replace(/&lt;/g,'<')
+        .replace(/&gt;/g,'>')
+        .replace(/&amp;/g,'&')
+        .replace(/&quot;/g,'"')
+        .replace(/&#39;/g, "'")
+    ),
   };
 
   return gulp.src([`${SRC}/pug/**/[!_]*.pug`, `!${SRC}/pug/**/_*/**/*`])

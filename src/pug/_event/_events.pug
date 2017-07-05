@@ -10,6 +10,7 @@ prepend config-block
 append config-block
   - pageId = 'event-detail'
   - rootPath = '../../'
+  - dataPath = `${rootPath}data/event/${event.id}/`
   - imgPath = `${rootPath}img/event/${event.id}/`
   - title = `${pageName} | ${settings.site_name}`
   - ogp_image_url = meta.image ? `${settings.url}img/event/${meta.image}` : settings.ogp_image_url
@@ -30,25 +31,7 @@ block content-block
     .front-block
       .row(data-col= meta.widgetId ? '2' : '1')
         .body.hover-effect
-          //- from [JavaScript£ºunescapeHTML¤ÎÍ×µ±¤ÊŒg×°: Architect Note](http://blog.tojiru.net/article/211339637.html)
-          -
-            bodyUnescaped = body
-              .replace("&amp;", /&/g)
-              .replace(/&lt;/g,'<')
-              .replace(/&gt;/g,'>')
-              .replace(/&amp;/g,'&')
-              .replace(/&quot;/g,'"')
-              .replace(/&#39;/g, "'")
-            ;
-          -
-            opts = {
-              imgPath,
-              imageLink: (opts) => {
-                const { src, alt } = opts;
-                return `<span class="image-link"><img class="elm-img" src="${imgPath}${src}" alt="${alt}"></span>`;
-              },
-            };
-          != _.template(bodyUnescaped)(opts)
+          != _.template(unescape(body))(templateOption)
 
         if meta.widgetId
           .gallery
