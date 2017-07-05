@@ -47,6 +47,14 @@
       "date" : "2016-08-15T15:00:00.000Z",
       "image" : "default.jpg",
       "link" : "fronteo-2016-08/"
+    },
+    "albert-2017-07" : {
+      "id" : "albert-2017-07",
+      "index" : 7,
+      "subject" : "株式会社ALBERT データサイエンティスト・インターンシップのご案内",
+      "date" : "2016-07-02T15:00:00.000Z",
+      "image" : "albert.jpg",
+      "link" : "albert-2017-07/"
     }
   }
 }
