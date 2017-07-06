@@ -31,6 +31,7 @@ block content-block
     .front-block
       .row(data-col= meta.widgetId ? '2' : '1')
         .body.hover-effect
+          +templateOption
           != _.template(unescape(body))(templateOption)
 
         if meta.widgetId
