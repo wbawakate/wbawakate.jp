@@ -25,19 +25,19 @@ block content-block
       ul.sitemap-list.hover-effect
         li.item
           +site-item({
-            href: '/',
+            href: `${rootPath}`,
             title: 'WBA Future Leaders',
           })
 
         li.item
           +site-item({
-            href: '/about/',
+            href: `${rootPath}about/`,
             title: 'About',
           })
 
         li.item
           +site-item({
-            href: '/member/',
+            href: `${rootPath}member/`,
             title: 'Member',
           })
           ul.list
@@ -46,44 +46,57 @@ block content-block
                 if member.link
                   li.item
                     +site-item({
-                      href: `/member/${member.link}`,
+                      href: `${rootPath}member/${member.link}`,
                       title: member.name,
                     })
 
         li.item
           +site-item({
-            href: '/event/',
+            href: `${rootPath}event/`,
             title: 'Event',
           })
           ul.list
             each event in events
               li.item
                 +site-item({
-                  href: `/event/${event.link}`,
+                  href: `${rootPath}event/${event.link}`,
                   title: event.name,
                 })
 
         li.item
           +site-item({
-            href: '/sponsor-event',
+            href: `${rootPath}sponsor-event/`,
             title: 'SponsorEvent',
           })
           ul.list
             each event in sponsorEvents
               li.item
                 +site-item({
-                  href: `/sponsor-event/${event.link}`,
+                  href: `${rootPath}sponsor-event/${event.link}`,
                   title: event.subject,
                 })
 
         li.item
           +site-item({
-            href: '/sponsor',
+            href: `${rootPath}sponsor/`,
             title: 'Sponsor',
           })
 
         li.item
           +site-item({
-            href: '/sitemap/',
+            href: `${rootPath}about-sponsorship/`,
+            title: 'スポンサーシップについて',
+          })
+
+
+        li.item
+          +site-item({
+            href: `${rootPath}contact/`,
+            title: 'Contact',
+          })
+
+        li.item
+          +site-item({
+            href: `${rootPath}sitemap/`,
             title: 'Sitemap',
           })
