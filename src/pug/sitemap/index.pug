@@ -22,6 +22,19 @@ mixin site-item(opts)
 block content-block
   main
     .front-block
+      .block-search
+        script.
+          (function() {
+            var cx = '000766413612897970091:d8lpds-fiuw';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        gcse:search
+
       ul.sitemap-list.hover-effect
         li.item
           +site-item({
