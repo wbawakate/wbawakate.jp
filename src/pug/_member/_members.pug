@@ -46,8 +46,8 @@ block content-block
             = nameSub
 
         .body
-          +templateOption
-          != _.template(unescape(body))(templateOption)
+          +template-option
+          != _.template(unescape(body), templateOption)(params)
 
           - const publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.replace(/\s/g, '').split(',').indexOf(meta.id) !== -1; });
           if publicationArr.length > 0

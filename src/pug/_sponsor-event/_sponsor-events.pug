@@ -34,5 +34,5 @@ block content-block
         img(src=`${rootPath}img/sponsor-event/${image}`, alt= title)
 
       .body.hover-effect
-        + templateOption
-        != _.template(unescape(body))(templateOption)
+        +template-option
+        != _.template(unescape(body), templateOption)(params)

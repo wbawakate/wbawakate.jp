@@ -31,8 +31,8 @@ block content-block
     .front-block
       .row(data-col= meta.widgetId ? '2' : '1')
         .body.hover-effect
-          +templateOption
-          != _.template(unescape(body))(templateOption)
+          +template-option
+          != _.template(unescape(body), templateOption)(params)
 
         if meta.widgetId
           .gallery
