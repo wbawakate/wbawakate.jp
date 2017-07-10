@@ -29,14 +29,15 @@ append config-block
 block content-block
   main.main
     .front-block
-      .row(data-col= meta.widgetId ? '2' : '1')
+      .row(data-col= meta.gallery ? '2' : '1')
         .body.hover-effect
           +template-option
           != _.template(unescape(body), templateOption)(params)
 
-        if meta.widgetId
+        if meta.gallery
+          - const n = parseInt(meta.gallery)
           .gallery
-            // LightWidget WIDGET
-            //- Grid / 1 / 60 / Fade In / 2 / no / no / yes
-            script(src="//lightwidget.com/widgets/lightwidget.js")
-            iframe.lightwidget-widget(src=`//lightwidget.com/widgets/${meta.widgetId}.html`, scrolling="no", allowtransparency="true", style="width: 100%; border: 0; overflow: hidden;")
+            - for(let i = 0; i < n; i++) {
+              .image
+                img.elm-img(src=`${rootPath}img/event/gallery/${meta.id}/${i + 1}.jpg`)
+            - }
