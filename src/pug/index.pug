@@ -51,7 +51,7 @@ block content-block
                 a(href=`${rootPath}event/${event.link}`)
                   .event(data-type= event.type)
                     .image
-                      img.elm-img(src=`${rootPath}img/event/${event.image || 'default.jpg'}`, alt= event.name)
+                      img.elm-img(src=`${rootPath}img/event/thumb/${event.image || 'default.jpg'}`, alt= event.name)
                     .name
                       = event.name
           - }
