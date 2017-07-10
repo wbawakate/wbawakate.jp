@@ -1,8 +1,8 @@
 ---
 id:
   'spring-meetup-2016'
-widgetId:
-  '5441cc30a48f5b479d14f5b95b08afe7'
+gallery:
+  12
 ---
 
 # 春の交流会

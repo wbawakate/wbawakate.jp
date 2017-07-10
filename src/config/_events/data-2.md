@@ -1,8 +1,8 @@
 ---
 id:
   'data-2'
-widgetId:
-  'aab25b2930dc5795b09365152e89ce18'
+gallery:
+  16
 ---
 
 # 第2回 データ解析くらぶ

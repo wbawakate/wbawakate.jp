@@ -1,8 +1,8 @@
 ---
 id:
   'girls-1'
-widgetId:
-  '154e760f545e57e0a170b525efcad603'
+gallery:
+  4
 ---
 
 # 第1回 WBA若手の会　女子会＠新宿

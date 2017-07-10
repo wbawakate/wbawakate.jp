@@ -1,8 +1,8 @@
 ---
 id:
   'new-year-party-2016'
-widgetId:
-  'dd4f012300fc5a6082bb8f4a31e69a9f'
+gallery:
+  2
 ---
 
 # 2016年　WBA若手の会　新年会
