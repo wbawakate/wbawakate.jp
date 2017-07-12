@@ -43,32 +43,23 @@
     text-align: left;
 
     @include mq-large {
-      @include clearfix;
+      display: flex;
     }
 
     .image {
-      display: block;
+      @extend .wba-hover-zoom;
 
-      width: px(350);
+      width: 100%;
       height: auto;
 
       @include mq-large {
-        float: left;
-
         width: px(605);
         height: px(260);
-      }
-
-      img {
-        width: 100%;
-        height: 100%;
       }
     }
 
     .detail-block {
       @include mq-large {
-        float: left;
-
         margin-left: px(15);
 
         width: px(340);

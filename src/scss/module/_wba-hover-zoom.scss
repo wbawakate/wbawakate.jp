@@ -1,0 +1,23 @@
+.wba-hover-zoom {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  @include mq-large {
+    overflow: hidden;
+
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+
+    transition: transform 0.2s linear 0s;
+  }
+}
