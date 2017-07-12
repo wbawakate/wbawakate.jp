@@ -46,7 +46,7 @@ mixin breadcrumb-list(list)
     .wba-breadcrumb-list.hover-effect
       ul.list
         li.item
-          a(href="/")
+          a(href= rootPath || '/')
             | Home
         each item, index in list
           li.item
