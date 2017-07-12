@@ -32,7 +32,7 @@ block content-block
                 .member
                   if member.image
                     - imgPath = ( member.image.match('^\/\/.+') || member.image.match('^https?:\/\/.+'))? member.image : `${rootPath}img/member/${member.image}`
-                    .image(style=`background-image: url(${imgPath}`)
+                    .image(style=`background-image: url(${imgPath})`)
 
                   .cover
                   .info
