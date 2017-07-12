@@ -8,7 +8,7 @@ export default class WbaCategoryNav {
     const $elm = $(elm);
 
     $(window).on('hashchange', (_evt) => {
-      const category = location.hash.slice(1);
+      const category = decodeURIComponent(location.hash.slice(1));
 
       if (category === 'All' || category === '') {
         $('.event-item')
