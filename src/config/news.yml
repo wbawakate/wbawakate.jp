@@ -1,5 +1,11 @@
 -
   time:
+    '2017-07-14'
+  update:
+    'CircleCI通知テスト'
+
+-
+  time:
     '2017-07-04'
   update:
     'テスト4'
