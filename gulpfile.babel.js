@@ -1,7 +1,6 @@
 'use strict';
 
 // import
-import 'babel-register';
 import gulp from 'gulp';
 import fs from 'fs';
 import _ from 'lodash';
