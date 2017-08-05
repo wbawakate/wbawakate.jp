@@ -27,12 +27,12 @@ deployment:
     branch: master
     commands:
       - yarn build
-      - aws s3 sync docs/ s3://test-2017-07-04/ --delete
+      - aws s3 sync docs/ s3://wbawakate-jp/ --delete
   staging: # yet created bucket
     branch: staging
     commands:
       - yarn build
-      - aws s3 sync docs/ s3://stg.test-2017-07-04/ --delete
+      - aws s3 sync docs/ s3://stg.wbawakate-jp/ --delete
   development:
     branch: develop
     commands:
