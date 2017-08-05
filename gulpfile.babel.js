@@ -211,6 +211,12 @@ gulp.task('copy-data', () => {
   ;
 });
 
+gulp.task('copy-static', () => { 
+  return gulp.src(`${SRC}/static/**/*`)
+    .pipe(gulp.dest(`${DEST}`))
+  ;
+});
+
 gulp.task('clean', (cb) => {
   rimraf(`${DEST}/_member`, cb)
   rimraf(`${DEST}/_event`, cb)
@@ -242,7 +248,7 @@ gulp.task('redirect', () => {
   return ret;
 });
 
-gulp.task('html', gulp.series('redirect', 'pug', gulp.parallel('rename-member', 'rename-event', 'rename-sponsor-event', 'copy-scripts', 'copy-images', 'copy-data'), 'clean'));
+gulp.task('html', gulp.series('redirect', 'pug', gulp.parallel('rename-member', 'rename-event', 'rename-sponsor-event', 'copy-scripts', 'copy-images', 'copy-data', 'copy-static'), 'clean'));
 gulp.task('html-test', gulp.series('pug', 'redirect'));
 
 
