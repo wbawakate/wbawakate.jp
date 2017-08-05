@@ -46,17 +46,19 @@ block content-block
             = nameSub
 
         .body
+          //-
           +template-option
           != _.template(unescape(body), templateOption)(params)
 
-          - const publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.replace(/\s/g, '').split(',').indexOf(meta.id) !== -1; });
-          if publicationArr.length > 0
-            h2
-              | Publications
+          //-
+            - const publicationArr = _.filter(bibArr, function(bib) { return bib.entryTags.authorKey.replace(/\s/g, '').split(',').indexOf(meta.id) !== -1; });
+            if publicationArr.length > 0
+              h2
+                | Publications
 
-            +publication-list(publicationArr, 'journal', '和文学会誌')
-            +publication-list(publicationArr, 'international', '国際会議')
-            +publication-list(publicationArr, 'domestic', '国内会議')
+              +publication-list(publicationArr, 'journal', '和文学会誌')
+              +publication-list(publicationArr, 'international', '国際会議')
+              +publication-list(publicationArr, 'domestic', '国内会議')
 
         .sns-list.no-hover-effect
           if meta.facebook
