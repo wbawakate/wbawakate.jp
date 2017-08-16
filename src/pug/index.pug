@@ -51,7 +51,7 @@ block content-block
                 a(href=`${rootPath}event/${event.link}`)
                   .event(data-type= event.type)
                     .image
-                      img.elm-img(src=`${rootPath}img/event/${event.image || 'default.jpg'}`, alt= event.name)
+                      img.elm-img(src=`${rootPath}img/event/thumb/${event.image || 'default.jpg'}`, alt= event.name)
                     .name
                       = event.name
           - }
@@ -122,5 +122,5 @@ block content-block
                   img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
 
         .wba-link.link-join
-          a.elm-a(href="/contact/", target="_blank")
+          a.elm-a(href=`${rootPath}contact/`)
             | &gt;&gt; 協賛希望の企業様はこちら

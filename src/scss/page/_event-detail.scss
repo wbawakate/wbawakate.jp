@@ -24,6 +24,13 @@
     }
 
     .gallery {
+      .image {
+        .elm-img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
       @include mq-large {
         float: left;
 

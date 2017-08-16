@@ -21,7 +21,7 @@ block content-block
         | About
 
     .front-block
-      .about-block
+      .about-block.hover-effect
         p.lead
           | 全脳アーキテクチャ若手の会は，
           strong 脳や人工知能，そしてそれらが与える影響について興味がある，すべての方のためのコミュニティ
@@ -54,7 +54,7 @@ block content-block
 
           p
             | 設立当初に掲げた当会の目標は「全脳アーキテクチャに関わる膨大な知識やそれをモデル化するための技術を，体系的に学べる場を作ること」でした．実際に，これまでに10回以上の
-            a(href="http://wbawakate.jp/posts/events/#cat:study_meeting") 勉強会
+            a(href="/event/#勉強会") 勉強会
             | を開催し，広く情報発信してきました．
           p
             | また，開発に関わるディスカッションを頻繁に行ってきたほか，現在は関連研究に携わるメンバーもおり，”ヒトのような人工知能を作ること”自体も当会の目標になりつつあります．
@@ -94,7 +94,7 @@ block content-block
             | 従って，会に参加するモチベーションや目的も人によって様々です．本気でドラえもんを創りたい方，音楽をもっと知的に処理したいという方，学生との出会いを期待する企業の方，単純な好奇心で参加してくださる方など，あげたらきりがないほどです．
           p
             | (
-            a(href="http://wbawakate.jp/member/") メンバー紹介ページ
+            a(href="/member/") メンバー紹介ページ
             | では，運営メンバーの一部を紹介しています．ぜひご覧ください．)
 
 
@@ -104,24 +104,24 @@ block content-block
 
           section.subsection.subsec-meeting
             h3.heading
-              a(href="http://wbawakate.jp/posts/events/#cat:study_meeting") 勉強会
+              a(href="/event/#勉強会") 勉強会
             p
               | 講演者とテーマを設定して，約2時間程度の勉強会を実施しています．講演者は，自分の専門にとらわれず人工知能や神経科学に関するテーマを選び，約2~5か月の準備期間を経て発表します．また，発表の様子はニコニコ生放送でも公開しています．
 
           section.subsection.subsec-casual-talk
             h3.heading
-              a(href="http://wbawakate.jp/posts/events/#cat:%e3%82%ab%e3%82%b8%e3%83%a5%e3%82%a2%e3%83%ab%e3%83%88%e3%83%bc%e3%82%af") カジュアルトーク
+              a(href="/event/#カジュアルトーク") カジュアルトーク
             p “気軽に発表できる勉強会”として始めました．もっと気楽にアイディアや自分のやっていること，興味があることを短い時間で発表できる場として好評です．
 
           section.subsection.subsec-party
             h3.heading
-              |  交流会
+              a(href="/event/#懇親会") 交流会
             p
               | 大変重要な活動の1つです．多種多様な方々が，「脳と人工知能」というキーワードをもとに集まり，立場に関係なくざっくばらんにディスカッションできる場を設けることは，私たちの使命だと考えています．
 
           section.subsection.subsec-hackathon
             h3.heading
-              a(href="http://wbawakate.jp/posts/events/#cat:hackathon") ハッカソン
+              a(href="/event/#ハッカソン") ハッカソン
 
             p
               | NPO法人全脳アーキテクチャイニシアティブとの共同で全脳アーキテクチャハッカソンを開催しました．第1回全脳アーキテクチャハッカソンの様子は
@@ -156,7 +156,7 @@ block content-block
               | 私たちは，様々な企業の方にも人工知能に関わる分野により関心を寄せていただきたいと思っております．さらには，優秀な若手と，力を発揮できるフィールドを提供する企業とのマッチングができれば，日本の人工知能の発展にも寄与できるとも考えています．実際に，当会や，関連するイベントをきっかけに企業とのマッチングが上手くいった例が複数あります．
             p
               | また，当会では2015年10月よりスポンサーシップの募集を開始させていただきました．どうぞ合わせてご検討ください．(スポンサーシップの詳細に関しましては
-              a(href="http://wbawakate.jp/about_sponsorship/") 専用ページ
+              a(href="/about-sponsorship/") 専用ページ
               | をご覧ください)
 
 
@@ -173,7 +173,7 @@ block content-block
 
           p
             | そのほか，ご質問，ご意見，ご指摘，アイディア，感想などなんでもお待ちしております．Facebookグループ，もしくは
-            a(href="/contact/", target="_blank") コンタクトページ
+            a(href=`${rootPath}contact/`) コンタクトページ
             | からご連絡ください．
 
         section.section.sec-wish
@@ -188,7 +188,7 @@ block content-block
           p 大澤 正彦
 
 
-      .gallery
+      //- .gallery
         .box
           p.image
             img.elm-img(src="http://wbawakate.jp/wp-content/uploads/2015/02/sprint.jpg", alt="")

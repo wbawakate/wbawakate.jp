@@ -46,16 +46,20 @@ mixin breadcrumb-list(list)
     .wba-breadcrumb-list.hover-effect
       ul.list
         li.item
-          a(href="/")
+          a(href= rootPath || '/')
             | Home
         each item, index in list
           li.item
             a(href= item.href)
               = item.name
 
-mixin templateOption
+mixin template-option
   -
     templateOption = {
+      interpolate: /\$\$\$([\s\S]+?)\$\$\$/g, // Markdownコマンド内でもテンプレートを書けるように "$$$ hoge $$$" のような記法を採用
+    };
+
+    params = {
       dataPath,
       imgPath,
       imageLink: (opts) => {
@@ -63,4 +67,3 @@ mixin templateOption
         return `<span class="image-link"><img class="elm-img" src="${imgPath}${src}" alt="${alt}"></span>`;
       },
     };
-  - _.templateSettings.interpolate = /\$\$\$(.*?)\$\$\$/g // Markdownコマンド内でもテンプレートを書けるように "$$$ hoge $$$" のような記法を採用

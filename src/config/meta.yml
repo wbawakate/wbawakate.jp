@@ -1,7 +1,8 @@
 site_name: 全脳アーキテクチャ若手の会
 description: 全脳アーキテクチャ若手の会は、脳や人工知能、そしてそれらが与える影響について興味がある、すべての方のためのコミュニティです。
 keywords: []
-url: http://wbawakate.jp/
+url: https://wbawakate.jp/
 facebook_app_id: 114814789107922
-ogp_image_url: http://wbawakate.jp/ogp.png
+ogp_image_url: https://wbawakate.jp/ogp.png
+favicon_url: /favicon.ico
 link_contact: https://docs.google.com/forms/d/e/1FAIpQLScxdzby5MXvrCesgv--d0MJrjznQ7tQlFq8-Jx09mjo3aF-SQ/viewform?usp=sf_link
