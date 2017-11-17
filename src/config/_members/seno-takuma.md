@@ -37,6 +37,8 @@ website:
 
 ### 国内会議
 
+[3] 松森匠哉, 妹尾卓磨, 菊池俊基, 滝本佑介, 大澤正彦, 今井倫太, “Embedding Cognitive Map in Neural Episodic Control”, 第7回汎用人工知能研究会, 2017.
+[2] 妹尾卓磨, 大澤正彦, 今井倫太, “無報酬な環境での深層強化学習によるロボットの行動獲得”, HAIシンポジウム, 2017.
 [1] 妹尾卓磨, 大澤正彦, 今井倫太, “Accumulator Based Arbitration Model DQN: 複数モジュールを調停した深層強化学習手法”, 第27回神経回路学会全国大会, 2017. (口頭発表)
 
 ### Activity in WBA
