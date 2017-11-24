@@ -26,11 +26,13 @@ name:
 
 ## Activity in WBA
 - 2014年11月  [第4回 WBA若手の会勉強会 『RBM、Deep Learningと学習』](http://wbawakate.jp/posts/events/%e3%80%90%e7%ac%ac4%e5%9b%9e-%e3%83%87%e3%82%a3%e3%83%bc%e3%83%97%e3%83%a9%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e5%8b%89%e5%bc%b7%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%80%91/) 講演
-- 2015年9月  [第1回WBAIハッカソン『CNN-LSTMを用いた手話認識システムの開発』](http://wbawakate.jp/posts/events/%e7%ac%ac1%e5%9b%9ewbai%e3%83%8f%e3%83%83%e3%82%ab%e3%82%bd%e3%83%b3%e6%b4%bb%e5%8b%95%e5%a0%b1%e5%91%8a/)企業賞をW受賞
+- 2015年9月  [第1回 WBAIハッカソン『CNN-LSTMを用いた手話認識システムの開発』](http://wbawakate.jp/posts/events/%e7%ac%ac1%e5%9b%9ewbai%e3%83%8f%e3%83%83%e3%82%ab%e3%82%bd%e3%83%b3%e6%b4%bb%e5%8b%95%e5%a0%b1%e5%91%8a/)企業賞をW受賞
 - 2015年10月  [第9回 WBA若手の会  カジュアルトーク 『CNN-LSTMを用いた手話認識及びその社会的応用に向けて』] (http://wbawakate.jp/posts/events/9th/)講演
-- 2015年11月 [第11回WBA若手の会  『スパースモデリング、スパースコーディングとその数理』] (http://wbawakate.jp/posts/events/11th/)オーガナイザー
-- 2016年3月 [第13回WBA若手の会 『言語と画像の表現学習』 ](http://wbawakate.jp/posts/events/13th/)オーガナイザー
+- 2015年11月 [第11回 WBA若手の会  『スパースモデリング、スパースコーディングとその数理』] (http://wbawakate.jp/posts/events/11th/)オーガナイザー
+- 2016年3月 [第13回 WBA若手の会 『言語と画像の表現学習』 ](http://wbawakate.jp/posts/events/13th/)オーガナイザー
 - 2016年6月 [第15回 WBA若手の会 『実ロボットの運動生成』](http://wbawakate.connpass.com/event/32355/)オーガナイザー
+- 2017年6月 [第26回 WBA若手の会 『バイナリーニューラルネットとハードウェアの関係』](https://wbawakate.connpass.com/event/59472/)オーガナイザー
+- 2017年7月 [第28回 WBA若手の会 『深層強化学習の動向』](https://wbawakate.connpass.com/event/61415/)オーガナイザー
 
 ## Articles
 - 2014年12月 [RBMから考えるDeep Learning ～黒魔術を添えて～](http://qiita.com/t_Signull/items/f776aecb4909b7c5c116)
