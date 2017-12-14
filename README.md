@@ -6,6 +6,9 @@ wbawakate.jp
 ## サイト
 https://wbawakate.github.io/wbawakate.jp/
 
+## Wiki
+https://github.com/wbawakate/wbawakate.jp/wiki/introduction
+
 ## はじめに
 本スターターキットは [butchi-web-starter-kit](https://github.com/butchi/web-starter) から派生しています。
 
