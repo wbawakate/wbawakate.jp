@@ -181,7 +181,7 @@
       "nameSub": "Kanemitsu Shunsuke",
       "position": "",
       "status": "慶應義塾大学大学院\n理工学研究科修士2年",
-      "image": "",
+      "image": "no-image.jpg",
       "link": "kanemitsu-shunsuke/"
     },
     "okuoka-kohei": {
@@ -191,7 +191,7 @@
       "nameSub": "Okuoka Kohei",
       "position": "",
       "status": "慶應義塾大学\n理工学部4年",
-      "image": "",
+      "image": "no-image.jpg",
       "link": "okuoka-kohei/"
     },
     "aoki-ryosuke": {
@@ -423,7 +423,7 @@
     "ito-hiroaki": {
       "id": "ito-hiroaki",
       "index": 1,
-      "name": "伊藤 宏章",
+      "name": "伊東 宏章",
       "nameSub": "Ito Hiroaki",
       "position": "顧問",
       "status": "",
