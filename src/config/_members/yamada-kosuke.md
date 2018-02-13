@@ -1,7 +1,7 @@
 ---
 id:
   'yamada-kosuke'
-﻿name:
+name:
   山田　航佑
 nameSub:
   Kosuke Yamada

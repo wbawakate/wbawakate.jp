@@ -1,7 +1,7 @@
 ---
 id:
   'shiraki-yoshihiko'
-﻿name:
+name:
   白木　義彦
 nameSub:
   Yoshihiko Shiraki

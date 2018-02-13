@@ -1,7 +1,7 @@
 ---
 id:
   'sasaki-atsushi'
-﻿name:
+name:
   佐々木 淳
 nameSub:
   Atsushi Sasaki
