@@ -27,7 +27,7 @@
       "nameSub": "Akita Shohei",
       "position": "会計",
       "status": "慶応義塾大学\n学部4年",
-      "image": "",
+      "image": "no-image.jpg",
       "link": ""
     }
   },
@@ -141,7 +141,7 @@
       "nameSub": "Kanemitsu Shunsuke",
       "position": "",
       "status": "慶應義塾大学大学院\n理工学研究科修士2年",
-      "image": "",
+      "image": "no-image.jpg",
       "link": "kanemitsu-shunsuke/"
     },
     "okuoka-kohei": {
@@ -151,7 +151,7 @@
       "nameSub": "Okuoka Kohei",
       "position": "",
       "status": "慶應義塾大学\n理工学部4年",
-      "image": "",
+      "image": "no-image.jpg",
       "link": "okuoka-kohei/"
     },
     "seno-takuma": {
@@ -183,7 +183,7 @@
       "nameSub": "Komatsu Masatoshi",
       "position": "ブロックチェーン支部　代表",
       "status": "",
-      "image": "",
+      "image": "no-image.jpg",
       "link": "komatsu-masatoshi/"
     }
   },
