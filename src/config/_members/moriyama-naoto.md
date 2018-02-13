@@ -1,17 +1,15 @@
 ---
 id:
-  'moriyama-naoto'
+  'morimoto-toshiaki'
 name:
-　森山　直人
+  森山 直人
 nameSub:
   Naoto Moriyama
 facebook:
   "https://www.facebook.com/mariyamanaoto"
 twitter:
   "https://twitter.com/vimmode"
-
 ---
-
 
 ## Message
 ビジネス現場にアカデミックな技術を輸入したい。

@@ -2,11 +2,11 @@
 id:
   'iwabuchi-hiroaki'
 name:
-　岩渕 広明
+  岩渕 広明
 nameSub:
   Hiroaki Iwabuchi
 facebook:
-  "https://facebook.com/hiroaki.iwabuchi.37"
+  "https://facebook.com/profile.php?id=100005706678430"
 twitter:
   ""
 ---
