@@ -1,434 +1,448 @@
 {
-  "default" : {
-    "osawa-masahiko" : {
-      "id" : "osawa-masahiko",
-      "index" : 1,
-      "name" : "大澤 正彦",
-      "nameSub" : "Osawa Masahiko",
-      "position" : "代表",
-      "status" : "慶應義塾大学 D1",
-      "image" : "osawa-masahiko.jpg",
-      "link" : "osawa-masahiko/"
+  "default": {
+    "yagi-takuma": {
+      "id": "yagi-takuma",
+      "index": 1,
+      "name": "八木 拓真",
+      "nameSub": "Yagi Takuma",
+      "position": "代表",
+      "status": "東京大学大学院\n修士1年",
+      "image": "yagi-takuma.jpg",
+      "link": "yagi-takuma/"
     },
-    "sakai-miho" : {
-      "id" : "sakai-miho",
-      "index" : 2,
-      "name" : "坂井 美帆",
-      "nameSub" : "Sakai Miho",
-      "position" : "副代表",
-      "status" : "",
-      "image" : "sakai-miho.jpg",
-      "link" : "sakai-miho/"
+    "matsuoka-yuma": {
+      "id": "matsuoka-yuma",
+      "index": 2,
+      "name": "松岡 佑磨",
+      "nameSub": "Matsuoka Yuma",
+      "position": "副代表",
+      "status": "法政大学大学院\n修士1年",
+      "image": "matsuoka-yuma.jpg",
+      "link": "matsuoka-yuma/"
     },
-    "shimada-daiki" : {
-      "id" : "shimada-daiki",
-      "index" : 3,
-      "name" : "島田 大樹",
-      "nameSub" : "Shimada Daiki",
-      "position" : "副代表",
-      "status" : "法政大学大学院 \n修士2年",
-      "image" : "shimada-daiki.jpg",
-      "link" : "shimada-daiki/"
-    },
-    "kawasaki-yusuke" : {
-      "id" : "kawasaki-yusuke",
-      "index" : 4,
-      "name" : "川崎 雄介",
-      "nameSub" : "Kawasaki Yusuke",
-      "position" : "会計",
-      "status" : "法政大学大学院 \n修士2年",
-      "image" : "kawasaki-yusuke.jpg",
-      "link" : "kawasaki-yusuke/"
+    "akita-shohei": {
+      "id": "akita-shohei",
+      "index": 3,
+      "name": "秋田 祥平",
+      "nameSub": "Akita Shohei",
+      "position": "会計",
+      "status": "慶応義塾大学\n学部4年",
+      "image": "",
+      "link": ""
     }
   },
-  "WBA 若手の会 関東支部" : {
-    "yagi-takuma" : {
-      "id" : "yagi-takuma",
-      "index" : 1,
-      "name" : "八木 拓真",
-      "nameSub" : "Yagi Takuma",
-      "position" : "関東支部代表 ",
-      "status" : "東京工業大学\n工学部4年",
-      "image" : "yagi-takuma.jpg",
-      "link" : "yagi-takuma/"
+  "WBA 若手の会 関西支部": {
+    "kiyomaru-hirokazu": {
+      "id": "kiyomaru-hirokazu",
+      "index": 1,
+      "name": "清丸 寛一",
+      "nameSub": "Kiyomaru Hirokazu",
+      "position": "関西支部代表",
+      "status": "",
+      "image": "kiyomaru-hirokazu.jpg",
+      "link": "kiyomaru-hirokazu/"
     },
-    "matsuoka-yuma" : {
-      "id" : "matsuoka-yuma",
-      "index" : 2,
-      "name" : "松岡 佑磨",
-      "nameSub" : "Matsuoka Yuma",
-      "position" : "関東支部副代表",
-      "status" : "法政大学\n理工学部4年",
-      "image" : "matsuoka-yuma.jpg",
-      "link" : "matsuoka-yuma/"
+    "ueno-sei": {
+      "id": "ueno-sei",
+      "index": 2,
+      "name": "上乃 聖",
+      "nameSub": "Ueno Sei",
+      "position": "",
+      "status": "",
+      "image": "ueno-sei.jpg",
+      "link": "ueno-sei/"
     },
-    "itaya-kotone" : {
-      "id" : "itaya-kotone",
-      "index" : 3,
-      "name" : "板谷 琴音",
-      "nameSub" : "Itaya Kotone",
-      "position" : "",
-      "status" : "慶應義塾大学\n政策・メディア研究科2年",
-      "image" : "itaya-kotone.jpg",
-      "link" : "itaya-kotone/"
+    "miura-takuya": {
+      "id": "miura-takuya",
+      "index": 3,
+      "name": "三浦 拓也",
+      "nameSub": "Miura Takuya",
+      "position": "",
+      "status": "",
+      "image": "miura-takuya.jpg",
+      "link": "miura-takuya/"
     },
-    "kajiya-rina" : {
-      "id" : "kajiya-rina",
-      "index" : 4,
-      "name" : "加治屋 里奈",
-      "nameSub" : "Kajiya Rina",
-      "position" : "",
-      "status" : "法政大学\n理工学部4年",
-      "image" : "kajiya-rina.jpg",
-      "link" : "kajiya-rina/"
+    "tamura-ryota": {
+      "id": "tamura-ryota",
+      "index": 4,
+      "name": "田村 陵大",
+      "nameSub": "Tamura Ryota",
+      "position": "",
+      "status": "",
+      "image": "tamura-ryota.jpg",
+      "link": "tamura-ryota/"
     },
-    "kanno-narumi" : {
-      "id" : "kanno-narumi",
-      "index" : 5,
-      "name" : "神野 成海",
-      "nameSub" : "Kanno Narumi",
-      "position" : "",
-      "status" : "東京理科大学\n理学部3年",
-      "image" : "kanno-narumi.jpg",
-      "link" : "kanno-narumi/"
-    },
-    "sato-taichi" : {
-      "id" : "sato-taichi",
-      "index" : 6,
-      "name" : "佐藤 太一",
-      "nameSub" : "Sato Taichi",
-      "position" : "",
-      "status" : "東京都市大学付属高校\n3年",
-      "image" : "sato-taichi.jpg",
-      "link" : "sato-taichi/"
-    },
-    "takeda-takuya" : {
-      "id" : "takeda-takuya",
-      "index" : 7,
-      "name" : "竹田 卓也",
-      "nameSub" : "Takeda Takuya",
-      "position" : "",
-      "status" : "電気通信大学",
-      "image" : "takeda-takuya.jpg",
-      "link" : "takeda-takuya/"
-    },
-    "doi-yurika" : {
-      "id" : "doi-yurika",
-      "index" : 8,
-      "name" : "土井 ゆりか",
-      "nameSub" : "Doi Yurika",
-      "position" : "",
-      "status" : "東京大学\n工学部4年",
-      "image" : "doi-yurika.jpg",
-      "link" : "doi-yurika/"
-    },
-    "nakamura-kentaro" : {
-      "id" : "nakamura-kentaro",
-      "index" : 9,
-      "name" : "中村 健太郎",
-      "nameSub" : "Nakamura Kentaro",
-      "position" : "",
-      "status" : "慶應義塾大学",
-      "image" : "nakamura-kentaro.jpg",
-      "link" : "nakamura-kentaro/"
-    },
-    "nakamura-koki" : {
-      "id" : "nakamura-koki",
-      "index" : 10,
-      "name" : "中村 晃貴",
-      "nameSub" : "Nakamura Koki",
-      "position" : "",
-      "status" : "慶應義塾大学\n理工学研究科修士1年",
-      "image" : "nakamura-koki.jpg",
-      "link" : "nakamura-koki/"
-    },
-    "nagata-shohei" : {
-      "id" : "nagata-shohei",
-      "index" : 11,
-      "name" : "永田 祥平",
-      "nameSub" : "Nagata Shohei",
-      "position" : "",
-      "status" : "慶應義塾大学\n環境情報学部2年",
-      "image" : "nagata-shohei.jpg",
-      "link" : "nagata-shohei/"
-    },
-    "harae-naoko" : {
-      "id" : "harae-naoko",
-      "index" : 12,
-      "name" : "原衛 直子",
-      "nameSub" : "Harae Naoko",
-      "position" : "",
-      "status" : "慶應義塾大学\n文学部4年",
-      "image" : "harae-naoko.jpg",
-      "link" : "harae-naoko/"
-    },
-    "fujita-erika" : {
-      "id" : "fujita-erika",
-      "index" : 13,
-      "name" : "藤田 恵梨香",
-      "nameSub" : "Fujita Erika",
-      "position" : "",
-      "status" : "法政大学\n大学院修士1年",
-      "image" : "fujita-erika.jpg",
-      "link" : "fujita-erika/"
-    },
-    "masuyama-nanami" : {
-      "id" : "masuyama-nanami",
-      "index" : 14,
-      "name" : "増山 七海",
-      "nameSub" : "Masuyama Nanami",
-      "position" : "",
-      "status" : "慶應義塾大学\n環境情報学部3年",
-      "image" : "masuyama-nanami.jpg",
-      "link" : ""
-    },
-    "kanemitsu-shunsuke" : {
-      "id" : "kanemitsu-shunsuke",
-      "index" : 15,
-      "name" : "金光 俊輔",
-      "nameSub" : "Kanemitsu Shunsuke",
-      "position" : "",
-      "status" : "慶應義塾大学大学院\n理工学研究科修士2年",
-      "image" : "",
-      "link" : "kanemitsu-shunsuke/"
-    },
-    "okuoka-kohei" : {
-      "id" : "okuoka-kohei",
-      "index" : 16,
-      "name" : "奥岡 耕平",
-      "nameSub" : "Okuoka Kohei",
-      "position" : "",
-      "status" : "慶應義塾大学\n理工学部4年",
-      "image" : "",
-      "link" : "okuoka-kohei/"
-    },
-    "seno-takuma" : {
-      "id" : "seno-takuma",
-      "index" : 17,
-      "name" : "妹尾 卓磨",
-      "nameSub" : "Takuma Seno",
-      "position" : "",
-      "status" : "慶應義塾大学\n理工学部4年",
-      "image" : "seno-takuma.jpg",
-      "link" : "seno-takuma/"
-    },
-    "matsumori-shoya" : {
-      "id" : "matsumori-shoya",
-      "index" : 18,
-      "name" : "松森 匠哉",
-      "nameSub" : "Shoya Matsumori",
-      "position" : "",
-      "status" : "慶應義塾大学\n理工学部4年",
-      "image" : "matsumori-shoya.jpg",
-      "link" : "matsumori-shoya/"
+    "hiroshiba-kazuyuki": {
+      "id": "hiroshiba-kazuyuki",
+      "index": 5,
+      "name": "廣芝 和之",
+      "nameSub": "Hiroshiba Kazuyuki",
+      "position": "",
+      "status": "",
+      "image": "hiroshiba-kazuyuki.jpg",
+      "link": "hiroshiba-kazuyuki/"
     }
   },
-  "WBA 若手の会 関西支部" : {
-    "nishida-keigo" : {
-      "id" : "nishida-keigo",
-      "index" : 1,
-      "name" : "西田 圭吾",
-      "nameSub" : "Nishida Keigo",
-      "position" : "関西支部代表",
-      "status" : "大阪大学\n学部4年",
-      "image" : "nishida-keigo.jpg",
-      "link" : "nishida-keigo/"
+  "WBA 若手の会 関東支部": {
+    "itaya-kotone": {
+      "id": "itaya-kotone",
+      "index": 1,
+      "name": "板谷 琴音",
+      "nameSub": "Itaya Kotone",
+      "position": "",
+      "status": "慶應義塾大学\n政策・メディア研究科2年",
+      "image": "itaya-kotone.jpg",
+      "link": "itaya-kotone/"
     },
-    "tsuzuki-taku" : {
-      "id" : "tsuzuki-taku",
-      "index" : 2,
-      "name" : "都築 拓",
-      "nameSub" : "Tsuzuki Taku",
-      "position" : "関西支部副代表",
-      "status" : "大阪大学\n学部4年",
-      "image" : "tsuzuki-taku.jpg",
-      "link" : "tsuzuki-taku/"
+    "doi-yurika": {
+      "id": "doi-yurika",
+      "index": 2,
+      "name": "土井 ゆりか",
+      "nameSub": "Doi Yurika",
+      "position": "",
+      "status": "Harvard University",
+      "image": "doi-yurika.jpg",
+      "link": "doi-yurika/"
     },
-    "ueno-sei" : {
-      "id" : "ueno-sei",
-      "index" : 3,
-      "name" : "上乃 聖",
-      "nameSub" : "Ueno Sei",
-      "position" : "",
-      "status" : "同志社大学\n理工学部 情報システムデザイン学科3年",
-      "image" : "ueno-sei.jpg",
-      "link" : "ueno-sei/"
+    "nakamura-koki": {
+      "id": "nakamura-koki",
+      "index": 3,
+      "name": "中村 晃貴",
+      "nameSub": "Nakamura Koki",
+      "position": "",
+      "status": "慶應義塾大学\n理工学研究科修士2年",
+      "image": "nakamura-koki.jpg",
+      "link": "nakamura-koki/"
     },
-    "miura-takuya" : {
-      "id" : "miura-takuya",
-      "index" : 4,
-      "name" : "三浦 拓也",
-      "nameSub" : "Miura Takuya",
-      "position" : "関西支部会計",
-      "status" : "大阪大学\n学部4年",
-      "image" : "miura-takuya.jpg",
-      "link" : "miura-takuya/"
+    "harae-naoko": {
+      "id": "harae-naoko",
+      "index": 4,
+      "name": "原衛 直子",
+      "nameSub": "Harae Naoko",
+      "position": "",
+      "status": "",
+      "image": "harae-naoko.jpg",
+      "link": "harae-naoko/"
     },
-    "tamura-ryota" : {
-      "id" : "tamura-ryota",
-      "index" : 5,
-      "name" : "田村 陵大",
-      "nameSub" : "Tamura Ryota",
-      "position" : "",
-      "status" : "同志社大学大学院\n医療情報システム研究室\n修士1年",
-      "image" : "tamura-ryota.jpg",
-      "link" : "tamura-ryota/"
+    "fujita-erika": {
+      "id": "fujita-erika",
+      "index": 5,
+      "name": "藤田 恵梨香",
+      "nameSub": "Fujita Erika",
+      "position": "",
+      "status": "法政大学\n大学院修士2年",
+      "image": "fujita-erika.jpg",
+      "link": "fujita-erika/"
     },
-    "kiyomaru-hirokazu" : {
-      "id" : "kiyomaru-hirokazu",
-      "index" : 6,
-      "name" : "清丸 寛一",
-      "nameSub" : "Kiyomaru Hirokazu",
-      "position" : "",
-      "status" : "同志社大学\n理工学部情報システムデザイン学科3年",
-      "image" : "kiyomaru-hirokazu.jpg",
-      "link" : "kiyomaru-hirokazu/"
+    "kanemitsu-shunsuke": {
+      "id": "kanemitsu-shunsuke",
+      "index": 6,
+      "name": "金光 俊輔",
+      "nameSub": "Kanemitsu Shunsuke",
+      "position": "",
+      "status": "慶應義塾大学大学院\n理工学研究科修士2年",
+      "image": "",
+      "link": "kanemitsu-shunsuke/"
     },
-    "hiroshiba-kazuyuki" : {
-      "id" : "hiroshiba-kazuyuki",
-      "index" : 7,
-      "name" : "廣芝 和之",
-      "nameSub" : "Hiroshiba Kazuyuki",
-      "position" : "",
-      "status" : "奈良先端科学技術大学院大学\nバイオサイエンス研究科",
-      "image" : "hiroshiba-kazuyuki.jpg",
-      "link" : "hiroshiba-kazuyuki/"
+    "okuoka-kohei": {
+      "id": "okuoka-kohei",
+      "index": 7,
+      "name": "奥岡 耕平",
+      "nameSub": "Okuoka Kohei",
+      "position": "",
+      "status": "慶應義塾大学\n理工学部4年",
+      "image": "",
+      "link": "okuoka-kohei/"
+    },
+    "seno-takuma": {
+      "id": "seno-takuma",
+      "index": 8,
+      "name": "妹尾 卓磨",
+      "nameSub": "Seno Takuma",
+      "position": "",
+      "status": "慶應義塾大学\n理工学部4年",
+      "image": "seno-takuma.jpg",
+      "link": "seno-takuma/"
+    },
+    "matsumori-shoya": {
+      "id": "matsumori-shoya",
+      "index": 9,
+      "name": "松森 匠哉",
+      "nameSub": "Matsumori Shoya",
+      "position": "",
+      "status": "慶應義塾大学\n理工学部4年",
+      "image": "matsumori-shoya.jpg",
+      "link": "matsumori-shoya/"
     }
   },
-  "WBA 若手の会 ブロックチェーン支部" : {
-    "komatsu-masatoshi" : {
-      "id" : "komatsu-masatoshi",
-      "index" : 1,
-      "name" : "小松 昌憲",
-      "nameSub" : "Komatsu Masatoshi",
-      "position" : "ブロックチェーン支部　代表",
-      "status" : "",
-      "image" : "",
-      "link" : "komatsu-masatoshi/"
+  "WBA 若手の会 ブロックチェーン支部": {
+    "komatsu-masatoshi": {
+      "id": "komatsu-masatoshi",
+      "index": 1,
+      "name": "小松 昌憲",
+      "nameSub": "Komatsu Masatoshi",
+      "position": "ブロックチェーン支部　代表",
+      "status": "",
+      "image": "",
+      "link": "komatsu-masatoshi/"
     }
   },
-  "WBA 若手の会 社会人支部" : {
-    "ashihara-yuta" : {
-      "id" : "ashihara-yuta",
-      "index" : 1,
-      "name" : "芦原 佑太",
-      "nameSub" : "Ashihara Yuta",
-      "position" : "社会人支部　代表",
-      "status" : "",
-      "image" : "ashihara-yuta.jpg",
-      "link" : "ashihara-yuta/"
+  "WBA 若手の会 社会人支部": {
+    "ashihara-yuta": {
+      "id": "ashihara-yuta",
+      "index": 1,
+      "name": "芦原 佑太",
+      "nameSub": "Ashihara Yuta",
+      "position": "社会人支部　代表",
+      "status": "",
+      "image": "ashihara-yuta.jpg",
+      "link": "ashihara-yuta/"
     },
-    "kakihara-yoshiyuki" : {
-      "id" : "kakihara-yoshiyuki",
-      "index" : 2,
-      "name" : "柿原 祥之",
-      "nameSub" : "Kakihara Yoshiyuki",
-      "position" : "社会人支部　副代表",
-      "status" : "",
-      "image" : "kakihara-yoshiyuki.jpg",
-      "link" : "kakihara-yoshiyuki/"
+    "kakihara-yoshiyuki": {
+      "id": "kakihara-yoshiyuki",
+      "index": 2,
+      "name": "柿原 祥之",
+      "nameSub": "Kakihara Yoshiyuki",
+      "position": "社会人支部　副代表",
+      "status": "",
+      "image": "kakihara-yoshiyuki.jpg",
+      "link": "kakihara-yoshiyuki/"
     },
-    "kadomae-kazuma" : {
-      "id" : "kadomae-kazuma",
-      "index" : 3,
-      "name" : "門前 一馬",
-      "nameSub" : "Kadomae Kazuma",
-      "position" : "クリエイティブディレクター",
-      "status" : "",
-      "image" : "kadomae-kazuma.jpg",
-      "link" : "kadomae-kazuma/"
+    "kadomae-kazuma": {
+      "id": "kadomae-kazuma",
+      "index": 3,
+      "name": "門前 一馬",
+      "nameSub": "Kadomae Kazuma",
+      "position": "クリエイティブディレクター",
+      "status": "",
+      "image": "kadomae-kazuma.jpg",
+      "link": "kadomae-kazuma/"
     },
-    "nagayama-taishi" : {
-      "id" : "nagayama-taishi",
-      "index" : 4,
-      "name" : "永山 大志",
-      "nameSub" : "Nagayama Taishi",
-      "position" : "",
-      "status" : "",
-      "image" : "nagayama-taishi.jpg",
-      "link" : "nagayama-taishi/"
+    "nagayama-taishi": {
+      "id": "nagayama-taishi",
+      "index": 4,
+      "name": "永山 大志",
+      "nameSub": "Nagayama Taishi",
+      "position": "",
+      "status": "",
+      "image": "nagayama-taishi.jpg",
+      "link": "nagayama-taishi/"
     },
-    "iwabuchi-yuki" : {
-      "id" : "iwabuchi-yuki",
-      "index" : 5,
-      "name" : "岩淵 勇樹",
-      "nameSub" : "Iwabuchi Yuki",
-      "position" : "",
-      "status" : "",
-      "image" : "iwabuchi-yuki.jpg",
-      "link" : "iwabuchi-yuki/"
+    "iwabuchi-yuki": {
+      "id": "iwabuchi-yuki",
+      "index": 5,
+      "name": "岩淵 勇樹",
+      "nameSub": "Iwabuchi Yuki",
+      "position": "",
+      "status": "",
+      "image": "iwabuchi-yuki.jpg",
+      "link": "iwabuchi-yuki/"
     },
-    "ikeya-masao" : {
-      "id" : "ikeya-masao",
-      "index" : 6,
-      "name" : "池谷 昌大",
-      "nameSub" : "Ikeya Masao",
-      "position" : "",
-      "status" : "",
-      "image" : "ikeya-masao.jpg",
-      "link" : ""
+    "ikeya-masao": {
+      "id": "ikeya-masao",
+      "index": 6,
+      "name": "池谷 昌大",
+      "nameSub": "Ikeya Masao",
+      "position": "",
+      "status": "",
+      "image": "ikeya-masao.jpg",
+      "link": ""
     },
-    "takagi-yusuke" : {
-      "id" : "takagi-yusuke",
-      "index" : 7,
-      "name" : "高木 勇輔",
-      "nameSub" : "Takagi Yusuke",
-      "position" : "",
-      "status" : "",
-      "image" : "takagi-yusuke.jpg",
-      "link" : ""
+    "takagi-yusuke": {
+      "id": "takagi-yusuke",
+      "index": 7,
+      "name": "高木 勇輔",
+      "nameSub": "Takagi Yusuke",
+      "position": "",
+      "status": "",
+      "image": "takagi-yusuke.jpg",
+      "link": ""
     },
-    "kubo-takahiro" : {
-      "id" : "kubo-takahiro",
-      "index" : 8,
-      "name" : "久保 隆宏",
-      "nameSub" : "Kubo Takahiro",
-      "position" : "",
-      "status" : "",
-      "image" : "kubo-takahiro.jpg",
-      "link" : ""
+    "kubo-takahiro": {
+      "id": "kubo-takahiro",
+      "index": 8,
+      "name": "久保 隆宏",
+      "nameSub": "Kubo Takahiro",
+      "position": "",
+      "status": "",
+      "image": "kubo-takahiro.jpg",
+      "link": ""
     },
-    "watarai-kyohei" : {
-      "id" : "watarai-kyohei",
-      "index" : 9,
-      "name" : "渡會 恭平",
-      "nameSub" : "Watatai Kyohei",
-      "position" : "",
-      "status" : "",
-      "image" : "watarai-kyohei.jpg",
-      "link" : ""
+    "watarai-kyohei": {
+      "id": "watarai-kyohei",
+      "index": 9,
+      "name": "渡會 恭平",
+      "nameSub": "Watatai Kyohei",
+      "position": "",
+      "status": "",
+      "image": "watarai-kyohei.jpg",
+      "link": ""
     },
-    "yoshida-yuki" : {
-      "id" : "yoshida-yuki",
-      "index" : 10,
-      "name" : "吉田 雄紀",
-      "nameSub" : "Yoshida Yuki",
-      "position" : "",
-      "status" : "",
-      "image" : "yoshida-yuki.jpg",
-      "link" : ""
+    "yoshida-yuki": {
+      "id": "yoshida-yuki",
+      "index": 10,
+      "name": "吉田 雄紀",
+      "nameSub": "Yoshida Yuki",
+      "position": "",
+      "status": "",
+      "image": "yoshida-yuki.jpg",
+      "link": ""
     },
-    "kameda-shigeyuki" : {
-      "id" : "kameda-shigeyuki",
-      "index" : 11,
-      "name" : "亀田 重幸",
-      "nameSub" : "Kameda Shigeyuki",
-      "position" : "",
-      "status" : "",
-      "image" : "kameda-shigeyuki.jpg",
-      "link" : "kameda-shigeyuki/"
+    "kameda-shigeyuki": {
+      "id": "kameda-shigeyuki",
+      "index": 11,
+      "name": "亀田 重幸",
+      "nameSub": "Kameda Shigeyuki",
+      "position": "",
+      "status": "",
+      "image": "kameda-shigeyuki.jpg",
+      "link": "kameda-shigeyuki/"
     }
   },
-  "WBA 若手の会 顧問" : {
-    "ito-hiroaki" : {
-      "id" : "ito-hiroaki",
-      "index" : 1,
-      "name" : "伊藤 宏章",
-      "nameSub" : "Ito Hiroaki",
-      "position" : "顧問",
-      "status" : "",
-      "image" : "ito-hiroaki.jpg",
-      "link" : ""
+  "WBA 若手の会 顧問": {
+    "ito-hiroaki": {
+      "id": "ito-hiroaki",
+      "index": 1,
+      "name": "伊藤 宏章",
+      "nameSub": "Ito Hiroaki",
+      "position": "顧問",
+      "status": "",
+      "image": "ito-hiroaki.jpg",
+      "link": ""
+    }
+  },
+  "WBA 若手の会 フェロー": {
+    "osawa-masahiko": {
+      "id": "osawa-masahiko",
+      "index": 1,
+      "name": "大澤 正彦",
+      "nameSub": "Osawa Masahiko",
+      "position": "元代表",
+      "status": "慶應義塾大学 D1",
+      "image": "osawa-masahiko.jpg",
+      "link": "osawa-masahiko/"
+    },
+    "sakai-miho": {
+      "id": "sakai-miho",
+      "index": 2,
+      "name": "坂井 美帆",
+      "nameSub": "Sakai Miho",
+      "position": "元副代表",
+      "status": "",
+      "image": "sakai-miho.jpg",
+      "link": "sakai-miho/"
+    },
+    "shimada-daiki": {
+      "id": "shimada-daiki",
+      "index": 3,
+      "name": "島田 大樹",
+      "nameSub": "Shimada Daiki",
+      "position": "元副代表",
+      "status": "",
+      "image": "shimada-daiki.jpg",
+      "link": "shimada-daiki/"
+    },
+    "kawasaki-yusuke": {
+      "id": "kawasaki-yusuke",
+      "index": 4,
+      "name": "川崎 雄介",
+      "nameSub": "Kawasaki Yusuke",
+      "position": "元会計",
+      "status": "",
+      "image": "kawasaki-yusuke.jpg",
+      "link": "kawasaki-yusuke/"
+    },
+    "nishida-keigo": {
+      "id": "nishida-keigo",
+      "index": 5,
+      "name": "西田 圭吾",
+      "nameSub": "Nishida Keigo",
+      "position": "関西支部元代表",
+      "status": "大阪大学大学院\n博士前期課程2年",
+      "image": "nishida-keigo.jpg",
+      "link": "nishida-keigo/"
+    },
+    "tsuzuki-taku": {
+      "id": "tsuzuki-taku",
+      "index": 6,
+      "name": "都築 拓",
+      "nameSub": "Tsuzuki Taku",
+      "position": "関西支部元副代表",
+      "status": "",
+      "image": "tsuzuki-taku.jpg",
+      "link": "tsuzuki-taku/"
+    }
+  },
+  "過去のメンバー": {
+    "kajiya-rina": {
+      "id": "kajiya-rina",
+      "index": 1,
+      "name": "加治屋 里奈",
+      "nameSub": "Kajiya Rina",
+      "position": "",
+      "status": "法政大学\n理工学部4年",
+      "image": "kajiya-rina.jpg",
+      "link": "kajiya-rina/"
+    },
+    "kanno-narumi": {
+      "id": "kanno-narumi",
+      "index": 2,
+      "name": "神野 成海",
+      "nameSub": "Kanno Narumi",
+      "position": "",
+      "status": "東京理科大学\n理学部3年",
+      "image": "kanno-narumi.jpg",
+      "link": "kanno-narumi/"
+    },
+    "sato-taichi": {
+      "id": "sato-taichi",
+      "index": 3,
+      "name": "佐藤 太一",
+      "nameSub": "Sato Taichi",
+      "position": "",
+      "status": "東京都市大学付属高校\n3年",
+      "image": "sato-taichi.jpg",
+      "link": "sato-taichi/"
+    },
+    "takeda-takuya": {
+      "id": "takeda-takuya",
+      "index": 4,
+      "name": "竹田 卓也",
+      "nameSub": "Takeda Takuya",
+      "position": "",
+      "status": "電気通信大学",
+      "image": "takeda-takuya.jpg",
+      "link": "takeda-takuya/"
+    },
+    "nakamura-kentaro": {
+      "id": "nakamura-kentaro",
+      "index": 5,
+      "name": "中村 健太郎",
+      "nameSub": "Nakamura Kentaro",
+      "position": "",
+      "status": "慶應義塾大学",
+      "image": "nakamura-kentaro.jpg",
+      "link": "nakamura-kentaro/"
+    },
+    "masuyama-nanami": {
+      "id": "masuyama-nanami",
+      "index": 6,
+      "name": "増山 七海",
+      "nameSub": "Masuyama Nanami",
+      "position": "",
+      "status": "慶應義塾大学\n環境情報学部3年",
+      "image": "masuyama-nanami.jpg",
+      "link": ""
+    },
+    "nagata-shohei": {
+      "id": "nagata-shohei",
+      "index": 7,
+      "name": "永田 祥平",
+      "nameSub": "Nagata Shohei",
+      "position": "",
+      "status": "慶應義塾大学\n環境情報学部2年",
+      "image": "nagata-shohei.jpg",
+      "link": "nagata-shohei/"
     }
   }
 }
