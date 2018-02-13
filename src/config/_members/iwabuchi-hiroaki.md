@@ -9,7 +9,6 @@ facebook:
   "https://facebook.com/hiroaki.iwabuchi.37"
 twitter:
   ""
-
 ---
 
 
