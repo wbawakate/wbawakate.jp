@@ -42,19 +42,29 @@
       "image": "kiyomaru-hirokazu.jpg",
       "link": "kiyomaru-hirokazu/"
     },
+    "nishida-keigo": {
+      "id": "nishida-keigo",
+      "index": 2,
+      "name": "西田 圭吾",
+      "nameSub": "Nishida Keigo",
+      "position": "関西支部元代表",
+      "status": "大阪大学大学院\n博士前期課程2年",
+      "image": "nishida-keigo.jpg",
+      "link": "nishida-keigo/"
+    },
     "ueno-sei": {
       "id": "ueno-sei",
-      "index": 2,
+      "index": 3,
       "name": "上乃 聖",
       "nameSub": "Ueno Sei",
       "position": "",
       "status": "",
-      "image": "ueno-sei.jpg",
+      "image": "nishida-keigo.jpg",
       "link": "ueno-sei/"
     },
     "miura-takuya": {
       "id": "miura-takuya",
-      "index": 3,
+      "index": 4,
       "name": "三浦 拓也",
       "nameSub": "Miura Takuya",
       "position": "",
@@ -64,7 +74,7 @@
     },
     "tamura-ryota": {
       "id": "tamura-ryota",
-      "index": 4,
+      "index": 5,
       "name": "田村 陵大",
       "nameSub": "Tamura Ryota",
       "position": "",
@@ -74,7 +84,7 @@
     },
     "hiroshiba-kazuyuki": {
       "id": "hiroshiba-kazuyuki",
-      "index": 5,
+      "index": 6,
       "name": "廣芝 和之",
       "nameSub": "Hiroshiba Kazuyuki",
       "position": "",
@@ -462,19 +472,9 @@
       "image": "kawasaki-yusuke.jpg",
       "link": "kawasaki-yusuke/"
     },
-    "nishida-keigo": {
-      "id": "nishida-keigo",
-      "index": 4,
-      "name": "西田 圭吾",
-      "nameSub": "Nishida Keigo",
-      "position": "関西支部元代表",
-      "status": "大阪大学大学院\n博士前期課程2年",
-      "image": "nishida-keigo.jpg",
-      "link": "nishida-keigo/"
-    },
     "tsuzuki-taku": {
       "id": "tsuzuki-taku",
-      "index": 5,
+      "index": 4,
       "name": "都築 拓",
       "nameSub": "Tsuzuki Taku",
       "position": "関西支部元副代表",
@@ -483,7 +483,7 @@
       "link": "tsuzuki-taku/"
     }
   },
-  "過去のメンバー": {
+  "これまでのメンバー": {
     "kajiya-rina": {
       "id": "kajiya-rina",
       "index": 1,
