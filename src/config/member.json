@@ -42,9 +42,19 @@
       "image": "kiyomaru-hirokazu.jpg",
       "link": "kiyomaru-hirokazu/"
     },
+    "nishida-keigo": {
+      "id": "nishida-keigo",
+      "index": 2,
+      "name": "西田 圭吾",
+      "nameSub": "Nishida Keigo",
+      "position": "関西支部元代表",
+      "status": "大阪大学大学院\n博士前期課程2年",
+      "image": "nishida-keigo.jpg",
+      "link": "nishida-keigo/"
+    },
     "ueno-sei": {
       "id": "ueno-sei",
-      "index": 2,
+      "index": 3,
       "name": "上乃 聖",
       "nameSub": "Ueno Sei",
       "position": "",
@@ -54,7 +64,7 @@
     },
     "miura-takuya": {
       "id": "miura-takuya",
-      "index": 3,
+      "index": 4,
       "name": "三浦 拓也",
       "nameSub": "Miura Takuya",
       "position": "",
@@ -64,7 +74,7 @@
     },
     "tamura-ryota": {
       "id": "tamura-ryota",
-      "index": 4,
+      "index": 5,
       "name": "田村 陵大",
       "nameSub": "Tamura Ryota",
       "position": "",
@@ -74,7 +84,7 @@
     },
     "hiroshiba-kazuyuki": {
       "id": "hiroshiba-kazuyuki",
-      "index": 5,
+      "index": 6,
       "name": "廣芝 和之",
       "nameSub": "Hiroshiba Kazuyuki",
       "position": "",
@@ -181,7 +191,7 @@
       "nameSub": "Kanemitsu Shunsuke",
       "position": "",
       "status": "慶應義塾大学大学院\n理工学研究科修士2年",
-      "image": "",
+      "image": "no-image.jpg",
       "link": "kanemitsu-shunsuke/"
     },
     "okuoka-kohei": {
@@ -191,7 +201,7 @@
       "nameSub": "Okuoka Kohei",
       "position": "",
       "status": "慶應義塾大学\n理工学部4年",
-      "image": "",
+      "image": "no-image.jpg",
       "link": "okuoka-kohei/"
     },
     "aoki-ryosuke": {
@@ -423,7 +433,7 @@
     "ito-hiroaki": {
       "id": "ito-hiroaki",
       "index": 1,
-      "name": "伊藤 宏章",
+      "name": "伊東 宏章",
       "nameSub": "Ito Hiroaki",
       "position": "顧問",
       "status": "",
@@ -462,19 +472,9 @@
       "image": "kawasaki-yusuke.jpg",
       "link": "kawasaki-yusuke/"
     },
-    "nishida-keigo": {
-      "id": "nishida-keigo",
-      "index": 4,
-      "name": "西田 圭吾",
-      "nameSub": "Nishida Keigo",
-      "position": "関西支部元代表",
-      "status": "大阪大学大学院\n博士前期課程2年",
-      "image": "nishida-keigo.jpg",
-      "link": "nishida-keigo/"
-    },
     "tsuzuki-taku": {
       "id": "tsuzuki-taku",
-      "index": 5,
+      "index": 4,
       "name": "都築 拓",
       "nameSub": "Tsuzuki Taku",
       "position": "関西支部元副代表",
@@ -483,7 +483,7 @@
       "link": "tsuzuki-taku/"
     }
   },
-  "過去のメンバー": {
+  "これまでのメンバー": {
     "kajiya-rina": {
       "id": "kajiya-rina",
       "index": 1,
