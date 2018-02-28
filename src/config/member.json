@@ -31,69 +31,7 @@
       "link": "akita-shohei/"
     }
   },
-  "WBA 若手の会 関西支部": {
-    "kiyomaru-hirokazu": {
-      "id": "kiyomaru-hirokazu",
-      "index": 1,
-      "name": "清丸 寛一",
-      "nameSub": "Kiyomaru Hirokazu",
-      "position": "関西支部代表",
-      "status": "京都大学大学院\n修士1年",
-      "image": "kiyomaru-hirokazu.jpg",
-      "link": "kiyomaru-hirokazu/"
-    },
-    "nishida-keigo": {
-      "id": "nishida-keigo",
-      "index": 2,
-      "name": "西田 圭吾",
-      "nameSub": "Nishida Keigo",
-      "position": "関西支部会計",
-      "status": "大阪大学大学院\n博士前期課程2年",
-      "image": "nishida-keigo.jpg",
-      "link": "nishida-keigo/"
-    },
-    "ueno-sei": {
-      "id": "ueno-sei",
-      "index": 3,
-      "name": "上乃 聖",
-      "nameSub": "Ueno Sei",
-      "position": "",
-      "status": "",
-      "image": "ueno-sei.jpg",
-      "link": "ueno-sei/"
-    },
-    "miura-takuya": {
-      "id": "miura-takuya",
-      "index": 4,
-      "name": "三浦 拓也",
-      "nameSub": "Miura Takuya",
-      "position": "",
-      "status": "",
-      "image": "miura-takuya.jpg",
-      "link": "miura-takuya/"
-    },
-    "tamura-ryota": {
-      "id": "tamura-ryota",
-      "index": 5,
-      "name": "田村 陵大",
-      "nameSub": "Tamura Ryota",
-      "position": "",
-      "status": "",
-      "image": "tamura-ryota.jpg",
-      "link": "tamura-ryota/"
-    },
-    "hiroshiba-kazuyuki": {
-      "id": "hiroshiba-kazuyuki",
-      "index": 6,
-      "name": "廣芝 和之",
-      "nameSub": "Hiroshiba Kazuyuki",
-      "position": "",
-      "status": "",
-      "image": "hiroshiba-kazuyuki.jpg",
-      "link": "hiroshiba-kazuyuki/"
-    }
-  },
-  "WBA 若手の会 関東支部": {
+  "関東支部": {
     "iwabuchi-hiroaki": {
       "id": "iwabuchi-hiroaki",
       "index": 1,
@@ -243,9 +181,185 @@
       "status": "慶応義塾大学\n理工学部",
       "image": "morimoto-toshiaki.jpg",
       "link": "morimoto-toshiaki/"
+    },
+    "yamamoto-ayaka": {
+      "id": "yamamoto-ayaka",
+      "index": 16,
+      "name": "山本 彩加",
+      "nameSub": "Yamamoto Ayaka",
+      "position": "",
+      "status": "",
+      "image": "yamamoto-ayaka.jpg",
+      "link": "yamamoto-ayaka/"
+    },
+    "oto-kiyona": {
+      "id": "oto-kiyona",
+      "index": 17,
+      "name": "大藤 聖菜",
+      "nameSub": "Oto Kiyona",
+      "position": "",
+      "status": "慶応義塾大学大学院\n理工学研究科修士1年",
+      "image": "oto-kiyona.jpg",
+      "link": "oto-kiyona/"
+    },
+    "sawada-shiori": {
+      "id": "sawada-shiori",
+      "index": 18,
+      "name": "澤田 志織",
+      "nameSub": "Sawada Shiori",
+      "position": "",
+      "status": "慶応義塾大学大学院\n修士1年",
+      "image": "sawada-shiori.jpg",
+      "link": "sawada-shiori/"
     }
   },
-  "WBA 若手の会 社会人支部": {
+  "関西支部": {
+    "kiyomaru-hirokazu": {
+      "id": "kiyomaru-hirokazu",
+      "index": 1,
+      "name": "清丸 寛一",
+      "nameSub": "Kiyomaru Hirokazu",
+      "position": "関西支部代表",
+      "status": "京都大学大学院\n修士1年",
+      "image": "kiyomaru-hirokazu.jpg",
+      "link": "kiyomaru-hirokazu/"
+    },
+    "nishida-keigo": {
+      "id": "nishida-keigo",
+      "index": 2,
+      "name": "西田 圭吾",
+      "nameSub": "Nishida Keigo",
+      "position": "関西支部会計",
+      "status": "大阪大学大学院\n博士前期課程2年",
+      "image": "nishida-keigo.jpg",
+      "link": "nishida-keigo/"
+    },
+    "ueno-sei": {
+      "id": "ueno-sei",
+      "index": 3,
+      "name": "上乃 聖",
+      "nameSub": "Ueno Sei",
+      "position": "",
+      "status": "",
+      "image": "ueno-sei.jpg",
+      "link": "ueno-sei/"
+    },
+    "miura-takuya": {
+      "id": "miura-takuya",
+      "index": 4,
+      "name": "三浦 拓也",
+      "nameSub": "Miura Takuya",
+      "position": "",
+      "status": "",
+      "image": "miura-takuya.jpg",
+      "link": "miura-takuya/"
+    },
+    "tamura-ryota": {
+      "id": "tamura-ryota",
+      "index": 5,
+      "name": "田村 陵大",
+      "nameSub": "Tamura Ryota",
+      "position": "",
+      "status": "",
+      "image": "tamura-ryota.jpg",
+      "link": "tamura-ryota/"
+    },
+    "hiroshiba-kazuyuki": {
+      "id": "hiroshiba-kazuyuki",
+      "index": 6,
+      "name": "廣芝 和之",
+      "nameSub": "Hiroshiba Kazuyuki",
+      "position": "",
+      "status": "",
+      "image": "hiroshiba-kazuyuki.jpg",
+      "link": "hiroshiba-kazuyuki/"
+    },
+    "itoh-takeshi": {
+      "id": "itoh-takeshi",
+      "index": 7,
+      "name": "伊藤 健史",
+      "nameSub": "Itoh Takeshi",
+      "position": "",
+      "status": "奈良先端科学技術大学院大学\n情報科学研究科修士1年",
+      "image": "itoh-takeshi.jpg",
+      "link": "itoh-takeshi/"
+    },
+    "tomita-futa": {
+      "id": "tomita-futa",
+      "index": 8,
+      "name": "富田 風太",
+      "nameSub": "Tomita Futa",
+      "position": "",
+      "status": "大阪大学大学院\n修士1年",
+      "image": "tomita-futa.jpg",
+      "link": "tomita-futa/"
+    },
+    "honda-atsuki": {
+      "id": "honda-atsuki",
+      "index": 9,
+      "name": "本田 純基",
+      "nameSub": "Honda Atsuki",
+      "position": "",
+      "status": "立命館大学\n総合心理学部1年",
+      "image": "honda-atsuki.jpg",
+      "link": "honda-atsuki/"
+    },
+    "hara-akiyoshi": {
+      "id": "hara-akiyoshi",
+      "index": 10,
+      "name": "原 彰良",
+      "nameSub": "Hara Akiyoshi",
+      "position": "",
+      "status": "大阪大学大学院\n修士1年",
+      "image": "hara-akiyoshi.jpg",
+      "link": "hara-akiyoshi/"
+    },
+    "horibe-kazuya": {
+      "id": "horibe-kazuya",
+      "index": 11,
+      "name": "堀部 和也",
+      "nameSub": "Horibe Kazuya",
+      "position": "",
+      "status": "",
+      "image": "horibe-kazuya.jpg",
+      "link": "horibe-kazuya/"
+    }
+  },
+  "九州支部": {
+    "kozuma-mao": {
+      "id": "kozuma-mao",
+      "index": 1,
+      "name": "上妻 真緒",
+      "nameSub": "Kozuma Mao",
+      "position": "九州支部 代表",
+      "status": "九州大学\n21世紀プログラム2年",
+      "image": "no-image.jpg",
+      "link": "kozuma-mao/"
+    },
+    "matsuki-moe": {
+      "id": "matsuki-moe",
+      "index": 2,
+      "name": "松木 萌",
+      "nameSub": "Matsuki Moe",
+      "position": "",
+      "status": "九州工業大学大学院\n工学府博士1年",
+      "image": "matsuki-moe.jpg",
+      "link": "matsuki-moe/"
+    }
+  },
+  "東北支部": {
+    "takayanagi-shunya": {
+      "id": "takayanagi-shunya",
+      "index": 1,
+      "name": "高柳 俊也",
+      "nameSub": "Takayanagi Shunya",
+      "position": "東北支部 代表",
+      "status": "東北大学\n工学部4年",
+      "image": "takayanagi-shunya.jpg",
+      "link": "takayanagi-shunya/"
+    }
+  },
+  "社会人支部": {
     "ashihara-yuta": {
       "id": "ashihara-yuta",
       "index": 1,
@@ -415,9 +529,19 @@
       "status": "",
       "image": "yabe-yoko.jpg",
       "link": "yabe-yoko/"
+    },
+    "ozawa-kensuke": {
+      "id": "ozawa-kensuke",
+      "index": 18,
+      "name": "小澤 健祐",
+      "nameSub": "Ozawa Kensuke",
+      "position": "",
+      "status": "ディップ株式会社\nAINOWディレクター",
+      "image": "ozawa-kensuke.jpg",
+      "link": "ozawa-kensuke/"
     }
   },
-  "WBA 若手の会 ブロックチェーン支部": {
+  "ブロックチェーン支部": {
     "komatsu-masatoshi": {
       "id": "komatsu-masatoshi",
       "index": 1,
@@ -429,7 +553,7 @@
       "link": "komatsu-masatoshi/"
     }
   },
-  "WBA 若手の会 顧問": {
+  "顧問": {
     "ito-hiroaki": {
       "id": "ito-hiroaki",
       "index": 1,
@@ -441,7 +565,7 @@
       "link": ""
     }
   },
-  "WBA 若手の会 フェロー": {
+  "フェロー": {
     "osawa-masahiko": {
       "id": "osawa-masahiko",
       "index": 1,
