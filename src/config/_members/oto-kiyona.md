@@ -1,6 +1,6 @@
 ---
 id:
-  'Oto-Kiyona'
+  'oto-kiyona'
 name:
   大藤 聖菜
 nameSub:
