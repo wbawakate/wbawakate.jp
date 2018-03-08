@@ -1,8 +1,8 @@
 ---
 id:
-  'oto-kiyona'
+  'Oto-Kiyona'
 name:
-  ‘å“¡ ¹Ø
+  å¤§è—¤ è–èœ
 nameSub:
   Kiyona oto
 facebook:
@@ -13,16 +13,16 @@ facebook:
  
 ## Message
 
-lŠÔ‚Æƒƒ{ƒbƒg‚ÌƒRƒ~ƒ…ƒjƒP[ƒVƒ‡ƒ“‚ð‚æ‚è‚æ‚­‚·‚é‚½‚ß‚ÌA”­˜bƒ^ƒCƒ~ƒ“ƒOA’¾–ÙÝŒv‚ÌŒ¤‹†‚ðs‚Á‚Ä‚¢‚Ü‚·Bƒƒ{ƒbƒg‚âƒG[ƒWƒFƒ“ƒg‚ÌŒ¤‹†‚ð’Ê‚µ‚ÄAl‚Æ‚Í‰½‚©A’m”\‚Æ‚Í‰½‚©A‚ðl‚¦‚Ä‚¢‚­‚±‚Æ‚Ì–Ê”’‚³‚É–£‚©‚êAŒ»Ý‚ÌŒ¤‹†ƒe[ƒ}‚ÉŽŠ‚Á‚Ä‚¢‚Ü‚·B
+äººé–“ã¨ãƒ­ãƒœãƒƒãƒˆã®ã‚³ãƒŸãƒ¥ãƒ‹ã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’ã‚ˆã‚Šã‚ˆãã™ã‚‹ãŸã‚ã®ã€ç™ºè©±ã‚¿ã‚¤ãƒŸãƒ³ã‚°ã€æ²ˆé»™è¨­è¨ˆã®ç ”ç©¶ã‚’è¡Œã£ã¦ã„ã¾ã™ã€‚ãƒ­ãƒœãƒƒãƒˆã‚„ã‚¨ãƒ¼ã‚¸ã‚§ãƒ³ãƒˆã®ç ”ç©¶ã‚’é€šã—ã¦ã€äººã¨ã¯ä½•ã‹ã€çŸ¥èƒ½ã¨ã¯ä½•ã‹ã€ã‚’è€ƒãˆã¦ã„ãã“ã¨ã®é¢ç™½ã•ã«é­…ã‹ã‚Œã€ç¾åœ¨ã®ç ”ç©¶ãƒ†ãƒ¼ãƒžã«è‡³ã£ã¦ã„ã¾ã™ã€‚
 
 
 ## Biography
 
-- 2013”N4ŒŽ Œcœä‹`m‘åŠw—HŠw•” “üŠw
-- 2017”N3ŒŽ  Œcœä‹`m‘åŠw—HŠw•”î•ñHŠw‰È ‘²‹Æ
-- 2017”N4ŒŽ Œcœä‹`m‘åŠw‘åŠw‰@—HŠwŒ¤‹†‰È “üŠw
+- 2013å¹´4æœˆ æ…¶æ‡‰ç¾©å¡¾å¤§å­¦ç†å·¥å­¦éƒ¨ å…¥å­¦
+- 2017å¹´3æœˆ  æ…¶æ‡‰ç¾©å¡¾å¤§å­¦ç†å·¥å­¦éƒ¨æƒ…å ±å·¥å­¦ç§‘ å’æ¥­
+- 2017å¹´4æœˆ æ…¶æ‡‰ç¾©å¡¾å¤§å­¦å¤§å­¦é™¢ç†å·¥å­¦ç ”ç©¶ç§‘ å…¥å­¦
 
 ## Activity in WBA
 
-- 2017”N5ŒŽ [lH’m”\ + ”F’m‰ÈŠw + _Œo‰ÈŠw@ˆÙ•ª–ìŒð—¬‰ï ‘Š‡ƒZƒbƒVƒ‡ƒ“ “o’d](https://wbawakate.connpass.com/event/53050/)
-- 2017”N9ŒŽ [‘æ30‰ñ ‘S”]ƒA[ƒLƒeƒNƒ`ƒƒŽáŽè‚Ì‰ï •×‹­‰ï ƒJƒWƒ…ƒAƒ‹ƒg[ƒN@`lX‚ðK‚¹‚É‚·‚éAI‹Zp` u‰‰](https://wbawakate.connpass.com/event/63621/)
+- 2017å¹´5æœˆ [äººå·¥çŸ¥èƒ½ + èªçŸ¥ç§‘å­¦ + ç¥žçµŒç§‘å­¦ã€€ç•°åˆ†é‡Žäº¤æµä¼š ç·æ‹¬ã‚»ãƒƒã‚·ãƒ§ãƒ³ ç™»å£‡](https://wbawakate.connpass.com/event/53050/)
+- 2017å¹´9æœˆ [ç¬¬30å›ž å…¨è„³ã‚¢ãƒ¼ã‚­ãƒ†ã‚¯ãƒãƒ£è‹¥æ‰‹ã®ä¼š å‹‰å¼·ä¼š ã‚«ã‚¸ãƒ¥ã‚¢ãƒ«ãƒˆãƒ¼ã‚¯ã€€ï½žäººã€…ã‚’å¹¸ã›ã«ã™ã‚‹AIæŠ€è¡“ï½ž è¬›æ¼”](https://wbawakate.connpass.com/event/63621/)
