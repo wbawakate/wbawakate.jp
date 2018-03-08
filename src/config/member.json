@@ -211,6 +211,26 @@
       "status": "慶応義塾大学大学院\n修士1年",
       "image": "sawada-shiori.jpg",
       "link": "sawada-shiori/"
+    },
+    "tajiri-kento": {
+      "id": "tajiri-kento",
+      "index": 19,
+      "name": "田尻 健斗",
+      "nameSub": "Tajiri Kento",
+      "position": "",
+      "status": "筑波大学大学院\nシステム情報工学研究科",
+      "image": "tajiri-kento.jpg",
+      "link": "tajiri-kento/"
+    },
+    "ishizuka-tomoko": {
+      "id": "ishizuka-tomoko",
+      "index": 20,
+      "name": "石塚 友子",
+      "nameSub": "Ishizuka Tomoko",
+      "position": "",
+      "status": "中央大学\n経済学部1年",
+      "image": "ishizuka-tomoko.jpg",
+      "link": "ishizuka-tomoko/"
     }
   },
   "関西支部": {
@@ -323,6 +343,16 @@
       "status": "",
       "image": "horibe-kazuya.jpg",
       "link": "horibe-kazuya/"
+    },
+    "satake-emi": {
+      "id": "satake-emi",
+      "index": 12,
+      "name": "佐竹 恵美",
+      "nameSub": "Satake Emi",
+      "position": "",
+      "status": "",
+      "image": "satake-emi.jpg",
+      "link": "satake-emi/"
     }
   },
   "九州支部": {
