@@ -1,301 +1,310 @@
 {
-  "sheet" : {
-    "1" : {
-      "id" : "1",
-      "index" : 1,
-      "type" : "勉強会",
-      "name" : "第1回「ディープラーニングの概要」",
-      "date" : "2014-10-08T15:00:00.000Z",
-      "image" : "",
-      "link" : "1/"
+  "sheet": {
+    "1": {
+      "id": "1",
+      "index": 1,
+      "type": "勉強会",
+      "name": "第1回「ディープラーニングの概要」",
+      "date": "2014-10-08T15:00:00.000Z",
+      "image": "",
+      "link": "1/"
     },
-    "2" : {
-      "id" : "2",
-      "index" : 2,
-      "type" : "勉強会",
-      "name" : "第2回「Convolutional Neural Network (CNN)」",
-      "date" : "2014-10-22T15:00:00.000Z",
-      "image" : "",
-      "link" : "2/"
+    "2": {
+      "id": "2",
+      "index": 2,
+      "type": "勉強会",
+      "name": "第2回「Convolutional Neural Network (CNN)」",
+      "date": "2014-10-22T15:00:00.000Z",
+      "image": "",
+      "link": "2/"
     },
-    "3" : {
-      "id" : "3",
-      "index" : 3,
-      "type" : "勉強会",
-      "name" : "第3回「AutoEncoder」",
-      "date" : "2014-11-12T15:00:00.000Z",
-      "image" : "",
-      "link" : "3/"
+    "3": {
+      "id": "3",
+      "index": 3,
+      "type": "勉強会",
+      "name": "第3回「AutoEncoder」",
+      "date": "2014-11-12T15:00:00.000Z",
+      "image": "",
+      "link": "3/"
     },
-    "4" : {
-      "id" : "4",
-      "index" : 4,
-      "type" : "勉強会",
-      "name" : "第4回「RBM、Deep Learningと学習」",
-      "date" : "2014-11-12T15:00:00.000Z",
-      "image" : "",
-      "link" : "4/"
+    "4": {
+      "id": "4",
+      "index": 4,
+      "type": "勉強会",
+      "name": "第4回「RBM、Deep Learningと学習」",
+      "date": "2014-11-12T15:00:00.000Z",
+      "image": "",
+      "link": "4/"
     },
-    "5" : {
-      "id" : "5",
-      "index" : 5,
-      "type" : "勉強会",
-      "name" : "第5回「リカレントニューラルネットワーク(RNN)」",
-      "date" : "2015-03-04T15:00:00.000Z",
-      "image" : "",
-      "link" : "5/"
+    "5": {
+      "id": "5",
+      "index": 5,
+      "type": "勉強会",
+      "name": "第5回「リカレントニューラルネットワーク(RNN)」",
+      "date": "2015-03-04T15:00:00.000Z",
+      "image": "",
+      "link": "5/"
     },
-    "6" : {
-      "id" : "6",
-      "index" : 6,
-      "type" : "勉強会",
-      "name" : "第6回「強化学習」",
-      "date" : "2015-03-17T15:00:00.000Z",
-      "image" : "6.jpg",
-      "link" : "6/"
+    "6": {
+      "id": "6",
+      "index": 6,
+      "type": "勉強会",
+      "name": "第6回「強化学習」",
+      "date": "2015-03-17T15:00:00.000Z",
+      "image": "6.jpg",
+      "link": "6/"
     },
-    "7" : {
-      "id" : "7",
-      "index" : 7,
-      "type" : "勉強会",
-      "name" : "第7回「ベイジアンネットワーク」",
-      "date" : "2015-06-28T15:00:00.000Z",
-      "image" : "7.jpg",
-      "link" : "7/"
+    "7": {
+      "id": "7",
+      "index": 7,
+      "type": "勉強会",
+      "name": "第7回「ベイジアンネットワーク」",
+      "date": "2015-06-28T15:00:00.000Z",
+      "image": "7.jpg",
+      "link": "7/"
     },
-    "8" : {
-      "id" : "8",
-      "index" : 8,
-      "type" : "勉強会",
-      "name" : "第8回「脳の視覚情報処理」",
-      "date" : "2015-07-12T15:00:00.000Z",
-      "image" : "8.jpg",
-      "link" : "8/"
+    "8": {
+      "id": "8",
+      "index": 8,
+      "type": "勉強会",
+      "name": "第8回「脳の視覚情報処理」",
+      "date": "2015-07-12T15:00:00.000Z",
+      "image": "8.jpg",
+      "link": "8/"
     },
-    "hackathon-1-ideathon" : {
-      "id" : "hackathon-1-ideathon",
-      "index" : 9,
-      "type" : "ハッカソン",
-      "name" : "第1回WBAIハッカソン アイデアソン",
-      "date" : "2015-09-18T15:00:00.000Z",
-      "image" : "hackathon-1-ideathon.jpg",
-      "link" : "hackathon-1-ideathon/"
+    "hackathon-1-ideathon": {
+      "id": "hackathon-1-ideathon",
+      "index": 9,
+      "type": "ハッカソン",
+      "name": "第1回WBAIハッカソン アイデアソン",
+      "date": "2015-09-18T15:00:00.000Z",
+      "image": "hackathon-1-ideathon.jpg",
+      "link": "hackathon-1-ideathon/"
     },
-    "hackathon-1" : {
-      "id" : "hackathon-1",
-      "index" : 10,
-      "type" : "ハッカソン",
-      "name" : "第1回WBAIハッカソン",
-      "date" : "2015-09-18T15:00:00.000Z",
-      "image" : "hackathon-1.jpg",
-      "link" : "hackathon-1/"
+    "hackathon-1": {
+      "id": "hackathon-1",
+      "index": 10,
+      "type": "ハッカソン",
+      "name": "第1回WBAIハッカソン",
+      "date": "2015-09-18T15:00:00.000Z",
+      "image": "hackathon-1.jpg",
+      "link": "hackathon-1/"
     },
-    "9" : {
-      "id" : "9",
-      "index" : 11,
-      "type" : "カジュアルトーク",
-      "name" : "第9回 カジュアルトーク",
-      "date" : "2015-10-11T15:00:00.000Z",
-      "image" : "9.jpg",
-      "link" : "9/"
+    "9": {
+      "id": "9",
+      "index": 11,
+      "type": "カジュアルトーク",
+      "name": "第9回 カジュアルトーク",
+      "date": "2015-10-11T15:00:00.000Z",
+      "image": "9.jpg",
+      "link": "9/"
     },
-    "10" : {
-      "id" : "10",
-      "index" : 12,
-      "type" : "勉強会",
-      "name" : "第10回「海馬と記憶モデルの展望」",
-      "date" : "2015-10-13T15:00:00.000Z",
-      "image" : "10.jpg",
-      "link" : "10/"
+    "10": {
+      "id": "10",
+      "index": 12,
+      "type": "勉強会",
+      "name": "第10回「海馬と記憶モデルの展望」",
+      "date": "2015-10-13T15:00:00.000Z",
+      "image": "10.jpg",
+      "link": "10/"
     },
-    "11" : {
-      "id" : "11",
-      "index" : 13,
-      "type" : "勉強会",
-      "name" : "第11回「スパースモデリングとその数理」",
-      "date" : "2015-11-18T15:00:00.000Z",
-      "image" : "11.jpg",
-      "link" : "11/"
+    "11": {
+      "id": "11",
+      "index": 13,
+      "type": "勉強会",
+      "name": "第11回「スパースモデリングとその数理」",
+      "date": "2015-11-18T15:00:00.000Z",
+      "image": "11.jpg",
+      "link": "11/"
     },
-    "hackathon-1-report" : {
-      "id" : "hackathon-1-report",
-      "index" : 14,
-      "type" : "ハッカソン",
-      "name" : "第1回WBAIハッカソン活動報告",
-      "date" : "2015-12-09T15:00:00.000Z",
-      "image" : "hackathon-1-report.jpg",
-      "link" : "hackathon-1-report/"
+    "hackathon-1-report": {
+      "id": "hackathon-1-report",
+      "index": 14,
+      "type": "ハッカソン",
+      "name": "第1回WBAIハッカソン活動報告",
+      "date": "2015-12-09T15:00:00.000Z",
+      "image": "hackathon-1-report.jpg",
+      "link": "hackathon-1-report/"
     },
-    "girls-1" : {
-      "id" : "girls-1",
-      "index" : 15,
-      "type" : "女子会",
-      "name" : "第1回 WBA若手の会　女子会＠新宿",
-      "date" : "2015-12-09T15:00:00.000Z",
-      "image" : "girls-1.jpg",
-      "link" : "girls-1/"
+    "girls-1": {
+      "id": "girls-1",
+      "index": 15,
+      "type": "女子会",
+      "name": "第1回 WBA若手の会　女子会＠新宿",
+      "date": "2015-12-09T15:00:00.000Z",
+      "image": "girls-1.jpg",
+      "link": "girls-1/"
     },
-    "new-year-party-2016" : {
-      "id" : "new-year-party-2016",
-      "index" : 16,
-      "type" : "懇親会",
-      "name" : "2016年 WBA若手の会 新年会",
-      "date" : "2016-01-08T15:00:00.000Z",
-      "image" : "new-year-party-2016.jpg",
-      "link" : "new-year-party-2016/"
+    "new-year-party-2016": {
+      "id": "new-year-party-2016",
+      "index": 16,
+      "type": "懇親会",
+      "name": "2016年 WBA若手の会 新年会",
+      "date": "2016-01-08T15:00:00.000Z",
+      "image": "new-year-party-2016.jpg",
+      "link": "new-year-party-2016/"
     },
-    "12" : {
-      "id" : "12",
-      "index" : 17,
-      "type" : "カジュアルトーク",
-      "name" : "第12回 カジュアルトーク",
-      "date" : "2016-02-06T15:00:00.000Z",
-      "image" : "12.jpg",
-      "link" : "12/"
+    "12": {
+      "id": "12",
+      "index": 17,
+      "type": "カジュアルトーク",
+      "name": "第12回 カジュアルトーク",
+      "date": "2016-02-06T15:00:00.000Z",
+      "image": "12.jpg",
+      "link": "12/"
     },
-    "girls-2" : {
-      "id" : "girls-2",
-      "index" : 18,
-      "type" : "女子会",
-      "name" : "第2回 WBA若手の会　女子会＠下北沢",
-      "date" : "2016-02-10T15:00:00.000Z",
-      "image" : "girls-2.jpg",
-      "link" : "girls-2/"
+    "girls-2": {
+      "id": "girls-2",
+      "index": 18,
+      "type": "女子会",
+      "name": "第2回 WBA若手の会　女子会＠下北沢",
+      "date": "2016-02-10T15:00:00.000Z",
+      "image": "girls-2.jpg",
+      "link": "girls-2/"
     },
-    "13" : {
-      "id" : "13",
-      "index" : 19,
-      "type" : "勉強会",
-      "name" : "第13回「言語と画像の表現学習」",
-      "date" : "2016-03-07T15:00:00.000Z",
-      "image" : "13.jpg",
-      "link" : "13/"
+    "13": {
+      "id": "13",
+      "index": 19,
+      "type": "勉強会",
+      "name": "第13回「言語と画像の表現学習」",
+      "date": "2016-03-07T15:00:00.000Z",
+      "image": "13.jpg",
+      "link": "13/"
     },
-    "spring-meetup-2016" : {
-      "id" : "spring-meetup-2016",
-      "index" : 20,
-      "type" : "懇親会",
-      "name" : "2016年 春の交流会",
-      "date" : "2016-04-22T15:00:00.000Z",
-      "image" : "spring-meetup-2016.jpg",
-      "link" : "spring-meetup-2016/"
+    "spring-meetup-2016": {
+      "id": "spring-meetup-2016",
+      "index": 20,
+      "type": "懇親会",
+      "name": "2016年 春の交流会",
+      "date": "2016-04-22T15:00:00.000Z",
+      "image": "spring-meetup-2016.jpg",
+      "link": "spring-meetup-2016/"
     },
-    "data-1" : {
-      "id" : "data-1",
-      "index" : 21,
-      "type" : "データ解析くらぶ",
-      "name" : "第1回 データ解析くらぶ",
-      "date" : "2016-04-15T15:00:00.000Z",
-      "image" : "data-1.jpg",
-      "link" : "data-1/"
+    "data-1": {
+      "id": "data-1",
+      "index": 21,
+      "type": "データ解析くらぶ",
+      "name": "第1回 データ解析くらぶ",
+      "date": "2016-04-15T15:00:00.000Z",
+      "image": "data-1.jpg",
+      "link": "data-1/"
     },
-    "data-2" : {
-      "id" : "data-2",
-      "index" : 22,
-      "type" : "データ解析くらぶ",
-      "name" : "第2回 データ解析くらぶ",
-      "date" : "2016-05-20T15:00:00.000Z",
-      "image" : "data-2.jpg",
-      "link" : "data-2/"
+    "data-2": {
+      "id": "data-2",
+      "index": 22,
+      "type": "データ解析くらぶ",
+      "name": "第2回 データ解析くらぶ",
+      "date": "2016-05-20T15:00:00.000Z",
+      "image": "data-2.jpg",
+      "link": "data-2/"
     },
-    "14" : {
-      "id" : "14",
-      "index" : 23,
-      "type" : "カジュアルトーク",
-      "name" : "第14回 カジュアルトーク",
-      "date" : "2016-06-03T15:00:00.000Z",
-      "image" : "14.jpg",
-      "link" : "14/"
+    "14": {
+      "id": "14",
+      "index": 23,
+      "type": "カジュアルトーク",
+      "name": "第14回 カジュアルトーク",
+      "date": "2016-06-03T15:00:00.000Z",
+      "image": "14.jpg",
+      "link": "14/"
     },
-    "15" : {
-      "id" : "15",
-      "index" : 24,
-      "type" : "勉強会",
-      "name" : "第15回「実ロボットの運動生成」",
-      "date" : "2016-06-15T15:00:00.000Z",
-      "image" : "15.jpg",
-      "link" : "15/"
+    "15": {
+      "id": "15",
+      "index": 24,
+      "type": "勉強会",
+      "name": "第15回「実ロボットの運動生成」",
+      "date": "2016-06-15T15:00:00.000Z",
+      "image": "15.jpg",
+      "link": "15/"
     },
-    "16" : {
-      "id" : "16",
-      "index" : 25,
-      "type" : "カジュアルトーク",
-      "name" : "第16回 カジュアルトーク",
-      "date" : "2016-07-28T15:00:00.000Z",
-      "image" : "16.jpg",
-      "link" : "16/"
+    "16": {
+      "id": "16",
+      "index": 25,
+      "type": "カジュアルトーク",
+      "name": "第16回 カジュアルトーク",
+      "date": "2016-07-28T15:00:00.000Z",
+      "image": "16.jpg",
+      "link": "16/"
     },
-    "17" : {
-      "id" : "17",
-      "index" : 26,
-      "type" : "カジュアルトーク",
-      "name" : "第17回 カジュアルトーク",
-      "date" : "2016-11-11T15:00:00.000Z",
-      "image" : "17.jpg",
-      "link" : "17/"
+    "17": {
+      "id": "17",
+      "index": 26,
+      "type": "カジュアルトーク",
+      "name": "第17回 カジュアルトーク",
+      "date": "2016-11-11T15:00:00.000Z",
+      "image": "17.jpg",
+      "link": "17/"
     },
-    "18" : {
-      "id" : "18",
-      "index" : 27,
-      "type" : "カジュアルトーク",
-      "name" : "第18回 カジュアルトーク",
-      "date" : "2016-11-21T15:00:00.000Z",
-      "image" : "18.jpg",
-      "link" : "18/"
+    "18": {
+      "id": "18",
+      "index": 27,
+      "type": "カジュアルトーク",
+      "name": "第18回 カジュアルトーク",
+      "date": "2016-11-21T15:00:00.000Z",
+      "image": "18.jpg",
+      "link": "18/"
     },
-    "19" : {
-      "id" : "19",
-      "index" : 28,
-      "type" : "カジュアルトーク",
-      "name" : "第19回 カジュアルトーク",
-      "date" : "2016-11-29T15:00:00.000Z",
-      "image" : "19.jpg",
-      "link" : "19/"
+    "19": {
+      "id": "19",
+      "index": 28,
+      "type": "カジュアルトーク",
+      "name": "第19回 カジュアルトーク",
+      "date": "2016-11-29T15:00:00.000Z",
+      "image": "19.jpg",
+      "link": "19/"
     },
-    "new-year-party-2017" : {
-      "id" : "new-year-party-2017",
-      "index" : 29,
-      "type" : "懇親会",
-      "name" : "2017年 WBA若手の会 新年会",
-      "date" : "2017-01-27T15:00:00.000Z",
-      "image" : "new-year-party-2017.jpg",
-      "link" : "new-year-party-2017/"
+    "new-year-party-2017": {
+      "id": "new-year-party-2017",
+      "index": 29,
+      "type": "懇親会",
+      "name": "2017年 WBA若手の会 新年会",
+      "date": "2017-01-27T15:00:00.000Z",
+      "image": "new-year-party-2017.jpg",
+      "link": "new-year-party-2017/"
     },
-    "20" : {
-      "id" : "20",
-      "index" : 30,
-      "type" : "カジュアルトーク",
-      "name" : "第20回 カジュアルトーク",
-      "date" : "2017-01-30T15:00:00.000Z",
-      "image" : "20.jpg",
-      "link" : "20/"
+    "20": {
+      "id": "20",
+      "index": 30,
+      "type": "カジュアルトーク",
+      "name": "第20回 カジュアルトーク",
+      "date": "2017-01-30T15:00:00.000Z",
+      "image": "20.jpg",
+      "link": "20/"
     },
-    "21" : {
-      "id" : "21",
-      "index" : 31,
-      "type" : "カジュアルトーク",
-      "name" : "第21回「君の技術は自動運転の未来にどう関わるのか」",
-      "date" : "2017-03-19T15:00:00.000Z",
-      "image" : "21.jpg",
-      "link" : "21/"
+    "21": {
+      "id": "21",
+      "index": 31,
+      "type": "カジュアルトーク",
+      "name": "第21回「君の技術は自動運転の未来にどう関わるのか」",
+      "date": "2017-03-19T15:00:00.000Z",
+      "image": "21.jpg",
+      "link": "21/"
     },
-    "22" : {
-      "id" : "22",
-      "index" : 32,
-      "type" : "カジュアルトーク",
-      "name" : "第22回「人工知能技術と私達の日本の社会の未来について考える」",
-      "date" : "2017-03-30T15:00:00.000Z",
-      "image" : "22.jpg",
-      "link" : "22/"
+    "22": {
+      "id": "22",
+      "index": 32,
+      "type": "カジュアルトーク",
+      "name": "第22回「人工知能技術と私達の日本の社会の未来について考える」",
+      "date": "2017-03-30T15:00:00.000Z",
+      "image": "22.jpg",
+      "link": "22/"
     },
-    "23" : {
-      "id" : "23",
-      "index" : 33,
-      "type" : "カジュアルトーク",
-      "name" : "第23回「医療×AI」",
-      "date" : "2017-04-27T15:00:00.000Z",
-      "image" : "23.jpg",
-      "link" : "23/"
+    "23": {
+      "id": "23",
+      "index": 33,
+      "type": "カジュアルトーク",
+      "name": "第23回「医療×AI」",
+      "date": "2017-04-27T15:00:00.000Z",
+      "image": "23.jpg",
+      "link": "23/"
+    },
+    "meetup-2017": {
+      "id": "meetup-2017",
+      "index": 34,
+      "type": "勉強会",
+      "name": "人工知能 + 認知科学 + 神経科学 異分野交流会",
+      "date": "2017-05-19T15:00:00.000Z",
+      "image": "meetup-2017.jpg",
+      "link": "meetup-2017/"
     }
   }
 }
