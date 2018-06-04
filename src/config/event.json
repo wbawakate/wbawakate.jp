@@ -314,6 +314,195 @@
       "date": "2017-05-28T15:00:00.000Z",
       "image": "24.jpg",
       "link": "24/"
+    },
+    "25": {
+      "id": "25",
+      "index": 36,
+      "type": "カジュアルトーク",
+      "name": " 第25回 カジュアルトーク 明日機械学習に役立つかもしれない数学",
+      "date": "2017-05-30T15:00:00.000Z",
+      "image": "25.jpg",
+      "link": "25/"
+    },
+    "26": {
+      "id": "26",
+      "index": 37,
+      "type": "勉強会",
+      "name": "第26回 全脳アーキテクチャ若手の会 勉強会 「バイナリーニューラルネットとハードウェアの関係」",
+      "date": "2017-06-20T15:00:00.000Z",
+      "image": "26.jpg",
+      "link": "26/"
+    },
+    "27": {
+      "id": "27",
+      "index": 38,
+      "type": "カジュアルトーク",
+      "name": "第27回全脳アーキテクチャ若手の会 勉強会 アニマルカジュアルトーク",
+      "date": "2017-06-21T15:00:00.000Z",
+      "image": "27.jpg",
+      "link": "27/"
+    },
+    "kyushu-opening": {
+      "id": "kyushu-opening",
+      "index": 39,
+      "type": "勉強会",
+      "name": "【九州】全脳アーキテクチャ若手の会九州支部startイベント",
+      "date": "2017-06-24T15:00:00.000Z",
+      "image": "kyushu-opening.jpg",
+      "link": "kyushu-opening/"
+    },
+    "28": {
+      "id": "28",
+      "index": 40,
+      "type": "勉強会",
+      "name": "第28回 全脳アーキテクチャ若手の会 勉強会 「深層強化学習の動向」",
+      "date": "2017-07-19T15:00:00.000Z",
+      "image": "28.jpg",
+      "link": "28/"
+    },
+    "tobitate-kanto": {
+      "id": "tobitate-kanto",
+      "index": 41,
+      "type": "カジュアルトーク",
+      "name": "【関東】トビタテ留学JAPAN! Tech人材枠説明会",
+      "date": "2017-07-30T15:00:00.000Z",
+      "image": "tobitate-kanto.jpg",
+      "link": "tobitate-kanto/"
+    },
+    "tobitate-kansai": {
+      "id": "tobitate-kansai",
+      "index": 42,
+      "type": "カジュアルトーク",
+      "name": "【関西】トビタテ留学JAPAN! Tech人材枠説明会",
+      "date": "2017-08-16T15:00:00.000Z",
+      "image": "tobitate-kansai.jpg",
+      "link": "tobitate-kansai/"
+    },
+    "tobitate-kyushu": {
+      "id": "tobitate-kyushu",
+      "index": 43,
+      "type": "カジュアルトーク",
+      "name": "【九州】トビタテ留学JAPAN! Tech人材枠説明会",
+      "date": "2017-08-20T15:00:00.000Z",
+      "image": "tobitate-kyusyu.jpg",
+      "link": "tobitate-kyushu/"
+    },
+    "todai-hait-meetup": {
+      "id": "todai-hait-meetup",
+      "index": 44,
+      "type": "懇親会",
+      "name": "定期交流会 with 東大HAIT",
+      "date": "2017-08-26T15:00:00.000Z",
+      "image": "todai-hait-meetup.jpg",
+      "link": "todai-hait-meetup/"
+    },
+    "29": {
+      "id": "29",
+      "index": 45,
+      "type": "勉強会",
+      "name": " 第29回 全脳アーキテクチャ若手の会 勉強会 「哲学的人工知能批判と第3次AIブーム」",
+      "date": "2017-09-03T15:00:00.000Z",
+      "image": "29.jpg",
+      "link": "29/"
+    },
+    "30": {
+      "id": "30",
+      "index": 46,
+      "type": "カジュアルトーク",
+      "name": "第30回 全脳アーキテクチャ若手の会 カジュアルトーク　「人々を幸せにするAI技術～」",
+      "date": "2017-09-04T15:00:00.000Z",
+      "image": "30.jpg",
+      "link": "30/"
+    },
+    "kyusyu-1": {
+      "id": "kyusyu-1",
+      "index": 47,
+      "type": "カジュアルトーク",
+      "name": "【九州】 「人工知能を学ぶということ」全脳アーキテクチャ若手の会九州支部",
+      "date": "2017-09-22T15:00:00.000Z",
+      "image": "kyusyu-1.jpg",
+      "link": "kyusyu-1/"
+    },
+    "31": {
+      "id": "31",
+      "index": 48,
+      "type": "カジュアルトーク",
+      "name": "  第31回 全脳アーキテクチャ若手の会×全会連  カジュアルトーク[「AIは会計士から仕事を奪う？」",
+      "date": "2017-09-29T15:00:00.000Z",
+      "image": "31.jpg",
+      "link": "31/"
+    },
+    "32": {
+      "id": "32",
+      "index": 49,
+      "type": "カジュアルトーク",
+      "name": " 第32回 全脳アーキテクチャ若手の会  あっさりカジュアルトークx ビズリーチ",
+      "date": "2017-10-01T15:00:00.000Z",
+      "image": "32.jpg",
+      "link": "32/"
+    },
+    "33": {
+      "id": "33",
+      "index": 50,
+      "type": "勉強会",
+      "name": " 第33回 全脳アーキテクチャ若手の会 勉強会「心理学は人工知能に心を提供できるか」",
+      "date": "2017-10-22T15:00:00.000Z",
+      "image": "33.jpg",
+      "link": "33/"
+    },
+    "kansai-ibunya-meetup": {
+      "id": "kansai-ibunya-meetup",
+      "index": 51,
+      "type": "懇親会",
+      "name": " 全脳アーキテクチャ若手の会 関西異分野交流会",
+      "date": "2017-10-27T15:00:00.000Z",
+      "image": "kansai-ibunya-meetup.jpg",
+      "link": "kansai-ibunya-meetup/"
+    },
+    "minidora-workshop": {
+      "id": "minidora-workshop",
+      "index": 52,
+      "type": "カジュアルトーク",
+      "name": "ミニドラワークショップ",
+      "date": "2017-11-22T15:00:00.000Z",
+      "image": "minidora-workshop.jpg",
+      "link": "minidora-workshop/"
+    },
+    "sony-singularity-wba": {
+      "id": "sony-singularity-wba",
+      "index": 53,
+      "type": "カジュアルトーク",
+      "name": "「多様な視点で見つめるシンギュラリティ」シンギュラリティ大学 x SONY x WBA若手の会",
+      "date": "2018-01-12T15:00:00.000Z",
+      "image": "sony-singularity-wba.jpg",
+      "link": "sony-singularity-wba/"
+    },
+    "fb2000-meetup": {
+      "id": "fb2000-meetup",
+      "index": 54,
+      "type": "懇親会",
+      "name": "全脳アーキテクチャ若手の会FBグループ会員2000人突破記念交流会",
+      "date": "2018-02-23T15:00:00.000Z",
+      "image": "fb2000-meetup.jpg",
+      "link": "fb2000-meetup/"
+    },
+    "34": {
+      "id": "34",
+      "index": 55,
+      "type": "勉強会",
+      "name": "第34回 WBA若手の会勉強会「実世界応用のための深層学習」with エクサウィザーズ",
+      "date": "2018-04-10T15:00:00.000Z",
+      "image": "34.jpg",
+      "link": "34/"
+    },
+    "spring-meetup-2018": {
+      "id": "spring-meetup-2018",
+      "index": 56,
+      "type": "懇親会",
+      "name": "全脳アーキテクチャ若手の会　春の交流会",
+      "date": "2018-05-11T15:00:00.000Z",
+      "image": "spring-meetup-2018.jpg",
+      "link": "spring-meetup-2018/"
     }
   }
 }
