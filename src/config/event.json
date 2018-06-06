@@ -384,7 +384,7 @@
       "type": "カジュアルトーク",
       "name": "【九州】トビタテ留学JAPAN! Tech人材枠説明会",
       "date": "2017-08-20T15:00:00.000Z",
-      "image": "tobitate-kyusyu.jpg",
+      "image": "tobitate-kyushu.jpg",
       "link": "tobitate-kyushu/"
     },
     "todai-hait-meetup": {
@@ -414,14 +414,14 @@
       "image": "30.jpg",
       "link": "30/"
     },
-    "kyusyu-1": {
-      "id": "kyusyu-1",
+    "kyushu-1": {
+      "id": "kyushu-1",
       "index": 47,
       "type": "カジュアルトーク",
       "name": "【九州】 「人工知能を学ぶということ」全脳アーキテクチャ若手の会九州支部",
       "date": "2017-09-22T15:00:00.000Z",
-      "image": "kyusyu-1.jpg",
-      "link": "kyusyu-1/"
+      "image": "kyushu-1.jpg",
+      "link": "kyushu-1/"
     },
     "31": {
       "id": "31",
