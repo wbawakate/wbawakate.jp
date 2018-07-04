@@ -71,6 +71,12 @@
       "name": "株式会社ウェルモ",
       "url": "http://www.welmo.co.jp/",
       "image": "welmo.png"
+    },
+    "test0704": {
+      "id": "test0704",
+      "name": "株式会社例",
+      "url": "http://example.com/",
+      "image": "hoge.png"
     }
   }
 }
