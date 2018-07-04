@@ -10,3 +10,6 @@ https://wbawakate.connpass.com/event/53050/
 
 ## 開催レポート (AINOW様)
 http://ainow.ai/2017/06/12/114297/
+
+##動画
+https://www.youtube.com/watch?v=L_jWAXYf5uw
