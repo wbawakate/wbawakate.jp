@@ -21,7 +21,7 @@ website:
 - 2018年3月 慶應義塾大学 理工学部 卒業
 - 2018年4月 慶應義塾大学大学院 理工学研究科 開放環境専攻 入学
 
-現在同大学学士過程（今井研究室所属）
+現在同大学院修士過程（今井研究室所属）
 
 ## Internships
 - Wantedly株式会社（Web/機械学習エンジニア）
@@ -38,6 +38,7 @@ website:
 
 ### 国際会議
 
+[2] Takuma Seno, Masahiko Osawa, Michita Imai, "An Intrinsically Motivated Robot Explores Non-reward Environments With Output Arbitration", Annual International Conference on Biologically Inspired Cognitive Architectures, 2018
 [1] Masahiko Osawa, Yuta Ashihara, Takuma Seno, Michita Imai, Satoshi Kurihara, Accumulator Based Arbitration Model for both Supervised Learning and Reinforcement Learning Inspired by Prefrontal Cortex, ICONIP2017.
 
 ### 国内会議
@@ -49,5 +50,5 @@ website:
 [1] 妹尾卓磨, 大澤正彦, 今井倫太, “Accumulator Based Arbitration Model DQN: 複数モジュールを調停した深層強化学習手法”, 第27回神経回路学会全国大会, 2017. (口頭発表)
 
 ### Activity in WBA
+- 2018年1月 「SONYxSingularity UniversityxWBA若手 多様な視点で見つめるシンギュラリティ」 パネルディスカッションモデレータ
 - 2017年7月 [第28回 全脳アーキテクチャ若手の会勉強会 『深層強化学習の動向』](https://speakerdeck.com/takuseno/survey-of-deep-reinforcement-learning) 講演
-
