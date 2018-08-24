@@ -43,6 +43,7 @@ website:
 
 ### 国内会議
 
+[6] Takuma Seno, Masahiko Osawa, Michita Imai, “Dynamic NOOP Insertion Improves Performance of Pre-trained Deep Reinforcement Learning Model”, 28th Annual Conference of Japanese Neural Network Society, 2018.
 [5] 妹尾卓磨, 大澤正彦, 今井倫太, “深層強化学習によるロボットの無報酬な環境の探索”, 第80回情報処理学会全国大会, 2018.
 [4] 松森匠哉, 妹尾卓磨, 菊池俊基, 滝本佑介, 大澤正彦, 今井倫太, “Embedding Cognitive Map in Neural Episodic Control”, 第7回汎用人工知能研究会, 2017.
 [3] 大藤聖菜, 妹尾卓磨, 清丸寛一, 川崎邦将, 大澤正彦, 長田茂美, 今井倫太, “予測的認知と「間」の関係 ―言葉を話せないロボットによるしりとりを題材とした考察―”, HAIシンポジウム, 2017.
