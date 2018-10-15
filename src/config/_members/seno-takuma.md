@@ -40,6 +40,7 @@ website:
 
 ### 国際会議
 
+[3] Takuma Seno, Kohei Okuoka, Masahiko Osawa, Michita Imai, "Adaptive Semi-autonomous Agents via Episodic Control", 6th International Conference on Human-Agent Interaction (Poster), 2018
 [2] Takuma Seno, Masahiko Osawa, Michita Imai, "An Intrinsically Motivated Robot Explores Non-reward Environments With Output Arbitration", Annual International Conference on Biologically Inspired Cognitive Architectures, 2018
 [1] Masahiko Osawa, Yuta Ashihara, Takuma Seno, Michita Imai, Satoshi Kurihara, Accumulator Based Arbitration Model for both Supervised Learning and Reinforcement Learning Inspired by Prefrontal Cortex, ICONIP2017.
 
