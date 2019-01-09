@@ -238,7 +238,7 @@
       "name": "佐藤 和音",
       "nameSub": "Sato Kazune",
       "position": "",
-      "status": "",
+      "status": "マルチリンガル",
       "image": "sato-kazune.jpg",
       "link": "sato-kazune/"
     },
@@ -271,6 +271,16 @@
       "status": "",
       "image": "ueda-ryo.jpg",
       "link": "ueda-ryo/"
+    },
+    "fukuda-satoko": {
+      "id": "fukuda-satoko",
+      "index": 25,
+      "name": "福田 聡子",
+      "nameSub": "Fukuda Satoko",
+      "position": "",
+      "status": "東京大学大学院",
+      "image": "fukuda-satoko.jpg",
+      "link": "fukuda-satoko/"
     }
   },
   "関西支部": {
@@ -427,6 +437,16 @@
       "status": "東北大学\n工学部4年",
       "image": "takayanagi-shunya.jpg",
       "link": "takayanagi-shunya/"
+    },
+    "nakaya-yushi": {
+      "id": "nakaya-yushi",
+      "index": 2,
+      "name": "中屋 悠資",
+      "nameSub": "Nakaya Yushi",
+      "position": "",
+      "status": "東北大学 工学部",
+      "image": "nakaya-yushi.jpg",
+      "link": "nakaya-yushi/"
     }
   },
   "社会人支部": {
