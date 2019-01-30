@@ -6,7 +6,7 @@ wbawakate.jp
 ## サイト
 https://wbawakate.github.io/wbawakate.jp/
 
-## Wiki
+## Wiki (更新手順はここにすべて書かれています)
 https://github.com/wbawakate/wbawakate.jp/wiki/introduction
 
 ## はじめに
