@@ -459,6 +459,28 @@
       "link": "kinoshita-yutaro/"
     }
   },
+  "高校生支部": {
+    "okai-motohiro": {
+      "id": "okai-motohiro",
+      "index": 1,
+      "name": "岡井 基紘",
+      "nameSub": "Okai Motohiro",
+      "position": "高校生支部 代表",
+      "status": "暁星高等学校2年",
+      "image": "okai-motohiro.jpg",
+      "link": "okai-motohiro/"
+    },
+    "ohata-yu": {
+      "id": "ohata-yu",
+      "index": 2,
+      "name": "大畑 幸風",
+      "nameSub": "Ohata Yu",
+      "position": "高校生支部 副代表",
+      "status": "品川女子学院2年",
+      "image": "ohata-yu.jpg",
+      "link": "ohata-yu/"
+    }
+  },
   "社会人支部": {
     "ashihara-yuta": {
       "id": "ashihara-yuta",
