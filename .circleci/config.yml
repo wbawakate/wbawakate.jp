@@ -92,6 +92,31 @@ jobs:
     # The config translation tool does not support translating deployment steps
     # since deployment in CircleCI 2.0 are better handled through workflows.
     # See the documentation for more information https://circleci.com/docs/2.0/workflows/
+    - deploy:
+        name: Deploy to staging if branch is develop
+        command: |
+          if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            eval `ssh-agent` && ssh-add ~/.ssh/id_rsa*
+            yarn build
+            aws s3 sync docs/ s3://wbawakate.jp/ --delete
+            aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths *
+          fi
+          if [ "${CIRCLE_BRANCH}" == "staging" ]; then
+            eval `ssh-agent` && ssh-add ~/.ssh/id_rsa*
+            yarn build
+            aws s3 sync docs/ s3://wbawakate.jp/ --delete
+            aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths *
+          fi
+          if [ "${CIRCLE_BRANCH}" == "develop" ]; then
+            yarn build
+            git config --global user.name "circleci"
+            git config --global user.email "circleci@chatbox-inc.com"
+            git rm .gitignore
+            git add docs
+            git commit -m "[ci skip] build on circle ci"
+            git subtree split --branch gh-pages --prefix docs
+            git push origin gh-pages:gh-pages -f
+          fi
     # Teardown
     #   If you break your build into multiple jobs with workflows, you will probably want to do the parts of this that are relevant in each
     # Save test results
