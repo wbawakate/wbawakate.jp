@@ -99,13 +99,13 @@ jobs:
             eval `ssh-agent` && ssh-add ~/.ssh/id_rsa*
             yarn build
             aws s3 sync docs/ s3://wbawakate.jp/ --delete
-            aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths *
+            aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths /\*
           fi
           if [ "${CIRCLE_BRANCH}" == "staging" ]; then
             eval `ssh-agent` && ssh-add ~/.ssh/id_rsa*
             yarn build
-            aws s3 sync docs/ s3://wbawakate.jp/ --delete
-            aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths *
+            aws s3 sync docs/ s3://stg.wbawakate.jp/ --delete
+            aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths /\*
           fi
           if [ "${CIRCLE_BRANCH}" == "develop" ]; then
             yarn build
