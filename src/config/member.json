@@ -479,6 +479,16 @@
       "status": "品川女子学院2年",
       "image": "ohata-yu.jpg",
       "link": "ohata-yu/"
+    },
+    "takahashi-reo": {
+      "id": "takahashi-reo",
+      "index": 3,
+      "name": "高橋 怜央",
+      "nameSub": "Takahashi Reo",
+      "position": "高校生支部",
+      "status": "品川女子学院2年",
+      "image": "takahashi-reo.jpg",
+      "link": "takahashi-reo/"
     }
   },
   "社会人支部": {
