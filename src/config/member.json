@@ -6,7 +6,7 @@
       "name": "八木 拓真",
       "nameSub": "Yagi Takuma",
       "position": "代表・関東支部代表",
-      "status": "東京大学大学院\n修士2年",
+      "status": "東京大学大学院\n博士1年",
       "image": "yagi-takuma.jpg",
       "link": "yagi-takuma/"
     },
@@ -16,7 +16,7 @@
       "name": "松岡 佑磨",
       "nameSub": "Matsuoka Yuma",
       "position": "副代表",
-      "status": "法政大学大学院\n修士2年",
+      "status": "ソフトバンク株式会社",
       "image": "matsuoka-yuma.jpg",
       "link": "matsuoka-yuma/"
     },
@@ -26,7 +26,7 @@
       "name": "秋田 祥平",
       "nameSub": "Akita Shohei",
       "position": "会計",
-      "status": "慶応義塾大学大学院\n修士1年",
+      "status": "慶応義塾大学大学院\n修士2年",
       "image": "akita-shohei.jpg",
       "link": "akita-shohei/"
     }
@@ -47,8 +47,8 @@
       "index": 2,
       "name": "野口 裕貴",
       "nameSub": "Noguchi Yuki",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "noguchi-yuki.jpg",
       "link": "noguchi-yuki/"
     },
@@ -57,8 +57,8 @@
       "index": 3,
       "name": "妹尾 卓磨",
       "nameSub": "Seno Takuma",
-      "position": "",
-      "status": "慶應義塾大学大学院\n修士1年",
+      "position": null,
+      "status": "慶應義塾大学大学院\n修士2年",
       "image": "seno-takuma.jpg",
       "link": "seno-takuma/"
     },
@@ -67,8 +67,8 @@
       "index": 4,
       "name": "松森 匠哉",
       "nameSub": "Matsumori Shoya",
-      "position": "",
-      "status": "慶應義塾大学大学院\n修士1年",
+      "position": null,
+      "status": "慶應義塾大学大学院\n修士2年",
       "image": "matsumori-shoya.jpg",
       "link": "matsumori-shoya/"
     },
@@ -77,7 +77,7 @@
       "index": 5,
       "name": "板谷 琴音",
       "nameSub": "Itaya Kotone",
-      "position": "",
+      "position": null,
       "status": "慶應義塾大学大学院",
       "image": "itaya-kotone.jpg",
       "link": "itaya-kotone/"
@@ -87,7 +87,7 @@
       "index": 6,
       "name": "土井 ゆりか",
       "nameSub": "Doi Yurika",
-      "position": "",
+      "position": null,
       "status": "Harvard University",
       "image": "doi-yurika.jpg",
       "link": "doi-yurika/"
@@ -97,8 +97,8 @@
       "index": 7,
       "name": "中村 晃貴",
       "nameSub": "Nakamura Koki",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "nakamura-koki.jpg",
       "link": "nakamura-koki/"
     },
@@ -107,8 +107,8 @@
       "index": 8,
       "name": "原衛 直子",
       "nameSub": "Harae Naoko",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "harae-naoko.jpg",
       "link": "harae-naoko/"
     },
@@ -117,8 +117,8 @@
       "index": 9,
       "name": "藤田 恵梨香",
       "nameSub": "Fujita Erika",
-      "position": "",
-      "status": "法政大学\n大学院修士2年",
+      "position": null,
+      "status": null,
       "image": "fujita-erika.jpg",
       "link": "fujita-erika/"
     },
@@ -127,8 +127,8 @@
       "index": 10,
       "name": "金光 俊輔",
       "nameSub": "Kanemitsu Shunsuke",
-      "position": "",
-      "status": "慶應義塾大学大学院\n理工学研究科修士2年",
+      "position": null,
+      "status": null,
       "image": "no-image.jpg",
       "link": "kanemitsu-shunsuke/"
     },
@@ -137,7 +137,7 @@
       "index": 11,
       "name": "奥岡 耕平",
       "nameSub": "Okuoka Kohei",
-      "position": "",
+      "position": null,
       "status": "慶應義塾大学大学院\n理工学研究科修士2年",
       "image": "no-image.jpg",
       "link": "okuoka-kohei/"
@@ -147,8 +147,8 @@
       "index": 12,
       "name": "青木 亮介",
       "nameSub": "Aoki Ryosuke",
-      "position": "",
-      "status": "電気通信大学\n情報理工学部3年",
+      "position": null,
+      "status": "電気通信大学\n情報理工学部",
       "image": "aoki-ryosuke.jpg",
       "link": "aoki-ryosuke/"
     },
@@ -157,8 +157,8 @@
       "index": 13,
       "name": "福嶋 竜",
       "nameSub": "Fukushima Ryu",
-      "position": "",
-      "status": "首都大学東京\n理工学研究科修士1年",
+      "position": null,
+      "status": "首都大学東京\n理工学研究科",
       "image": "fukushima-ryu.jpg",
       "link": "fukushima-ryu/"
     },
@@ -167,7 +167,7 @@
       "index": 14,
       "name": "山田 航佑",
       "nameSub": "Yamada Kosuke",
-      "position": "",
+      "position": null,
       "status": "University of California, Merced\nSchool of Engineering",
       "image": "yamada-kosuke.jpg",
       "link": "yamada-kosuke/"
@@ -177,7 +177,7 @@
       "index": 15,
       "name": "森本 俊亨",
       "nameSub": "Morimoto Toshiaki",
-      "position": "",
+      "position": null,
       "status": "慶応義塾大学\n理工学部",
       "image": "morimoto-toshiaki.jpg",
       "link": "morimoto-toshiaki/"
@@ -187,8 +187,8 @@
       "index": 16,
       "name": "山本 彩加",
       "nameSub": "Yamamoto Ayaka",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "yamamoto-ayaka.jpg",
       "link": "yamamoto-ayaka/"
     },
@@ -197,8 +197,8 @@
       "index": 17,
       "name": "大藤 聖菜",
       "nameSub": "Oto Kiyona",
-      "position": "",
-      "status": "慶応義塾大学大学院\n理工学研究科修士1年",
+      "position": null,
+      "status": null,
       "image": "oto-kiyona.jpg",
       "link": "oto-kiyona/"
     },
@@ -207,8 +207,8 @@
       "index": 18,
       "name": "澤田 志織",
       "nameSub": "Sawada Shiori",
-      "position": "",
-      "status": "慶応義塾大学大学院\n修士1年",
+      "position": null,
+      "status": null,
       "image": "sawada-shiori.jpg",
       "link": "sawada-shiori/"
     },
@@ -217,7 +217,7 @@
       "index": 19,
       "name": "田尻 健斗",
       "nameSub": "Tajiri Kento",
-      "position": "",
+      "position": null,
       "status": "筑波大学大学院\nシステム情報工学研究科",
       "image": "tajiri-kento.jpg",
       "link": "tajiri-kento/"
@@ -227,8 +227,8 @@
       "index": 20,
       "name": "石塚 友子",
       "nameSub": "Ishizuka Tomoko",
-      "position": "",
-      "status": "中央大学\n経済学部3年",
+      "position": null,
+      "status": "中央大学\n経済学部",
       "image": "ishizuka-tomoko.jpg",
       "link": "ishizuka-tomoko/"
     },
@@ -237,7 +237,7 @@
       "index": 21,
       "name": "佐藤 和音",
       "nameSub": "Sato Kazune",
-      "position": "",
+      "position": null,
       "status": "マルチリンガル",
       "image": "sato-kazune.jpg",
       "link": "sato-kazune/"
@@ -247,7 +247,7 @@
       "index": 22,
       "name": "永田 祥平",
       "nameSub": "Nagata Shohei",
-      "position": "",
+      "position": null,
       "status": "慶應義塾大学大学院\n政策・メディア研究科",
       "image": "nagata-shohei.jpg",
       "link": "nagata-shohei/"
@@ -257,7 +257,7 @@
       "index": 23,
       "name": "百瀬 莞那",
       "nameSub": "Momose Kanna",
-      "position": "",
+      "position": null,
       "status": "慶應義塾大学 総合政策学部",
       "image": "momose-kanna.jpg",
       "link": "momose-kanna/"
@@ -267,8 +267,8 @@
       "index": 24,
       "name": "上田 遼",
       "nameSub": "Ueda Ryo",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "ueda-ryo.jpg",
       "link": "ueda-ryo/"
     },
@@ -277,7 +277,7 @@
       "index": 25,
       "name": "福田 聡子",
       "nameSub": "Fukuda Satoko",
-      "position": "",
+      "position": null,
       "status": "東京大学大学院",
       "image": "fukuda-satoko.jpg",
       "link": "fukuda-satoko/"
@@ -291,6 +291,16 @@
       "status": "慶応義塾大学\n理工学部",
       "image": "kinoshita-yutaro.jpg",
       "link": "kinoshita-yutaro/"
+    },
+    "ihara-takumi": {
+      "id": "ihara-takumi",
+      "index": 27,
+      "name": "猪原 拓実",
+      "nameSub": "Ihara Takumi",
+      "position": null,
+      "status": "東京農工大学",
+      "image": "ihara-takumi.jpg",
+      "link": "ihara-takumi/"
     }
   },
   "関西支部": {
@@ -300,7 +310,7 @@
       "name": "清丸 寛一",
       "nameSub": "Kiyomaru Hirokazu",
       "position": "関西支部代表",
-      "status": "京都大学大学院\n修士2年",
+      "status": "京都大学大学院\n博士1年",
       "image": "kiyomaru-hirokazu.jpg",
       "link": "kiyomaru-hirokazu/"
     },
@@ -310,7 +320,7 @@
       "name": "西田 圭吾",
       "nameSub": "Nishida Keigo",
       "position": "関西支部会計",
-      "status": "大阪大学大学院\n博士後期課程1年",
+      "status": "大阪大学大学院\n博士後期課程2年",
       "image": "nishida-keigo.jpg",
       "link": "nishida-keigo/"
     },
@@ -319,8 +329,8 @@
       "index": 3,
       "name": "上乃 聖",
       "nameSub": "Ueno Sei",
-      "position": "",
-      "status": "京都大学大学院\n修士2年",
+      "position": null,
+      "status": "京都大学大学院\n博士1年",
       "image": "ueno-sei.jpg",
       "link": "ueno-sei/"
     },
@@ -329,8 +339,8 @@
       "index": 4,
       "name": "三浦 拓也",
       "nameSub": "Miura Takuya",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "miura-takuya.jpg",
       "link": "miura-takuya/"
     },
@@ -339,8 +349,8 @@
       "index": 5,
       "name": "田村 陵大",
       "nameSub": "Tamura Ryota",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "tamura-ryota.jpg",
       "link": "tamura-ryota/"
     },
@@ -349,8 +359,8 @@
       "index": 6,
       "name": "廣芝 和之",
       "nameSub": "Hiroshiba Kazuyuki",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "hiroshiba-kazuyuki.jpg",
       "link": "hiroshiba-kazuyuki/"
     },
@@ -359,8 +369,8 @@
       "index": 7,
       "name": "伊藤 健史",
       "nameSub": "Itoh Takeshi",
-      "position": "",
-      "status": "奈良先端科学技術大学院大学\n情報科学研究科修士2年",
+      "position": null,
+      "status": "奈良先端科学技術大学院大学\n情報科学研究科博士1年",
       "image": "itoh-takeshi.jpg",
       "link": "itoh-takeshi/"
     },
@@ -369,8 +379,8 @@
       "index": 8,
       "name": "富田 風太",
       "nameSub": "Tomita Futa",
-      "position": "",
-      "status": "大阪大学大学院\n修士1年",
+      "position": null,
+      "status": "大阪大学大学院\n修士2年",
       "image": "tomita-futa.jpg",
       "link": "tomita-futa/"
     },
@@ -379,8 +389,8 @@
       "index": 9,
       "name": "本田 純基",
       "nameSub": "Honda Atsuki",
-      "position": "",
-      "status": "立命館大学\n総合心理学部2年",
+      "position": null,
+      "status": "立命館大学\n総合心理学部3年",
       "image": "honda-atsuki.jpg",
       "link": "honda-atsuki/"
     },
@@ -389,8 +399,8 @@
       "index": 10,
       "name": "原 彰良",
       "nameSub": "Hara Akiyoshi",
-      "position": "",
-      "status": "大阪大学大学院\n修士1年",
+      "position": null,
+      "status": "大阪大学大学院\n修士2年",
       "image": "hara-akiyoshi.jpg",
       "link": "hara-akiyoshi/"
     },
@@ -399,8 +409,8 @@
       "index": 11,
       "name": "堀部 和也",
       "nameSub": "Horibe Kazuya",
-      "position": "",
-      "status": "大阪大学大学院\n博士後期課程1年",
+      "position": null,
+      "status": "大阪大学大学院\n博士後期課程2年",
       "image": "horibe-kazuya.jpg",
       "link": "horibe-kazuya/"
     },
@@ -409,8 +419,8 @@
       "index": 12,
       "name": "佐竹 恵美",
       "nameSub": "Satake Emi",
-      "position": "",
-      "status": "京都大学大学院\n修士2年",
+      "position": null,
+      "status": null,
       "image": "satake-emi.jpg",
       "link": "satake-emi/"
     }
@@ -422,7 +432,7 @@
       "name": "上妻 真緒",
       "nameSub": "Kozuma Mao",
       "position": "九州支部 代表",
-      "status": "九州大学\n21世紀プログラム2年",
+      "status": "九州大学\n21世紀プログラム4年",
       "image": "no-image.jpg",
       "link": "kozuma-mao/"
     },
@@ -431,8 +441,8 @@
       "index": 2,
       "name": "松木 萌",
       "nameSub": "Matsuki Moe",
-      "position": "",
-      "status": "九州工業大学大学院\n工学府博士1年",
+      "position": null,
+      "status": "九州工業大学大学院\n工学府博士2年",
       "image": "matsuki-moe.jpg",
       "link": "matsuki-moe/"
     }
@@ -444,7 +454,7 @@
       "name": "高柳 俊也",
       "nameSub": "Takayanagi Shunya",
       "position": "東北支部 代表",
-      "status": "東北大学\n工学部4年",
+      "status": "東北大学大学院\n工学研究科修士1年",
       "image": "takayanagi-shunya.jpg",
       "link": "takayanagi-shunya/"
     },
@@ -454,7 +464,7 @@
       "name": "中屋 悠資",
       "nameSub": "Nakaya Yushi",
       "position": "東北支部 副代表",
-      "status": "東北大学 工学部",
+      "status": "東北大学\n工学部3年",
       "image": "nakaya-yushi.jpg",
       "link": "nakaya-yushi/"
     }
@@ -466,7 +476,7 @@
       "name": "岡井 基紘",
       "nameSub": "Okai Motohiro",
       "position": "高校生支部 代表",
-      "status": "暁星高等学校2年",
+      "status": "暁星高等学校3年",
       "image": "okai-motohiro.jpg",
       "link": "okai-motohiro/"
     },
@@ -476,7 +486,7 @@
       "name": "大畑 幸風",
       "nameSub": "Ohata Yu",
       "position": "高校生支部 副代表",
-      "status": "品川女子学院2年",
+      "status": "品川女子学院3年",
       "image": "ohata-yu.jpg",
       "link": "ohata-yu/"
     },
@@ -486,7 +496,7 @@
       "name": "高橋 怜央",
       "nameSub": "Takahashi Reo",
       "position": "高校生支部",
-      "status": "品川女子学院2年",
+      "status": "品川女子学院3年",
       "image": "takahashi-reo.jpg",
       "link": "takahashi-reo/"
     }
@@ -498,7 +508,7 @@
       "name": "芦原 佑太",
       "nameSub": "Ashihara Yuta",
       "position": "社会人支部　代表",
-      "status": "",
+      "status": null,
       "image": "ashihara-yuta.jpg",
       "link": "ashihara-yuta/"
     },
@@ -508,7 +518,7 @@
       "name": "柿原 祥之",
       "nameSub": "Kakihara Yoshiyuki",
       "position": "社会人支部　副代表",
-      "status": "",
+      "status": null,
       "image": "kakihara-yoshiyuki.jpg",
       "link": "kakihara-yoshiyuki/"
     },
@@ -518,7 +528,7 @@
       "name": "島田 大樹",
       "nameSub": "Shimada Daiki",
       "position": "社会人支部   会計",
-      "status": "",
+      "status": null,
       "image": "shimada-daiki.jpg",
       "link": "shimada-daiki/"
     },
@@ -528,7 +538,7 @@
       "name": "門前 一馬",
       "nameSub": "Kadomae Kazuma",
       "position": "クリエイティブディレクター",
-      "status": "",
+      "status": null,
       "image": "kadomae-kazuma.jpg",
       "link": "kadomae-kazuma/"
     },
@@ -537,8 +547,8 @@
       "index": 5,
       "name": "永山 大志",
       "nameSub": "Nagayama Taishi",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "nagayama-taishi.jpg",
       "link": "nagayama-taishi/"
     },
@@ -547,8 +557,8 @@
       "index": 6,
       "name": "岩淵 勇樹",
       "nameSub": "Iwabuchi Yuki",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "iwabuchi-yuki.jpg",
       "link": "iwabuchi-yuki/"
     },
@@ -557,58 +567,58 @@
       "index": 7,
       "name": "池谷 昌大",
       "nameSub": "Ikeya Masao",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "ikeya-masao.jpg",
-      "link": ""
+      "link": null
     },
     "takagi-yusuke": {
       "id": "takagi-yusuke",
       "index": 8,
       "name": "高木 勇輔",
       "nameSub": "Takagi Yusuke",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "takagi-yusuke.jpg",
-      "link": ""
+      "link": null
     },
     "kubo-takahiro": {
       "id": "kubo-takahiro",
       "index": 9,
       "name": "久保 隆宏",
       "nameSub": "Kubo Takahiro",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "kubo-takahiro.jpg",
-      "link": ""
+      "link": null
     },
     "watarai-kyohei": {
       "id": "watarai-kyohei",
       "index": 10,
       "name": "渡會 恭平",
       "nameSub": "Watatai Kyohei",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "watarai-kyohei.jpg",
-      "link": ""
+      "link": null
     },
     "yoshida-yuki": {
       "id": "yoshida-yuki",
       "index": 11,
       "name": "吉田 雄紀",
       "nameSub": "Yoshida Yuki",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "yoshida-yuki.jpg",
-      "link": ""
+      "link": null
     },
     "kameda-shigeyuki": {
       "id": "kameda-shigeyuki",
       "index": 12,
       "name": "亀田 重幸",
       "nameSub": "Kameda Shigeyuki",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "kameda-shigeyuki.jpg",
       "link": "kameda-shigeyuki/"
     },
@@ -617,8 +627,8 @@
       "index": 13,
       "name": "遠藤 太一郎",
       "nameSub": "Endo Taichiro",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "endo-taichiro.jpg",
       "link": "endo-taichiro/"
     },
@@ -627,8 +637,8 @@
       "index": 14,
       "name": "森山 直人",
       "nameSub": "Moriyama Naoto",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "moriyama-naoto.jpg",
       "link": "moriyama-naoto/"
     },
@@ -637,8 +647,8 @@
       "index": 15,
       "name": "佐々木 淳",
       "nameSub": "Sasaki Atsushi",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "sasaki-atsushi.jpg",
       "link": "sasaki-atsushi/"
     },
@@ -647,8 +657,8 @@
       "index": 16,
       "name": "白木 義彦",
       "nameSub": "Shiraki Yoshihiko",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "shiraki-yoshihiko.jpg",
       "link": "shiraki-yoshihiko/"
     },
@@ -657,8 +667,8 @@
       "index": 17,
       "name": "矢部 陽子",
       "nameSub": "Yabe Yoko",
-      "position": "",
-      "status": "",
+      "position": null,
+      "status": null,
       "image": "yabe-yoko.jpg",
       "link": "yabe-yoko/"
     },
@@ -667,7 +677,7 @@
       "index": 18,
       "name": "小澤 健祐",
       "nameSub": "Ozawa Kensuke",
-      "position": "",
+      "position": null,
       "status": "ディップ株式会社\nAINOWディレクター",
       "image": "ozawa-kensuke.jpg",
       "link": "ozawa-kensuke/"
@@ -680,9 +690,9 @@
       "name": "伊東 宏章",
       "nameSub": "Ito Hiroaki",
       "position": "顧問",
-      "status": "",
+      "status": null,
       "image": "ito-hiroaki.jpg",
-      "link": ""
+      "link": null
     }
   },
   "フェロー": {
@@ -692,7 +702,7 @@
       "name": "大澤 正彦",
       "nameSub": "Osawa Masahiko",
       "position": "元代表",
-      "status": "慶應義塾大学 D1",
+      "status": "慶應義塾大学大学院\n博士3年",
       "image": "osawa-masahiko.jpg",
       "link": "osawa-masahiko/"
     },
@@ -702,7 +712,7 @@
       "name": "坂井 美帆",
       "nameSub": "Sakai Miho",
       "position": "元副代表",
-      "status": "",
+      "status": null,
       "image": "sakai-miho.jpg",
       "link": "sakai-miho/"
     },
@@ -712,7 +722,7 @@
       "name": "川崎 雄介",
       "nameSub": "Kawasaki Yusuke",
       "position": "元会計",
-      "status": "",
+      "status": null,
       "image": "kawasaki-yusuke.jpg",
       "link": "kawasaki-yusuke/"
     },
@@ -722,7 +732,7 @@
       "name": "都築 拓",
       "nameSub": "Tsuzuki Taku",
       "position": "関西支部元副代表",
-      "status": "",
+      "status": null,
       "image": "tsuzuki-taku.jpg",
       "link": "tsuzuki-taku/"
     }
@@ -733,8 +743,8 @@
       "index": 1,
       "name": "加治屋 里奈",
       "nameSub": "Kajiya Rina",
-      "position": "",
-      "status": "法政大学\n理工学部4年",
+      "position": null,
+      "status": null,
       "image": "kajiya-rina.jpg",
       "link": "kajiya-rina/"
     },
@@ -743,8 +753,8 @@
       "index": 2,
       "name": "神野 成海",
       "nameSub": "Kanno Narumi",
-      "position": "",
-      "status": "東京理科大学\n理学部3年",
+      "position": null,
+      "status": null,
       "image": "kanno-narumi.jpg",
       "link": "kanno-narumi/"
     },
@@ -753,8 +763,8 @@
       "index": 3,
       "name": "佐藤 太一",
       "nameSub": "Sato Taichi",
-      "position": "",
-      "status": "東京都市大学付属高校\n3年",
+      "position": null,
+      "status": null,
       "image": "sato-taichi.jpg",
       "link": "sato-taichi/"
     },
@@ -763,8 +773,8 @@
       "index": 4,
       "name": "竹田 卓也",
       "nameSub": "Takeda Takuya",
-      "position": "",
-      "status": "電気通信大学",
+      "position": null,
+      "status": null,
       "image": "takeda-takuya.jpg",
       "link": "takeda-takuya/"
     },
@@ -773,8 +783,8 @@
       "index": 5,
       "name": "中村 健太郎",
       "nameSub": "Nakamura Kentaro",
-      "position": "",
-      "status": "慶應義塾大学",
+      "position": null,
+      "status": null,
       "image": "nakamura-kentaro.jpg",
       "link": "nakamura-kentaro/"
     },
@@ -783,18 +793,18 @@
       "index": 6,
       "name": "増山 七海",
       "nameSub": "Masuyama Nanami",
-      "position": "",
-      "status": "慶應義塾大学\n環境情報学部3年",
+      "position": null,
+      "status": null,
       "image": "masuyama-nanami.jpg",
-      "link": ""
+      "link": null
     },
     "komatsu-masatoshi": {
       "id": "komatsu-masatoshi",
       "index": 7,
       "name": "小松 昌憲",
       "nameSub": "Komatsu Masatoshi",
-      "position": "",
-      "status": "慶応義塾大学",
+      "position": null,
+      "status": null,
       "image": "no-image.jpg",
       "link": "komatsu-masatoshi/"
     }
