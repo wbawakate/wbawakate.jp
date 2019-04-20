@@ -139,7 +139,7 @@
       "nameSub": "Okuoka Kohei",
       "position": "",
       "status": "慶應義塾大学大学院\n理工学研究科修士2年",
-      "image": "no-image.jpg",
+      "image": "okuoka-kohei.jpg",
       "link": "okuoka-kohei/"
     },
     "aoki-ryosuke": {
@@ -301,6 +301,16 @@
       "status": "東京農工大学",
       "image": "ihara-takumi.jpg",
       "link": "ihara-takumi/"
+    },
+    "minai-yuki": {
+      "id": "minai-yuki",
+      "index": 28,
+      "name": "南井 優希",
+      "nameSub": "Yuki Minai",
+      "position": "",
+      "status": "",
+      "image": "minai-yuki.jpg",
+      "link": "minai-yuki/"
     }
   },
   "関西支部": {
@@ -467,6 +477,16 @@
       "status": "東北大学\n工学部3年",
       "image": "nakaya-yushi.jpg",
       "link": "nakaya-yushi/"
+    },
+    "fukuchi-akihiko": {
+      "id": "fukuchi-akihiko",
+      "index": 3,
+      "name": "福地 成彦",
+      "nameSub": "Akihiko Fukuchi",
+      "position": "",
+      "status": "東京大学大学院\n情報理工学系研究科修士1年",
+      "image": "fukuchi-akihiko.jpg",
+      "link": "fukuchi-akihiko/"
     }
   },
   "高校生支部": {
