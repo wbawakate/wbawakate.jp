@@ -311,6 +311,36 @@
       "status": "",
       "image": "minai-yuki.jpg",
       "link": "minai-yuki/"
+    },
+    "fukuchi-akihiko": {
+      "id": "fukuchi-akihiko",
+      "index": 29,
+      "name": "福地 成彦",
+      "nameSub": "Akihiko Fukuchi",
+      "position": "",
+      "status": "東京大学大学院\n情報理工学系研究科修士1年",
+      "image": "fukuchi-akihiko.jpg",
+      "link": "fukuchi-akihiko/"
+    },
+    "fukawa-ayako": {
+      "id": "fukawa-ayako",
+      "index": 30,
+      "name": "布川 絢子",
+      "nameSub": "Ayako Fukawa",
+      "position": "",
+      "status": "上智大学大学院\n理工学研究科",
+      "image": "fukawa-ayako.jpg",
+      "link": "fukawa-ayako/"
+    },
+    "konno-daichi": {
+      "id": "konno-daichi",
+      "index": 31,
+      "name": "紺野 大地",
+      "nameSub": "Daichi Konno",
+      "position": "",
+      "status": "東京大学大学院\n医学系研究科",
+      "image": "konno-daichi.jpg",
+      "link": "konno-daichi/"
     }
   },
   "関西支部": {
@@ -477,16 +507,6 @@
       "status": "東北大学\n工学部3年",
       "image": "nakaya-yushi.jpg",
       "link": "nakaya-yushi/"
-    },
-    "fukuchi-akihiko": {
-      "id": "fukuchi-akihiko",
-      "index": 3,
-      "name": "福地 成彦",
-      "nameSub": "Akihiko Fukuchi",
-      "position": "",
-      "status": "東京大学大学院\n情報理工学系研究科修士1年",
-      "image": "fukuchi-akihiko.jpg",
-      "link": "fukuchi-akihiko/"
     }
   },
   "高校生支部": {
@@ -701,6 +721,16 @@
       "status": "ディップ株式会社\nAINOWディレクター",
       "image": "ozawa-kensuke.jpg",
       "link": "ozawa-kensuke/"
+    },
+    "sasaki-kosuke": {
+      "id": "sasaki-kosuke",
+      "index": 19,
+      "name": "佐々木 康輔",
+      "nameSub": "Kosuke Sasaki",
+      "position": "",
+      "status": "",
+      "image": "sasaki-kosuke.jpg",
+      "link": "sasaki-kosuke/"
     }
   },
   "顧問": {
