@@ -1,17 +1,5 @@
 {
   "sheet": {
-    "dwango": {
-      "id": "dwango",
-      "name": "株式会社ドワンゴ",
-      "url": "http://dwango.co.jp/",
-      "image": "dwango.png"
-    },
-    "adish": {
-      "id": "adish",
-      "name": "アディッシュ株式会社",
-      "url": "http://www.adish.co.jp/",
-      "image": "adish.png"
-    },
     "softbank": {
       "id": "softbank",
       "name": "ソフトバンク",
@@ -23,18 +11,6 @@
       "name": "株式会社エクサウィザーズ",
       "url": "https://exawizards.com/",
       "image": "exawizards.png"
-    },
-    "dip": {
-      "id": "dip",
-      "name": "ディップ株式会社",
-      "url": "https://www.dip-net.co.jp/",
-      "image": "dip.png"
-    },
-    "sensy": {
-      "id": "sensy",
-      "name": "SENSY株式会社",
-      "url": "https://sensy.ai/",
-      "image": "sensy.png"
     },
     "fronteo": {
       "id": "fronteo",
@@ -53,6 +29,12 @@
       "name": "ソフトプラネット",
       "url": "http://www.softplanet.co.jp/",
       "image": "softplanet.png"
+    },
+    "connecting": {
+      "id": "connecting",
+      "name": "株式会社ビジネスがつながる",
+      "url": "http://www.connecting-business-corp.com/company/",
+      "image": "connecting.png"
     }
   }
 }
