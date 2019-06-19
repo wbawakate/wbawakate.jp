@@ -12,6 +12,12 @@
       "url": "https://exawizards.com/",
       "image": "exawizards.png"
     },
+    "adish": {
+      "id": "adish",
+      "name": "アディッシュ株式会社",
+      "url": "http://www.adish.co.jp/",
+      "image": "adish.png"
+    },
     "fronteo": {
       "id": "fronteo",
       "name": "FRONTEO",
