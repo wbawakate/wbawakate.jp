@@ -488,25 +488,65 @@
     }
   },
   "東北支部": {
-    "takayanagi-shunya": {
-      "id": "takayanagi-shunya",
-      "index": 1,
-      "name": "高柳 俊也",
-      "nameSub": "Takayanagi Shunya",
-      "position": "東北支部 代表",
-      "status": "東北大学大学院\n工学研究科修士1年",
-      "image": "takayanagi-shunya.jpg",
-      "link": "takayanagi-shunya/"
-    },
     "nakaya-yushi": {
       "id": "nakaya-yushi",
-      "index": 2,
+      "index": 1,
       "name": "中屋 悠資",
       "nameSub": "Nakaya Yushi",
-      "position": "東北支部 副代表",
+      "position": "東北支部 代表",
       "status": "東北大学\n工学部3年",
       "image": "nakaya-yushi.jpg",
       "link": "nakaya-yushi/"
+    },
+    "minoh-yuki": {
+      "id": "minoh-yuki",
+      "index": 2,
+      "name": "美濃 佑輝",
+      "nameSub": "Minoh Yuki",
+      "position": "",
+      "status": "東北大学\n教育学部2年",
+      "image": "no-image.jpg",
+      "link": "minoh-yuki/"
+    },
+    "takahashi-yusuke": {
+      "id": "takahashi-yusuke",
+      "index": 3,
+      "name": "高橋 佑輔",
+      "nameSub": "Takahashi Yusuke",
+      "position": "",
+      "status": "東北大学\n工学部2年\n",
+      "image": "no-image.jpg",
+      "link": "takahashi-yusuke/"
+    },
+    "fukamizu-issei": {
+      "id": "fukamizu-issei",
+      "index": 4,
+      "name": "深水 一聖",
+      "nameSub": "Fukamizu Issei",
+      "position": "",
+      "status": "東北大学\n工学部2年",
+      "image": "no-image.jpg",
+      "link": "fukamizu-issei/"
+    },
+    "ohsumi-takumi": {
+      "id": "ohsumi-takumi",
+      "index": 5,
+      "name": "大隅 拓海",
+      "nameSub": "Ohsumi Takumi",
+      "position": "",
+      "status": "東北大学\n理学部1年",
+      "image": "no-image.jpg",
+      "link": "ohsumi-takumi/"
+    },
+    "sawaya-kazuma": {
+      "id": "sawaya-kazuma",
+      "index": 6,
+      "name": "澤谷 一磨",
+      "nameSub": "Sawaya Kazuma",
+      "position": "",
+      "status": "東北大学\n経済学部2年",
+      "image": "no-image.jpg",
+      "link": "sawaya-kazuma/"
     }
   },
   "高校生支部": {
@@ -785,6 +825,16 @@
       "status": "",
       "image": "tsuzuki-taku.jpg",
       "link": "tsuzuki-taku/"
+    },
+    "takayanagi-shunya": {
+      "id": "takayanagi-shunya",
+      "index": 5,
+      "name": "高柳 俊也",
+      "nameSub": "Takayanagi Shunya",
+      "position": "東北支部 代表",
+      "status": "東北大学大学院\n工学研究科修士1年",
+      "image": "takayanagi-shunya.jpg",
+      "link": "takayanagi-shunya/"
     }
   },
   "これまでのメンバー": {
