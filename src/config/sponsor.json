@@ -1,16 +1,16 @@
 {
   "sheet": {
+    "necsolution": {
+      "id": "necsolution",
+      "name": "NECソリューションズイノベータ株式会社",
+      "url": "https://www.nec-solutioninnovators.co.jp/",
+      "image": "c_name-vert.png"
+    },
     "softbank": {
       "id": "softbank",
       "name": "ソフトバンク",
       "url": "http://www.softbank.jp/",
       "image": "softbank.png"
-    },
-    "exawizards": {
-      "id": "exawizards",
-      "name": "株式会社エクサウィザーズ",
-      "url": "https://exawizards.com/",
-      "image": "exawizards.png"
     },
     "adish": {
       "id": "adish",
