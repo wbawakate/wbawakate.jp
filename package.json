@@ -4,7 +4,7 @@
   "description": "description",
   "main": "gulpfile.babel.js",
   "engines": {
-    "node": ">=6.9.1"
+    "node": ">=10.16.3"
   },
   "scripts": {
     "start": "gulp",
