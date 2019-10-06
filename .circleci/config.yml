@@ -41,7 +41,7 @@ jobs:
     # This is based on your 1.0 configuration file or project settings
     - run:
         working_directory: ~/wbawakate/wbawakate.jp
-        command: nvm install 6.9.1 && nvm alias default 6.9.1
+        command: nvm install 10.16.3 && nvm alias default 10.16.3
     - run:
         working_directory: ~/wbawakate/wbawakate.jp
         command: 'echo ''Asia/Tokyo'' | sudo tee -a /etc/timezone; sudo dpkg-reconfigure
