@@ -24,23 +24,20 @@ block content-block
               a.elm-a(href="#All")
                 | All
             .category-item
+              a.elm-a(href="#勉強会")
+                | 勉強会                
+            .category-item
               a.elm-a(href="#カジュアルトーク")
                 | カジュアルトーク
-            .category-item
-              a.elm-a(href="#データ解析くらぶ")
-                | データ解析くらぶ
             .category-item
               a.elm-a(href="#ハッカソン")
                 | ハッカソン
             .category-item
-              a.elm-a(href="#勉強会")
-                | 勉強会
-            .category-item
-              a.elm-a(href="#女子会")
-                | 女子会
-            .category-item
               a.elm-a(href="#懇親会")
                 | 懇親会
+            .category-item
+              a.elm-a(href="#未来ラウンジ")
+                | 未来ラウンジ
 
       .event-list
         - eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
