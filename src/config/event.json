@@ -584,6 +584,15 @@
       "date": "2018-11-16T15:00:00.000Z",
       "image": "fall-meetup2018.jpg",
       "link": "fall-meetup2018/"
+    },
+    "ai-nlp-tohoku": {
+      "id": "ai-nlp-tohoku",
+      "index": 66,
+      "type": "勉強会",
+      "name": "AIとコトバ ~自然言語処理のこれまでとこれから~ ",
+      "date": "2020-03-02T15:00:00.000Z",
+      "image": "",
+      "link": "ai-nlp-tohoku/"
     }
   }
 }
