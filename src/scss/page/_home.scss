@@ -191,13 +191,13 @@
       margin-top: px(20);
 
       width: 100%;
-      height: px(200);
+      height: px(300);
 
       overflow-y: scroll;
 
       @include mq-large {
         width: px(960);
-        height: px(200);
+        height: px(300);
       }
     }
   }
