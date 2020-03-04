@@ -117,7 +117,7 @@ gulp.task('pug', () => {
     sponsorEvents: readConfig(`${CONFIG}/sponsor-event.json`).sheet,
     events: readConfig(`${CONFIG}/event.json`).sheet,
     members: readConfig(`${CONFIG}/member.json`),
-    newsArr: readConfig(`${CONFIG}/news.yml`),
+    newsArr: readConfig(`${CONFIG}/talks.yml`),
     bibArr: bibtexParse.toJSON(fs.readFileSync(`${CONFIG}/publication.bib`, { encoding:"utf8" })),
     unescape: (body) => (
       // from [JavaScript：unescapeHTMLの妥当な実装: Architect Note](http://blog.tojiru.net/article/211339637.html)
