@@ -36,9 +36,19 @@
       "name": "秋田 祥平",
       "nameSub": "Akita Shohei",
       "position": "会計",
-      "status": "慶応義塾大学大学院\n修士2年",
+      "status": "Sansan株式会社",
       "image": "akita-shohei.jpg",
       "link": "akita-shohei/"
+    },
+    "mae-asuka": {
+      "id": "mae-asuka",
+      "index": 5,
+      "name": "前  あすか",
+      "nameSub": "Mae Asuka",
+      "position": "主務",
+      "status": "慶應義塾大学\n学部4年",
+      "image": "mae-asuka.jpg",
+      "link": "mae-asuka/"
     }
   },
   "関東支部": {
@@ -47,7 +57,7 @@
       "index": 1,
       "name": "岩渕 広明",
       "nameSub": "Iwabuchi Hiroaki",
-      "position": "関東支部副代表",
+      "position": "",
       "status": "アディッシュ株式会社\n",
       "image": "iwabuchi-hiroaki.jpg",
       "link": "iwabuchi-hiroaki/"
@@ -326,9 +336,9 @@
       "id": "fukuchi-akihiko",
       "index": 29,
       "name": "福地 成彦",
-      "nameSub": "Akihiko Fukuchi",
+      "nameSub": "Fukuchi Akihiko",
       "position": "",
-      "status": "東京大学大学院\n情報理工学系研究科修士1年",
+      "status": "東京大学大学院情報理工学系研究科\n数理情報学専攻",
       "image": "fukuchi-akihiko.jpg",
       "link": "fukuchi-akihiko/"
     },
@@ -351,6 +361,16 @@
       "status": "東京大学大学院\n医学系研究科",
       "image": "konno-daichi.jpg",
       "link": "konno-daichi/"
+    },
+    "nakata-yasufumi": {
+      "id": "nakata-yasufumi",
+      "index": 32,
+      "name": "中田 康史",
+      "nameSub": "Nakata Yasufumi",
+      "position": "",
+      "status": "慶応志木高校\n3年生",
+      "image": "nakata-yasufumi.jpg",
+      "link": "nakata-yasufumi/"
     }
   },
   "関西支部": {
@@ -369,7 +389,7 @@
       "index": 2,
       "name": "西田 圭吾",
       "nameSub": "Nishida Keigo",
-      "position": "関西支部会計",
+      "position": "関西支部幹部",
       "status": "大阪大学大学院\n博士後期課程2年",
       "image": "nishida-keigo.jpg",
       "link": "nishida-keigo/"
@@ -449,7 +469,7 @@
       "index": 10,
       "name": "原 彰良",
       "nameSub": "Hara Akiyoshi",
-      "position": "",
+      "position": "関西支部幹部",
       "status": "大阪大学大学院\n修士2年",
       "image": "hara-akiyoshi.jpg",
       "link": "hara-akiyoshi/"
@@ -476,14 +496,24 @@
     }
   },
   "九州支部": {
+    "honda-masahisa": {
+      "id": "honda-masahisa",
+      "index": 1,
+      "name": "本田 真久",
+      "nameSub": "Honda Masahisa",
+      "position": "九州支部代表",
+      "status": "北九州市立大学大学院\n修士2年",
+      "image": "honda-masahisa.jpg",
+      "link": "honda-masahisa/"
+    },
     "kozuma-mao": {
       "id": "kozuma-mao",
-      "index": 1,
+      "index": 2,
       "name": "上妻 真緒",
       "nameSub": "Kozuma Mao",
-      "position": "九州支部 代表",
-      "status": "九州大学\n21世紀プログラム4年",
-      "image": "no-image.jpg",
+      "position": "",
+      "status": "",
+      "image": "kozuma-mao.png",
       "link": "kozuma-mao/"
     }
   },
@@ -503,19 +533,19 @@
       "index": 2,
       "name": "美濃 佑輝",
       "nameSub": "Minoh Yuki",
-      "position": "",
+      "position": "東北支部 幹部",
       "status": "東北大学\n教育学部2年",
       "image": "no-image.jpg",
       "link": "minoh-yuki/"
     },
     "takahashi-yusuke": {
       "id": "takahashi-yusuke",
-      "index": 3,
+      "index": 9,
       "name": "高橋 佑輔",
-      "nameSub": "Takahashi Yusuke",
+      "nameSub": "takahashi yusuke",
       "position": "",
-      "status": "東北大学\n工学部2年\n",
-      "image": "no-image.jpg",
+      "status": "東北大学工学部\n学部3年",
+      "image": "takahashi-yusuke.jpg",
       "link": "takahashi-yusuke/"
     },
     "fukamizu-issei": {
@@ -547,6 +577,26 @@
       "status": "東北大学\n経済学部2年",
       "image": "no-image.jpg",
       "link": "sawaya-kazuma/"
+    },
+    "kimura-subaru": {
+      "id": "kimura-subaru",
+      "index": 7,
+      "name": "木村 昴",
+      "nameSub": "kimura subaru",
+      "position": "",
+      "status": "東北大工学部3年",
+      "image": "kimura-subaru.jpeg",
+      "link": "kimura-subaru/"
+    },
+    "enomoto-junichi": {
+      "id": "enomoto-junichi",
+      "index": 8,
+      "name": "榎本 順一",
+      "nameSub": "Enomoto Junichi",
+      "position": "",
+      "status": "東北大学理学部\n学部4年",
+      "image": "enomoto-junichi.jpg",
+      "link": "enomoto-junichi/"
     }
   },
   "高校生支部": {
