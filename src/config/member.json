@@ -6,7 +6,7 @@
       "name": "八木 拓真",
       "nameSub": "Yagi Takuma",
       "position": "代表・関東支部代表",
-      "status": "東京大学大学院\n博士1年",
+      "status": "東京大学大学院\n博士2年",
       "image": "yagi-takuma.jpg",
       "link": "yagi-takuma/"
     },
@@ -371,6 +371,16 @@
       "status": "慶応志木高校\n3年生",
       "image": "nakata-yasufumi.jpg",
       "link": "nakata-yasufumi/"
+    },
+    "yanase-yui": {
+      "id": "yanase-yui",
+      "index": 33,
+      "name": "柳瀬 由衣",
+      "nameSub": "Yanase Yui",
+      "position": "",
+      "status": "",
+      "image": "yanase-yui.JPG",
+      "link": "yanase-yui/"
     }
   },
   "関西支部": {
