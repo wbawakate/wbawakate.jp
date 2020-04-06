@@ -2,7 +2,7 @@
 id:
   'fukuchi-akihiko'
 name:
-  福地 成彦
+ 福地 成彦
 nameSub:
   Fukuchi Akihiko
 facebook:
