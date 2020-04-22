@@ -238,7 +238,7 @@
       "name": "田尻 健斗",
       "nameSub": "Tajiri Kento",
       "position": "",
-      "status": "筑波大学大学院\nシステム情報工学研究科",
+      "status": "筑波大学システム情報工学研究科\n博士課程後期４年",
       "image": "tajiri-kento.jpg",
       "link": "tajiri-kento/"
     },
@@ -381,6 +381,26 @@
       "status": "",
       "image": "yanase-yui.JPG",
       "link": "yanase-yui/"
+    },
+    "ogawa-yuta": {
+      "id": "ogawa-yuta",
+      "index": 34,
+      "name": "小川 裕太",
+      "nameSub": "Ogawa Yuta",
+      "position": "",
+      "status": "日本大学文理学部3年\n大澤研究室",
+      "image": "ogawa-yuta.jpeg",
+      "link": "ogawa-yuta/"
+    },
+    "yamasaki-maho": {
+      "id": "yamasaki-maho",
+      "index": 35,
+      "name": "山﨑 真穂",
+      "nameSub": "Yamasaki Maho",
+      "position": "",
+      "status": "多摩美術大学生産デザイン学科プロダクトデザイン専攻",
+      "image": "yamasaki-maho.jpg",
+      "link": "yamasaki-maho/"
     }
   },
   "関西支部": {

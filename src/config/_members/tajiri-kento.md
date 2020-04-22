@@ -4,14 +4,16 @@ id:
 name:
   田尻 健斗
 nameSub:
-  Kento Tajiri
+  Tajiri Kento
 facebook:
-  "https://www.facebook.com/kento.tajiri"
+  ""
+twitter:
+  ""
 ---
 
 
-## Biography
+## Message
+道具として扱う場合の推論の自動化に興味があります。
 
-- 2015年4月 筑波大学大学院システム情報工学研究科博士前期課程 入学
-- 2017年3月 筑波大学大学院システム情報工学研究科博士前期課程 卒業
-- 2017年4月 筑波大学大学院システム情報工学研究科博士後期課程 入学
+## Publications
+- Tajiri, Kento, and Tsutomu Maruyama. "FPGA acceleration of a supervised learning method for hyperspectral image classification." 2018 International Conference on Field-Programmable Technology (FPT). IEEE, 2018.
