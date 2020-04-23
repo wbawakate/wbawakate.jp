@@ -60,31 +60,6 @@ block content-block
           a.elm-a(href=`${rootPath}event/`)
             | More
 
-    section.sec-promotion-video
-      .front-block
-        h3.heading
-          | Promotion Video
-
-        .video
-          iframe(width="960", height="540", src="https://www.youtube.com/embed/0wtEYXZB2NA?feature=oembed", frameborder="0", allowfullscreen="")
-
-    section.section-contents.sec-news
-      .front-block
-        h3.heading
-          | Talk Slides
-        h4.sub-heading
-          | これまでの発表資料
-
-        p.hover-effect
-            | これまで開催されたイベントの発表資料については
-            a.elm-a(href="https://wbawakate.connpass.com/presentation/", target="_blank") connpassページ
-            | も併せてご覧ください。
-
-        ul.news-list.hover-effect
-          each news in newsArr
-            time.time= news.time
-            .update!= news.update
-            
     section.section-contents.sec-sponsor-event
       .front-block
         h3.heading
@@ -110,6 +85,31 @@ block content-block
         .wba-button.btn-more
           a.elm-a(href=`${rootPath}sponsor-event/`)
             | More
+
+    section.sec-promotion-video
+      .front-block
+        h3.heading
+          | Promotion Video
+
+        .video
+          iframe(width="960", height="540", src="https://www.youtube.com/embed/0wtEYXZB2NA?feature=oembed", frameborder="0", allowfullscreen="")
+
+    section.section-contents.sec-news
+      .front-block
+        h3.heading
+          | Talk Slides
+        h4.sub-heading
+          | これまでの発表資料
+
+        p.hover-effect
+            | これまで開催されたイベントの発表資料については
+            a.elm-a(href="https://wbawakate.connpass.com/presentation/", target="_blank") connpassページ
+            | も併せてご覧ください。
+
+        ul.news-list.hover-effect
+          each news in newsArr
+            time.time= news.time
+            .update!= news.update
 
     section.section-contents.sec-sponsor
       .front-block
