@@ -1,60 +1,11 @@
 {
-  "sheet" : {
-    "ubic-2016-01" : {
-      "id" : "ubic-2016-01",
-      "index" : 1,
-      "subject" : "株式会社UBIC主催　学生向けセミナーのお知らせ",
-      "date" : "2016-01-19T15:00:00.000Z",
-      "image" : "default.jpg",
-      "link" : "ubic-2016-01/"
-    },
-    "ubic-2016-02" : {
-      "id" : "ubic-2016-02",
-      "index" : 2,
-      "subject" : "株式会社UBIC主催　技術職(R&D/開発) インターンシップのお知らせ",
-      "date" : "2016-02-02T15:00:00.000Z",
-      "image" : "default.jpg",
-      "link" : "ubic-2016-02/"
-    },
-    "dwango-2016-02" : {
-      "id" : "dwango-2016-02",
-      "index" : 3,
-      "subject" : "株式会社dwango　『CGIプロジェクト』インターン募集のお知らせ",
-      "date" : "2016-02-09T15:00:00.000Z",
-      "image" : "dwango-2016-02.jpg",
-      "link" : "dwango-2016-02/"
-    },
-    "ubic-2016-02-seminar" : {
-      "id" : "ubic-2016-02-seminar",
-      "index" : 4,
-      "subject" : "株式会社UBIC主催　第2回学生向けセミナーのお知らせ",
-      "date" : "2016-02-18T15:00:00.000Z",
-      "image" : "default.jpg",
-      "link" : "ubic-2016-02-seminar/"
-    },
-    "adish-2016-08" : {
-      "id" : "adish-2016-08",
-      "index" : 5,
-      "subject" : "アディッシュ株式会社　技術職インターン募集のお知らせ",
-      "date" : "2016-06-10T15:00:00.000Z",
-      "image" : "adish.jpg",
-      "link" : "adish-2016-08/"
-    },
-    "fronteo-2016-08" : {
-      "id" : "fronteo-2016-08",
-      "index" : 6,
-      "subject" : "株式会社FRONTEO主催 セミナーのお知らせ",
-      "date" : "2016-08-15T15:00:00.000Z",
-      "image" : "default.jpg",
-      "link" : "fronteo-2016-08/"
-    },
-    "albert-2017-07" : {
-      "id" : "albert-2017-07",
-      "index" : 7,
-      "subject" : "株式会社ALBERT データサイエンティスト・インターンシップのご案内",
-      "date" : "2016-07-02T15:00:00.000Z",
-      "image" : "albert.jpg",
-      "link" : "albert-2017-07/"
+  "sheet": {
+    "softbank-2020-04": {
+      "index": 1,
+      "subject": "ソフトバンク株式会社 エンジニアコースインターンシップのお知らせ",
+      "date": "2020-04-22T15:00:00.000Z",
+      "image": "default.jpg",
+      "link": "softbank-2020-04/"
     }
   }
 }
