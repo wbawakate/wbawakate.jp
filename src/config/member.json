@@ -368,7 +368,7 @@
       "name": "中田 康史",
       "nameSub": "Nakata Yasufumi",
       "position": "",
-      "status": "慶応志木高校\n3年生",
+      "status": "慶応志木高校",
       "image": "nakata-yasufumi.jpg",
       "link": "nakata-yasufumi/"
     },
@@ -394,7 +394,7 @@
     },
     "yamasaki-maho": {
       "id": "yamasaki-maho",
-      "index": 35,
+      "index": 36,
       "name": "山﨑 真穂",
       "nameSub": "Yamasaki Maho",
       "position": "",
@@ -627,6 +627,16 @@
       "status": "東北大学理学部\n学部4年",
       "image": "enomoto-junichi.jpg",
       "link": "enomoto-junichi/"
+    },
+    "ozawa-chinatsu": {
+      "id": "ozawa-chinatsu",
+      "index": 10,
+      "name": "小澤 知夏",
+      "nameSub": "Ozawa Chinatsu",
+      "position": "",
+      "status": "宮城大学\\n事業構想学群",
+      "image": "ozawa-chinatsu.JPG",
+      "link": "ozawa-chinatsu/"
     }
   },
   "高校生支部": {
@@ -667,8 +677,8 @@
       "index": 1,
       "name": "芦原 佑太",
       "nameSub": "Ashihara Yuta",
-      "position": "社会人支部　代表",
-      "status": "",
+      "position": "幹部",
+      "status": "株式会社Glia Computing",
       "image": "ashihara-yuta.jpg",
       "link": "ashihara-yuta/"
     },
