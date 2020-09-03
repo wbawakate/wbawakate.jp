@@ -1,4 +1,18 @@
 @include with-page("event") {
+  .archive-link {
+    display: block;
+
+    margin: 0 auto;
+    margin-top: px(20);
+
+    width: px(960);
+    font-size: px(25);
+
+    .elm-a {
+      color: $font-color;
+    }
+  }
+
   .category-list {
     margin-top: px(30);
 
