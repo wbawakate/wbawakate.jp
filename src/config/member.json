@@ -58,7 +58,7 @@
       "name": "岩渕 広明",
       "nameSub": "Iwabuchi Hiroaki",
       "position": "",
-      "status": "アディッシュ株式会社\n",
+      "status": "アディッシュ株式会社",
       "image": "iwabuchi-hiroaki.jpg",
       "link": "iwabuchi-hiroaki/"
     },
@@ -242,19 +242,9 @@
       "image": "tajiri-kento.jpg",
       "link": "tajiri-kento/"
     },
-    "ishizuka-tomoko": {
-      "id": "ishizuka-tomoko",
-      "index": 20,
-      "name": "石塚 友子",
-      "nameSub": "Ishizuka Tomoko",
-      "position": "",
-      "status": "中央大学\n経済学部",
-      "image": "ishizuka-tomoko.jpg",
-      "link": "ishizuka-tomoko/"
-    },
     "sato-kazune": {
       "id": "sato-kazune",
-      "index": 21,
+      "index": 20,
       "name": "佐藤 和音",
       "nameSub": "Sato Kazune",
       "position": "",
@@ -264,7 +254,7 @@
     },
     "nagata-shohei": {
       "id": "nagata-shohei",
-      "index": 22,
+      "index": 21,
       "name": "永田 祥平",
       "nameSub": "Nagata Shohei",
       "position": "",
@@ -274,7 +264,7 @@
     },
     "momose-kanna": {
       "id": "momose-kanna",
-      "index": 23,
+      "index": 22,
       "name": "百瀬 莞那",
       "nameSub": "Momose Kanna",
       "position": "",
@@ -284,7 +274,7 @@
     },
     "ueda-ryo": {
       "id": "ueda-ryo",
-      "index": 24,
+      "index": 23,
       "name": "上田 遼",
       "nameSub": "Ueda Ryo",
       "position": "",
@@ -294,7 +284,7 @@
     },
     "fukuda-satoko": {
       "id": "fukuda-satoko",
-      "index": 25,
+      "index": 24,
       "name": "福田 聡子",
       "nameSub": "Fukuda Satoko",
       "position": "",
@@ -304,7 +294,7 @@
     },
     "kinoshita-yutaro": {
       "id": "kinoshita-yutaro",
-      "index": 26,
+      "index": 25,
       "name": "木下 裕太郎",
       "nameSub": "Kinoshita Yutaro",
       "position": "主務",
@@ -314,7 +304,7 @@
     },
     "ihara-takumi": {
       "id": "ihara-takumi",
-      "index": 27,
+      "index": 26,
       "name": "猪原 拓実",
       "nameSub": "Ihara Takumi",
       "position": "",
@@ -324,7 +314,7 @@
     },
     "minai-yuki": {
       "id": "minai-yuki",
-      "index": 28,
+      "index": 27,
       "name": "南井 優希",
       "nameSub": "Yuki Minai",
       "position": "",
@@ -334,7 +324,7 @@
     },
     "fukuchi-akihiko": {
       "id": "fukuchi-akihiko",
-      "index": 29,
+      "index": 28,
       "name": "福地 成彦",
       "nameSub": "Fukuchi Akihiko",
       "position": "",
@@ -344,7 +334,7 @@
     },
     "fukawa-ayako": {
       "id": "fukawa-ayako",
-      "index": 30,
+      "index": 29,
       "name": "布川 絢子",
       "nameSub": "Ayako Fukawa",
       "position": "",
@@ -354,7 +344,7 @@
     },
     "konno-daichi": {
       "id": "konno-daichi",
-      "index": 31,
+      "index": 30,
       "name": "紺野 大地",
       "nameSub": "Daichi Konno",
       "position": "",
@@ -364,7 +354,7 @@
     },
     "nakata-yasufumi": {
       "id": "nakata-yasufumi",
-      "index": 32,
+      "index": 31,
       "name": "中田 康史",
       "nameSub": "Nakata Yasufumi",
       "position": "",
@@ -374,7 +364,7 @@
     },
     "yanase-yui": {
       "id": "yanase-yui",
-      "index": 33,
+      "index": 32,
       "name": "柳瀬 由衣",
       "nameSub": "Yanase Yui",
       "position": "",
@@ -384,7 +374,7 @@
     },
     "ogawa-yuta": {
       "id": "ogawa-yuta",
-      "index": 34,
+      "index": 33,
       "name": "小川 裕太",
       "nameSub": "Ogawa Yuta",
       "position": "",
@@ -394,7 +384,7 @@
     },
     "yamasaki-maho": {
       "id": "yamasaki-maho",
-      "index": 36,
+      "index": 34,
       "name": "山﨑 真穂",
       "nameSub": "Yamasaki Maho",
       "position": "",
