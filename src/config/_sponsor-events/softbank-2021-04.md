@@ -38,5 +38,5 @@ https://recruit.softbank.jp/graduate/special/careerlive/?utm_source=gakusei&utm_
 ご応募お待ちしております！
 
 ◆お問い合わせ
-　ソフトバンク2022新卒採用窓口<mb-22recruit@g.softbank.co.jp>
+　ソフトバンク2022新卒採用窓口 mb-22recruit@g.softbank.co.jp
 ```
