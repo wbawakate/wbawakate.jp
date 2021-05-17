@@ -782,19 +782,9 @@
       "image": "kameda-shigeyuki.jpg",
       "link": "kameda-shigeyuki/"
     },
-    "endo-taichiro": {
-      "id": "endo-taichiro",
-      "index": 13,
-      "name": "遠藤 太一郎",
-      "nameSub": "Endo Taichiro",
-      "position": "",
-      "status": "",
-      "image": "endo-taichiro.jpg",
-      "link": "endo-taichiro/"
-    },
     "moriyama-naoto": {
       "id": "moriyama-naoto",
-      "index": 14,
+      "index": 13,
       "name": "森山 直人",
       "nameSub": "Moriyama Naoto",
       "position": "",
@@ -804,7 +794,7 @@
     },
     "sasaki-atsushi": {
       "id": "sasaki-atsushi",
-      "index": 15,
+      "index": 14,
       "name": "佐々木 淳",
       "nameSub": "Sasaki Atsushi",
       "position": "",
@@ -814,7 +804,7 @@
     },
     "shiraki-yoshihiko": {
       "id": "shiraki-yoshihiko",
-      "index": 16,
+      "index": 15,
       "name": "白木 義彦",
       "nameSub": "Shiraki Yoshihiko",
       "position": "",
@@ -824,7 +814,7 @@
     },
     "yabe-yoko": {
       "id": "yabe-yoko",
-      "index": 17,
+      "index": 16,
       "name": "矢部 陽子",
       "nameSub": "Yabe Yoko",
       "position": "",
@@ -834,7 +824,7 @@
     },
     "ozawa-kensuke": {
       "id": "ozawa-kensuke",
-      "index": 18,
+      "index": 17,
       "name": "小澤 健祐",
       "nameSub": "Ozawa Kensuke",
       "position": "",
@@ -844,7 +834,7 @@
     },
     "sasaki-kosuke": {
       "id": "sasaki-kosuke",
-      "index": 19,
+      "index": 18,
       "name": "佐々木 康輔",
       "nameSub": "Kosuke Sasaki",
       "position": "",
