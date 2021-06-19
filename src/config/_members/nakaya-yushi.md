@@ -1,5 +1,5 @@
 ---
-id: "yushi-nakaya"
+id: "nakaya-yushi"
 name: 中屋 悠資
 nameSub: Yushi Nakaya
 facebook: "https://www.facebook.com/yushi.nakaya"
