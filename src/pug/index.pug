@@ -106,7 +106,7 @@ block content-block
           each news in newsArr
             time.time= news.time
             .update!= news.update
-            
+
         .wba-button.btn-more
           a.elm-a(href=`${rootPath}sponsor-event/`)
             | More
@@ -117,14 +117,10 @@ block content-block
           | Sponsor
         h4.sub-heading
           | 協賛企業
-    
+
         ul.sponsor-list
           each s in sponsor
             li.sponsor-item
               a.elm-a(href= s.url, target="blank")
                 .image
                   img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
-
-        .wba-link.link-join
-          a.elm-a(href=`${rootPath}contact/`)
-            | &gt;&gt; 協賛希望の企業様はこちら
