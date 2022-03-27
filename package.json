@@ -44,7 +44,7 @@
     "jquery": "^3.4.0",
     "lodash": "^4.17.15",
     "moment": "^2.19.3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "read-config": "^2.0.0",
     "reset.css": "^2.0.2",
     "rimraf": "^3.0.0",
