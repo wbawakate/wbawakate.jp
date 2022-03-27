@@ -6,7 +6,7 @@
       "name": "八木 拓真",
       "nameSub": "Yagi Takuma",
       "position": "代表・関東支部代表",
-      "status": "東京大学大学院\n博士2年",
+      "status": "東京大学大学院",
       "image": "yagi-takuma.jpg",
       "link": "yagi-takuma/"
     },
@@ -46,7 +46,7 @@
       "name": "前  あすか",
       "nameSub": "Mae Asuka",
       "position": "主務",
-      "status": "慶應義塾大学\n学部4年",
+      "status": "",
       "image": "mae-asuka.jpg",
       "link": "mae-asuka/"
     }
@@ -78,7 +78,7 @@
       "name": "妹尾 卓磨",
       "nameSub": "Seno Takuma",
       "position": "",
-      "status": "慶應義塾大学大学院\n修士2年",
+      "status": "慶應義塾大学大学院",
       "image": "seno-takuma.jpg",
       "link": "seno-takuma/"
     },
@@ -88,7 +88,7 @@
       "name": "松森 匠哉",
       "nameSub": "Matsumori Shoya",
       "position": "",
-      "status": "慶應義塾大学大学院\n修士2年",
+      "status": "慶應義塾大学大学院",
       "image": "matsumori-shoya.jpg",
       "link": "matsumori-shoya/"
     },
@@ -158,7 +158,7 @@
       "name": "奥岡 耕平",
       "nameSub": "Okuoka Kohei",
       "position": "",
-      "status": "慶應義塾大学大学院\n理工学研究科修士2年",
+      "status": "慶應義塾大学大学院",
       "image": "okuoka-kohei.jpg",
       "link": "okuoka-kohei/"
     },
@@ -378,19 +378,9 @@
       "name": "小川 裕太",
       "nameSub": "Ogawa Yuta",
       "position": "",
-      "status": "日本大学文理学部3年\n大澤研究室",
+      "status": "日本大学文理学部4年\n大澤研究室",
       "image": "ogawa-yuta.jpeg",
       "link": "ogawa-yuta/"
-    },
-    "yamasaki-maho": {
-      "id": "yamasaki-maho",
-      "index": 34,
-      "name": "山﨑 真穂",
-      "nameSub": "Yamasaki Maho",
-      "position": "",
-      "status": "多摩美術大学生産デザイン学科プロダクトデザイン専攻",
-      "image": "yamasaki-maho.jpg",
-      "link": "yamasaki-maho/"
     }
   },
   "関西支部": {
@@ -400,7 +390,7 @@
       "name": "清丸 寛一",
       "nameSub": "Kiyomaru Hirokazu",
       "position": "関西支部代表",
-      "status": "京都大学大学院\n博士1年",
+      "status": "京都大学大学院",
       "image": "kiyomaru-hirokazu.jpg",
       "link": "kiyomaru-hirokazu/"
     },
@@ -410,7 +400,7 @@
       "name": "西田 圭吾",
       "nameSub": "Nishida Keigo",
       "position": "関西支部幹部",
-      "status": "大阪大学大学院\n博士後期課程2年",
+      "status": "大阪大学大学院",
       "image": "nishida-keigo.jpg",
       "link": "nishida-keigo/"
     },
@@ -420,7 +410,7 @@
       "name": "上乃 聖",
       "nameSub": "Ueno Sei",
       "position": "",
-      "status": "京都大学大学院\n博士1年",
+      "status": "京都大学大学院",
       "image": "ueno-sei.jpg",
       "link": "ueno-sei/"
     },
@@ -460,7 +450,7 @@
       "name": "伊藤 健史",
       "nameSub": "Itoh Takeshi",
       "position": "",
-      "status": "奈良先端科学技術大学院大学\n情報科学研究科博士1年",
+      "status": "奈良先端科学技術大学院大学\n情報科学研究科",
       "image": "itoh-takeshi.jpg",
       "link": "itoh-takeshi/"
     },
@@ -470,7 +460,7 @@
       "name": "富田 風太",
       "nameSub": "Tomita Futa",
       "position": "",
-      "status": "大阪大学大学院\n修士2年",
+      "status": "",
       "image": "tomita-futa.jpg",
       "link": "tomita-futa/"
     },
@@ -480,7 +470,7 @@
       "name": "本田 純基",
       "nameSub": "Honda Atsuki",
       "position": "",
-      "status": "立命館大学\n総合心理学部3年",
+      "status": "",
       "image": "honda-atsuki.jpg",
       "link": "honda-atsuki/"
     },
@@ -490,7 +480,7 @@
       "name": "原 彰良",
       "nameSub": "Hara Akiyoshi",
       "position": "関西支部幹部",
-      "status": "大阪大学大学院\n修士2年",
+      "status": "大阪大学大学院",
       "image": "hara-akiyoshi.jpg",
       "link": "hara-akiyoshi/"
     },
@@ -500,7 +490,7 @@
       "name": "堀部 和也",
       "nameSub": "Horibe Kazuya",
       "position": "",
-      "status": "大阪大学大学院\n博士後期課程2年",
+      "status": "",
       "image": "horibe-kazuya.jpg",
       "link": "horibe-kazuya/"
     },
@@ -522,7 +512,7 @@
       "name": "本田 真久",
       "nameSub": "Honda Masahisa",
       "position": "九州支部代表",
-      "status": "北九州市立大学大学院\n修士2年",
+      "status": "",
       "image": "honda-masahisa.jpg",
       "link": "honda-masahisa/"
     },
@@ -544,7 +534,7 @@
       "name": "中屋 悠資",
       "nameSub": "Nakaya Yushi",
       "position": "東北支部 代表",
-      "status": "東北大学\n工学部3年",
+      "status": "東北大学\n大学院工学研究科",
       "image": "nakaya-yushi.jpg",
       "link": "nakaya-yushi/"
     },
@@ -554,7 +544,7 @@
       "name": "美濃 佑輝",
       "nameSub": "Minoh Yuki",
       "position": "東北支部 幹部",
-      "status": "東北大学\n教育学部2年",
+      "status": "東北大学\n教育学部",
       "image": "no-image.jpg",
       "link": "minoh-yuki/"
     },
@@ -564,7 +554,7 @@
       "name": "高橋 佑輔",
       "nameSub": "takahashi yusuke",
       "position": "",
-      "status": "東北大学工学部\n学部3年",
+      "status": "東北大学工学部\n学部",
       "image": "takahashi-yusuke.jpg",
       "link": "takahashi-yusuke/"
     },
@@ -574,7 +564,7 @@
       "name": "深水 一聖",
       "nameSub": "Fukamizu Issei",
       "position": "",
-      "status": "東北大学\n工学部2年",
+      "status": "東北大学\n工学部",
       "image": "no-image.jpg",
       "link": "fukamizu-issei/"
     },
@@ -584,7 +574,7 @@
       "name": "大隅 拓海",
       "nameSub": "Ohsumi Takumi",
       "position": "",
-      "status": "東北大学\n理学部1年",
+      "status": "東北大学\n理学部",
       "image": "no-image.jpg",
       "link": "ohsumi-takumi/"
     },
@@ -594,7 +584,7 @@
       "name": "澤谷 一磨",
       "nameSub": "Sawaya Kazuma",
       "position": "",
-      "status": "東北大学\n経済学部2年",
+      "status": "東北大学\n経済学部",
       "image": "no-image.jpg",
       "link": "sawaya-kazuma/"
     },
@@ -604,7 +594,7 @@
       "name": "木村 昴",
       "nameSub": "kimura subaru",
       "position": "",
-      "status": "東北大工学部3年",
+      "status": "東北大工学部",
       "image": "kimura-subaru.jpeg",
       "link": "kimura-subaru/"
     },
@@ -614,7 +604,7 @@
       "name": "榎本 順一",
       "nameSub": "Enomoto Junichi",
       "position": "",
-      "status": "東北大学理学部\n学部4年",
+      "status": "東北大学理学部\n学部",
       "image": "enomoto-junichi.jpg",
       "link": "enomoto-junichi/"
     },
@@ -624,41 +614,9 @@
       "name": "小澤 知夏",
       "nameSub": "Ozawa Chinatsu",
       "position": "",
-      "status": "宮城大学\\n事業構想学群",
+      "status": "宮城大学\n事業構想学群",
       "image": "ozawa-chinatsu.JPG",
       "link": "ozawa-chinatsu/"
-    }
-  },
-  "高校生支部": {
-    "okai-motohiro": {
-      "id": "okai-motohiro",
-      "index": 1,
-      "name": "岡井 基紘",
-      "nameSub": "Okai Motohiro",
-      "position": "高校生支部 代表",
-      "status": "暁星高等学校3年",
-      "image": "okai-motohiro.jpg",
-      "link": "okai-motohiro/"
-    },
-    "ohata-yu": {
-      "id": "ohata-yu",
-      "index": 2,
-      "name": "大畑 幸風",
-      "nameSub": "Ohata Yu",
-      "position": "高校生支部 副代表",
-      "status": "品川女子学院3年",
-      "image": "ohata-yu.jpg",
-      "link": "ohata-yu/"
-    },
-    "takahashi-reo": {
-      "id": "takahashi-reo",
-      "index": 3,
-      "name": "高橋 怜央",
-      "nameSub": "Takahashi Reo",
-      "position": "高校生支部",
-      "status": "品川女子学院3年",
-      "image": "takahashi-reo.jpg",
-      "link": "takahashi-reo/"
     }
   },
   "社会人支部": {
@@ -977,6 +935,36 @@
       "status": "",
       "image": "no-image.jpg",
       "link": "komatsu-masatoshi/"
+    },
+    "okai-motohiro": {
+      "id": "okai-motohiro",
+      "index": 8,
+      "name": "岡井 基紘",
+      "nameSub": "Okai Motohiro",
+      "position": "",
+      "status": "",
+      "image": "okai-motohiro.jpg",
+      "link": "okai-motohiro/"
+    },
+    "ohata-yu": {
+      "id": "ohata-yu",
+      "index": 9,
+      "name": "大畑 幸風",
+      "nameSub": "Ohata Yu",
+      "position": "",
+      "status": "",
+      "image": "ohata-yu.jpg",
+      "link": "ohata-yu/"
+    },
+    "takahashi-reo": {
+      "id": "takahashi-reo",
+      "index": 10,
+      "name": "高橋 怜央",
+      "nameSub": "Takahashi Reo",
+      "position": "",
+      "status": "",
+      "image": "takahashi-reo.jpg",
+      "link": "takahashi-reo/"
     }
   }
 }
