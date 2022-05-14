@@ -1,34 +1,4 @@
 {
   "sheet": {
-    "necsolution": {
-      "id": "necsolution",
-      "name": "NECソリューションズイノベータ株式会社",
-      "url": "https://www.nec-solutioninnovators.co.jp/",
-      "image": "c_name-vert.png"
-    },
-    "softbank": {
-      "id": "softbank",
-      "name": "ソフトバンク",
-      "url": "http://www.softbank.jp/",
-      "image": "softbank.png"
-    },
-    "adish": {
-      "id": "adish",
-      "name": "アディッシュ株式会社",
-      "url": "http://www.adish.co.jp/",
-      "image": "adish.png"
-    },
-    "fronteo": {
-      "id": "fronteo",
-      "name": "FRONTEO",
-      "url": "http://www.fronteo.com/",
-      "image": "fronteo.png"
-    },
-    "aninnovation": {
-      "id": "aninnovation",
-      "name": "株式会社アニノベーション",
-      "url": "http://aninnovation.co.jp/",
-      "image": "aninnovation.png"
-    }
   }
 }
