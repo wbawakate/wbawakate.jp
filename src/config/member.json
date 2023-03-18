@@ -550,7 +550,7 @@
     },
     "takahashi-yusuke": {
       "id": "takahashi-yusuke",
-      "index": 9,
+      "index": 8,
       "name": "高橋 佑輔",
       "nameSub": "takahashi yusuke",
       "position": "",
@@ -598,19 +598,9 @@
       "image": "kimura-subaru.jpeg",
       "link": "kimura-subaru/"
     },
-    "enomoto-junichi": {
-      "id": "enomoto-junichi",
-      "index": 8,
-      "name": "榎本 順一",
-      "nameSub": "Enomoto Junichi",
-      "position": "",
-      "status": "東北大学理学部\n学部",
-      "image": "enomoto-junichi.jpg",
-      "link": "enomoto-junichi/"
-    },
     "ozawa-chinatsu": {
       "id": "ozawa-chinatsu",
-      "index": 10,
+      "index": 9,
       "name": "小澤 知夏",
       "nameSub": "Ozawa Chinatsu",
       "position": "",
