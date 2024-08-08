@@ -41,6 +41,9 @@ jobs:
     # This is based on your 1.0 configuration file or project settings
     - run:
         working_directory: ~/wbawakate/wbawakate.jp
+        command: nvm install 20.16.0 && nvm alias default 20.16.0
+    - run:
+        working_directory: ~/wbawakate/wbawakate.jp
         command: 'echo ''Asia/Tokyo'' | sudo tee -a /etc/timezone; sudo dpkg-reconfigure
           -f noninteractive tzdata; sudo service mysql restart; sudo service postgresql
           restart; '
