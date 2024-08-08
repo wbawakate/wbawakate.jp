@@ -3,6 +3,6 @@
  * ネームスペース以下の変数にアクセスしたいときは各クラスでこれをimportする
  */
 
-window.Wba = window.Wba || {};
-const ns = window.Wba;
-export default ns;
+window.Wba = window.Wba || {}
+const ns = window.Wba
+export default ns
