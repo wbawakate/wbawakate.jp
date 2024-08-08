@@ -6,7 +6,7 @@ prepend config-block
 append config-block
   - pageId = 'event'
   - rootPath = '../'
-  - url = `${settings.url}event/`
+  - url = `${settings?.url ?? '/'}event/`
   -
     breadcrumbArr = [
       {
@@ -44,15 +44,16 @@ block content-block
                 | 未来ラウンジ
 
       .event-list
-        - eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
-        //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date))
-        - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
-        each event in eventArr
-          .event-item(data-date= event.date, data-type= event.type)
-            a(href=`${rootPath}event/${event.link}`)
-              .event
-                - image = event.image || 'default.jpg'
-                .image
-                  img(src=`${rootPath}img/event/thumb/${image}`, alt= event.name)
-                .name
-                  = event.name
+        if events
+          - eventArr = lodash.values(events).reduce((p, c) => p.concat(c), []);
+          //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date))
+          - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
+          each event in eventArr
+            .event-item(data-date= event.date, data-type= event.type)
+              a(href=`${rootPath}event/${event.link}`)
+                .event
+                  - image = event.image || 'default.jpg'
+                  .image
+                    img(src=`${rootPath}img/event/thumb/${image}`, alt= event.name)
+                  .name
+                    = event.name

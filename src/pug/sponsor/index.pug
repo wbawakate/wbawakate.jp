@@ -6,7 +6,7 @@ prepend config-block
 append config-block
   - pageId = 'sponsor'
   - rootPath = '../'
-  - url = `${settings.url}sponsor/`
+  - url = `${settings?.url ?? '/'}sponsor/`
   -
     breadcrumbArr = [
       {
@@ -19,8 +19,9 @@ block content-block
     .front-block
 
       .sponsor-list
-        each s in sponsor
-          .sponsor-item
-            a(href= s.url, target="blank")
-              .image
-                img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
+        if sponsor
+          each s in sponsor
+            .sponsor-item
+              a(href= s.url, target="blank")
+                .image
+                  img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)

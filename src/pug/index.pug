@@ -42,19 +42,20 @@ block content-block
           | 活動報告
 
         .event-list
-          - eventArr = _.values(events).reduce((p, c) => p.concat(c), []);
-          //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date));
-          - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
-          - for (i = 0; i < 4; i++) {
-            - event = eventArr[i]
-              .event-item
-                a(href=`${rootPath}event/${event.link}`)
-                  .event(data-type= event.type)
-                    .image
-                      img.elm-img(src=`${rootPath}img/event/thumb/${event.image || 'default.jpg'}`, alt= event.name)
-                    .name
-                      = event.name
-          - }
+          if events
+            - eventArr = lodash.values(events).reduce((p, c) => p.concat(c), []);
+            //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date));
+            - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
+            - for (i = 0; i < 4; i++) {
+              - event = eventArr[i]
+                .event-item
+                  a(href=`${rootPath}event/${event.link}`)
+                    .event(data-type= event.type)
+                      .image
+                        img.elm-img(src=`${rootPath}img/event/thumb/${event.image || 'default.jpg'}`, alt= event.name)
+                      .name
+                        = event.name
+            - }
 
         .wba-button.btn-more
           a.elm-a(href=`${rootPath}event/`)
@@ -68,19 +69,20 @@ block content-block
           | スポンサーイベント
 
         .sponsor-event-list
-          - eventArr = _.values(sponsorEvents).reduce((p, c) => p.concat(c), []);
-          //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date));
-          - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
-          - for (i = 0; i < 4; i++) {
-            - event = eventArr[i]
-              .sponsor-event-item
-                a(href=`${rootPath}sponsor-event/${event.link}`)
-                  .sponsor-event
-                    .image
-                      img.elm-img(src=`${rootPath}img/sponsor-event/${event.image}`, alt= event.name)
-                    .name
-                      = event.subject
-          - }
+          if sponsorEvents
+            - eventArr = lodash.values(sponsorEvents).reduce((p, c) => p.concat(c), []);
+            //- - eventArr.sort((a, b) => moment(b.date) - moment(a.date));
+            - eventArr.sort((a, b) => parseInt(b.index) - parseInt(a.index))
+            - for (i = 0; i < 4; i++) {
+              - event = eventArr[i]
+                .sponsor-event-item
+                  a(href=`${rootPath}sponsor-event/${event.link}`)
+                    .sponsor-event
+                      .image
+                        img.elm-img(src=`${rootPath}img/sponsor-event/${event.image}`, alt= event.name)
+                      .name
+                        = event.subject
+            - }
 
     section.sec-promotion-video
       .front-block
@@ -103,9 +105,10 @@ block content-block
             | も併せてご覧ください。
 
         ul.news-list.hover-effect
-          each news in newsArr
-            time.time= news.time
-            .update!= news.update
+          if newsArr
+            each news in newsArr
+              time.time= news.time
+              .update!= news.update
 
         .wba-button.btn-more
           a.elm-a(href=`${rootPath}sponsor-event/`)
@@ -119,8 +122,9 @@ block content-block
           | 協賛企業
 
         ul.sponsor-list
-          each s in sponsor
-            li.sponsor-item
-              a.elm-a(href= s.url, target="blank")
-                .image
-                  img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)
+          if sponsor
+            each s in sponsor
+              li.sponsor-item
+                a.elm-a(href= s.url, target="blank")
+                  .image
+                    img.elm-img(src= `${rootPath}img/sponsor/${s.image}`, alt= s.name)

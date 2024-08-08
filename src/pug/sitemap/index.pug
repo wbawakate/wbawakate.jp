@@ -6,7 +6,7 @@ prepend config-block
 append config-block
   - pageId = 'sitemap'
   - rootPath = '../'
-  - url = `${settings.url}sitemap/`
+  - url = `${settings?.url ?? '/'}sitemap/`
   -
     breadcrumbArr = [
       {
@@ -54,14 +54,15 @@ block content-block
             title: 'Member',
           })
           ul.list
-            each branch in members
-              each member in branch
-                if member.link
-                  li.item
-                    +site-item({
-                      href: `${rootPath}member/${member.link}`,
-                      title: member.name,
-                    })
+            if members
+              each branch in members
+                each member in branch
+                  if member.link
+                    li.item
+                      +site-item({
+                        href: `${rootPath}member/${member.link}`,
+                        title: member.name,
+                      })
 
         li.item
           +site-item({
@@ -69,12 +70,13 @@ block content-block
             title: 'Event',
           })
           ul.list
-            each event in events
-              li.item
-                +site-item({
-                  href: `${rootPath}event/${event.link}`,
-                  title: event.name,
-                })
+            if events
+              each event in events
+                li.item
+                  +site-item({
+                    href: `${rootPath}event/${event.link}`,
+                    title: event.name,
+                  })
 
         li.item
           +site-item({
@@ -82,12 +84,13 @@ block content-block
             title: 'SponsorEvent',
           })
           ul.list
-            each event in sponsorEvents
-              li.item
-                +site-item({
-                  href: `${rootPath}sponsor-event/${event.link}`,
-                  title: event.subject,
-                })
+            if sponsorEvents
+              each event in sponsorEvents
+                li.item
+                  +site-item({
+                    href: `${rootPath}sponsor-event/${event.link}`,
+                    title: event.subject,
+                  })
 
         li.item
           +site-item({
