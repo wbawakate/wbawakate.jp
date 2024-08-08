@@ -62,6 +62,8 @@ jobs:
     # This is based on your 1.0 configuration file or project settings
     - run: npm install
     # - run: sudo pip install -vvv awscli==1.19.40
+    - run: sudo apt update
+    - run: sudo apt upgrade
     - run: sudo apt install python3.10-venv
     - run: curl "https://s3.amazonaws.com/aws-cli/awscli-bundle-1.19.40.zip" -o "awscli-bundle.zip"
     - run: unzip awscli-bundle.zip
