@@ -227,7 +227,11 @@ const taskHtml = done => {
     task()
     done()
 }
-const taskHtmlTest = _ => gulp.series(taskPug, taskRedirect)
+const taskHtmlTest = done => {
+    const task = gulp.series(taskPug, taskRedirect)
+    task()
+    done()
+}
 
 const taskBrowserSync = done => {
     browserSync({
