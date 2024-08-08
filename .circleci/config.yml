@@ -51,12 +51,12 @@ jobs:
         - v1-dep-
     # This is based on your 1.0 configuration file or project settings
     - run:
-      name: Install NVM
-      command: |
-        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-        export NVM_DIR="$HOME/.nvm"
-        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-        nvm install 20.16.0
+        name: Install NVM
+        command: |
+            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            nvm install 20.16.0
     - run: node --version
     - run: npm --version
     # This is based on your 1.0 configuration file or project settings
