@@ -3,12 +3,6 @@
 // ==========================================================================
 
 // basic
-@mixin mq($env) {
-  @include mq-#{$env} {
-    @content;
-  }
-}
-
 @mixin mq-all {
   html & {
     @content;
