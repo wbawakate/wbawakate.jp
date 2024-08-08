@@ -27,7 +27,7 @@ jobs:
     # To see the list of pre-built images that CircleCI provides for most common languages see
     # https://circleci.com/docs/2.0/circleci-images/
     docker:
-    - image: cimg/deploy:2024.03.1-node
+    - image: cimg/python:3.12
     #  command: /sbin/init
     steps:
     # Machine Setup
@@ -38,12 +38,6 @@ jobs:
     # In many cases you can simplify this from what is generated here.
     # 'See docs on artifact collection here https://circleci.com/docs/2.0/artifacts/'
     - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
-    # This is based on your 1.0 configuration file or project settings
-    - run:
-        working_directory: ~/wbawakate/wbawakate.jp
-        command: 'echo ''Asia/Tokyo'' | sudo tee -a /etc/timezone; sudo dpkg-reconfigure
-          -f noninteractive tzdata; sudo service mysql restart; sudo service postgresql
-          restart; '
     # Dependencies
     #   This would typically go in either a build or a build-and-test job when using workflows
     # Restore the dependency cache
@@ -56,6 +50,13 @@ jobs:
         # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
         - v1-dep-
     # This is based on your 1.0 configuration file or project settings
+    - run:
+      name: Install NVM
+      command: |
+        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+        export NVM_DIR="$HOME/.nvm"
+        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+        nvm install 20.16.0
     - run: node --version
     - run: npm --version
     # This is based on your 1.0 configuration file or project settings
