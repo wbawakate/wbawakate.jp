@@ -55,9 +55,9 @@ jobs:
     # This is based on your 1.0 configuration file or project settings
     - run: npm install
     # - run: sudo pip install -vvv awscli==1.19.40
-    # - run: curl "https://s3.amazonaws.com/aws-cli/awscli-bundle-1.19.40.zip" -o "awscli-bundle.zip"
-    # - run: unzip awscli-bundle.zip
-    # - run: sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+    - run: curl "https://s3.amazonaws.com/aws-cli/awscli-bundle-1.19.40.zip" -o "awscli-bundle.zip"
+    - run: unzip awscli-bundle.zip
+    - run: sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
     # This is based on your 1.0 configuration file or project settings
     - run: aws configure set region ap-northeast-1
     # Save dependency cache
