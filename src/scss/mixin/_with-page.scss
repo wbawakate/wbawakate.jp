@@ -1,5 +1,0 @@
-@mixin with-page($pageId) {
-  body[data-page-id="#{$pageId}"] {
-    @content;
-  }
-}
