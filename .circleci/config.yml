@@ -27,7 +27,7 @@ jobs:
     # To see the list of pre-built images that CircleCI provides for most common languages see
     # https://circleci.com/docs/2.0/circleci-images/
     docker:
-    - image: cimg/python:3.12
+    - image: cimg/deploy:2024.03-node
     #  command: /sbin/init
     steps:
     # Machine Setup
