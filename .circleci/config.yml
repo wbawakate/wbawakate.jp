@@ -59,10 +59,9 @@ jobs:
         # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
         - v1-dep-
     # This is based on your 1.0 configuration file or project settings
-    - run: yarn --version
+    - run: npm --version
     # This is based on your 1.0 configuration file or project settings
-    - run: yarn install
-    - run: npm rebuild node-sass
+    - run: npm install
     # - run: sudo pip install -vvv awscli==1.19.40
     - run: curl "https://s3.amazonaws.com/aws-cli/awscli-bundle-1.19.40.zip" -o "awscli-bundle.zip"
     - run: unzip awscli-bundle.zip
@@ -84,12 +83,11 @@ jobs:
         - ~/.gradle
         - ~/.cache/bower
         # These cache paths were specified in the 1.0 config
-        - ~/.cache/yarn
         - ./node_modules
     # Test
     #   This would typically be a build job when using workflows, possibly combined with build
     # This is based on your 1.0 configuration file or project settings
-    - run: yarn test
+    - run: npm run test
     # Deployment
     # Your existing circle.yml file contains deployment steps.
     # The config translation tool does not support translating deployment steps
@@ -100,18 +98,18 @@ jobs:
         command: |
           if [ "${CIRCLE_BRANCH}" == "master" ]; then
             eval `ssh-agent` && ssh-add ~/.ssh/id_rsa*
-            yarn build
+            npm run build
             aws s3 sync docs/ s3://wbawakate.jp/ --delete
             aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths /\*
           fi
           if [ "${CIRCLE_BRANCH}" == "staging" ]; then
             eval `ssh-agent` && ssh-add ~/.ssh/id_rsa*
-            yarn build
+            npm run build
             aws s3 sync docs/ s3://stg.wbawakate.jp/ --delete
             aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths /\*
           fi
           if [ "${CIRCLE_BRANCH}" == "develop" ]; then
-            yarn build
+            npm run build
             git config --global user.name "circleci"
             git config --global user.email "circleci@chatbox-inc.com"
             git rm .gitignore
