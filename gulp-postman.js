@@ -5,7 +5,7 @@ import gulp from 'gulp'
 import through from 'through2'
 import gutil from 'gulp-util'
 import frontMatter from 'gulp-front-matter'
-import { marked } from 'marked'
+import marked from 'marked'
 import lodash from 'lodash'
 
 const PLUGIN_NAME = 'gulp-postman';
