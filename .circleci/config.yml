@@ -27,7 +27,7 @@ jobs:
     # To see the list of pre-built images that CircleCI provides for most common languages see
     # https://circleci.com/docs/2.0/circleci-images/
     docker:
-    - image: circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
+    - image: cimg/deploy:2024.03-node
     #  command: /sbin/init
     steps:
     # Machine Setup
@@ -38,15 +38,6 @@ jobs:
     # In many cases you can simplify this from what is generated here.
     # 'See docs on artifact collection here https://circleci.com/docs/2.0/artifacts/'
     - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
-    # This is based on your 1.0 configuration file or project settings
-    - run:
-        working_directory: ~/wbawakate/wbawakate.jp
-        command: nvm install 10.16.3 && nvm alias default 10.16.3
-    - run:
-        working_directory: ~/wbawakate/wbawakate.jp
-        command: 'echo ''Asia/Tokyo'' | sudo tee -a /etc/timezone; sudo dpkg-reconfigure
-          -f noninteractive tzdata; sudo service mysql restart; sudo service postgresql
-          restart; '
     # Dependencies
     #   This would typically go in either a build or a build-and-test job when using workflows
     # Restore the dependency cache
@@ -59,11 +50,21 @@ jobs:
         # Any branch if there are none on the default branch - this should be unnecessary if you have your default branch configured correctly
         - v1-dep-
     # This is based on your 1.0 configuration file or project settings
-    - run: yarn --version
+    - run:
+        name: Install NVM
+        command: |
+            curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            nvm install 20.16.0
+    - run: node --version
+    - run: npm --version
     # This is based on your 1.0 configuration file or project settings
-    - run: yarn install
-    - run: npm rebuild node-sass
+    - run: npm install
     # - run: sudo pip install -vvv awscli==1.19.40
+    - run: sudo apt update
+    - run: sudo apt upgrade
+    - run: sudo apt install python3.10-venv
     - run: curl "https://s3.amazonaws.com/aws-cli/awscli-bundle-1.19.40.zip" -o "awscli-bundle.zip"
     - run: unzip awscli-bundle.zip
     - run: sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
@@ -84,12 +85,11 @@ jobs:
         - ~/.gradle
         - ~/.cache/bower
         # These cache paths were specified in the 1.0 config
-        - ~/.cache/yarn
         - ./node_modules
     # Test
     #   This would typically be a build job when using workflows, possibly combined with build
     # This is based on your 1.0 configuration file or project settings
-    - run: yarn test
+    - run: npm run test
     # Deployment
     # Your existing circle.yml file contains deployment steps.
     # The config translation tool does not support translating deployment steps
@@ -100,18 +100,18 @@ jobs:
         command: |
           if [ "${CIRCLE_BRANCH}" == "master" ]; then
             eval `ssh-agent` && ssh-add ~/.ssh/id_rsa*
-            yarn build
+            npm run build
             aws s3 sync docs/ s3://wbawakate.jp/ --delete
             aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths /\*
           fi
           if [ "${CIRCLE_BRANCH}" == "staging" ]; then
             eval `ssh-agent` && ssh-add ~/.ssh/id_rsa*
-            yarn build
+            npm run build
             aws s3 sync docs/ s3://stg.wbawakate.jp/ --delete
             aws cloudfront create-invalidation --distribution-id E2SORUHG1VUJEQ --paths /\*
           fi
           if [ "${CIRCLE_BRANCH}" == "develop" ]; then
-            yarn build
+            npm run build
             git config --global user.name "circleci"
             git config --global user.email "circleci@chatbox-inc.com"
             git rm .gitignore

@@ -1,8 +1,10 @@
 extends /_layout/_default-layout
 
+block config-block
+
 prepend config-block
   -
-    let eventArr = _.values(sponsorEvents).reduce((p, c) => p.concat(c), []);
+    let eventArr = lodash.values(sponsorEvents).reduce((p, c) => p.concat(c), []);
     let event = eventArr.filter(m => m.id === meta.id)[0]
 
     let pageName = meta.subject || event.subject
@@ -35,4 +37,4 @@ block content-block
 
       .body.hover-effect
         +template-option
-        != _.template(unescape(body), templateOption)(params)
+        != lodash.template(unescape(body), templateOption)(params)

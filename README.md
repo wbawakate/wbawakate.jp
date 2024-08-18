@@ -52,11 +52,6 @@ shellから以下のコマンドを実行することで、各種ビルド・タ
 - CSSメタ言語: [Sass(scss)](http://sass-lang.com/)
 - Javascript: [ES2015(ECMAScript 6)](https://babeljs.io/docs/learn-es2015/)
 
-## 対応ブラウザ
-- 各種モダンブラウザ最新バージョン・IE10以上
-  - 対応ブラウザを変更する場合、`src/config/pleeease.json`の`autoprefixer.browsers`を修正することをお忘れなく
-  - またIE8に対応する場合は、jQueryを1系にすることもお忘れなく
-
 ## 依存ライブラリ
 
 `npm install`でインストールされるライブラリ（一部）です。
@@ -65,7 +60,6 @@ shellから以下のコマンドを実行することで、各種ビルド・タ
 - [gulp.js](http://gulpjs.com/)
 - [Babel](https://babeljs.io/)
 - [browserify](http://browserify.org/)
-- [pleeease](http://pleeease.io/)
 - [browser-sync](https://www.browsersync.io/)
 - [jQuery](https://jquery.com/)
 - [Reset CSS](http://meyerweb.com/eric/tools/css/reset/)

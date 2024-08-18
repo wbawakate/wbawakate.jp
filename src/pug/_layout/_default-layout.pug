@@ -3,73 +3,74 @@ include /_mixin/mixin
 block config-block
   - pageId = 'undefined'
   - rootPath = './'
-  - title = pageName ? [pageName, settings.site_name].join(' | ') : settings.site_name
-  - ogp_image_url = settings.ogp_image_url
-  - url = settings.url
+  - title = (pageName ? [pageName, settings?.site_name].join(' | ') : settings?.site_name) ?? ''
+  - ogp_image_url = settings?.ogp_image_url ?? ''
+  - url = settings?.url ?? ''
 
 doctype html
 html(lang="ja")
   head
-    meta(charset="utf-8")
-    // meta
-    title= title
-    if settings.description
-      meta(name="description", content= settings.description)
-    if settings.keywords && settings.keywords.length
-      meta(name="keywords", content= settings.keywords.join ? settings.keywords.join(', ') : settings.keywords)
-    if settings.favicon_url
-      link(rel="shortcut icon", href= settings.favicon_url, type="image/vnd.microsoft.icon")
-      link(rel="icon", href= settings.favicon_url, type="image/vnd.microsoft.icon")
+    if settings
+      meta(charset="utf-8")
+      // meta
+      title= title
+      if settings.description
+        meta(name="description", content= settings.description)
+      if settings.keywords && settings.keywords.length
+        meta(name="keywords", content= settings.keywords.join ? settings.keywords.join(', ') : settings.keywords)
+      if settings.favicon_url
+        link(rel="shortcut icon", href= settings.favicon_url, type="image/vnd.microsoft.icon")
+        link(rel="icon", href= settings.favicon_url, type="image/vnd.microsoft.icon")
 
-    //- IEで「互換モード」で表示されるのを防ぐための指定
-    meta(http-equiv="X-UA-Compatible", content="IE=Edge")
-      
-    // smartphone meta
-    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no")
-    if settings.webclipicon_url
-      meta(name="apple-mobile-web-app-capable", content='yes')
-      meta(name="apple-mobile-web-app-status-bar-style", content= settings.ios_status_bar || 'default')
-      link(rel="apple-touch-icon", href= settings.webclipicon_url)
+      //- IEで「互換モード」で表示されるのを防ぐための指定
+      meta(http-equiv="X-UA-Compatible", content="IE=Edge")
+        
+      // smartphone meta
+      meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no")
+      if settings.webclipicon_url
+        meta(name="apple-mobile-web-app-capable", content='yes')
+        meta(name="apple-mobile-web-app-status-bar-style", content= settings.ios_status_bar || 'default')
+        link(rel="apple-touch-icon", href= settings.webclipicon_url)
 
-    // ogp
-    if settings.facebook_app_id
-      meta(property="fb:app_id", content= settings.facebook_app_id)
-    meta(property="og:url", content= url)
-    if settings.ogp_image_url
-      meta(property="og:image", content= ogp_image_url)
-    if settings.ogp_image_width
-      meta(property="og:image:width", content= settings.ogp_image_width)
-    if settings.ogp_image_height
-      meta(property="og:image:height", content= settings.ogp_image_height)
-    meta(property="og:type", content= settings.ogp_type || "website")
-    meta(property="og:title", content= title)
-    meta(property="og:site_name", content= settings.site_name)
-    meta(property="og:description", content= settings.description)
-    meta(property="og:locale", content= settings.ogp_locale || "ja_JP")
+      // ogp
+      if settings.facebook_app_id
+        meta(property="fb:app_id", content= settings.facebook_app_id)
+      meta(property="og:url", content= url)
+      if settings.ogp_image_url
+        meta(property="og:image", content= ogp_image_url)
+      if settings.ogp_image_width
+        meta(property="og:image:width", content= settings.ogp_image_width)
+      if settings.ogp_image_height
+        meta(property="og:image:height", content= settings.ogp_image_height)
+      meta(property="og:type", content= settings.ogp_type || "website")
+      meta(property="og:title", content= title)
+      meta(property="og:site_name", content= settings.site_name)
+      meta(property="og:description", content= settings.description)
+      meta(property="og:locale", content= settings.ogp_locale || "ja_JP")
 
-    // twitter card
-    meta(property="twitter:card", content=( settings.ogp_image_url ? 'summary_large_image' : 'summary'))
-    meta(property="twitter:title", content= title)
-    meta(property="twitter:description", content= settings.description)
-    if ogp_image_url
-      meta(property="twitter:image", content= ogp_image_url)
-    if twitter_card_owner
-      meta(property="twitter:site", content= settings.twitter_card_owner)
-      meta(property="twitter:creator", content= settings.twitter_card_owner)
+      // twitter card
+      meta(property="twitter:card", content=( settings.ogp_image_url ? 'summary_large_image' : 'summary'))
+      meta(property="twitter:title", content= title)
+      meta(property="twitter:description", content= settings.description)
+      if ogp_image_url
+        meta(property="twitter:image", content= ogp_image_url)
+      if twitter_card_owner
+        meta(property="twitter:site", content= settings.twitter_card_owner)
+        meta(property="twitter:creator", content= settings.twitter_card_owner)
 
-    // canonical url
-    //- このページをはてぶ・シェアする際、使われるべきURLを明示する指定
-    //- wwwやhttps、getパラメータなど、微妙に違うURLでアクセスされても、使われるURLをひとつに絞れる
-    link(rel="canonical" href= url)
+      // canonical url
+      //- このページをはてぶ・シェアする際、使われるべきURLを明示する指定
+      //- wwwやhttps、getパラメータなど、微妙に違うURLでアクセスされても、使われるURLをひとつに絞れる
+      link(rel="canonical" href= url)
 
-    script(src=`${rootPath}js/ua-switch.js`)
+      script(src=`${rootPath}js/ua-switch.js`)
 
-    // stylesheet
-    block stylesheet-block
-      link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic", type="text/css", media="all")
-      link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&#038;ver=4.7.5", type="text/css", media="all")
+      // stylesheet
+      block stylesheet-block
+        link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic", type="text/css", media="all")
+        link(rel="stylesheet", href="//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&#038;ver=4.7.5", type="text/css", media="all")
 
-      link(rel="stylesheet", href= `${rootPath}css/style.css`)
+        link(rel="stylesheet", href= `${rootPath}css/style.css`)
 
   body(data-page-id= pageId)
     include ../_partial/fb-sdk.html
@@ -87,7 +88,7 @@ html(lang="ja")
       script(src= rootPath + 'js/lib/jquery.min.js')
       script(src= rootPath + 'js/lib/lodash.min.js')
       script(src="https://use.fontawesome.com/106967cd3d.js")
-      script(src=`${rootPath}js/script.js`)
+      script(src=`${rootPath}js/bundle.js`)
 
     //- include ../_partial/gplus-platform.html
 

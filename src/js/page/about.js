@@ -1,5 +1,5 @@
-import ns from '../module/ns';
+import ns from '../module/ns'
 
 export default () => {
-  console.log('about page');
-};
+    console.log('about page')
+}
